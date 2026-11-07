@@ -8,10 +8,12 @@ Pitch: domingo 8-nov-2026. Inicio del trabajo: sábado 7-nov, 23:10.
 | 0b. Investigación en paralelo (evento, jurado, nombres ficticios, hechos y fuentes) → `investigacion/` | 23:25–00:30 | en curso |
 | 1. Equipo A (5 agentes, rama `mvp`): Diseño UI · Animación · Legal · Datos · Integración | 23:25–01:25 | en curso |
 | 1b. Cierre Equipo A: lint/test/build verdes, `MVP_ESTADO.md`, fusión en `main` | 01:25–01:40 | pendiente |
-| 2. Equipo B (5 agentes nuevos): Pitch · Producto (rama `pulido`) · Negocio · Impacto · Diseño/Lovable | 01:40–03:10 | pendiente |
-| 3. Simulacro: 3 jurados nuevos + una ronda de mejoras → `SIMULACRO.md` | 03:10–03:40 | pendiente |
-| 4. Verificación final y `INFORME_FINAL.md` | 03:40–03:55 | pendiente |
+| 1c. Investigación ampliada (fuentes de horas, encaje legal, LLAMADAS.md) | 23:50–01:30 | en curso |
+| 2. Equipo B (5 agentes nuevos): Negocio + Impacto → `PROBLEMAS_CERRADOS.md`; Pitch → `PITCH_FINAL.md` + `PREGUNTAS.md`; Producto → rama `pulido`; Diseño → Lovable (al final) | 01:40–04:00 | pendiente |
+| 3. Simulacro: 5 jurados (J1-J5) + una ronda de mejoras → `SIMULACRO.md` | 04:00–04:45 | pendiente |
+| 4. Verificación final, `LEEME_PRIMERO.md`, `INFORME_FINAL.md` | 04:45–05:15 | pendiente |
 
+Prioridad (complemento): calidad antes que cantidad; cerrar las críticas J1-J5 manda; Lovable y pulido visual al final.
 Prioridad si falta tiempo: demo `?demo=1` + plan B › guion 4:00 + preguntas › Lovable › resto del documento maestro › pulido visual.
 
 ## Estructura

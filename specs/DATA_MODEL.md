@@ -402,7 +402,7 @@ Marca ficticia **Ordessa**. Certificados de may a oct 2026. Mes actual: `2026-10
 |---|---|---|---|---|---|
 | T1 Manifattura Lince — **cadena** (T1 + T2) | Abbiategrasso (IT) | 1,5152 R | 1,4641 R | 1,2968 R | **1,1250 R** |
 | T1 individual (sin lo subcontratado) | | 0,8333 V | 0,9136 A | 0,9461 A | 0,9783 A |
-| T2 Laboratorio Gelso (subcontrata, declarada tras la alerta) | Rozzano (IT) | 2,7083 R | 2,4275 R | 1,8478 R | **1,3235 R** |
+| T2 Laboratorio Bagolaro (subcontrata, declarada tras la alerta) | Rozzano (IT) | 2,7083 R | 2,4275 R | 1,8478 R | **1,3235 R** |
 | T3 Marroquinería Alcotán | Ubrique (ES) | 0,8299 V | 0,8474 V | 0,8982 A | **0,9807 A** |
 | T4 Taller del Almendro | Elche (ES) | 0,8333 V | 0,8192 V | 0,8055 V | **0,6597 V** |
 | T5 Pelletteria Ontano | Scandicci (IT) | 0,6042 V | 0,6711 V | 0,6847 V | **0,6458 V** |

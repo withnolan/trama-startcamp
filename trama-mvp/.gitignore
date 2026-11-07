@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# playwright (resultados temporales; las capturas del plan B van a ../demo-backup/)
+/test-results/
+/playwright-report/
+
+# generado por `next dev` (documentación automática de Next para agentes)
+/AGENTS.md
