@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { KpiCard } from "@/components/KpiCard";
 import { TallerTable } from "@/components/TallerTable";
-import { TEXTOS_PANEL } from "@/content/textos";
+import { TEXTOS_ESCENAS, TEXTOS_PANEL } from "@/content/textos";
 import { contarEstados, kpisMarca, PERIODO_ACTUAL, resumenPanel } from "@/data/vista";
 
 export const metadata: Metadata = { title: TEXTOS_PANEL.titulo };
@@ -38,7 +39,15 @@ export default function PanelPage() {
           {TEXTOS_PANEL.talleresTitulo}
         </h2>
         <TallerTable talleres={talleres} recuento={contarEstados()} />
-        <p className="text-tinta-2">{TEXTOS_PANEL.nota}</p>
+        <p className="flex flex-wrap justify-between gap-x-6 gap-y-2 text-tinta-2">
+          <span>{TEXTOS_PANEL.nota}</span>
+          <Link
+            href="/escenas"
+            className="font-medium text-marca underline underline-offset-4 hover:text-marca-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-marca"
+          >
+            {TEXTOS_ESCENAS.enlacePanel} →
+          </Link>
+        </p>
       </section>
     </div>
   );

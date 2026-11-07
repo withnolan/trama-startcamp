@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { SIMULACION_CASO_PUBLICO, SIMULACION_DEMO, simular } from "./simular";
+import { SIMULACION_CASO_PUBLICO, SIMULACION_DEMO, simular, sumarMarcas } from "./simular";
 
 describe("simular", () => {
-  it("caso público: 1.500 chaquetas × 240 min = 6.000 h frente a 7 × 146 × 3 = 3.066 h → 1,9569 rojo", () => {
-    expect(simular(SIMULACION_CASO_PUBLICO)).toMatchObject({ horasNecesarias: 6000, horasDeAlta: 3066, ratio: 1.9569, estado: "rojo", micro: false });
+  it("caso público: 1.500 chaquetas × 180 min = 4.500 h frente a 7 × 146 × 3 = 3.066 h → 1,4677 rojo", () => {
+    expect(simular(SIMULACION_CASO_PUBLICO)).toMatchObject({ horasNecesarias: 4500, horasDeAlta: 3066, ratio: 1.4677, estado: "rojo", micro: false });
     // Límite rojo: 1,10 × 3.066 h / 1.500 uds = 134,9 min por chaqueta → 134 min ámbar, 135 min rojo.
     const con = (minutosPorPieza: number) => simular({ ...SIMULACION_CASO_PUBLICO, minutosPorPieza });
     expect(con(130)).toMatchObject({ ratio: 1.06, estado: "ambar" });
@@ -49,5 +49,22 @@ describe("simular", () => {
     expect(simular({ ...SIMULACION_DEMO, unidades: Number.NaN })).toMatchObject({ horasNecesarias: 0, ratio: 0, estado: "verde" });
     expect(simular({ ...SIMULACION_DEMO, cuotaFacturacionPct: 0 }).cargaTotalEstimada).toBe(800000);
     expect(simular({ ...SIMULACION_DEMO, cuotaFacturacionPct: 250 }).cargaTotalEstimada).toBe(8000);
+  });
+});
+
+describe("sumarMarcas", () => {
+  it("4 marcas: verde con cada una (0,40 · 0,35 · 0,30 · 0,25) y rojo al sumar (1,30) → revisión abierta", () => {
+    const r = sumarMarcas([1920, 1680, 1440, 1200], 4800);
+    expect(r.porMarca).toEqual([0.4, 0.35, 0.3, 0.25].map((ratio) => ({ ratio, estado: "verde" })));
+    expect(r.conjunta).toEqual({ horas: 6240, ratio: 1.3, estado: "rojo" });
+    expect(r.revisionAbierta).toBe(true);
+  });
+
+  it("con menos de 3 marcas en Trama no se suma: ni suma ni revisión abierta por la suma", () => {
+    expect(sumarMarcas([3000, 3000], 4800)).toMatchObject({ conjunta: null, revisionAbierta: false });
+  });
+
+  it("3 marcas que caben juntas (ámbar) no abren revisión", () => {
+    expect(sumarMarcas([1600, 1600, 1600], 4800)).toMatchObject({ conjunta: { horas: 4800, ratio: 1, estado: "ambar" }, revisionAbierta: false });
   });
 });

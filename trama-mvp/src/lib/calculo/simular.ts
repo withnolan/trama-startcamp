@@ -31,10 +31,13 @@ export const SIMULACION_DEMO: EntradaSimulacion = {
   cuotaFacturacionPct: 100,
 };
 
-/** Reconstrucción anonimizada de un caso público de prensa: subproveedor con 7 personas que entregaba 6.000-7.000 chaquetas/año (≈1.750 h/persona/año). Minutos = estimación de demo. */
+/**
+ * Reconstrucción anonimizada de un caso público de prensa: subproveedor con 7 personas que entregaba 6.000-7.000 chaquetas/año (≈1.750 h/persona/año).
+ * 180 min por chaqueta: lo que declara un taller premium (estimación con fuente pública, investigacion/minutos_chaqueta.md). T1 sigue en 240: es ficticio.
+ */
 export const SIMULACION_CASO_PUBLICO: EntradaSimulacion = {
   unidades: 1500,
-  minutosPorPieza: 240,
+  minutosPorPieza: 180,
   personasDeAlta: 7,
   horasMesPorPersona: 146,
   cuotaFacturacionPct: 100,
@@ -63,4 +66,18 @@ export function simular(e: EntradaSimulacion, parametros: Seed["parametros"] = s
     ratioTotalEstimado: total.ratio,
     estadoTotalEstimado: total.estado,
   };
+}
+
+/** Competencia (investigacion/encaje_legal.md): la suma de las marcas solo abre revisión si al menos 3 usan Trama; con menos, solo la ven el taller y el revisor. Criterio de diseño, no cifra legal. */
+export const MIN_MARCAS_SUMA = 3;
+
+/**
+ * Taller con varias marcas: cada marca, su semáforo con sus pedidos; Trama, como tercero, suma las cargas.
+ * A ninguna marca le llega la suma: solo «revisión abierta» si el conjunto sale rojo.
+ */
+export function sumarMarcas(horasPorMarca: number[], horasDeAlta: number, micro = false, parametros: Seed["parametros"] = seed.parametros) {
+  const porMarca = horasPorMarca.map((h) => clasificar(h, horasDeAlta, micro, parametros));
+  const horas = horasPorMarca.reduce((a, h) => a + h, 0);
+  const conjunta = horasPorMarca.length >= MIN_MARCAS_SUMA ? { horas, ...clasificar(horas, horasDeAlta, micro, parametros) } : null;
+  return { porMarca, conjunta, revisionAbierta: conjunta?.estado === "rojo" };
 }
