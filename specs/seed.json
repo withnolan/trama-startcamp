@@ -1,0 +1,1450 @@
+{
+  "meta": {
+    "descripcion": "Datos de demostración de Trama. TODO es inventado: marca, talleres, despachos, entidades y cifras (nombres creados para la demo; solo las ciudades son reales). No hay nombres de personas.",
+    "version": "1.0",
+    "fechaCorte": "2026-11-07",
+    "mesEvaluacionActual": "2026-10",
+    "mesesConCertificado": [
+      "2026-05",
+      "2026-06",
+      "2026-07",
+      "2026-08",
+      "2026-09",
+      "2026-10"
+    ],
+    "minutosEstandar": "ESTIMACIÓN ilustrativa para la demo; en producción salen de las fichas de costes (escandallos)."
+  },
+  "parametros": {
+    "mesesVentana": 3,
+    "umbralVerde": 0.85,
+    "umbralRojo": 1.1,
+    "umbralRojoMicro": 1.25,
+    "maxPersonasMicro": 3,
+    "topeHorasTitularMes": 160,
+    "decimalesRatio": 4,
+    "reparto": "proporcional a días naturales, fechas inclusivas"
+  },
+  "marca": {
+    "id": "MARCA-DEMO",
+    "nombre": "Ordessa (marca ficticia)",
+    "sector": "marroquineria_y_confeccion",
+    "pais": "ES",
+    "limiteReduccionPedidosPctPorDefecto": 20
+  },
+  "tiposPieza": [
+    {
+      "id": "TP-CHAQ-CACH",
+      "nombre": "Chaqueta de cachemir forrada",
+      "categoria": "confeccion",
+      "minutosEstandar": 240,
+      "fuente": "estimacion_demo"
+    },
+    {
+      "id": "TP-ABRIGO-CACH",
+      "nombre": "Abrigo de cachemir",
+      "categoria": "confeccion",
+      "minutosEstandar": 360,
+      "fuente": "estimacion_demo"
+    },
+    {
+      "id": "TP-JERSEY-CACH",
+      "nombre": "Jersey de punto de cachemir",
+      "categoria": "confeccion",
+      "minutosEstandar": 90,
+      "fuente": "estimacion_demo"
+    },
+    {
+      "id": "TP-BOLSO-ESTR",
+      "nombre": "Bolso de mano estructurado de piel",
+      "categoria": "marroquineria",
+      "minutosEstandar": 360,
+      "fuente": "estimacion_demo"
+    },
+    {
+      "id": "TP-BOLSO-TOTE",
+      "nombre": "Bolso tote de piel",
+      "categoria": "marroquineria",
+      "minutosEstandar": 180,
+      "fuente": "estimacion_demo"
+    },
+    {
+      "id": "TP-CINTURON",
+      "nombre": "Cinturón de piel con hebilla",
+      "categoria": "marroquineria",
+      "minutosEstandar": 45,
+      "fuente": "estimacion_demo"
+    },
+    {
+      "id": "TP-CARTERA",
+      "nombre": "Cartera / billetero de piel",
+      "categoria": "marroquineria",
+      "minutosEstandar": 90,
+      "fuente": "estimacion_demo"
+    },
+    {
+      "id": "TP-TARJETERO",
+      "nombre": "Tarjetero de piel",
+      "categoria": "marroquineria",
+      "minutosEstandar": 40,
+      "fuente": "estimacion_demo"
+    }
+  ],
+  "talleres": [
+    {
+      "id": "T1",
+      "nombre": "Manifattura Lince S.r.l.",
+      "pais": "IT",
+      "ciudad": "Abbiategrasso",
+      "provincia": "Milán",
+      "nivel": 1,
+      "padreId": null,
+      "subcontrataIds": [
+        "T2"
+      ],
+      "declaracionSubcontrata": null,
+      "especialidad": "Confección de prendas de cachemir"
+    },
+    {
+      "id": "T2",
+      "nombre": "Laboratorio Gelso",
+      "pais": "IT",
+      "ciudad": "Rozzano",
+      "provincia": "Milán",
+      "nivel": 2,
+      "padreId": "T1",
+      "subcontrataIds": [],
+      "declaracionSubcontrata": {
+        "momento": "tras_alerta",
+        "fecha": "2026-08-20",
+        "alertaId": "AL-001"
+      },
+      "especialidad": "Confección por encargo (subcontrata)"
+    },
+    {
+      "id": "T3",
+      "nombre": "Marroquinería Alcotán S.L.",
+      "pais": "ES",
+      "ciudad": "Ubrique",
+      "provincia": "Cádiz",
+      "nivel": 1,
+      "padreId": null,
+      "subcontrataIds": [],
+      "declaracionSubcontrata": null,
+      "especialidad": "Bolsos de piel"
+    },
+    {
+      "id": "T4",
+      "nombre": "Taller del Almendro S.L.",
+      "pais": "ES",
+      "ciudad": "Elche",
+      "provincia": "Alicante",
+      "nivel": 1,
+      "padreId": null,
+      "subcontrataIds": [],
+      "declaracionSubcontrata": null,
+      "especialidad": "Cinturones de piel"
+    },
+    {
+      "id": "T5",
+      "nombre": "Pelletteria Ontano S.r.l.",
+      "pais": "IT",
+      "ciudad": "Scandicci",
+      "provincia": "Florencia",
+      "nivel": 1,
+      "padreId": null,
+      "subcontrataIds": [],
+      "declaracionSubcontrata": null,
+      "especialidad": "Bolsos de piel"
+    },
+    {
+      "id": "T6",
+      "nombre": "Marroquinería Lentisco",
+      "pais": "ES",
+      "ciudad": "Igualada",
+      "provincia": "Barcelona",
+      "nivel": 1,
+      "padreId": null,
+      "subcontrataIds": [],
+      "declaracionSubcontrata": null,
+      "especialidad": "Pequeña marroquinería (micro taller: 2 asalariadas + 1 titular autónoma)"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "PED-001",
+      "marcaId": "MARCA-DEMO",
+      "tallerId": "T1",
+      "tipoPiezaId": "TP-CHAQ-CACH",
+      "unidades": 2000,
+      "inicio": "2026-05-01",
+      "fin": "2026-07-31",
+      "referencia": "Chaqueta cachemir PE26",
+      "origen": "marca",
+      "pedidoOrigenId": null
+    },
+    {
+      "id": "PED-002",
+      "marcaId": "MARCA-DEMO",
+      "tallerId": "T2",
+      "tipoPiezaId": "TP-CHAQ-CACH",
+      "unidades": 1300,
+      "inicio": "2026-05-01",
+      "fin": "2026-07-31",
+      "referencia": "Subencargo de PED-001",
+      "origen": "subencargo",
+      "pedidoOrigenId": "PED-001",
+      "fechaDeclaracion": "2026-08-20"
+    },
+    {
+      "id": "PED-003",
+      "marcaId": "MARCA-DEMO",
+      "tallerId": "T1",
+      "tipoPiezaId": "TP-CHAQ-CACH",
+      "unidades": 1800,
+      "inicio": "2026-08-01",
+      "fin": "2026-10-31",
+      "referencia": "Chaqueta cachemir OI26",
+      "origen": "marca",
+      "pedidoOrigenId": null
+    },
+    {
+      "id": "PED-004",
+      "marcaId": "MARCA-DEMO",
+      "tallerId": "T2",
+      "tipoPiezaId": "TP-CHAQ-CACH",
+      "unidades": 900,
+      "inicio": "2026-08-01",
+      "fin": "2026-10-31",
+      "referencia": "Subencargo de PED-003",
+      "origen": "subencargo",
+      "pedidoOrigenId": "PED-003",
+      "fechaDeclaracion": "2026-08-20"
+    },
+    {
+      "id": "PED-005",
+      "marcaId": "MARCA-DEMO",
+      "tallerId": "T3",
+      "tipoPiezaId": "TP-BOLSO-ESTR",
+      "unidades": 800,
+      "inicio": "2026-05-01",
+      "fin": "2026-07-31",
+      "referencia": "Bolso estructurado PE26",
+      "origen": "marca",
+      "pedidoOrigenId": null
+    },
+    {
+      "id": "PED-006",
+      "marcaId": "MARCA-DEMO",
+      "tallerId": "T3",
+      "tipoPiezaId": "TP-BOLSO-ESTR",
+      "unidades": 850,
+      "inicio": "2026-08-01",
+      "fin": "2026-10-31",
+      "referencia": "Bolso estructurado campaña Navidad",
+      "origen": "marca",
+      "pedidoOrigenId": null
+    },
+    {
+      "id": "PED-007",
+      "marcaId": "MARCA-DEMO",
+      "tallerId": "T3",
+      "tipoPiezaId": "TP-BOLSO-TOTE",
+      "unidades": 300,
+      "inicio": "2026-09-15",
+      "fin": "2026-11-15",
+      "referencia": "Tote edición limitada",
+      "origen": "marca",
+      "pedidoOrigenId": null
+    },
+    {
+      "id": "PED-008",
+      "marcaId": "MARCA-DEMO",
+      "tallerId": "T4",
+      "tipoPiezaId": "TP-CINTURON",
+      "unidades": 4000,
+      "inicio": "2026-05-01",
+      "fin": "2026-07-15",
+      "referencia": "Cinturón clásico PE26",
+      "origen": "marca",
+      "pedidoOrigenId": null
+    },
+    {
+      "id": "PED-009",
+      "marcaId": "MARCA-DEMO",
+      "tallerId": "T4",
+      "tipoPiezaId": "TP-CINTURON",
+      "unidades": 4600,
+      "inicio": "2026-07-16",
+      "fin": "2026-10-15",
+      "referencia": "Cinturón reversible OI26",
+      "origen": "marca",
+      "pedidoOrigenId": null
+    },
+    {
+      "id": "PED-010",
+      "marcaId": "MARCA-DEMO",
+      "tallerId": "T5",
+      "tipoPiezaId": "TP-BOLSO-ESTR",
+      "unidades": 600,
+      "inicio": "2026-05-01",
+      "fin": "2026-07-31",
+      "referencia": "Bolso estructurado línea Atelier",
+      "origen": "marca",
+      "pedidoOrigenId": null
+    },
+    {
+      "id": "PED-011",
+      "marcaId": "MARCA-DEMO",
+      "tallerId": "T5",
+      "tipoPiezaId": "TP-BOLSO-TOTE",
+      "unidades": 500,
+      "inicio": "2026-06-01",
+      "fin": "2026-09-30",
+      "referencia": "Tote verano-otoño",
+      "origen": "marca",
+      "pedidoOrigenId": null
+    },
+    {
+      "id": "PED-012",
+      "marcaId": "MARCA-DEMO",
+      "tallerId": "T5",
+      "tipoPiezaId": "TP-BOLSO-ESTR",
+      "unidades": 650,
+      "inicio": "2026-08-01",
+      "fin": "2026-10-31",
+      "referencia": "Bolso estructurado OI26",
+      "origen": "marca",
+      "pedidoOrigenId": null
+    },
+    {
+      "id": "PED-013",
+      "marcaId": "MARCA-DEMO",
+      "tallerId": "T6",
+      "tipoPiezaId": "TP-CARTERA",
+      "unidades": 360,
+      "inicio": "2026-05-01",
+      "fin": "2026-07-31",
+      "referencia": "Billetero PE26",
+      "origen": "marca",
+      "pedidoOrigenId": null
+    },
+    {
+      "id": "PED-014",
+      "marcaId": "MARCA-DEMO",
+      "tallerId": "T6",
+      "tipoPiezaId": "TP-TARJETERO",
+      "unidades": 915,
+      "inicio": "2026-06-15",
+      "fin": "2026-08-14",
+      "referencia": "Tarjetero cápsula",
+      "origen": "marca",
+      "pedidoOrigenId": null
+    },
+    {
+      "id": "PED-015",
+      "marcaId": "MARCA-DEMO",
+      "tallerId": "T6",
+      "tipoPiezaId": "TP-CARTERA",
+      "unidades": 520,
+      "inicio": "2026-08-15",
+      "fin": "2026-10-31",
+      "referencia": "Billetero OI26",
+      "origen": "marca",
+      "pedidoOrigenId": null
+    }
+  ],
+  "certificadosHoras": [
+    {
+      "id": "CH-T1-2026-05",
+      "tallerId": "T1",
+      "mes": "2026-05",
+      "horasTotalesCotizadas": 1120,
+      "numTrabajadores": 7,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Paglierino (ficticio)",
+        "numeroColegiado": "DEMO-IT-0114",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-06-05"
+    },
+    {
+      "id": "CH-T1-2026-06",
+      "tallerId": "T1",
+      "mes": "2026-06",
+      "horasTotalesCotizadas": 1120,
+      "numTrabajadores": 7,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Paglierino (ficticio)",
+        "numeroColegiado": "DEMO-IT-0114",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-07-06"
+    },
+    {
+      "id": "CH-T1-2026-07",
+      "tallerId": "T1",
+      "mes": "2026-07",
+      "horasTotalesCotizadas": 1120,
+      "numTrabajadores": 7,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Paglierino (ficticio)",
+        "numeroColegiado": "DEMO-IT-0114",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-08-05"
+    },
+    {
+      "id": "CH-T1-2026-08",
+      "tallerId": "T1",
+      "mes": "2026-08",
+      "horasTotalesCotizadas": 1120,
+      "numTrabajadores": 7,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Paglierino (ficticio)",
+        "numeroColegiado": "DEMO-IT-0114",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-09-04",
+      "trabajadoresLineaBaseDeAlta": 7,
+      "despidosEnMes": 0
+    },
+    {
+      "id": "CH-T1-2026-09",
+      "tallerId": "T1",
+      "mes": "2026-09",
+      "horasTotalesCotizadas": 1280,
+      "numTrabajadores": 8,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Paglierino (ficticio)",
+        "numeroColegiado": "DEMO-IT-0114",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-10-05",
+      "trabajadoresLineaBaseDeAlta": 7,
+      "despidosEnMes": 0
+    },
+    {
+      "id": "CH-T1-2026-10",
+      "tallerId": "T1",
+      "mes": "2026-10",
+      "horasTotalesCotizadas": 1280,
+      "numTrabajadores": 8,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Paglierino (ficticio)",
+        "numeroColegiado": "DEMO-IT-0114",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-11-05",
+      "trabajadoresLineaBaseDeAlta": 7,
+      "despidosEnMes": 0
+    },
+    {
+      "id": "CH-T2-2026-05",
+      "tallerId": "T2",
+      "mes": "2026-05",
+      "horasTotalesCotizadas": 640,
+      "numTrabajadores": 4,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Ventaglio (ficticio)",
+        "numeroColegiado": "DEMO-IT-0129",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-08-28",
+      "retroactivo": true
+    },
+    {
+      "id": "CH-T2-2026-06",
+      "tallerId": "T2",
+      "mes": "2026-06",
+      "horasTotalesCotizadas": 640,
+      "numTrabajadores": 4,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Ventaglio (ficticio)",
+        "numeroColegiado": "DEMO-IT-0129",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-08-28",
+      "retroactivo": true
+    },
+    {
+      "id": "CH-T2-2026-07",
+      "tallerId": "T2",
+      "mes": "2026-07",
+      "horasTotalesCotizadas": 640,
+      "numTrabajadores": 4,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Ventaglio (ficticio)",
+        "numeroColegiado": "DEMO-IT-0129",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-08-28",
+      "retroactivo": true
+    },
+    {
+      "id": "CH-T2-2026-08",
+      "tallerId": "T2",
+      "mes": "2026-08",
+      "horasTotalesCotizadas": 640,
+      "numTrabajadores": 4,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Ventaglio (ficticio)",
+        "numeroColegiado": "DEMO-IT-0129",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-09-04",
+      "trabajadoresLineaBaseDeAlta": 4,
+      "despidosEnMes": 0
+    },
+    {
+      "id": "CH-T2-2026-09",
+      "tallerId": "T2",
+      "mes": "2026-09",
+      "horasTotalesCotizadas": 960,
+      "numTrabajadores": 6,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Ventaglio (ficticio)",
+        "numeroColegiado": "DEMO-IT-0129",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-10-05",
+      "trabajadoresLineaBaseDeAlta": 6,
+      "despidosEnMes": 0
+    },
+    {
+      "id": "CH-T2-2026-10",
+      "tallerId": "T2",
+      "mes": "2026-10",
+      "horasTotalesCotizadas": 1120,
+      "numTrabajadores": 7,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Ventaglio (ficticio)",
+        "numeroColegiado": "DEMO-IT-0129",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-11-05",
+      "trabajadoresLineaBaseDeAlta": 7,
+      "despidosEnMes": 0
+    },
+    {
+      "id": "CH-T3-2026-05",
+      "tallerId": "T3",
+      "mes": "2026-05",
+      "horasTotalesCotizadas": 1920,
+      "numTrabajadores": 12,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Gestoría Lagunilla (ficticia)",
+        "numeroColegiado": "DEMO-ES-0031",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-06-05"
+    },
+    {
+      "id": "CH-T3-2026-06",
+      "tallerId": "T3",
+      "mes": "2026-06",
+      "horasTotalesCotizadas": 1920,
+      "numTrabajadores": 12,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Gestoría Lagunilla (ficticia)",
+        "numeroColegiado": "DEMO-ES-0031",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-07-06"
+    },
+    {
+      "id": "CH-T3-2026-07",
+      "tallerId": "T3",
+      "mes": "2026-07",
+      "horasTotalesCotizadas": 1944,
+      "numTrabajadores": 12,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Gestoría Lagunilla (ficticia)",
+        "numeroColegiado": "DEMO-ES-0031",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-08-05"
+    },
+    {
+      "id": "CH-T3-2026-08",
+      "tallerId": "T3",
+      "mes": "2026-08",
+      "horasTotalesCotizadas": 1920,
+      "numTrabajadores": 12,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Gestoría Lagunilla (ficticia)",
+        "numeroColegiado": "DEMO-ES-0031",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-09-04"
+    },
+    {
+      "id": "CH-T3-2026-09",
+      "tallerId": "T3",
+      "mes": "2026-09",
+      "horasTotalesCotizadas": 1960,
+      "numTrabajadores": 12,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Gestoría Lagunilla (ficticia)",
+        "numeroColegiado": "DEMO-ES-0031",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-10-05"
+    },
+    {
+      "id": "CH-T3-2026-10",
+      "tallerId": "T3",
+      "mes": "2026-10",
+      "horasTotalesCotizadas": 2016,
+      "numTrabajadores": 12,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Gestoría Lagunilla (ficticia)",
+        "numeroColegiado": "DEMO-ES-0031",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-11-05"
+    },
+    {
+      "id": "CH-T4-2026-05",
+      "tallerId": "T4",
+      "mes": "2026-05",
+      "horasTotalesCotizadas": 1440,
+      "numTrabajadores": 9,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Asesoría Laboral Salinar (ficticia)",
+        "numeroColegiado": "DEMO-ES-0047",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-06-05"
+    },
+    {
+      "id": "CH-T4-2026-06",
+      "tallerId": "T4",
+      "mes": "2026-06",
+      "horasTotalesCotizadas": 1440,
+      "numTrabajadores": 9,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Asesoría Laboral Salinar (ficticia)",
+        "numeroColegiado": "DEMO-ES-0047",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-07-06"
+    },
+    {
+      "id": "CH-T4-2026-07",
+      "tallerId": "T4",
+      "mes": "2026-07",
+      "horasTotalesCotizadas": 1440,
+      "numTrabajadores": 9,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Asesoría Laboral Salinar (ficticia)",
+        "numeroColegiado": "DEMO-ES-0047",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-08-05"
+    },
+    {
+      "id": "CH-T4-2026-08",
+      "tallerId": "T4",
+      "mes": "2026-08",
+      "horasTotalesCotizadas": 1440,
+      "numTrabajadores": 9,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Asesoría Laboral Salinar (ficticia)",
+        "numeroColegiado": "DEMO-ES-0047",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-09-04"
+    },
+    {
+      "id": "CH-T4-2026-09",
+      "tallerId": "T4",
+      "mes": "2026-09",
+      "horasTotalesCotizadas": 1440,
+      "numTrabajadores": 9,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Asesoría Laboral Salinar (ficticia)",
+        "numeroColegiado": "DEMO-ES-0047",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-10-05"
+    },
+    {
+      "id": "CH-T4-2026-10",
+      "tallerId": "T4",
+      "mes": "2026-10",
+      "horasTotalesCotizadas": 1440,
+      "numTrabajadores": 9,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Asesoría Laboral Salinar (ficticia)",
+        "numeroColegiado": "DEMO-ES-0047",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-11-05"
+    },
+    {
+      "id": "CH-T5-2026-05",
+      "tallerId": "T5",
+      "mes": "2026-05",
+      "horasTotalesCotizadas": 2400,
+      "numTrabajadores": 15,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Pratolino (ficticio)",
+        "numeroColegiado": "DEMO-IT-0137",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-06-05"
+    },
+    {
+      "id": "CH-T5-2026-06",
+      "tallerId": "T5",
+      "mes": "2026-06",
+      "horasTotalesCotizadas": 2400,
+      "numTrabajadores": 15,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Pratolino (ficticio)",
+        "numeroColegiado": "DEMO-IT-0137",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-07-06"
+    },
+    {
+      "id": "CH-T5-2026-07",
+      "tallerId": "T5",
+      "mes": "2026-07",
+      "horasTotalesCotizadas": 2400,
+      "numTrabajadores": 15,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Pratolino (ficticio)",
+        "numeroColegiado": "DEMO-IT-0137",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-08-05"
+    },
+    {
+      "id": "CH-T5-2026-08",
+      "tallerId": "T5",
+      "mes": "2026-08",
+      "horasTotalesCotizadas": 2400,
+      "numTrabajadores": 15,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Pratolino (ficticio)",
+        "numeroColegiado": "DEMO-IT-0137",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-09-04"
+    },
+    {
+      "id": "CH-T5-2026-09",
+      "tallerId": "T5",
+      "mes": "2026-09",
+      "horasTotalesCotizadas": 2400,
+      "numTrabajadores": 15,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Pratolino (ficticio)",
+        "numeroColegiado": "DEMO-IT-0137",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-10-05"
+    },
+    {
+      "id": "CH-T5-2026-10",
+      "tallerId": "T5",
+      "mes": "2026-10",
+      "horasTotalesCotizadas": 2400,
+      "numTrabajadores": 15,
+      "firmante": {
+        "tipo": "consulente_del_lavoro",
+        "despacho": "Studio Pratolino (ficticio)",
+        "numeroColegiado": "DEMO-IT-0137",
+        "viaAsseCo": true
+      },
+      "fechaEmision": "2026-11-05"
+    },
+    {
+      "id": "CH-T6-2026-05",
+      "tallerId": "T6",
+      "mes": "2026-05",
+      "horasTotalesCotizadas": 320,
+      "numTrabajadores": 2,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Gestoría Rierol (ficticia)",
+        "numeroColegiado": "DEMO-ES-0052",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-06-05",
+      "numTitulares": 1,
+      "horasTitulares": 160
+    },
+    {
+      "id": "CH-T6-2026-06",
+      "tallerId": "T6",
+      "mes": "2026-06",
+      "horasTotalesCotizadas": 320,
+      "numTrabajadores": 2,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Gestoría Rierol (ficticia)",
+        "numeroColegiado": "DEMO-ES-0052",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-07-06",
+      "numTitulares": 1,
+      "horasTitulares": 160
+    },
+    {
+      "id": "CH-T6-2026-07",
+      "tallerId": "T6",
+      "mes": "2026-07",
+      "horasTotalesCotizadas": 320,
+      "numTrabajadores": 2,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Gestoría Rierol (ficticia)",
+        "numeroColegiado": "DEMO-ES-0052",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-08-05",
+      "numTitulares": 1,
+      "horasTitulares": 172
+    },
+    {
+      "id": "CH-T6-2026-08",
+      "tallerId": "T6",
+      "mes": "2026-08",
+      "horasTotalesCotizadas": 320,
+      "numTrabajadores": 2,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Gestoría Rierol (ficticia)",
+        "numeroColegiado": "DEMO-ES-0052",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-09-04",
+      "numTitulares": 1,
+      "horasTitulares": 120
+    },
+    {
+      "id": "CH-T6-2026-09",
+      "tallerId": "T6",
+      "mes": "2026-09",
+      "horasTotalesCotizadas": 320,
+      "numTrabajadores": 2,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Gestoría Rierol (ficticia)",
+        "numeroColegiado": "DEMO-ES-0052",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-10-05",
+      "numTitulares": 1,
+      "horasTitulares": 160
+    },
+    {
+      "id": "CH-T6-2026-10",
+      "tallerId": "T6",
+      "mes": "2026-10",
+      "horasTotalesCotizadas": 320,
+      "numTrabajadores": 2,
+      "firmante": {
+        "tipo": "gestor_laboral",
+        "despacho": "Gestoría Rierol (ficticia)",
+        "numeroColegiado": "DEMO-ES-0052",
+        "viaAsseCo": false
+      },
+      "fechaEmision": "2026-11-05",
+      "numTitulares": 1,
+      "horasTitulares": 160
+    }
+  ],
+  "alertas": [
+    {
+      "id": "AL-001",
+      "marcaId": "MARCA-DEMO",
+      "tallerId": "T1",
+      "mesEvaluado": "2026-07",
+      "ventana": [
+        "2026-05",
+        "2026-06",
+        "2026-07"
+      ],
+      "fecha": "2026-08-07",
+      "estado": "rojo",
+      "horasNecesarias": 8000.0,
+      "horasCotizadas": 3360.0,
+      "ratio": 2.381,
+      "nota": "Instantánea con los datos disponibles el 2026-08-07 (sin subcontratas declaradas). No se recalcula."
+    }
+  ],
+  "planesCorreccion": [
+    {
+      "id": "PC-001",
+      "marcaId": "MARCA-DEMO",
+      "alertaId": "AL-001",
+      "tallerRaizId": "T1",
+      "talleresIncluidos": [
+        "T1",
+        "T2"
+      ],
+      "extensiones": [
+        {
+          "tallerId": "T2",
+          "fecha": "2026-08-20",
+          "motivo": "Subcontrata declarada tras la alerta"
+        }
+      ],
+      "estado": "en_curso",
+      "fechaInicio": "2026-08-24",
+      "fechaFinPrevista": "2027-02-07",
+      "revisor": {
+        "tipo": "ong",
+        "nombre": "Associazione Navetta Solidale (ficticia)",
+        "pais": "IT",
+        "independiente": true,
+        "declaracionAusenciaConflicto": true
+      },
+      "hitos": [
+        {
+          "id": "H1",
+          "descripcion": "El proveedor declara todas sus subcontratas",
+          "responsable": "proveedor",
+          "fechaLimite": "2026-08-21",
+          "fechaCumplimiento": "2026-08-20",
+          "estado": "cumplido"
+        },
+        {
+          "id": "H2",
+          "descripcion": "Cláusula y certificado mensual extendidos a la subcontrata (incl. certificados retroactivos may-jul)",
+          "responsable": "subcontrata",
+          "fechaLimite": "2026-08-31",
+          "fechaCumplimiento": "2026-08-28",
+          "estado": "cumplido"
+        },
+        {
+          "id": "H3",
+          "descripcion": "Visita sin aviso del revisor independiente a toda la cadena",
+          "responsable": "revisor",
+          "fechaLimite": "2026-09-15",
+          "fechaCumplimiento": "2026-09-09",
+          "estado": "cumplido"
+        },
+        {
+          "id": "H4",
+          "descripcion": "Censo agregado de trabajadores sin alta e inicio del acompañamiento",
+          "responsable": "ong_sindicato",
+          "fechaLimite": "2026-09-30",
+          "fechaCumplimiento": "2026-09-25",
+          "estado": "cumplido"
+        },
+        {
+          "id": "H5",
+          "descripcion": "Alta en la seguridad social de los trabajadores con permiso de trabajo válido (3)",
+          "responsable": "subcontrata",
+          "fechaLimite": "2026-10-31",
+          "fechaCumplimiento": "2026-10-12",
+          "estado": "cumplido"
+        },
+        {
+          "id": "H6",
+          "descripcion": "Permisos art. 18 (vía social) resueltos y alta de los 4 trabajadores restantes",
+          "responsable": "ong_sindicato",
+          "fechaLimite": "2027-01-31",
+          "fechaCumplimiento": null,
+          "estado": "en_curso"
+        },
+        {
+          "id": "H7",
+          "descripcion": "La cadena deja el rojo: ratio de la cadena <= 1,10",
+          "responsable": "proveedor",
+          "fechaLimite": "2026-12-31",
+          "fechaCumplimiento": null,
+          "estado": "en_curso"
+        },
+        {
+          "id": "H8",
+          "descripcion": "Revisión a 6 meses: trabajadores de la línea base siguen empleados y de alta",
+          "responsable": "revisor",
+          "fechaLimite": "2027-02-07",
+          "fechaCumplimiento": null,
+          "estado": "pendiente"
+        }
+      ],
+      "clausulaAntiDespido": {
+        "vigenteDesde": "2026-08-07",
+        "vigenteHasta": "2027-08-07",
+        "alcance": "toda_la_cadena",
+        "texto": "Ningún taller de la cadena puede despedir ni dar de baja a trabajadores de la línea base por causas ligadas a la alerta o al plan. Cualquier baja se comunica al revisor en 48 h y la revisa antes de ser efectiva, salvo baja voluntaria.",
+        "incumplimientos": 0
+      },
+      "limiteReduccionPedidosPct": 20,
+      "periodoReferenciaPedidos": [
+        "2026-05",
+        "2026-06",
+        "2026-07"
+      ],
+      "proteccionTrabajadores": {
+        "lineaBase": [
+          {
+            "tallerId": "T1",
+            "deAltaEnAlerta": 7,
+            "sinAltaIdentificados": 0
+          },
+          {
+            "tallerId": "T2",
+            "deAltaEnAlerta": 4,
+            "sinAltaIdentificados": 7
+          }
+        ],
+        "altasDirectas": 3,
+        "regularizaciones": [
+          {
+            "tallerId": "T2",
+            "via": "art18_via_social",
+            "iniciadas": 4,
+            "resueltasFavorables": 0,
+            "denegadas": 0
+          }
+        ],
+        "entidadAcompanante": "Associazione Navetta Solidale (ficticia)"
+      },
+      "protocoloLegal": {
+        "activado": true,
+        "fecha": "2026-09-10",
+        "nota": "La visita encontró indicios de explotación laboral; se derivó a asesoría jurídica externa. Trama documenta y deriva, no denuncia."
+      }
+    }
+  ],
+  "metricasImpacto": {
+    "marcaId": "MARCA-DEMO",
+    "fechaCorte": "2026-11-07",
+    "ultimoMesCertificado": "2026-10",
+    "principal": {
+      "nombre": "Trabajadores de la cadena que siguen empleados y de alta 6 meses después de la alerta",
+      "trabajadoresLineaBase": 18,
+      "siguenEmpleadosYDeAlta": 14,
+      "porcentaje": 77.78,
+      "mesesDesdeAlerta": 3,
+      "definitiva": false,
+      "fechaDefinitiva": "2027-02-07"
+    },
+    "horasRegularizadas": 1120.0,
+    "trabajadoresAcompanados": {
+      "iniciados": 4,
+      "resueltosFavorables": 0,
+      "altasDirectas": 3
+    },
+    "pedidosMantenidos": {
+      "horasMensualesReferencia": 2666.67,
+      "porcentajeMantenido": 90.0,
+      "reduccionPct": 10.0,
+      "limiteReduccionPct": 20,
+      "cumpleLimite": true,
+      "horasMensualesDurantePlan": 2400.0
+    },
+    "fallos": {
+      "despidosTrasAlerta": 0,
+      "planesConCaidaPedidosSobreLimite": 0
+    },
+    "planesActivos": 1
+  },
+  "esperado": {
+    "reparto": {
+      "PED-001": {
+        "2026-05": 2695.65,
+        "2026-06": 2608.7,
+        "2026-07": 2695.65
+      },
+      "PED-002": {
+        "2026-05": 1752.17,
+        "2026-06": 1695.65,
+        "2026-07": 1752.17
+      },
+      "PED-003": {
+        "2026-08": 2426.09,
+        "2026-09": 2347.83,
+        "2026-10": 2426.09
+      },
+      "PED-004": {
+        "2026-08": 1213.04,
+        "2026-09": 1173.91,
+        "2026-10": 1213.04
+      },
+      "PED-005": {
+        "2026-05": 1617.39,
+        "2026-06": 1565.22,
+        "2026-07": 1617.39
+      },
+      "PED-006": {
+        "2026-08": 1718.48,
+        "2026-09": 1663.04,
+        "2026-10": 1718.48
+      },
+      "PED-007": {
+        "2026-09": 232.26,
+        "2026-10": 450.0,
+        "2026-11": 217.74
+      },
+      "PED-008": {
+        "2026-05": 1223.68,
+        "2026-06": 1184.21,
+        "2026-07": 592.11
+      },
+      "PED-009": {
+        "2026-07": 600.0,
+        "2026-08": 1162.5,
+        "2026-09": 1125.0,
+        "2026-10": 562.5
+      },
+      "PED-010": {
+        "2026-05": 1213.04,
+        "2026-06": 1173.91,
+        "2026-07": 1213.04
+      },
+      "PED-011": {
+        "2026-06": 368.85,
+        "2026-07": 381.15,
+        "2026-08": 381.15,
+        "2026-09": 368.85
+      },
+      "PED-012": {
+        "2026-08": 1314.13,
+        "2026-09": 1271.74,
+        "2026-10": 1314.13
+      },
+      "PED-013": {
+        "2026-05": 181.96,
+        "2026-06": 176.09,
+        "2026-07": 181.96
+      },
+      "PED-014": {
+        "2026-06": 160.0,
+        "2026-07": 310.0,
+        "2026-08": 140.0
+      },
+      "PED-015": {
+        "2026-08": 170.0,
+        "2026-09": 300.0,
+        "2026-10": 310.0
+      }
+    },
+    "evaluaciones": [
+      {
+        "tipo": "taller",
+        "tallerId": "T1",
+        "mes": "2026-07",
+        "horasNecesarias": 2800.0,
+        "horasCotizadas": 3360.0,
+        "ratio": 0.8333,
+        "micro": false,
+        "estado": "verde"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T2",
+        "mes": "2026-07",
+        "horasNecesarias": 5200.0,
+        "horasCotizadas": 1920.0,
+        "ratio": 2.7083,
+        "micro": false,
+        "estado": "rojo"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T3",
+        "mes": "2026-07",
+        "horasNecesarias": 4800.0,
+        "horasCotizadas": 5784.0,
+        "ratio": 0.8299,
+        "micro": false,
+        "estado": "verde"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T4",
+        "mes": "2026-07",
+        "horasNecesarias": 3600.0,
+        "horasCotizadas": 4320.0,
+        "ratio": 0.8333,
+        "micro": false,
+        "estado": "verde"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T5",
+        "mes": "2026-07",
+        "horasNecesarias": 4350.0,
+        "horasCotizadas": 7200.0,
+        "ratio": 0.6042,
+        "micro": false,
+        "estado": "verde"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T6",
+        "mes": "2026-07",
+        "horasNecesarias": 1010.0,
+        "horasCotizadas": 1440.0,
+        "ratio": 0.7014,
+        "micro": true,
+        "estado": "verde"
+      },
+      {
+        "tipo": "cadena",
+        "tallerId": "T1",
+        "mes": "2026-07",
+        "horasNecesarias": 8000.0,
+        "horasCotizadas": 5280.0,
+        "ratio": 1.5152,
+        "micro": false,
+        "estado": "rojo"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T1",
+        "mes": "2026-08",
+        "horasNecesarias": 3069.57,
+        "horasCotizadas": 3360.0,
+        "ratio": 0.9136,
+        "micro": false,
+        "estado": "ambar"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T2",
+        "mes": "2026-08",
+        "horasNecesarias": 4660.87,
+        "horasCotizadas": 1920.0,
+        "ratio": 2.4275,
+        "micro": false,
+        "estado": "rojo"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T3",
+        "mes": "2026-08",
+        "horasNecesarias": 4901.09,
+        "horasCotizadas": 5784.0,
+        "ratio": 0.8474,
+        "micro": false,
+        "estado": "verde"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T4",
+        "mes": "2026-08",
+        "horasNecesarias": 3538.82,
+        "horasCotizadas": 4320.0,
+        "ratio": 0.8192,
+        "micro": false,
+        "estado": "verde"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T5",
+        "mes": "2026-08",
+        "horasNecesarias": 4832.23,
+        "horasCotizadas": 7200.0,
+        "ratio": 0.6711,
+        "micro": false,
+        "estado": "verde"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T6",
+        "mes": "2026-08",
+        "horasNecesarias": 1138.04,
+        "horasCotizadas": 1400.0,
+        "ratio": 0.8129,
+        "micro": true,
+        "estado": "verde"
+      },
+      {
+        "tipo": "cadena",
+        "tallerId": "T1",
+        "mes": "2026-08",
+        "horasNecesarias": 7730.43,
+        "horasCotizadas": 5280.0,
+        "ratio": 1.4641,
+        "micro": false,
+        "estado": "rojo"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T1",
+        "mes": "2026-09",
+        "horasNecesarias": 3330.43,
+        "horasCotizadas": 3520.0,
+        "ratio": 0.9461,
+        "micro": false,
+        "estado": "ambar"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T2",
+        "mes": "2026-09",
+        "horasNecesarias": 4139.13,
+        "horasCotizadas": 2240.0,
+        "ratio": 1.8478,
+        "micro": false,
+        "estado": "rojo"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T3",
+        "mes": "2026-09",
+        "horasNecesarias": 5231.17,
+        "horasCotizadas": 5824.0,
+        "ratio": 0.8982,
+        "micro": false,
+        "estado": "ambar"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T4",
+        "mes": "2026-09",
+        "horasNecesarias": 3479.61,
+        "horasCotizadas": 4320.0,
+        "ratio": 0.8055,
+        "micro": false,
+        "estado": "verde"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T5",
+        "mes": "2026-09",
+        "horasNecesarias": 4930.06,
+        "horasCotizadas": 7200.0,
+        "ratio": 0.6847,
+        "micro": false,
+        "estado": "verde"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T6",
+        "mes": "2026-09",
+        "horasNecesarias": 1101.96,
+        "horasCotizadas": 1400.0,
+        "ratio": 0.7871,
+        "micro": true,
+        "estado": "verde"
+      },
+      {
+        "tipo": "cadena",
+        "tallerId": "T1",
+        "mes": "2026-09",
+        "horasNecesarias": 7469.57,
+        "horasCotizadas": 5760.0,
+        "ratio": 1.2968,
+        "micro": false,
+        "estado": "rojo"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T1",
+        "mes": "2026-10",
+        "horasNecesarias": 3600.0,
+        "horasCotizadas": 3680.0,
+        "ratio": 0.9783,
+        "micro": false,
+        "estado": "ambar"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T2",
+        "mes": "2026-10",
+        "horasNecesarias": 3600.0,
+        "horasCotizadas": 2720.0,
+        "ratio": 1.3235,
+        "micro": false,
+        "estado": "rojo"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T3",
+        "mes": "2026-10",
+        "horasNecesarias": 5782.26,
+        "horasCotizadas": 5896.0,
+        "ratio": 0.9807,
+        "micro": false,
+        "estado": "ambar"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T4",
+        "mes": "2026-10",
+        "horasNecesarias": 2850.0,
+        "horasCotizadas": 4320.0,
+        "ratio": 0.6597,
+        "micro": false,
+        "estado": "verde"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T5",
+        "mes": "2026-10",
+        "horasNecesarias": 4650.0,
+        "horasCotizadas": 7200.0,
+        "ratio": 0.6458,
+        "micro": false,
+        "estado": "verde"
+      },
+      {
+        "tipo": "taller",
+        "tallerId": "T6",
+        "mes": "2026-10",
+        "horasNecesarias": 920.0,
+        "horasCotizadas": 1400.0,
+        "ratio": 0.6571,
+        "micro": true,
+        "estado": "verde"
+      },
+      {
+        "tipo": "cadena",
+        "tallerId": "T1",
+        "mes": "2026-10",
+        "horasNecesarias": 7200.0,
+        "horasCotizadas": 6400.0,
+        "ratio": 1.125,
+        "micro": false,
+        "estado": "rojo"
+      }
+    ],
+    "panel": {
+      "T1": "rojo",
+      "T3": "ambar",
+      "T4": "verde",
+      "T5": "verde",
+      "T6": "verde",
+      "T2": "rojo"
+    }
+  }
+}
