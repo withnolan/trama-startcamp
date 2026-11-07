@@ -16,7 +16,7 @@ npm install        # solo la primera vez, con internet
 npm run demo       # construye y arranca en http://localhost:3000
 ```
 - Demo guiada de 18 s: `http://localhost:3000/taller/T1?demo=1` (clic o Esc para saltar).
-- Si algo falla: **plan B** en `demo-backup/` (capturas PNG y vídeo `.webm`). *Se regenera al cerrar la integración.*
+- Si algo falla: **plan B** en `demo-backup/` (capturas PNG y vídeo `.webm`). ✅ Listo.
 
 ## 3. A quién llamar primero (detalle en `LLAMADAS.md`)
 1. Gestoría de Igualada con WhatsApp de empresa (domingo desde las 10:00): ¿puede sacar cada mes el informe de plantilla media en alta y cuánto cobraría?
@@ -25,8 +25,12 @@ npm run demo       # construye y arranca en http://localhost:3000
 Lo más probable es que hoy conteste poca gente: el pitch tiene **versión B** del bloque de la llamada. **Nunca contéis una respuesta que no haya llegado.**
 
 ## 4. Qué falta (se irá tachando)
-- [ ] MVP integrado y fusionado en `main`, con plan B regenerado.
-- [ ] Repo privado en GitHub `trama-startcamp` (push tras cada commit).
+- [x] MVP integrado y fusionado en `main` (lint 0 · tests 96/96 · build OK · e2e 22/22, también sin internet) y plan B en `demo-backup/` (28 capturas + vídeo de 21 s).
+- [ ] **Subir a GitHub (lo tenéis que hacer vosotros):** el repo PRIVADO `https://github.com/withnolan/trama-startcamp` está creado y vacío, pero el permiso de esta sesión **bloqueó el `git push`**. Todo está en commits locales. Para subirlo, desde la carpeta `STARTCAMP`:
+  ```bash
+  git remote add origin https://github.com/withnolan/trama-startcamp.git
+  git push -u origin main
+  ```
 - [ ] Pitch final, preguntas, problemas cerrados, Lovable.
 - [ ] Bucle de mentores + jurado simulado (hasta 4 rondas, como mucho hasta las 6:00) → `EVOLUCION.md`.
 - Lo que solo podéis hacer vosotros: enviar los mensajes, hacer las llamadas, rellenar los [RELLENAR] del pitch con respuestas reales y poner nombres y roles del equipo.
