@@ -26,6 +26,8 @@ const PANTALLAS: { nombre: string; ruta: string; ancla?: string; completa?: bool
   { nombre: "12-taller-T6", ruta: "/taller/T6" },
   { nombre: "13-como-calculamos", ruta: "/como-calculamos", completa: true },
   { nombre: "14-legal", ruta: "/legal", completa: true },
+  { nombre: "15-escenas-cuatro-marcas", ruta: "/escenas", ancla: "cuatro-marcas" },
+  { nombre: "16-escenas-caso-milan", ruta: "/escenas", ancla: "caso-milan" },
 ];
 
 for (const tamano of TAMANOS) {
