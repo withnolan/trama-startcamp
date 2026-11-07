@@ -21,3 +21,16 @@ Prioridad si falta tiempo: demo `?demo=1` + plan B › guion 4:00 + preguntas �
 - `trama-mvp/` — app Next.js (prototipo de demo, sin backend).
 - `investigacion/` — notas con fuentes (evento, jurado, hechos, mercado, competencia).
 - `DECISIONES.md` — decisiones tomadas sin preguntar (una línea cada una).
+
+## POR DÓNDE VOY (pausa por límite de uso, 8-nov ~00:23; se reanuda a las 00:33)
+Hecho: Equipo A cerrado y fusionado en `main` (lint 0 · tests 96/96 · build OK · e2e 22/22 · plan B en `demo-backup/`). Investigación completa en `investigacion/` (evento, jurado, nombres, hechos_legales, mercado_competencia, fuentes_horas, encaje_legal, minutos_chaqueta). `LLAMADAS.md` listo. Repo privado `withnolan/trama-startcamp` creado, push bloqueado por permisos (commits locales). Rúbrica + `jurado/medias.mjs` listos. `mentores/equipo.md` listo.
+Detenidos en la pausa (reanudar con SendMessage, conservan su contexto):
+- Mentor B3 Negocio (id aa2703b67f9489716): escribiendo `problemas/` (b, h, i, competencia, v5_segunda_cuenta) + ampliación del último prompt (cuota vs corrección, mercado España sin doble conteo, 347 vs resta, quién decide, competidores en una frase).
+- Agente MARCAS (id a3f7b8942a8f3acee): escribiendo `MARCAS.md`.
+Siguiente al reanudar, en este orden:
+1. Reanudar Negocio y MARCAS («continúa donde lo dejaste»).
+2. Lanzar mentor B4 Impacto (a, c, d, e, f, g, Hult/ODS, métricas con punto de partida, plan como cláusula, art. 42 ET + datos ITSS, «propuesta»).
+3. Lanzar mentor B2 Producto en rama `pulido`: escenas «Taller con 4 marcas» y «Caso Milán 2025 (datos públicos)» anonimizado (proveedor A capacidad 0; B 7 personas, 6.000 chaquetas/año, 180 min con fuente), documentos simulados opcionales, métricas de impacto en la app, plan B regenerado.
+4. Lanzar mentor B1 Pitch: `PITCH_FINAL.md` (≤560 palabras, [RELLENAR] llamada y marcas + versión B, datos simulados dichos en voz alta), `PREGUNTAS.md`, `HOJA_DATOS.md`, `DOCUMENTO_MAESTRO.md`; consolidar `PROBLEMAS_CERRADOS.md` con `problemas/*.md`.
+5. Ronda 1 del jurado: 5 jurados nuevos (3 fijos) con pitch del Equipo B vs v5 saneado, a ciegas → `jurado/r1/notas.json` → `node jurado/medias.mjs`. Luego rondas de mentores hasta 4 o las 6:00 → `EVOLUCION.md`. Mentor B5 Diseño (Lovable) al final.
+6. Cierre: verificación, `LEEME_PRIMERO.md`, `INFORME_FINAL.md`, `SIMULACRO.md`, commit (y push si el usuario lo habilita).
