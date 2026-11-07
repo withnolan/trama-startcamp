@@ -53,7 +53,7 @@
   - Esas Directrices no son vinculantes (p. 4) [4].
 - **Milán: medida de prevención, no sanción.**
   - Es la administración judicial del art. 34 d.lgs. 159/2011 (Codice antimafia). Se aplica cuando la actividad económica, aunque sea por negligencia, puede favorecer a personas investigadas por delitos que incluyen el art. 603-bis c.p. Dura hasta 1 año, prorrogable hasta 2 en total [14].
-  - En el caso Alviero Martini (2024) la acordó la Sección de Medidas de Prevención sin que la empresa estuviera investigada. El despacho que lo comenta señala que la mera prohibición contractual de subcontratar no bastó [15].
+  - En el caso Alviero Martini (2024) la acordó la Sección de Medidas de Prevención sin que, según la información disponible, la empresa estuviera investigada. El despacho que lo comenta señala que la mera prohibición contractual de subcontratar no bastó [15].
   - Lo que se reprochó a las marcas:
     - Armani Operations (2024): no comprobar las condiciones reales de trabajo ni la capacidad técnica de los contratistas [16].
     - Loro Piana (2025): una auditoría de 2024 que no valoraba la capacidad productiva de un proveedor con siete operarias y casi sin maquinaria [17].
@@ -114,9 +114,9 @@
   - La Directiva también añade las características sociales (condiciones de trabajo, salarios adecuados, protección social) a las que pueden inducir a error (cdo. 3) [19].
   - Los Estados debían aplicarla desde el 27-9-2026.
 - **España.** La transposición está prevista en el Anteproyecto de Ley de Consumo Sostenible, aprobado en primera vuelta el 2-7-2025 [21]. No he podido confirmar que esté aprobada a 8-11-2026 **[Abierto]**. Mientras tanto ya se aplican:
-  - el art. 5 LCD, que califica de engañosa la información sobre el procedimiento de fabricación o sobre los controles hechos al producto;
+  - el art. 5 LCD, que considera engañosa la información falsa o que induzca a error sobre el procedimiento de fabricación o sobre los controles hechos al producto;
   - el art. 21.2 LCD, que castiga exhibir un sello de confianza sin la autorización necesaria [20].
-- **Precedente de afirmaciones sociales, no ambientales.** La AGCM italiana multó con 3,5 M€ a Giorgio Armani S.p.A. y a G.A. Operations (1-8-2025) porque sus declaraciones éticas sobre seguridad y derechos de los trabajadores no se correspondían con lo que pasaba en sus proveedores. Según la autoridad, que se revocara la administración judicial no decía nada sobre la práctica desleal [22]. Armani anunció recurso; el resultado no está verificado.
+- **Precedente de afirmaciones sociales, no ambientales.** La AGCM italiana multó con 3,5 M€ a Giorgio Armani S.p.A. y a G.A. Operations (noticia del 1-8-2025) porque sus declaraciones éticas sobre seguridad y derechos de los trabajadores no se correspondían con lo que pasaba en sus proveedores. Según la autoridad, que se revocara la administración judicial no decía nada sobre la práctica desleal [22]. Armani anunció recurso; el resultado no está verificado.
 - **Italia ya rechazó el "sello como escudo".** El proyecto de ley PMI incluía una certificación voluntaria de la cadena de la moda, con la mención promocional "filiera della moda certificata" y posibles efectos atenuantes de la responsabilidad de la marca. Tras las críticas de que era un "escudo penal", esos artículos se suprimieron en la Cámara y la Ley 34/2026 salió sin ellos [23].
 - **Green Claims no es la referencia correcta.** La propuesta (2023/0085) está en pausa, aunque no se ha retirado formalmente, y solo cubre afirmaciones medioambientales explícitas, no sociales [24]. La referencia para Trama es la Directiva 2024/825.
 - **Milán: el control formal no protege.** Ni la auditoría sin análisis de capacidad [17] ni la prohibición de subcontratar [15] evitaron la medida.
@@ -146,7 +146,7 @@
 **Por qué**
 - **Estándares.**
   - **OCDE textil, §3.2.5** [5]. La desvinculación es una opción en tres casos: cuando han fallado los intentos de prevenir o mitigar el daño, cuando no es posible corregirlo o cuando el daño es severo. Si se decide, hay que respetar la ley y los convenios, informar a la dirección y al sindicato y avisar con antelación suficiente.
-  - **OCDE textil, §3.2.4** [5]. Entre las formas de apoyo al proveedor incluye las garantías de abastecimiento sostenido.
+  - **OCDE textil, §3.2.4** [5]. Entre las formas de apoyar al proveedor cita facilitarle financiación, por ejemplo con garantías de abastecimiento sostenido.
   - **Principios Rectores de la ONU (comentario al principio 19)** [6]. Antes de romper la relación hay que valorar las consecuencias negativas que la ruptura tendría para los derechos humanos.
   - **Directrices de la Comisión 2026, §6.4.3 (p. 43)** [4]:
     - la desvinculación es el último recurso;
@@ -163,7 +163,7 @@
   - Para que los trabajadores puedan exigirla, cabe la estipulación a favor de tercero (art. 1257.2 CC) [11]. Qué efecto tendría en un juicio por despido está **[Abierto]**.
 - **Cláusula de no abandono (máximo 20 % de reducción).** Es un compromiso de compra mínima de la marca y es válido (art. 1255 CC). Encaja además con el art. 16.3.a LCD, que considera desleal romper, aunque sea parcialmente, una relación comercial con un proveedor dependiente sin preaviso escrito de 6 meses [20].
 - **Competencia: es un acuerdo vertical** entre una marca y un taller, que no compiten entre sí.
-  - Una obligación de compra mínima es una forma débil de "imposición de cantidades al comprador" (Directrices verticales §298) [28].
+  - Una obligación de compra mínima puede ser "imposición de cantidades al comprador", que las Directrices verticales tratan como una forma más débil de no competencia (§298) [28].
   - Solo sería una cláusula de no competencia si obligara a la marca a comprar a ese taller más del 80 % de sus necesidades (art. 1.1.f del Reglamento 2022/720) [27].
   - Aun así, estaría exenta si ninguna de las dos cuotas de mercado supera el 30 % y la obligación no dura más de 5 años (arts. 3 y 5.1.a; §300) [27][28].
   - Con cuotas de hasta el 15 % por parte, la restricción ni siquiera se considera sensible (Comunicación de minimis, pto. 8.b; no cubre restricciones por objeto, pto. 13) [29].
@@ -230,13 +230,13 @@
   - El TJUE (C-413/23 P, SRB, 4-9-2025) aclaró que eso se valora desde quien tiene el dato: puede no ser personal para un destinatario que no puede reidentificar y seguir siéndolo para quien sí puede [40].
   - En un taller de 1 a 3 personas, el total junto con la plantilla revela las horas de personas concretas, así que es dato personal. Lo que decide es el número de personas, no la forma jurídica del taller.
   - Los datos de un empresario individual que actúa como tal también son personales, aunque la ley presume que hay interés legítimo para tratarlos (art. 19.2 LOPDGDD) [34].
-  - Un resultado agregado no es dato personal mientras no se use para decidir sobre personas concretas (cdo. 162) [33].
+  - Para fines estadísticos, el cdo. 162 describe el resultado agregado no personal como el que no se usa para decidir sobre personas concretas [33]. Sirve como referencia, no como excepción para Trama, que sí se usa para decidir sobre talleres.
   - En estadística oficial lo habitual es no publicar celdas con menos de 3 unidades y suprimir también las que permitirían recalcularlas [42]. Nuestro umbral de 4 es más prudente; es una decisión de diseño, no una cifra legal.
   - Riesgo concreto: si se comparan dos meses seguidos en los que entra o sale una persona, se deducen sus horas. Por eso se usan periodos móviles y no se muestran altas y bajas mes a mes.
 - **Base jurídica.**
   - **6.1.c (obligación legal)** solo cuando la impone una ley: el art. 42 ET en contratas de la propia actividad. Ahí la AEPD admite incluso que la subcontrata pase nóminas y RNT a la principal (arts. 6.1.c y 9.2.b RGPD), limitado a los trabajadores asignados a la contrata (FAQ-0305) [37]. Trama pide mucho menos, un total firmado, y eso es un buen argumento de minimización.
   - **6.1.f (interés legítimo)** en el resto de casos: compra de producto terminado, Italia y cruce entre marcas. Hay que pasar el test de tres pasos (interés legítimo, necesidad y ponderación) que describe el CEPD en sus Directrices 1/2024, aún en versión de consulta [43].
-  - Ni el Reglamento 2024/3015 ni sus Directrices sirven como base 6.1.c, porque no imponen diligencia debida [4]. La CSDDD sí lo hará para las grandes empresas a partir de 2029 [44].
+  - Ni el Reglamento 2024/3015 ni sus Directrices sirven como base 6.1.c, porque no imponen diligencia debida [4]. La CSDDD, una vez transpuesta, sí podría servir para las grandes empresas a partir de 2029 [44] **[Probable]**.
 - **Roles.**
   - El taller es responsable del tratamiento y su gestor es encargado (art. 28).
   - Trama es encargada de cada marca para el semáforo de esa marca.
@@ -281,7 +281,7 @@
 
 **Por qué**
 - **Por qué es información sensible.** Las marcas compiten al vender y también al contratar capacidad de confección. La información sobre capacidad, producción o cantidades puede ser sensible (Directrices horizontales §385) [31].
-- **El intercambio puede ser indirecto**, a través de un tercero como un proveedor o una plataforma: es el esquema radial o *hub-and-spoke* (§§401-402) [31]. Y el tercero también puede responder (§404; la nota 270 cita el asunto AC-Treuhand, C-194/14 P) [31].
+- **El intercambio puede ser indirecto**, a través de un tercero como un proveedor o una plataforma: es el esquema radial o *hub-and-spoke* (§§401-402) [31]. Y el tercero también puede responder (§§401 y 404; la nota 270 del §401 cita el asunto AC-Treuhand, C-194/14 P) [31].
 - En España, la CNMC multó en 2015 a dos consultoras como "facilitadores activos" de un intercambio de información entre fabricantes de coches (S/0482/13) [32].
 - **Qué reduce el riesgo según las Directrices** [31]:
   - datos agregados de forma que sea "suficientemente difícil o incierto" atribuirlos a una empresa concreta (§391);
