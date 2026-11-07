@@ -1,26 +1,203 @@
 @import "tailwindcss";
 
+/* Tokens de specs/DESIGN.md §2 (solo modo claro). `static`: las variables existen aunque solo las use Recharts vía var(). */
+@theme static {
+  --color-papel: #f7f5f1;
+  --color-superficie: #ffffff;
+  --color-superficie-2: #f0ece5;
+  --color-borde: #ddd6cb;
+  --color-borde-fuerte: #8c8478;
+  --color-tinta: #1b1a18;
+  --color-tinta-2: #57524a;
+  --color-marca: #1e3354;
+  --color-marca-hover: #16263f;
+  --color-marca-suave: #e6ebf2;
+  --color-verde-texto: #1d6b3e;
+  --color-verde-fondo: #e5f2ea;
+  --color-verde-grafico: #2f8152;
+  --color-ambar-texto: #8a5300;
+  --color-ambar-fondo: #fcf0d8;
+  --color-ambar-grafico: #a86a00;
+  --color-rojo-texto: #a11d1d;
+  --color-rojo-fondo: #fbe8e6;
+  --color-rojo-grafico: #b42318;
+  --color-gris-grafico: #7a8494;
+
+  --font-serif: "Source Serif 4 Variable", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter Variable", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Escala en rem (13/18 · 14/20 · 16/24 · 18/28 · 22/30 · 28/36 · 36/44 · kpi 44/48) */
+  --text-xs: 0.8125rem;
+  --text-xs--line-height: 1.125rem;
+  --text-sm: 0.875rem;
+  --text-sm--line-height: 1.25rem;
+  --text-base: 1rem;
+  --text-base--line-height: 1.5rem;
+  --text-lg: 1.125rem;
+  --text-lg--line-height: 1.75rem;
+  --text-xl: 1.375rem;
+  --text-xl--line-height: 1.875rem;
+  --text-2xl: 1.75rem;
+  --text-2xl--line-height: 2.25rem;
+  --text-3xl: 2.25rem;
+  --text-3xl--line-height: 2.75rem;
+  --text-kpi: 2.75rem;
+  --text-kpi--line-height: 3rem;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+
+  --shadow-card: 0 1px 2px rgba(27, 26, 24, 0.06);
+  --shadow-pop: 0 8px 24px rgba(27, 26, 24, 0.12);
+
+  /* Espejo CSS de src/lib/motion/tokens.ts (MOTION §3) */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --default-transition-duration: 120ms;
+  --default-transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+  /* Alturas fijas de la cabecera pegajosa: nav + banda de aviso + subnav del taller */
+  --alto-nav: 4rem;
+  --alto-aviso: 2rem;
+  --alto-subnav: 3.5rem;
+  color-scheme: light;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+  /* Proyector o monitor grande: todo escala en proporción (la tipografía y el espaciado van en rem). */
+  @media (min-width: 1600px) {
+    html {
+      font-size: 112.5%;
+    }
+  }
+  body {
+    background-color: var(--color-papel);
+    color: var(--color-tinta);
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  h1,
+  h2 {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  h1 {
+    font-size: var(--text-3xl);
+    line-height: var(--text-3xl--line-height);
+  }
+  h2 {
+    font-size: var(--text-2xl);
+    line-height: var(--text-2xl--line-height);
+  }
+  h3 {
+    font-size: var(--text-xl);
+    line-height: var(--text-xl--line-height);
+    font-weight: 600;
+  }
+  /* Cifras siempre tabulares en tablas y gráficos */
+  table,
+  figure,
+  .recharts-wrapper {
+    font-variant-numeric: tabular-nums;
+  }
+  /* Foco visible en todo lo interactivo, sin transición (DESIGN §8, MOTION §4.7) */
+  :focus-visible {
+    outline: 2px solid var(--color-marca);
+    outline-offset: 2px;
+    transition: none;
+  }
+  /* Anclas por debajo de la cabecera pegajosa (nav + aviso) y la subnav */
+  [id] {
+    scroll-margin-top: calc(var(--alto-nav) + var(--alto-aviso) + var(--alto-subnav) + 1rem);
+  }
+  ::selection {
+    background-color: var(--color-marca-suave);
+    color: var(--color-tinta);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-sans), system-ui, sans-serif;
+/* Entrada escalonada de filas (MOTION §4.2) en CSS: no depende de la hidratación. */
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+.animar-entrada {
+  animation: aparecer var(--dur-base) var(--ease-out) both;
+  animation-delay: calc(var(--orden, 0) * 40ms);
+}
+[data-demo="1"] .animar-entrada {
+  animation: none;
+}
+
+/* Deslizadores del simulador: pulgar grande para manejarlo en directo y verlo proyectado. */
+.rango {
+  appearance: none;
+  width: 100%;
+  height: 1.75rem;
+  background: transparent;
+  cursor: pointer;
+}
+.rango::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-borde-fuerte);
+}
+.rango::-moz-range-track {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-borde-fuerte);
+}
+.rango::-webkit-slider-thumb {
+  appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: calc(3px - 0.75rem);
+  border-radius: 999px;
+  border: 3px solid var(--color-superficie);
+  background: var(--color-marca);
+  box-shadow: 0 0 0 1px var(--color-marca);
+}
+.rango::-moz-range-thumb {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 999px;
+  border: 3px solid var(--color-superficie);
+  background: var(--color-marca);
+  box-shadow: 0 0 0 1px var(--color-marca);
+}
+
+/* Fuera de la demo el nodo fantasma no existe; demo.css (Animación) lo muestra con ?demo=1. */
+[data-m="nodo-fantasma"] {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
 }

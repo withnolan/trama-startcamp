@@ -106,7 +106,7 @@
     },
     {
       "id": "T2",
-      "nombre": "Laboratorio Gelso",
+      "nombre": "Laboratorio Bagolaro",
       "pais": "IT",
       "ciudad": "Rozzano",
       "provincia": "Milán",
@@ -166,7 +166,7 @@
       "padreId": null,
       "subcontrataIds": [],
       "declaracionSubcontrata": null,
-      "especialidad": "Pequeña marroquinería (micro taller: 2 asalariadas + 1 titular autónoma)"
+      "especialidad": "Pequeña marroquinería"
     }
   ],
   "pedidos": [
@@ -943,7 +943,7 @@
         },
         {
           "id": "H2",
-          "descripcion": "Cláusula y certificado mensual extendidos a la subcontrata (incl. certificados retroactivos may-jul)",
+          "descripcion": "Cláusula e informe mensual de horas de alta extendidos a la subcontrata (incl. informes retroactivos may–jul)",
           "responsable": "subcontrata",
           "fechaLimite": "2026-08-31",
           "fechaCumplimiento": "2026-08-28",
@@ -983,7 +983,7 @@
         },
         {
           "id": "H7",
-          "descripcion": "La cadena deja el rojo: ratio de la cadena <= 1,10",
+          "descripcion": "La cadena sale del rojo: ratio de la cadena ≤ 1,10",
           "responsable": "proveedor",
           "fechaLimite": "2026-12-31",
           "fechaCumplimiento": null,
@@ -1039,7 +1039,7 @@
       "protocoloLegal": {
         "activado": true,
         "fecha": "2026-09-10",
-        "nota": "La visita encontró indicios de explotación laboral; se derivó a asesoría jurídica externa. Trama documenta y deriva, no denuncia."
+        "nota": "La visita encontró indicios que requieren valoración jurídica; se derivó a asesoría jurídica externa. Trama documenta y deriva, no denuncia."
       }
     }
   ],

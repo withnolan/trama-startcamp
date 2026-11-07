@@ -289,6 +289,7 @@ export interface KpiVista {
   etiqueta: string;
   valor: number;                     // número crudo (KpiCounter lo anima); el formato lo da `formato`
   formato: 'entero' | 'porcentaje' | 'horas';
+  decimales?: number;                // para KpiCounter/formatearKpi (p. ej. 1 en la principal: "77,8 %"); por defecto 0
   unidad?: string;
   contexto?: string;                 // "de 18 trabajadores · provisional (mes 3 de 6)"
   variante: 'principal' | 'normal' | 'fallo';
@@ -329,5 +330,7 @@ export interface DetalleTaller {
     protocoloLegal: { activado: boolean; fecha: ISODate | null; nota: string };
     fechaFinPrevista: ISODate;
   };
-  impacto: KpiVista[];               // 4 KPIs compactas del taller/cadena
+  impacto: KpiVista[];               // 4 KPIs compactas del taller/cadena ([] si no hay plan)
+  porQue: string[];                  // frases con las cifras reales si el estado es rojo/ámbar; [] si verde o sin datos
+  comprobaciones: string[];          // qué revisar si el estado es rojo/ámbar; [] si verde o sin datos
 }

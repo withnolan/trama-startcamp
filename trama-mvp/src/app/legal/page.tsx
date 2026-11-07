@@ -1,14 +1,9 @@
 import type { Metadata } from "next";
+import { LEGAL } from "@/content/legal";
+import { PaginaTextoVista } from "../_texto/PaginaTextoVista";
 
-export const metadata: Metadata = {
-  title: "Legal y avisos",
-};
+export const metadata: Metadata = { title: LEGAL.titulo };
 
 export default function LegalPage() {
-  return (
-    <section className="space-y-4">
-      <h1 className="text-2xl font-semibold">Legal y avisos</h1>
-      <p>Pendiente: textos de LEGAL.md.</p>
-    </section>
-  );
+  return <PaginaTextoVista pagina={LEGAL} />;
 }

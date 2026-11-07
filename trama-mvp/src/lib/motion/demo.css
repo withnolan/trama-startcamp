@@ -1,0 +1,51 @@
+/* Estilos de la coreografía ?demo=1. Dueño: agente de Animación.
+   layout.tsx pone data-demo="1" en <html> antes del primer pintado si la URL lleva ?demo=1;
+   DemoDirector lo cambia a "fin" al terminar o al saltar (clic / Esc), y entonces nada de esto aplica. */
+
+/* Lo que la demo va a revelar empieza oculto (opacity: el layout no se mueve y Recharts puede medir).
+   Seguridad: si el director no llega a ejecutarse, todo aparece solo a los 25 s (con reduced motion, al instante). */
+[data-demo="1"]
+  :is(
+    [data-m="semaforo-cabecera"],
+    [data-m="contador-cotizadas"],
+    [data-m="contador-necesarias"],
+    [data-m="grafico-horas"],
+    [data-m="grafico-desajuste"],
+    [data-m="nodo-subcontrata"],
+    [data-m="conector-subcontrata"],
+    [data-m="etiqueta-extension"],
+    [data-m="hito"],
+    [data-m="tarjeta-clausula"],
+    [data-m="tarjeta-limite"],
+    [data-m="tarjeta-acompanamiento"],
+    [data-m="kpi-principal-taller"]
+  ) {
+  opacity: 0;
+  animation: trama-demo-seguro 0s 25s forwards;
+}
+
+@keyframes trama-demo-seguro {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Hitos y tarjetas se encuadran al aparecer: el director lee aquí la altura de nav + aviso + subnav. */
+[data-demo="1"] :is([data-m="hito"], [data-m^="tarjeta-"]) {
+  scroll-margin-top: calc(var(--alto-nav) + var(--alto-aviso) + var(--alto-subnav) + 1rem);
+}
+
+/* Fuera de la demo globals.css lo oculta con display: none. Aquí existe (capa absoluta sobre el nodo real,
+   ChainDiagram), invisible hasta su momento. */
+[data-demo="1"] [data-m="nodo-fantasma"] {
+  display: block;
+  opacity: 0;
+}
+
+/* Sin JS, lo que entra con <Aparecer> (motion pinta opacity 0 en el HTML del servidor) se ve igual. */
+@media (scripting: none) {
+  [data-aparecer] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
