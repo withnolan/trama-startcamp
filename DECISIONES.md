@@ -31,7 +31,7 @@ Una línea por decisión: decisión — motivo.
 
 ## Bucle de mentores y jurado (encargo de las 23:45)
 - Mentores = los 5 agentes del Equipo B (Pitch, Producto, Negocio, Impacto, Diseño), los mismos toda la noche — el megaprompt ya pedía ese equipo y el bucle pide 3-6 mentores persistentes que lo ven todo; se evita duplicar agentes. Perfiles y motivo en `mentores/equipo.md`.
-- Jurado: 5 agentes nuevos por ronda; 3 perfiles fijos (profesora de emprendimiento social, inversora early-stage, experta en impacto/Hult) y 2 rotatorios — el bucle pide ≥ 2 fijos para comparar.
+- Jurado: agentes nuevos por ronda (3 desde las 00:40 por límite de uso), con ≥ 2 perfiles fijos para comparar.
 - El jurado ve solo `PITCH_FINAL.md`, `HOJA_DATOS.md` y capturas de `demo-backup/`; devuelve JSON que el director guarda en `jurado/rN/notas.json` (los jurados no escriben en el repo) — aislamiento.
 - Rúbrica fija en `jurado/rubrica.md` (Hult + referencia UC3M, 25/20/20/15/10/10) y medias con `node jurado/medias.mjs` (con autocomprobación).
 - El simulacro del complemento (5 jurados J1-J5 + una ronda) queda absorbido por la ronda 1 del bucle; `SIMULACRO.md` resume y remite a `EVOLUCION.md`.
@@ -50,3 +50,8 @@ Una línea por decisión: decisión — motivo.
 - Los fallos del jurado externo se reparten: Negocio (cuota vs corrección, mercado España sin doble conteo, varias marcas 347 vs resta, quién decide, competidores en una frase), Impacto (métricas con punto de partida, altas nuevas vs pedidos retirados, plan como cláusula, art. 42 ET + datos ITSS, «propuesta»), Pitch (todo al pitch y a PREGUNTAS, datos simulados dichos en voz alta).
 - Repo privado `withnolan/trama-startcamp` creado con `gh` (visibilidad PRIVATE comprobada), pero el `git push` lo bloqueó el sistema de permisos de la sesión: no se reintenta ni se rodea; se sigue con commits locales y los comandos para subirlo quedan en `LEEME_PRIMERO.md` — el usuario pidió exactamente eso si `gh` fallaba.
 - Caso reconstruido: los minutos por chaqueta pasan a 180 (taller premium que declara hasta 180 min; `investigacion/minutos_chaqueta.md`) en lugar de 240 sin fuente; el taller T1 de la demo sigue con 240 porque es ficticio y cambiarlo rompería toda la historia y los tests — recomendación al mentor de Producto.
+
+## Límite de uso (00:40)
+- Máximo 2 agentes simultáneos (usuario): siguen Producto (escenas) y Pitch; Negocio, Impacto y MARCAS en pausa con su contexto — el pitch y las escenas van primero.
+- Jurado de 3 por ronda (2 perfiles fijos: profesora de emprendimiento social e inversora early-stage; 1 rotatorio), en lugar de 5 — orden del usuario; sin rondas repetidas si la nota no se mueve.
+- El mentor de Pitch decide precio/mercado/encaje a partir de `investigacion/` mientras Negocio e Impacto están en pausa; lo apunta en `mentores/v1_pitch.md` para revisarlo después.

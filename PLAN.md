@@ -34,3 +34,9 @@ Siguiente al reanudar, en este orden:
 4. Lanzar mentor B1 Pitch: `PITCH_FINAL.md` (≤560 palabras, [RELLENAR] llamada y marcas + versión B, datos simulados dichos en voz alta), `PREGUNTAS.md`, `HOJA_DATOS.md`, `DOCUMENTO_MAESTRO.md`; consolidar `PROBLEMAS_CERRADOS.md` con `problemas/*.md`.
 5. Ronda 1 del jurado: 5 jurados nuevos (3 fijos) con pitch del Equipo B vs v5 saneado, a ciegas → `jurado/r1/notas.json` → `node jurado/medias.mjs`. Luego rondas de mentores hasta 4 o las 6:00 → `EVOLUCION.md`. Mentor B5 Diseño (Lovable) al final.
 6. Cierre: verificación, `LEEME_PRIMERO.md`, `INFORME_FINAL.md`, `SIMULACRO.md`, commit (y push si el usuario lo habilita).
+
+## Gestión del límite de uso (desde 00:40)
+- Máximo 2 agentes a la vez; jurados de 3; sin rondas repetidas si la nota no se mueve; bloques cortos con commit + PLAN + LEEME al cerrar cada uno.
+- En marcha (2): mentor B2 Producto (`/escenas`: 4 marcas + caso Milán, rama `pulido`) y mentor B1 Pitch (`PITCH_FINAL.md`, `PREGUNTAS.md`, `HOJA_DATOS.md`, `DOCUMENTO_MAESTRO.md`).
+- En pausa (reanudar con SendMessage, de uno en uno, cuando quede hueco): B3 Negocio (aa2703b67f9489716), B4 Impacto (a47be5b9008334319), MARCAS (a3f7b8942a8f3acee).
+- Orden: escenas + pitch + preguntas + LEEME → ronda 1 jurado (3: 2 fijos + 1 rotatorio; v1 vs v5 saneado) → mejoras → MARCAS / Negocio / Impacto → PROBLEMAS_CERRADOS → Lovable → cierre.
