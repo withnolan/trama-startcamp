@@ -405,6 +405,40 @@ export const TEXTOS_ESCENAS = {
     umbral: (minutos: string, chaquetas: string) => `Rojo a partir de ≈${minutos} min por chaqueta (con ${chaquetas} al año).`,
     nota: "Anonimizado: sin nombres de empresas ni personas. Las fuentes de prensa están en la documentación del equipo, no en la app.",
   },
+  documentos: {
+    titulo: "Documentos de ejemplo",
+    corto: "Documentos",
+    sello: "Simulado",
+    resumen: "Esquema del dato que entrega la gestoría (no es el formato oficial). De aquí salen las cifras del taller con 4 marcas.",
+    usa: "Trama usa",
+    plantilla: {
+      titulo: "Informe de plantilla media de trabajadores en alta",
+      emisor: "Lo emite la Seguridad Social (Sistema RED); lo descarga la gestoría. Agregado, sin nombres.",
+      campos: { razon: "Razón social", ccc: "Código de cuenta de cotización", periodo: "Periodo", media: "Plantilla media en alta" },
+      ccc: "DEMO-0001 (ficticio)",
+      /** "10 × 160 h al mes × 3 meses = 4.800 h de alta" */
+      usa: (personas: string, horasMes: string, meses: string, horas: string) =>
+        `${personas} × ${horasMes} al mes × ${meses} meses = ${horas} de alta`,
+    },
+    escandallo: {
+      titulo: "Ficha de costes (escandallo)",
+      emisor: "La hace la marca para fijar el precio. Trama solo toma los minutos, nunca los precios.",
+      pieza: "Chaqueta forrada · Ordessa (marca ficticia)",
+      columnas: { operacion: "Operación", minutos: "Minutos" },
+      total: "Total por chaqueta",
+      /** "240 min × 480 chaquetas = 1.920 h necesarias" */
+      usa: (minutos: string, piezas: string, horas: string) => `${minutos} min × ${piezas} chaquetas = ${horas} necesarias`,
+    },
+    modelo347: {
+      titulo: "Modelo 347 (resumen por cliente)",
+      emisor: "Lo presenta el taller a Hacienda cada año: importe con cada cliente de más de 3.005,06 €.",
+      columnas: { cliente: "Cliente", importe: "Importe anual" },
+      resto: "Resto de clientes",
+      total: "Total declarado",
+      /** "la parte de Ordessa, 288.000 € ÷ 960.000 € = 30 %. La marca solo recibe el estado, no la cuota" */
+      usa: (propio: string, total: string, pct: string) => `la parte de Ordessa, ${propio} ÷ ${total} = ${pct}. La marca solo recibe el estado, no la cuota`,
+    },
+  },
 };
 
 /** `HoursChart` (DESIGN §5). */

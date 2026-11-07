@@ -7,7 +7,8 @@ import { ChainDiagram } from "@/components/ChainDiagram";
 import { Semaforo } from "@/components/Semaforo";
 import { TEXTOS_ESCENAS } from "@/content/textos";
 import { seed } from "@/data";
-import { ESCENA_CASO_MILAN, ESCENA_CUATRO_MARCAS } from "@/data/escenas";
+import { DOCUMENTOS, ESCENA_CASO_MILAN, ESCENA_CUATRO_MARCAS } from "@/data/escenas";
+import { PERIODO_ACTUAL } from "@/data/vista";
 import { MIN_MARCAS_SUMA } from "@/lib/calculo/simular";
 import type { NodoCadena } from "@/lib/calculo/tipos";
 import { fmtHoras, fmtNumero, fmtPct, fmtRatio } from "@/lib/formato";
@@ -34,6 +35,7 @@ export default function EscenasPage() {
             {[
               { href: "#cuatro-marcas", texto: T.cuatroMarcas.titulo },
               { href: "#caso-milan", texto: T.casoMilan.corto },
+              { href: "#documentos", texto: T.documentos.corto },
             ].map((a, i) => (
               <li key={a.href}>
                 <a
@@ -49,6 +51,7 @@ export default function EscenasPage() {
       </header>
       <CuatroMarcas />
       <CasoMilan />
+      <Documentos />
     </div>
   );
 }
@@ -281,6 +284,150 @@ function CasoMilan() {
       </div>
 
       <p className="border-l-4 border-borde-fuerte pl-4 text-sm text-tinta-2">{M.nota}</p>
+    </section>
+  );
+}
+
+// ---------- Documentos de ejemplo (SIMULADO): el dato que entrega la gestoría ----------
+const euros = (n: number) => `${fmtNumero(n)} €`; // sin partir «288.000 €» al final de línea
+
+/** Hoja de un documento simulado: sello «SIMULADO» visible y marca de agua; sin logotipos ni maqueta oficial. */
+function Documento({ titulo, emisor, usa, children }: { titulo: string; emisor: string; usa: string; children: ReactNode }) {
+  return (
+    <li className="relative flex flex-col gap-3 overflow-hidden rounded-lg border border-borde bg-superficie p-6 shadow-card">
+      <span
+        aria-hidden
+        className="pointer-events-none absolute inset-0 flex -rotate-[20deg] items-center justify-center text-5xl font-bold uppercase tracking-[0.15em] text-tinta/[0.07]"
+      >
+        {T.documentos.sello}
+      </span>
+      <p className="self-start rounded-sm border-2 border-tinta px-2 py-0.5 text-lg font-bold uppercase tracking-[0.2em] text-tinta">
+        {T.documentos.sello}
+      </p>
+      <h3 className="text-xl font-semibold text-tinta">{titulo}</h3>
+      <p className="text-sm text-tinta-2">{emisor}</p>
+      {children}
+      <p className="mt-auto border-t border-borde pt-3 text-tinta tabular-nums">
+        <strong className="font-semibold">{T.documentos.usa}:</strong> {usa}.
+      </p>
+    </li>
+  );
+}
+
+function Documentos() {
+  const D = T.documentos;
+  const e = ESCENA_CUATRO_MARCAS;
+  const fila = "border-t border-borde";
+  const celda = "py-1";
+  return (
+    <section id="documentos" aria-labelledby="titulo-documentos" className={SECCION}>
+      <header className="flex flex-col gap-2">
+        <div className="flex flex-wrap items-center gap-3">
+          <h2 id="titulo-documentos" className="font-serif text-2xl font-semibold text-tinta">
+            {D.titulo}
+          </h2>
+          <Badge variante="neutro">{T.cuatroMarcas.datos}</Badge>
+        </div>
+        <p className="text-lg text-tinta">{D.resumen}</p>
+      </header>
+      <ul className="grid gap-6 lg:grid-cols-3">
+        <Documento
+          titulo={D.plantilla.titulo}
+          emisor={D.plantilla.emisor}
+          usa={D.plantilla.usa(fmtNumero(e.personas), fmtHoras(e.horasMesPorPersona), fmtNumero(P.mesesVentana), fmtHoras(e.ordessa.horasDeAlta))}
+        >
+          <dl className="flex flex-col gap-2 tabular-nums">
+            {[
+              [D.plantilla.campos.razon, e.taller],
+              [D.plantilla.campos.ccc, D.plantilla.ccc],
+              [D.plantilla.campos.periodo, PERIODO_ACTUAL],
+            ].map(([campo, valor]) => (
+              <div key={campo} className="border-t border-borde pt-1.5">
+                <dt className="text-sm text-tinta-2">{campo}</dt>
+                <dd className="text-tinta">{valor}</dd>
+              </div>
+            ))}
+            <div className="border-t-2 border-borde-fuerte pt-1.5">
+              <dt className="text-sm text-tinta-2">{D.plantilla.campos.media}</dt>
+              <dd className="text-2xl font-semibold text-tinta">{fmtNumero(DOCUMENTOS.plantillaMedia, 2)}</dd>
+            </div>
+          </dl>
+        </Documento>
+        <Documento
+          titulo={D.escandallo.titulo}
+          emisor={D.escandallo.emisor}
+          usa={D.escandallo.usa(fmtNumero(e.minutosChaqueta), fmtNumero(e.chaquetasOrdessa), fmtHoras(e.ordessa.horasNecesarias))}
+        >
+          <table className="w-full border-collapse text-left tabular-nums">
+            <caption className="pb-1 text-left text-sm font-medium text-tinta">{D.escandallo.pieza}</caption>
+            <thead className="text-sm text-tinta-2">
+              <tr>
+                <th scope="col" className="pb-1 font-medium">
+                  {D.escandallo.columnas.operacion}
+                </th>
+                <th scope="col" className="pb-1 text-right font-medium">
+                  {D.escandallo.columnas.minutos}
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {DOCUMENTOS.escandallo.map((o) => (
+                <tr key={o.operacion} className={fila}>
+                  <th scope="row" className={`${celda} font-normal text-tinta`}>
+                    {o.operacion}
+                  </th>
+                  <td className={`${celda} text-right text-tinta`}>{fmtNumero(o.minutos)}</td>
+                </tr>
+              ))}
+              <tr className="border-t-2 border-borde-fuerte">
+                <th scope="row" className={`${celda} font-semibold text-tinta`}>
+                  {D.escandallo.total}
+                </th>
+                <td className={`${celda} text-right font-semibold text-tinta`}>{fmtNumero(e.minutosChaqueta)}</td>
+              </tr>
+            </tbody>
+          </table>
+        </Documento>
+        <Documento
+          titulo={D.modelo347.titulo}
+          emisor={D.modelo347.emisor}
+          usa={D.modelo347.usa(euros(DOCUMENTOS.importeOrdessa), euros(e.importeTotal), fmtPct(e.cuotaPct))}
+        >
+          <table className="w-full border-collapse text-left tabular-nums">
+            <caption className="sr-only">{D.modelo347.titulo}</caption>
+            <thead className="text-sm text-tinta-2">
+              <tr>
+                <th scope="col" className="pb-1 font-medium">
+                  {D.modelo347.columnas.cliente}
+                </th>
+                <th scope="col" className="pb-1 text-right font-medium">
+                  {D.modelo347.columnas.importe}
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className={fila}>
+                <th scope="row" className={`${celda} font-normal text-tinta`}>
+                  {seed.marca.nombre}
+                </th>
+                <td className={`${celda} text-right text-tinta`}>{euros(DOCUMENTOS.importeOrdessa)}</td>
+              </tr>
+              <tr className={fila}>
+                <th scope="row" className={`${celda} font-normal text-tinta`}>
+                  {D.modelo347.resto}
+                </th>
+                <td className={`${celda} text-right text-tinta`}>{euros(DOCUMENTOS.importeResto)}</td>
+              </tr>
+              <tr className="border-t-2 border-borde-fuerte">
+                <th scope="row" className={`${celda} font-semibold text-tinta`}>
+                  {D.modelo347.total}
+                </th>
+                <td className={`${celda} text-right font-semibold text-tinta`}>{euros(e.importeTotal)}</td>
+              </tr>
+            </tbody>
+          </table>
+        </Documento>
+      </ul>
     </section>
   );
 }

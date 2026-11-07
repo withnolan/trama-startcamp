@@ -126,7 +126,7 @@ export const COMO_CALCULAMOS: PaginaTexto = {
       titulo: "Talleres que trabajan para varias marcas",
       parrafos: [
         "El semáforo principal usa solo los pedidos de esta marca. Por eso es un mínimo.",
-        "Para estimar la carga total usamos la parte de la facturación del taller que representa la marca: lo que le paga la marca ÷ la facturación del taller en el mismo trimestre (por ejemplo, la declarada en su autoliquidación trimestral del IVA o en sus cuentas anuales).",
+        "Para estimar la carga total usamos la parte de la facturación del taller que representa la marca: lo que le paga la marca ÷ la facturación del taller en el mismo periodo (por ejemplo, la declarada en su autoliquidación trimestral del IVA, en sus cuentas anuales o, cliente a cliente, en su modelo 347 anual).",
         "Carga total ≈ carga de la marca ÷ esa cuota. Es una cota inferior si la marca paga por hora al menos lo mismo que las demás.",
         "La marca no ve la facturación del taller: Trama hace la cuenta y le devuelve solo el resultado, como estado.",
         "Si 3 o más marcas del taller usan Trama, Trama suma sus cargas como tercero. Cada marca solo recibe «revisión abierta», el mismo aviso sea cual sea la causa, nunca datos de otras. Con menos de 3, la suma solo la ven el taller y el revisor independiente.",

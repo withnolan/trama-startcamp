@@ -152,6 +152,14 @@ test("escenas: desde la navegación; 4 marcas (Ordessa ve verde y «revisión ab
   await expect(milan).toContainText("∞");
   await expect(milan).toContainText("1,47×");
   await expect(milan).toContainText("≈135 min");
+
+  // Documentos de ejemplo: los tres marcados «SIMULADO»; de ellos salen 4.800 h, 240 min y el 30 %.
+  const documentos = page.locator("#documentos");
+  await expect(documentos.locator("li").filter({ hasText: "Trama usa" })).toHaveCount(3);
+  for (const li of await documentos.locator("li").filter({ hasText: "Trama usa" }).all()) await expect(li).toContainText(/simulado/i);
+  await expect(documentos).toContainText("= 4.800 h de alta");
+  await expect(documentos).toContainText("240 min × 480 chaquetas");
+  await expect(documentos).toContainText("= 30 %");
 });
 
 test("demo ?demo=1: secuencia completa sin errores, sin internet y todo visible al final", async ({ page }) => {

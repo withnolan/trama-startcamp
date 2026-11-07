@@ -15,6 +15,8 @@ describe("escenas", () => {
     expect(e.conjunta).toEqual({ horas: 6240, ratio: 1.3, estado: "rojo" });
     expect(e.revisionAbierta).toBe(true);
     expect(e.conCuota).toMatchObject({ ratio: 0.4, ratioTotalEstimado: 1.3333, estadoTotalEstimado: "rojo" });
+    // Los documentos simulados son la fuente: escandallo 240 min, plantilla media 10, modelo 347 → 30 %.
+    expect([e.minutosChaqueta, e.personas, e.cuotaPct, e.importeTotal]).toEqual([240, 10, 30, 960000]);
   });
 
   it("caso Milán: proveedor A ∞ rojo; subproveedor B 18.000 h / 12.250 h = 1,4694 rojo; rojo desde ≈135 min", () => {
