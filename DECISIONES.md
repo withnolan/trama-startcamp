@@ -55,3 +55,9 @@ Una línea por decisión: decisión — motivo.
 - Máximo 2 agentes simultáneos (usuario): siguen Producto (escenas) y Pitch; Negocio, Impacto y MARCAS en pausa con su contexto — el pitch y las escenas van primero.
 - Jurado de 3 por ronda (2 perfiles fijos: profesora de emprendimiento social e inversora early-stage; 1 rotatorio), en lugar de 5 — orden del usuario; sin rondas repetidas si la nota no se mueve.
 - El mentor de Pitch decide precio/mercado/encaje a partir de `investigacion/` mientras Negocio e Impacto están en pausa; lo apunta en `mentores/v1_pitch.md` para revisarlo después.
+
+## Mentor 3 · Negocio (v1, ~01:40)
+- Mercado España con el INE (DIRCE 1-1-2025, tabla 73019): techo 6.083 empresas de confección, piel y calzado con 1-49 asalariados × 720 € = 4,4 M€/año (fase 1 piel y calzado: 2.217 → 1,6 M€), cada taller una vez — «2.131 fábricas de calzado» incluía 442 sin asalariados y dejaba fuera confección y marroquinería, donde está el piloto. Frases exactas en `mentores/v1_negocio.md`.
+- Se mantiene 60 €/taller/mes + informe a coste; el 80 % es margen sobre la cuota y a escala (≈56 % sobre lo facturado); corrección pagada por la marca directo al revisor con margen 0 % para Trama — sin incentivo a generar rojos (J4).
+- Varias marcas: la estimación por facturación nunca da rojo, solo «revisión abierta»; rojo directo si los pedidos de una marca superan solos 1,10 × la capacidad; el 347 solo comprueba (anual, sin clientes extranjeros) — evita falsos rojos por precio por hora o material.
+- Frase de competidores ajustada («…cruza cada mes pedidos con horas de alta»): Sedex y amfori comparten una auditoría entre clientes y Milán sí pide horas por cliente — la versión «cada relación por separado / nadie suma» no era exacta.

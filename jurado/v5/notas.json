@@ -1,0 +1,53 @@
+[
+ {
+  "notas": {
+   "problema_impacto": 6,
+   "solucion_innovacion": 6,
+   "negocio_viabilidad": 4,
+   "validacion_gtm": 2,
+   "equipo_ejecucion": 7,
+   "pitch_demo": 3
+  },
+  "global": 4,
+  "fuerte": "Cuenta mejor la historia y los incentivos de cada parte (qué gana el taller, qué pasa con quien no tiene papeles, salir «con plan y con preaviso») y nombra su hueco sin rodeos.",
+  "fallo": "Cifras y promesas que no aguantan su propia hoja ni su demo: llama «46.000 empresas de piel y confección» a los 46.803 empleados de 4.223 empresas de marroquinería y les aplica un 10 % para decir 5 M€ (con el dato bueno, ≈0,46 M€). Y vende una segunda cuenta de precio frente a convenio y que «la marca lo sube», cuando la demo dice que Trama «nunca» toma precios y la hoja deja esa subida a compras.",
+  "pregunta": "Vuestra hoja dice 4.223 empresas de marroquinería con 46.803 empleados; en el pitch habéis dicho 46.000 empresas. ¿De dónde salen exactamente los 5 millones?",
+  "subiria": "Usar las cifras de su propia hoja y marcar como «por validar» la cuenta de precio, la subida como condición del plan y la mesa de logística. Y enseñar en la demo el caso Milán y el taller con 4 marcas en vez de un recorrido genérico.",
+  "perfil": "Profesora de emprendimiento social",
+  "fijo": true
+ },
+ {
+  "notas": {
+   "problema_impacto": 6,
+   "solucion_innovacion": 5,
+   "negocio_viabilidad": 4,
+   "validacion_gtm": 3,
+   "equipo_ejecucion": 6,
+   "pitch_demo": 3
+  },
+  "global": 5,
+  "fuerte": "El mejor arranque y el mejor porqué: Loro Piana convertido en una cuenta que nadie hizo, auditorías una o dos veces al año y avisadas, y un «por qué ahora» claro (Reglamento europeo, diciembre de 2027) con un precio anclado en algo que un comprador entiende: menos que una persona más en cumplimiento.",
+  "fallo": "Infla el mercado (46.000 empresas cuando la hoja da 4.223 empresas y 46.803 empleados) y saca un «10 % = 5 M€» de arriba abajo; promete un cálculo de precio frente a convenio y una subida de precio obligatoria que la demo y la hoja contradicen.",
+  "pregunta": "Rehacedme el mercado de abajo arriba: ¿cuántas marcas que fabrican en España os pagarían 90 € por taller y con cuántos talleres cada una?",
+  "subiria": "Corregir el mercado con la cifra de su propia hoja, construirlo de abajo arriba (marcas × talleres × precio) y dar el margen; quitar del discurso lo que la demo no hace o enseñarlo funcionando. Una sola gestoría que confirme el dato mensual.",
+  "perfil": "Inversora early-stage",
+  "fijo": true
+ },
+ {
+  "notas": {
+   "problema_impacto": 6,
+   "solucion_innovacion": 6,
+   "negocio_viabilidad": 4,
+   "validacion_gtm": 3,
+   "equipo_ejecucion": 7,
+   "pitch_demo": 4
+  },
+  "global": 5,
+  "fuerte": "Explica mejor por qué falla la auditoría, da como «por qué ya» el Reglamento europeo de diciembre de 2027 y es la única versión que responde qué gana el taller.",
+  "fallo": "Promete más de lo que sostienen su producto y su propia hoja: una métrica de precio que la demo dice no usar, que la marca suba el precio como condición del plan y un mercado de «46.000 empresas» × 10 % que su fuente no respalda. Además, deja fuera de la demo la escena de cuatro marcas y el indicador de impacto.",
+  "pregunta": "Si firmo Trama, ¿me obligo por contrato a subir el precio por pieza hasta convenio en cada taller que salga rojo? Si en ese taller compramos cuatro marcas, coordinar la subida entre competidores es un problema de competencia: ¿cómo lo resolvéis?",
+  "subiria": "Quitar las cifras que su hoja no sostiene y calcular el mercado de abajo arriba; decir que el precio lo decide compras y poner cifra a lo que cuesta corregir. En la demo, enseñar el taller con cuatro marcas y el indicador de personas de alta a los seis meses.",
+  "perfil": "Directora de innovación y sostenibilidad (moda y calzado)",
+  "fijo": false
+ }
+]

@@ -1,0 +1,53 @@
+[
+ {
+  "notas": {
+   "problema_impacto": 7,
+   "solucion_innovacion": 7,
+   "negocio_viabilidad": 6,
+   "validacion_gtm": 4,
+   "equipo_ejecucion": 7,
+   "pitch_demo": 8
+  },
+  "global": 7,
+  "fuerte": "Convierte Loro Piana en una cuenta comprobable y honesta (7 personas, 6.000 chaquetas, rojo aun a 135 min, lo simulado declarado antes de la demo) y enseña lo que ninguna marca ve sola: un taller en verde para cada una y en rojo al sumar las cuatro.",
+  "fallo": "El dolor que demuestran es italiano (y la demo está ambientada en Milán), pero el dato (Sistema RED), el piloto y el mercado son españoles, donde no cuantifican el problema, el art. 42 ET está en el aire y no han hablado con ninguna marca. Que alguien pague 60 € por taller es pura hipótesis, y sobre un mercado pequeño (1,5 M€ contando el 100 % de las fábricas de calzado).",
+  "pregunta": "Si cada alerta le cuesta a la marca entre 1.000 y 3.000 € y es la propia marca la que os da los minutos por pieza, ¿qué le impide bajarlos para no ver rojos? En vuestro caso Milán, con 130 minutos ya no sale rojo.",
+  "subiria": "Una sola conversación real antes del pitch (un responsable de cumplimiento, o una gestoría de Elche o Ubrique que confirme que saca el informe cada mes y a qué precio) y un dato del problema en España, por ejemplo el aparado a domicilio sin alta en el calzado de Elche. Y una regla explícita de quién fija y contrasta los minutos por pieza.",
+  "perfil": "Profesora de emprendimiento social",
+  "fijo": true
+ },
+ {
+  "notas": {
+   "problema_impacto": 7,
+   "solucion_innovacion": 7,
+   "negocio_viabilidad": 6,
+   "validacion_gtm": 5,
+   "equipo_ejecucion": 7,
+   "pitch_demo": 7
+  },
+  "global": 7,
+  "fuerte": "Coherencia que aguanta preguntas: el caso Milán cuadrado contra un tiempo de referencia con fuente, una demo que avisa de lo simulado y enseña el diferencial (cuatro marcas en verde que sumadas dan rojo) y unas cuentas con precio, margen «por validar», competidores nombrados y mercado contado de abajo arriba.",
+  "fallo": "Cero conversaciones con quien paga y un porqué de compra flojo en España: el dolor está probado en Italia, el anclaje legal español (art. 42 ET) lo dejan abierto y ni mencionan el Reglamento europeo de 2027. Además, su propio techo (1,5 M€/año contando todo el calzado español) es pequeño para escalar.",
+  "pregunta": "Si en España no ha habido un Milán y el art. 42 quizá no alcanza a la confección, ¿por qué os pagaría hoy 60 € por taller quien lleva cumplimiento en una marca que fabrica en Ubrique o Elche, y cuál es la primera marca con nombre a la que vais a pedir la carta de intención?",
+  "subiria": "Una gestoría que confirme por escrito que saca el informe de plantilla en alta cada mes y a qué precio, y alguien de cumplimiento de una marca que fabrique en España diciendo qué pagaría. Y contar el mercado en marcas que pagan (no solo en talleres), con el Reglamento europeo de 2027 como porqué ahora.",
+  "perfil": "Inversora early-stage",
+  "fijo": true
+ },
+ {
+  "notas": {
+   "problema_impacto": 7,
+   "solucion_innovacion": 7,
+   "negocio_viabilidad": 6,
+   "validacion_gtm": 5,
+   "equipo_ejecucion": 7,
+   "pitch_demo": 8
+  },
+  "global": 7,
+  "fuerte": "La escena del taller con cuatro marcas es lo que hoy no me da ninguna auditoría en los talleres que comparto con otras marcas en Elche: cada una ve verde, solo un tercero ve el rojo y ninguna ve los pedidos de otra. Además, miden si el hueco se cerró con altas o quitando pedidos.",
+  "fallo": "Todo depende de dos datos que nadie ha confirmado: que la gestoría saque el informe cada mes y que compras tenga minutos fiables por modelo (en calzado, muchas veces solo los tiene el fabricante). Tampoco dicen qué gana el taller por mandarlo, y su fórmula (plantilla × jornada de convenio) no daría rojo en un taller que da de alta a media jornada a gente que trabaja la jornada completa.",
+  "pregunta": "Si el taller que comparto con otras tres marcas sale rojo, ¿quién recorta pedidos o sube el precio y cómo se reparte, sin que Trama acabe coordinando volúmenes o precios entre competidores?",
+  "subiria": "Una gestoría de Elche que confirme por escrito que saca el informe cada mes y a qué precio, y una marca que diga que tiene minutos por modelo en sus escandallos. Además, usar la jornada real de cada contrato, explicar cómo llegarán a Portugal y contar el Reglamento europeo de trabajo forzoso (diciembre de 2027) como «por qué ya».",
+  "perfil": "Directora de innovación y sostenibilidad (moda y calzado)",
+  "fijo": false
+ }
+]
