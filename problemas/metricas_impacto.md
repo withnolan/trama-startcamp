@@ -73,26 +73,26 @@ Mentor 4 · Impacto y regulación · 8-nov-2026. Cifras = seed de la demo (ficti
 > «Las cuenta el revisor independiente en una visita sin aviso, antes de avisar al taller. Su censo es confidencial: ni la marca ni Trama ven nombres, solo recuentos. A los seis meses coteja ese censo con la lista de la gestoría y firma cuántas siguen. Quien no tiene vía de regularización se cuenta aparte y se publica: no podemos prometerle empleo legal, sí acompañamiento.»
 
 ## Ronda 3 · Meta agregada a 2030 (supuestos marcados, por validar)
-Base de negocio: **600 talleres vigilados**, el «año 3» de Negocio (15 marcas × 40 talleres; `problemas/h_precio_mercado.md`, ≈ 10 % del techo español de 6.083). `mentores/v3_negocio.md` no existía al escribir esto: si cambia la cifra, se recalcula con la misma cuenta.
+Base de negocio, unificada con `problemas/h_precio_mercado.md` §6: **≈ 1.150 talleres distintos vigilados** en 2030 (40 marcas × ≈ 37 talleres ≈ 1.500 relaciones marca-taller, con ≈ 1,3 marcas de Trama por taller). Misma cuenta y mismos supuestos; solo cambia la base.
 
 | Concepto | Cuenta | 2030 |
 |---|---|---|
-| Talleres vigilados cada mes | base de negocio | **600** |
-| Personas en talleres vigilados («cubiertas» = su taller se vigila cada mes, no «protegidas») | 600 × **10 personas por taller** (S1) | **≈ 6.000** |
-| Alertas rojas al año | 600 × **10 %** (S2) | **≈ 60** |
-| Personas en planes de corrección al año (línea base) | 60 × (10 de alta + **3 sin alta**, S3) | **≈ 780** |
-| Personas sin alta identificadas al año | 60 × 3 | **≈ 180** |
-| **Altas esperadas al año de quien trabajaba sin alta** | 180 × **50 %** (S4) | **≈ 90** |
+| Talleres vigilados cada mes | base de negocio | **≈ 1.150** |
+| Personas en talleres vigilados («cubiertas» = su taller se vigila cada mes, no «protegidas») | 1.150 × **10 personas por taller** (S1) | **≈ 11.500** |
+| Alertas rojas al año | 1.150 × **10 %** (S2) | **≈ 115** |
+| Personas en planes de corrección al año (línea base) | 115 × (10 de alta + **3 sin alta**, S3) | **≈ 1.500** (1.495) |
+| Personas sin alta identificadas al año | 115 × 3 | **≈ 345** |
+| **Altas esperadas al año de quien trabajaba sin alta** | 345 × **50 %** (S4) | **≈ 170** (172,5) |
 | Meta de resultado | personas de la línea base de alta a los 6 meses / bajas en la línea base / hueco cerrado con altas | **≥ 80 %** / **0** / **≥ 50 %** (S5) |
 
 **Supuestos** (ninguno validado; el piloto mide los cuatro primeros):
 - **S1.** Plantilla media de 10 personas por taller (el segmento es de 1-49 asalariados).
-- **S2.** El 10 % de los talleres con un rojo al año. Rango 5-20 %, que da 45-180 altas al año.
+- **S2.** El 10 % de los talleres con un rojo al año. Rango 5-20 %, que da 85-345 altas al año.
 - **S3.** 3 personas sin alta por alerta.
 - **S4.** El 50 % de ellas, de alta a los 6 meses (en la demo, 3 de 7 en el mes 3).
 - **S5.** Las metas de resultado son propuesta nuestra.
 
-**Frase:** «Meta 2030, por validar: 600 talleres vigilados, unas 6.000 personas, y 90 altas al año de quien hoy trabaja sin alta.»
+**Frase:** «Meta 2030, por validar: unos 1.150 talleres vigilados, unas 11.500 personas, y unas 170 altas al año de quien hoy trabaja sin alta.»
 
 ## Qué cambia en la app (para Producto)
 Sin tocar `lib/calculo` ni el seed: solo `src/content/textos.ts`, `src/data/vista.ts` (función `kpis()`), `src/content/legal.ts` y la prueba `src/data/vista.test.ts`.

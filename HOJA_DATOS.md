@@ -51,17 +51,18 @@ La marca (Ordessa), los talleres, los pedidos, las plantillas y las horas son **
 | Primeras clientas | Marcas que fabrican en Italia y en España (allí está la presión; aquí, el dato oficial y el piloto). Según Modaes (2024), Chanel, Dior y Prada están entre los clientes de Ubrique |
 | **Canal de entrada** (por validar) | **Un fabricante principal de Ubrique o Elche que produce para varias marcas.** Conoce a sus subcontratas, habla con cumplimiento de sus clientes y, para él, Trama es la forma de enseñarles que controla su capacidad |
 | **A quién pedimos la carta** (perfil, sin nombres) | (a) Responsable de cumplimiento o sostenibilidad, junto con compras, de una marca mediana o grande que fabrique en Italia y en España. (b) Dirección general o de operaciones de un fabricante principal de Ubrique o Elche que trabaje para varias marcas. Firman cumplimiento y compras, o la dirección del fabricante |
-| Camino | 2027: 3 marcas, 90 pares marca-taller, 64.800 € · 2028: 10, 350, 252.000 € · 2029: 20, 800, 576.000 € · 2030: 40, ≈ 2.000, ≈ 1,44 M€ |
+| Camino | 2027: 3 marcas, 90 pares marca-taller, 64.800 € · 2028: 10, 350, 252.000 € · 2029: 20, 800, 576.000 € · 2030: 40, ≈ 1.500 (≈ 37 talleres por marca), ≈ 1,08 M€ |
 
 ## Meta 2030 (supuestos por validar; los mide el piloto)
 | Concepto | Cuenta | 2030 |
 |---|---|---|
 | Marcas clientas | 25 en España + 15 en Italia | **40** |
-| Talleres vigilados cada mes | ≈ 2.000 pares, con ≈ 1,3 marcas por taller | **≈ 1.500** |
-| Personas en talleres vigilados | × 10 por taller | **≈ 15.000** |
-| Alertas rojas al año | 10 % de los talleres (rango 5-20 %) | **≈ 150** |
-| Personas sin alta identificadas al año | 3 por alerta | **≈ 450** |
-| Altas al año de quien trabajaba sin alta | 50 % a los 6 meses | **≈ 225** (rango 110-450) |
+| Relaciones marca-taller | 40 marcas × ≈ 37 talleres (dentro del rango de 30-40 del mercado) → ≈ 1,08 M€/año de cuota | **≈ 1.500** |
+| Talleres distintos vigilados cada mes | ≈ 1.500 relaciones ÷ ≈ 1,3 marcas de Trama por taller | **≈ 1.150** |
+| Personas en talleres vigilados | × 10 por taller | **≈ 11.500** |
+| Alertas rojas al año | 10 % de los talleres (rango 5-20 %) | **≈ 115** |
+| Personas sin alta identificadas al año | 3 por alerta | **≈ 345** |
+| Altas al año de quien trabajaba sin alta | 50 % a los 6 meses | **≈ 170** (172,5; rango 85-345) |
 | Metas por plan | Línea base de alta a los 6 meses · bajas en la línea base · hueco cerrado con altas | **≥ 80 % · 0 · ≥ 50 %** |
 
 ## Impacto: cómo se mide (punto de partida: el día de la alerta)

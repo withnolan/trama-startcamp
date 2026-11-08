@@ -80,7 +80,7 @@ Pitch final · Start Camp UC3M · domingo 8-nov-2026, 17:45 · 4:00 + 2:00 de pr
 - **Entra:** «Paga la marca…»
 - **Título:** «Paga la marca», con la etiqueta «Supuestos por validar».
 - **Mensaje:** paga la marca, 60 € por taller y mes, en un mercado de 8,6 M€ al año. Todo son supuestos por validar.
-- **En pantalla (25 palabras):** «Paga la marca» · «Supuestos por validar» · «60 €» · «por taller y mes» · «80 %» · «margen bruto» · «8,6 M€» · «mercado anual» · «Meta 2030» · «40 marcas · 1.500 talleres · ≈ 15.000 personas»
+- **En pantalla (25 palabras):** «Paga la marca» · «Supuestos por validar» · «60 €» · «por taller y mes» · «80 %» · «margen bruto» · «8,6 M€» · «mercado anual» · «Meta 2030» · «40 marcas · ≈ 1.150 talleres · ≈ 11.500 personas»
 - **Visual:** tres cifras en tarjetas y, debajo, la meta 2030 en una franja. Si vais tarde y no decís la meta, se queda igualmente en pantalla.
 - **Pie:** «Mercado: 165 fabricantes españoles de confección, piel y calzado con 50 o más asalariados (INE, DIRCE a 1-1-2025, tabla 73019) + 175 grupos italianos de moda de más de 100 M€ (Mediobanca), × 30-40 talleres cada uno × 720 € al año. Margen: coste de servir ≈ 12 € por taller y mes, a escala; el informe de la gestoría, aparte y a coste. Fiscalía de Milán: documentos pedidos a 22 marcas, ninguna investigada (AGI; Milano Finanza).»
 
@@ -224,7 +224,7 @@ DIAPOSITIVA 6 (Negocio)
   · «8,6 M€» y «mercado anual».
 - Debajo, a todo el ancho y con una línea de 1 px #DDD6CB encima, en la misma línea:
   · la etiqueta «Meta 2030» (Inter 600, 24 px, #57524A);
-  · el texto «40 marcas · 1.500 talleres · ≈ 15.000 personas» (Inter 600, 36 px, #1B1A18, tabular).
+  · el texto «40 marcas · ≈ 1.150 talleres · ≈ 11.500 personas» (Inter 600, 36 px, #1B1A18, tabular).
 - Pie de fuentes: «Mercado: 165 fabricantes españoles de confección, piel y calzado con 50 o más asalariados (INE, DIRCE a 1-1-2025, tabla 73019) + 175 grupos italianos de moda de más de 100 M€ (Mediobanca), × 30-40 talleres cada uno × 720 € al año. Margen: coste de servir ≈ 12 € por taller y mes, a escala; el informe de la gestoría, aparte y a coste. Fiscalía de Milán: documentos pedidos a 22 marcas, ninguna investigada (AGI; Milano Finanza).»
 
 DIAPOSITIVA 7 (Equipo)
@@ -249,7 +249,7 @@ ANEXO (va después de la 8; solo se enseña si preguntan de dónde salen los dat
 
 ANTES DE TERMINAR, COMPRUEBA
 1. Hay 8 diapositivas y el anexo, en este orden, con los textos exactos de este mensaje y nada más.
-2. Los números se ven como aquí: 6.000; 8,6 M€; 1.000-3.000 €; 120.000; ≈ 15.000.
+2. Los números se ven como aquí: 6.000; 8,6 M€; 1.000-3.000 €; 120.000; ≈ 11.500.
 3. Nada se corta ni se desborda a 1280 × 720.
 4. En la diapositiva 3, las teclas cambian de diapositiva y el clic cambia de captura; el rótulo cambia con la captura.
 5. Con ?imprimir salen 11 páginas.
@@ -268,7 +268,7 @@ ANTES DE TERMINAR, COMPRUEBA
 | 2027 (14-12-2027 en el pie) | 5 | «en 2027 la UE prohibirá…» | Horizonte UE |
 | 60 € por taller y mes · 80 % · ≈ 12 € | 6 | «60 euros por taller y mes» · «margen bruto del 80 %, por validar» | Cuota de vigilancia · Margen |
 | 8,6 M€ · 165 + 175 · 30-40 talleres · 720 € | 6 | «165… 175… con 30 a 40 talleres cada uno, 8,6 millones al año» | Mercado en marcas que compran |
-| 40 marcas · 1.500 talleres · ≈ 15.000 personas | 6 | «Meta 2030: 40 marcas, 1.500 talleres y unas 15.000 personas» | Meta 2030 |
+| 40 marcas · ≈ 1.150 talleres · ≈ 11.500 personas | 6 | «Meta 2030: 40 marcas, unos 1.150 talleres y 11.500 personas» | Meta 2030 |
 | 22 marcas, ninguna investigada | 6 | «pidió documentos a 22, ninguna investigada» | Cifras clave, Milán |
 | 3 meses · 5-10 talleres | 8 | «piloto gratuito de tres meses con 5 a 10 talleres» | Petición |
 
