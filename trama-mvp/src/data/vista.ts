@@ -52,7 +52,7 @@ const MIN_PERSONAS_CIFRAS = 4;
 const NOMBRE_MARCA = seed.marca.nombre.replace(/\s*\(.*\)$/, "");
 
 const FIRMANTE: Record<Firmante["tipo"], { tipo: string; fuente: string }> = {
-  gestor_laboral: { tipo: "Gestor laboral o graduado social", fuente: "a partir del ITA de la Seguridad Social" },
+  gestor_laboral: { tipo: "Gestor laboral o graduado social", fuente: "a partir del informe de plantilla media de la Seguridad Social" },
   consulente_del_lavoro: { tipo: "Consulente del lavoro", fuente: "a partir del LUL" },
 };
 

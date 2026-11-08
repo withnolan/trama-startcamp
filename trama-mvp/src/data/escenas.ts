@@ -63,7 +63,7 @@ const P = seed.parametros;
 const CHAQUETAS_ANO = 6000; // lo que entregaba el subproveedor, según su cotitular (prensa)
 const PERSONAS_B = 7;
 const HORAS_PERSONA_ANO = 1750; // jornada completa ≈ 1.750 h al año
-const MINUTOS = SIMULACION_CASO_PUBLICO.minutosPorPieza; // 180: estimación con fuente pública
+const MINUTOS = SIMULACION_CASO_PUBLICO.minutosPorPieza; // 180: suelo público para premium y lujo (marca de lujo)
 const NECESARIAS = (CHAQUETAS_ANO * MINUTOS) / 60;
 const DE_ALTA_B = PERSONAS_B * HORAS_PERSONA_ANO;
 

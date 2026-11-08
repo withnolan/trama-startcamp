@@ -307,14 +307,14 @@ export const TEXTOS_SIMULADOR = {
   minutos: "Minutos por chaqueta",
   escenarios: { demo: "Taller de la demo", casoPublico: "Caso reconstruido con datos públicos" },
   casoPublico:
-    "Reconstrucción anonimizada a partir de información pública de prensa: el proveedor directo no tenía taller propio (capacidad 0) y un subproveedor con 7 personas entregaba entre 6.000 y 7.000 chaquetas al año. Unas 2 h por chaqueta disponibles. 180 min por chaqueta es una estimación con fuente pública (taller premium): muévelos para ver dónde deja de caber.",
+    "Reconstrucción anonimizada a partir de información pública de prensa: el proveedor directo no tenía taller propio (capacidad 0) y un subproveedor con 7 personas entregaba entre 6.000 y 7.000 chaquetas al año. Unas 2 h por chaqueta disponibles. 180 min es el suelo público para premium y lujo: con menos minutos declarados, Trama calcula con 180. Aquí puedes bajarlos para ver dónde dejaría de caber sin suelo.",
   /** "Carga de Ordessa: 8.000 h frente a 3.360 h de alta (2,4×)" */
   cargaMarca: (necesarias: string, alta: string, ratio: string) =>
     `Carga de Ordessa: ${necesarias} frente a ${alta} de alta (${ratio})`,
   /** "Carga total estimada del taller: 11,9× las horas de alta" */
   cargaTotal: (ratio: string) => `Carga total estimada del taller: ${ratio} las horas de alta`,
   formula: "Carga total ≈ carga de Ordessa ÷ su parte de la facturación del taller.",
-  nota: "El taller de la demo es ficticio (240 min por chaqueta, de su ficha de costes ficticia). El caso reconstruido usa cifras públicas de prensa, anonimizadas, y 180 min por chaqueta: estimación con fuente pública.",
+  nota: "El taller de la demo es ficticio (240 min por chaqueta, de su ficha de costes ficticia). El caso reconstruido usa cifras públicas de prensa, anonimizadas, y el suelo público de 180 min por chaqueta (premium y lujo).",
 };
 
 // ---------- /escenas (dos escenas para la demo; mismo cálculo que el panel) ----------
@@ -385,7 +385,7 @@ export const TEXTOS_ESCENAS = {
       unidadesNota: "La cifra baja del rango publicado (6.000-7.000).",
       /** "× 180 min por chaqueta = 18.000 h necesarias" */
       horas: (minutos: string, horas: string) => `× ${minutos} min por chaqueta = ${horas} necesarias`,
-      minutosNota: (minutos: string) => `${minutos} min: estimación con fuente pública (taller premium).`,
+      minutosNota: (minutos: string) => `${minutos} min: suelo público para premium y lujo (fábrica premium, hasta ${minutos} min de costura).`,
     },
     proveedor: {
       titulo: "Sin taller propio",
@@ -400,8 +400,9 @@ export const TEXTOS_ESCENAS = {
       /** "Supera el límite rojo de 1,10×." */
       conclusion: (limite: string) => `Supera el límite rojo de ${limite}.`,
     },
-    /** "Rojo a partir de ≈135 min por chaqueta (con 6.000 al año)." */
-    umbral: (minutos: string, chaquetas: string) => `Rojo a partir de ≈${minutos} min por chaqueta (con ${chaquetas} al año).`,
+    /** "Suelo de minutos para una marca de lujo: 180 min. Si declara menos, Trama calcula con 180: 1,47×, rojo. Sin suelo, el rojo empezaría en ≈135 min." */
+    umbral: (suelo: string, ratio: string, minutosRojo: string) =>
+      `Suelo de minutos para una marca de lujo: ${suelo} min. Si declara menos, Trama calcula con ${suelo}: ${ratio}, rojo. Sin suelo, el rojo empezaría en ≈${minutosRojo} min.`,
     nota: "Anonimizado: sin nombres de empresas ni personas. Las fuentes de prensa están en la documentación del equipo, no en la app.",
   },
   documentos: {
@@ -570,6 +571,6 @@ export const TEXTOS_PROTECCION = {
 
 /** Sección #impacto del detalle. */
 export const TEXTOS_IMPACTO = {
-  nota: "Recuentos agregados de los talleres del plan, sin nombres. Fuente: informes mensuales y revisor independiente.",
+  nota: "Recuentos agregados de los talleres del plan, sin nombres. A las personas sin alta las cuenta el revisor independiente en una visita sin aviso, con un censo confidencial: ni la marca ni Trama ven nombres.",
   sinPlan: "Sin plan de corrección: no hay métricas de impacto en este taller.",
 };

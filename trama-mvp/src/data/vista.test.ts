@@ -89,7 +89,7 @@ describe("vista", () => {
   it("detalle T3 ámbar: porQue y comprobaciones; sin alerta ni plan", () => {
     const d = detalleTaller("T3")!;
     expect(d).toMatchObject({ estado: "ambar", alerta: null, plan: null, impacto: [] });
-    expect(d.resumen.firmante).toBe("Gestor laboral o graduado social · Gestoría Lagunilla (ficticia) · a partir del ITA de la Seguridad Social");
+    expect(d.resumen.firmante).toBe("Gestor laboral o graduado social · Gestoría Lagunilla (ficticia) · a partir del informe de plantilla media de la Seguridad Social");
     expect(d.porQue[1]).toBe("Supera 0,85× sin llegar al límite rojo de 1,10×: margen para picos de trabajo.");
     expect(d.comprobaciones).toHaveLength(5);
     expect(detalleTaller("T4")!.comprobaciones).toEqual([]);
