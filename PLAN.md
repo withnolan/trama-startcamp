@@ -40,3 +40,9 @@ Siguiente al reanudar, en este orden:
 - En marcha (2): mentor B2 Producto (`/escenas`: 4 marcas + caso Milán, rama `pulido`) y mentor B1 Pitch (`PITCH_FINAL.md`, `PREGUNTAS.md`, `HOJA_DATOS.md`, `DOCUMENTO_MAESTRO.md`).
 - En pausa (reanudar con SendMessage, de uno en uno, cuando quede hueco): B3 Negocio (aa2703b67f9489716), B4 Impacto (a47be5b9008334319), MARCAS (a3f7b8942a8f3acee).
 - Orden: escenas + pitch + preguntas + LEEME → ronda 1 jurado (3: 2 fijos + 1 rotatorio; v1 vs v5 saneado) → mejoras → MARCAS / Negocio / Impacto → PROBLEMAS_CERRADOS → Lovable → cierre.
+
+## 01:15 — estado
+- Hecho y en `main`: pitch v1 + PREGUNTAS + HOJA_DATOS + DOCUMENTO_MAESTRO; `/escenas` (caso Milán, 4 marcas, documentos SIMULADO; e2e 25/25, tests 101/101); MARCAS.md.
+- En marcha: mentor B3 Negocio (revisa precio/mercado del pitch y escribe `problemas/` b, h, i, competencia) · jurado R1-F1.
+- Siguiente: jurados R1-F2 y R1-R1 cuando quede hueco → `jurado/r1/notas.json` → medias → mentores aplican mejoras (v2). Luego Impacto (a, c, d, e, f, g, métricas) → PROBLEMAS_CERRADOS → Lovable → cierre.
+- Git: árbol compartido en la rama `pulido`; `main` se actualiza con un merge sin checkout (script en el scratchpad: commit-tree + update-ref).
