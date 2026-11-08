@@ -63,7 +63,8 @@ const P = seed.parametros;
 const CHAQUETAS_ANO = 6000; // lo que entregaba el subproveedor, según su cotitular (prensa)
 const PERSONAS_B = 7;
 const HORAS_PERSONA_ANO = 1750; // jornada completa ≈ 1.750 h al año
-const MINUTOS = SIMULACION_CASO_PUBLICO.minutosPorPieza; // 180: suelo externo para premium y lujo (marca de lujo)
+const MINUTOS = SIMULACION_CASO_PUBLICO.minutosPorPieza; // 180: referencia de una fábrica premium (no es un suelo)
+const SUELO_INDUSTRIAL = 126; // suelo externo: mínimo industrial de una americana forrada (línea industrial con su eficiencia real)
 const NECESARIAS = (CHAQUETAS_ANO * MINUTOS) / 60;
 const DE_ALTA_B = PERSONAS_B * HORAS_PERSONA_ANO;
 
@@ -74,9 +75,12 @@ export const ESCENA_CASO_MILAN = {
   personasB: PERSONAS_B,
   horasPersonaAno: HORAS_PERSONA_ANO,
   deAltaB: DE_ALTA_B,
-  /** Proveedor A sin taller propio: 0 personas de alta → 0 h → ratio ∞ → rojo desde el primer pedido. */
+  /** Proveedor A sin taller propio: 0 h de producción propia → ratio ∞ → rojo siempre, con cualquier minutaje. */
   proveedorA: clasificar(NECESARIAS, 0, false, P),
   subproveedorB: clasificar(NECESARIAS, DE_ALTA_B, PERSONAS_B <= P.maxPersonasMicro, P),
+  /** El mismo subproveedor con el suelo externo (mínimo industrial). */
+  suelo: SUELO_INDUSTRIAL,
+  conSuelo: clasificar((CHAQUETAS_ANO * SUELO_INDUSTRIAL) / 60, DE_ALTA_B, PERSONAS_B <= P.maxPersonasMicro, P),
   /** Minutos por chaqueta desde los que B sale rojo con 6.000 al año: umbral rojo × horas de alta ÷ chaquetas. */
   minutosRojo: Math.round((P.umbralRojo * DE_ALTA_B * 60) / CHAQUETAS_ANO),
 };

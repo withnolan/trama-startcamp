@@ -1,4 +1,4 @@
-# PREGUNTAS · Trama · 2 minutos de preguntas (versión 3)
+# PREGUNTAS · Trama · 2 minutos de preguntas (versión 4, final)
 
 Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite honesto → siguiente paso o petición. Lo hablado va en las líneas «>». Cifras y fuentes: `PITCH_FINAL.md` (tabla final) y `HOJA_DATOS.md`.
 
@@ -18,7 +18,7 @@ Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite ho
 
 ### J2 · Inversor: «No hay precio, ni mercado, ni validación. Y en España se cotiza por base: vuestro "certificado de horas cotizadas" no existe.»
 *Responde Orador 4.*
-> Correcto, y lo hemos quitado. Usamos el informe de plantilla media en alta que el gestor saca del Sistema RED, que pondera la jornada de cada contrato. Precio: 60 € por taller y mes más ese informe a coste; margen del 80 % de la cuota, a escala. Mercado: 340 empresas que compran en España e Italia, 8,6 M€ con 30-40 talleres cada una. Validación: ninguna aún; pedimos la carta de intención.
+> Correcto, y lo hemos quitado. Usamos el informe de plantilla media en alta que el gestor saca del Sistema RED; según el Boletín RED pondera la jornada de cada contrato, por confirmar que sigue vigente. Precio: 60 € por taller y mes más el informe a coste; margen del 80 % a escala. Mercado: 340 empresas que compran en España e Italia, 8,6 M€. Validación: ninguna aún; pedimos la carta de intención.
 
 ### J3 · Mentor: «¿Y el taller que trabaja para varias marcas? ¿Y un gestor pagado por el propio taller? No veo demo ni equipo, y vender a cumplimiento en el lujo es lento.»
 *Responde Orador 2.*
@@ -42,7 +42,7 @@ Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite ho
 
 ### 2. ¿Y si el taller falsea las horas, o el gestor firma lo que le piden?
 *Responde Orador 2.*
-> El gestor no firma una cifra: descarga un informe de la Seguridad Social que, por norma, vale como certificación. Inflarlo exige cotizar cada mes por gente que no trabaja allí. Y como cuenta la jornada de cada contrato, dar de alta a media jornada a quien hace la completa no tapa el hueco. Además, la marca puede pagar visitas sin aviso. Que un tercero pueda verificar ese informe, lo comprobaremos.
+> El gestor no firma una cifra: descarga un informe de la Seguridad Social que, por norma, vale como certificación. Inflarlo exige cotizar cada mes por gente que no trabaja allí. Y como contamos la jornada de cada contrato, dar de alta a media jornada a quien hace la completa no tapa el hueco. Que el informe ya la pondera lo dice el Boletín RED: lo confirmaremos con uno real.
 
 ### 3. ¿No lo hace ya EcoVadis, Sedex o la plataforma de Milán? *(los competidores ya no van en el pitch: van aquí)*
 *Responde Orador 4.*
@@ -54,7 +54,7 @@ Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite ho
 
 ### 5. ¿Qué habéis validado de verdad?
 *Responde Orador 4. Si hay respuestas reales, se dicen primero.*
-> Con personas, nada todavía: ni marcas, ni gestorías, ni talleres. Lo comprobado son las fuentes: que el informe de plantilla en alta existe y lo saca el gestor del Sistema RED, la jornada de cada convenio en el BOE y las cifras publicadas del caso de Milán. Y una demo que calcula. El lunes llamamos a veinte contactos, y aquí pedimos una carta de intención.
+> Con personas, nada todavía: ni marcas, ni gestorías, ni talleres, ni sindicatos ni ONG. Lo comprobado son las fuentes: que el informe de plantilla en alta existe y lo saca el gestor del Sistema RED, la jornada de cada convenio en el BOE y las cifras publicadas del caso de Milán. Y una demo que calcula. El lunes llamamos a veinte contactos, y aquí pedimos una carta de intención.
 
 ### 6. ¿Por qué vosotros?
 *Responde Orador 1. Estudios [confirmar]; si no son estos, cambiar la frase.*
@@ -70,7 +70,7 @@ Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite ho
 
 ### 9. Los minutos los pone quien paga. ¿Qué le impide bajarlos para salir en verde y usar Trama como coartada? *(jurados de las rondas 1 y 2, 3 de 3)*
 *Responde Orador 2.*
-> No pueden bajar del suelo: Trama calcula con el mayor entre su escandallo y un suelo externo por prenda y segmento; una chaqueta de lujo, 180 minutos. Así, aunque declarase 130, el caso Milán saldría rojo. Cada cambio de minutos queda registrado, y el verde no se puede usar como sello. En piel y calzado, el suelo lo construye el piloto.
+> No pueden bajar del suelo: Trama calcula con el mayor entre su escandallo y el mínimo industrial publicado de cada prenda, 126 minutos para una chaqueta forrada. Con ese mínimo, el caso Milán ya sale ámbar, al límite, y un ámbar obliga a pedir explicaciones; con los minutos de una fábrica premium, rojo. Cada cambio queda registrado, y el verde no es un sello.
 
 ### 10. ¿Y si el taller «cierra» el rojo quitando pedidos o despidiendo?
 *Responde Orador 3.*
@@ -118,6 +118,22 @@ Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite ho
 
 ---
 
+## Lo que preguntó el jurado de la ronda 3
+
+### 19. ¿De dónde sacáis las horas de un taller italiano?
+*Responde Orador 4.*
+> Del LUL, el libro único del trabajo: por ley registra cada día las horas trabajadas de cada persona; lo lleva el empleador o su consulente, que nos daría solo el total. No tiene una copia pública verificable como la de la Seguridad Social, así que lo cruzamos con el DURC, que acredita que está al corriente de cotizaciones, y con la Asse.Co si la tiene. Italia es la fase 2.
+
+### 20. El abogado de un fabricante de Ubrique: «Si cada mes queda por escrito que un taller no cabe, nos fabricáis la prueba en contra». ¿Qué le contestáis?
+*Responde Orador 3.*
+> Que lo que reprochó Milán no fue tener un problema en la cadena: fue no verificar la capacidad. Y Loro Piana salió de la medida, según la empresa, valorando sistemáticamente la capacidad de sus proveedores. Los pedidos y los minutos ya son vuestros; las altas, de la Seguridad Social: Trama documenta que mirasteis y qué corregisteis. Protección jurídica no os la prometemos: eso, vuestro abogado.
+
+### 21. Vuestro 180 es el techo de una fábrica premium, no un suelo. ¿Cómo fijaréis y defenderéis el suelo ante un proveedor que lo discuta?
+*Responde Orador 2.*
+> El suelo no es nuestro: 126 minutos es lo que tarda de verdad una línea industrial solo en coser una chaqueta forrada, según un estudio de tiempos publicado, y una chaqueta de lujo no baja de ahí. 180 no es suelo: es la referencia de una fábrica premium, y solo sirve para contrastar. Si alguien lo discute, el revisor cronometra una muestra y queda por escrito.
+
+---
+
 ## De reserva
 
 ### R1. ¿Y si el proveedor no declara su subcontrata?
@@ -151,10 +167,10 @@ Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite ho
 > Todavía no hay tiempos publicados: la pieza sale «minutos sin contrastar», y en la primera visita el revisor cronometra una muestra; con eso el piloto construye el suelo. Si la marca no tiene minutos por modelo, como pasa en calzado, valen los del escandallo de su fabricante principal, con las mismas reglas.
 
 ## Frases que no se dicen nunca
-«Certificado legal» · «demuestra que no hay trabajo forzoso» · «detecta trabajo forzoso» · «evita multas» · «intervenida» o «comisario» (se dice «administración judicial») · «multa» o «sanción» a Loro Piana · «Prada investigada» (solo le pidieron documentos) · «lista pactada con los sindicatos» (es una propuesta) · «ningún despido» como promesa (se dice «medimos la plantilla a seis meses») · «obliga a subir el precio» (lo decide compras) · «Trama suma la carga de todo el taller» (solo si al menos tres marcas usan Trama) · «2.131 fábricas = 1,5 M€» (el techo es 4,4 M€, INE) · «el protocolo de Milán obliga» (es voluntario: compromete a quien se adhiere) · nombres de marcas en el pitch (en la hoja, con fuente) · «el sector», «las gestorías» o «el mercado» a partir de una sola respuesta.
+«Certificado legal» · «demuestra que no hay trabajo forzoso» · «detecta trabajo forzoso» · «evita multas» · «intervenida» o «comisario» (se dice «administración judicial») · «multa» o «sanción» a Loro Piana · «Prada investigada» (solo le pidieron documentos) · «lista pactada con los sindicatos» (es una propuesta) · «ningún despido» como promesa (se dice «medimos la plantilla a seis meses») · «obliga a subir el precio» (lo decide compras) · «Trama suma la carga de todo el taller» (solo si al menos tres marcas usan Trama) · «2.131 fábricas = 1,5 M€» (el techo es 4,4 M€, INE) · «suelo de lujo de 180» (180 es la referencia de una fábrica premium; el suelo es el mínimo industrial, 126) · «el protocolo de Milán obliga» (es voluntario: compromete a quien se adhiere) · nombres de marcas en el pitch (en la hoja, con fuente) · «el sector», «las gestorías» o «el mercado» a partir de una sola respuesta.
 
 ## Recuento por respuesta
 
-Todas ≤ 70 palabras (cuenta automática de las líneas «>»): J1 69 · J2 70 · J3 68 · J4 70 · J5 67 · 1: 63 · 2: 70 · 3: 61 · 4: 69 · 5: 65 · 6: 63 · 7: 68 · 8: 70 · 9: 61 · 10: 63 · 11: 58 · 12: 67 · 13: 63 · 14: 66 · 15: 64 · 16: 67 · 17: 69 · 18: 63 · R1 52 · R2 63 · R3 61 · R4 68 · R5 58 · R6 57 · R7 52. Si el jurado corta, basta la primera frase: ya lleva el dato.
+Todas ≤ 70 palabras (cuenta automática de las líneas «>»): J1 69 · J2 70 · J3 68 · J4 70 · J5 67 · 1: 63 · 2: 69 · 3: 61 · 4: 69 · 5: 69 · 6: 63 · 7: 68 · 8: 70 · 9: 64 · 10: 63 · 11: 58 · 12: 67 · 13: 63 · 14: 66 · 15: 64 · 16: 67 · 17: 69 · 18: 63 · 19: 70 · 20: 65 · 21: 66 · R1 52 · R2 63 · R3 61 · R4 68 · R5 58 · R6 57 · R7 52. Si el jurado corta, basta la primera frase: ya lleva el dato.
 
-Fuentes de las respuestas nuevas: suelo de minutos (`problemas/c_informe_complaciente.md`, ronda 3), personas sin alta y meta 2030 (`problemas/metricas_impacto.md`, ronda 3, recalculada con las cifras de Negocio), cláusula cero (`problemas/f_rojo_abandono.md`), mercado en marcas y primeras clientas (`problemas/h_precio_mercado.md` §6), Inspección y caso de Valencia (`problemas/d_no_declarado_vs_forzoso.md`).
+Fuentes de las respuestas nuevas: suelo de minutos (`problemas/c_informe_complaciente.md`, ronda 3), personas sin alta y meta 2030 (`problemas/metricas_impacto.md`, ronda 3, recalculada con las cifras de Negocio), cláusula cero (`problemas/f_rojo_abandono.md`), mercado en marcas y primeras clientas (`problemas/h_precio_mercado.md` §6), Inspección y caso de Valencia (`problemas/d_no_declarado_vs_forzoso.md`). Ronda 4: suelo de minutos = mínimo industrial de 126 min y 180 como referencia premium (`problemas/c_informe_complaciente.md`, cifras 1,03× y 1,47×); Italia, LUL, DURC y Asse.Co (`investigacion/fuentes_horas.md` §7, `investigacion/hechos_legales.md` §5); «prueba en contra», reproche de Milán y salida de Loro Piana (`investigacion/hechos_legales.md` §1, `investigacion/encaje_legal.md` §d, fuente [18]).

@@ -24,6 +24,8 @@ describe("escenas", () => {
     expect(e.proveedorA).toEqual({ ratio: null, estado: "rojo" });
     expect([e.necesarias, e.deAltaB]).toEqual([18000, 12250]);
     expect(e.subproveedorB).toEqual({ ratio: 1.4694, estado: "rojo" });
+    // Suelo externo = mínimo industrial (126 min): 12.600 h ÷ 12.250 h → 1,0286, ámbar (no rojo).
+    expect(e.conSuelo).toEqual({ ratio: 1.0286, estado: "ambar" });
     expect(e.minutosRojo).toBe(135);
   });
 });

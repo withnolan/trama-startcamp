@@ -51,8 +51,8 @@ documentos simulados (plantilla media, escandallo, modelo 347) si sale la pregun
 5. Navegación **«Escenas»** → caso Milán; botón **«2 · Taller con 4 marcas»** (20 s).
 
 Si vas justo, sáltate el paso 4: el taller con 4 marcas cuenta lo mismo con más claridad (y su tercera tarjeta da la
-alternativa de la cuota). Más del simulador: «Caso reconstruido con datos públicos» → rojo con 180 min (1,5×); ámbar por
-debajo de ~135 min y verde por debajo de ~105; «Restablecer» vuelve al escenario elegido. El mismo simulador está en
+alternativa de la cuota). Más del simulador: «Caso reconstruido con datos públicos» → rojo con 180 min (1,5×; referencia de
+fábrica premium); con el suelo externo, 126 min, ámbar (1,0×); verde por debajo de ~105; «Restablecer» vuelve al escenario elegido. El mismo simulador está en
 `/como-calculamos`.
 
 ### Demo guiada (alternativa)
