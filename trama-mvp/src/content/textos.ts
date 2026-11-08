@@ -98,7 +98,7 @@ export const TEXTOS_APP = {
   valor: "Trama ayuda a decidir dónde mirar y documenta que la empresa vigiló.",
   saltar: "Saltar al contenido",
   navAria: "Principal",
-  nav: { panel: "Panel", comoCalculamos: "Cómo calculamos", legal: "Legal y avisos" },
+  nav: { panel: "Panel", escenas: "Escenas", comoCalculamos: "Cómo calculamos", legal: "Legal y avisos" },
   pie: "Trama · MVP · datos ficticios",
   aviso: "No constituye asesoramiento jurídico.",
 };
@@ -307,14 +307,137 @@ export const TEXTOS_SIMULADOR = {
   minutos: "Minutos por chaqueta",
   escenarios: { demo: "Taller de la demo", casoPublico: "Caso reconstruido con datos públicos" },
   casoPublico:
-    "Reconstrucción anonimizada a partir de información pública de prensa: el proveedor directo no tenía taller propio (capacidad 0) y un subproveedor con 7 personas entregaba entre 6.000 y 7.000 chaquetas al año. Unas 2 h por chaqueta disponibles. Los minutos por chaqueta son una estimación: muévelos para ver dónde deja de caber.",
+    "Reconstrucción anonimizada a partir de información pública de prensa: el proveedor directo no tenía taller propio (capacidad 0) y un subproveedor con 7 personas entregaba entre 6.000 y 7.000 chaquetas al año. Unas 2 h por chaqueta disponibles. 180 min por chaqueta es una estimación con fuente pública (taller premium): muévelos para ver dónde deja de caber.",
   /** "Carga de Ordessa: 8.000 h frente a 3.360 h de alta (2,4×)" */
   cargaMarca: (necesarias: string, alta: string, ratio: string) =>
     `Carga de Ordessa: ${necesarias} frente a ${alta} de alta (${ratio})`,
   /** "Carga total estimada del taller: 11,9× las horas de alta" */
   cargaTotal: (ratio: string) => `Carga total estimada del taller: ${ratio} las horas de alta`,
   formula: "Carga total ≈ carga de Ordessa ÷ su parte de la facturación del taller.",
-  nota: "El taller de la demo es ficticio; el caso reconstruido usa cifras públicas de prensa, anonimizadas. Los minutos por pieza son una estimación.",
+  nota: "El taller de la demo es ficticio (240 min por chaqueta, de su ficha de costes ficticia). El caso reconstruido usa cifras públicas de prensa, anonimizadas, y 180 min por chaqueta: estimación con fuente pública.",
+};
+
+// ---------- /escenas (dos escenas para la demo; mismo cálculo que el panel) ----------
+export const TEXTOS_ESCENAS = {
+  titulo: "Escenas",
+  entradilla:
+    "El mismo cálculo del panel en dos situaciones: un taller que trabaja para varias marcas y un caso real reconstruido con datos públicos.",
+  indiceAria: "Escenas de esta página",
+  /** Enlace desde el panel. */
+  enlacePanel: "Escenas: taller con 4 marcas y caso Milán 2025",
+  cuatroMarcas: {
+    titulo: "Taller con 4 marcas",
+    resumen: "Con cada marca por separado sale verde. Al sumar los pedidos de las cuatro, rojo.",
+    datos: "Datos ficticios",
+    /** "Taller: Laboratorio Ligustro (ficticio) · 10 personas de alta" */
+    taller: (nombre: string, personas: string) => `Taller: ${nombre} · ${personas} personas de alta`,
+    marca: {
+      etiqueta: "Panel de Ordessa",
+      titulo: "Lo que ve Ordessa",
+      /** "Sus pedidos: 1.920 h ÷ 4.800 h de alta" */
+      cifras: (necesarias: string, alta: string) => `Sus pedidos: ${necesarias} ÷ ${alta} de alta`,
+      revision: "Revisión abierta",
+      revisionTexto: TEXTOS_PRIVACIDAD.revisionAbierta,
+      noVe: "No ve cifras ni nombres de otras marcas, ni cuántas hay, ni por qué se abrió la revisión.",
+    },
+    tercero: {
+      etiqueta: "No lo ve ninguna marca",
+      titulo: "Lo que calcula Trama como tercero",
+      caption: "Carga de cada marca y de la suma frente a las horas de alta del taller",
+      columnas: { marca: "Marca", barra: "Carga frente a horas de alta", ratio: "Ratio", estado: "Estado" },
+      suma: (n: string) => `Suma de las ${n}`,
+      limiteAmbar: (r: string) => `Límite ámbar ${r}`,
+      limiteRojo: (r: string) => `Límite rojo ${r}`,
+      /** "6.240 h necesarias frente a 4.800 h de alta: no caben. Se abre una revisión." */
+      pie: (necesarias: string, alta: string) => `${necesarias} necesarias frente a ${alta} de alta: no caben. Se abre una revisión.`,
+    },
+    salvaguardasAria: "Salvaguardas de competencia",
+    minimo: {
+      titulo: (n: string) => `Solo con ${n} marcas o más`,
+      texto: (n: string) =>
+        `La suma solo abre una revisión si al menos ${n} marcas del taller usan Trama. Con menos, la suma solo la ven el taller y el revisor independiente.`,
+    },
+    mismoAviso: {
+      titulo: "El mismo aviso, sea cual sea la causa",
+      texto:
+        "«Revisión abierta» no cambia si la causa son los pedidos de la propia marca, la suma de varias u otra comprobación del revisor. Sin cifras, sin nombres y sin decir cuántas marcas hay.",
+    },
+    cuota: {
+      titulo: "Si las demás marcas no usan Trama",
+      /** "Carga total ≈ carga de Ordessa ÷ su parte de la facturación del taller. Con el 30 %: 0,40 ÷ 0,30 ≈ 1,33× → rojo." */
+      texto: (pct: string, propio: string, cuota: string, total: string) =>
+        `Carga total ≈ carga de Ordessa ÷ su parte de la facturación del taller. Con el ${pct}: ${propio} ÷ ${cuota} ≈ ${total} → rojo, sin datos de otras marcas.`,
+      enlace: "Cómo se calcula",
+      href: "/como-calculamos#varias-marcas",
+    },
+  },
+  casoMilan: {
+    titulo: "Caso Milán 2025 (datos públicos)",
+    corto: "Caso Milán 2025",
+    rotulo: "Reconstrucción anonimizada a partir de información pública de prensa",
+    resumen:
+      "Una marca de lujo encargaba chaquetas a un proveedor sin taller propio, que las pasaba a un subproveedor de 7 personas. La auditoría no comprobó la capacidad. Con las cifras públicas, el cálculo de Trama da rojo en los dos eslabones.",
+    nodos: { marca: "Marca de lujo (anonimizada)", proveedor: "Proveedor A", subproveedor: "Subproveedor B" },
+    pedidos: {
+      titulo: "Lo que se encargaba",
+      /** "6.000 chaquetas al año" */
+      unidades: (n: string) => `${n} chaquetas al año`,
+      unidadesNota: "La cifra baja del rango publicado (6.000-7.000).",
+      /** "× 180 min por chaqueta = 18.000 h necesarias" */
+      horas: (minutos: string, horas: string) => `× ${minutos} min por chaqueta = ${horas} necesarias`,
+      minutosNota: (minutos: string) => `${minutos} min: estimación con fuente pública (taller premium).`,
+    },
+    proveedor: {
+      titulo: "Sin taller propio",
+      texto: (necesarias: string) => `${necesarias} ÷ 0 h de producción propia`,
+      conclusion: "Rojo desde el primer pedido.",
+    },
+    subproveedor: {
+      titulo: (personas: string) => `${personas} personas de alta`,
+      /** "18.000 h ÷ 12.250 h de alta (7 × ≈1.750 h al año)" */
+      texto: (necesarias: string, alta: string, personas: string, horasPersona: string) =>
+        `${necesarias} ÷ ${alta} de alta (${personas} × ≈${horasPersona} al año)`,
+      /** "Supera el límite rojo de 1,10×." */
+      conclusion: (limite: string) => `Supera el límite rojo de ${limite}.`,
+    },
+    /** "Rojo a partir de ≈135 min por chaqueta (con 6.000 al año)." */
+    umbral: (minutos: string, chaquetas: string) => `Rojo a partir de ≈${minutos} min por chaqueta (con ${chaquetas} al año).`,
+    nota: "Anonimizado: sin nombres de empresas ni personas. Las fuentes de prensa están en la documentación del equipo, no en la app.",
+  },
+  documentos: {
+    titulo: "Documentos de ejemplo",
+    corto: "Documentos",
+    sello: "Simulado",
+    resumen: "Esquema del dato que entrega la gestoría (no es el formato oficial). De aquí salen las cifras del taller con 4 marcas.",
+    usa: "Trama usa",
+    plantilla: {
+      titulo: "Informe de plantilla media de trabajadores en alta",
+      emisor: "Lo emite la Seguridad Social (Sistema RED); lo descarga la gestoría. Agregado, sin nombres.",
+      campos: { razon: "Razón social", ccc: "Código de cuenta de cotización", periodo: "Periodo", media: "Plantilla media en alta" },
+      ccc: "DEMO-0001 (ficticio)",
+      /** "10 × 160 h al mes × 3 meses = 4.800 h de alta" */
+      usa: (personas: string, horasMes: string, meses: string, horas: string) =>
+        `${personas} × ${horasMes} al mes × ${meses} meses = ${horas} de alta`,
+    },
+    escandallo: {
+      titulo: "Ficha de costes (escandallo)",
+      emisor: "La hace la marca para fijar el precio. Trama solo toma los minutos, nunca los precios.",
+      pieza: "Chaqueta forrada · Ordessa (marca ficticia)",
+      columnas: { operacion: "Operación", minutos: "Minutos" },
+      total: "Total por chaqueta",
+      /** "240 min × 480 chaquetas = 1.920 h necesarias" */
+      usa: (minutos: string, piezas: string, horas: string) => `${minutos} min × ${piezas} chaquetas = ${horas} necesarias`,
+    },
+    modelo347: {
+      titulo: "Modelo 347 (resumen por cliente)",
+      emisor: "Lo presenta el taller a Hacienda cada año: importe con cada cliente de más de 3.005,06 €.",
+      columnas: { cliente: "Cliente", importe: "Importe anual" },
+      resto: "Resto de clientes",
+      total: "Total declarado",
+      /** "la parte de Ordessa, 288.000 € ÷ 960.000 € = 30 %. La marca solo recibe el estado, no la cuota" */
+      usa: (propio: string, total: string, pct: string) => `la parte de Ordessa, ${propio} ÷ ${total} = ${pct}. La marca solo recibe el estado, no la cuota`,
+    },
+  },
 };
 
 /** `HoursChart` (DESIGN §5). */

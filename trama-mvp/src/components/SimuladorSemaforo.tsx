@@ -15,9 +15,6 @@ const ESCENARIOS = [
 ] as const;
 type Escenario = (typeof ESCENARIOS)[number]["clave"];
 
-const NOTA_CASO =
-  "Reconstrucción anonimizada a partir de información pública de prensa: el proveedor directo no tenía taller propio (capacidad 0) y un subproveedor con 7 personas entregaba entre 6.000 y 7.000 chaquetas al año. Unas 2 h por chaqueta disponibles. Los minutos por chaqueta son una estimación: muévelos para ver dónde deja de caber.";
-
 const acotar = (v: number, min: number, max: number) => (Number.isFinite(v) ? Math.round(Math.min(max, Math.max(min, v))) : min);
 
 /** Demo en directo del cálculo: mismas reglas que el panel (lib/calculo/simular). */
@@ -84,7 +81,7 @@ export function SimuladorSemaforo({ inicial = SIMULACION_DEMO }: { inicial?: Ent
                 </button>
               ))}
             </div>
-            {escenario === "caso" && <p className="max-w-[70ch] text-sm text-tinta-2">{NOTA_CASO}</p>}
+            {escenario === "caso" && <p className="max-w-[70ch] text-sm text-tinta-2">{T.casoPublico}</p>}
           </div>
 
           <Control

@@ -7,6 +7,7 @@ import { marca } from "@/data/vista";
 
 const NAVEGACION = [
   { href: "/panel", etiqueta: TEXTOS_APP.nav.panel },
+  { href: "/escenas", etiqueta: TEXTOS_APP.nav.escenas },
   { href: "/como-calculamos", etiqueta: TEXTOS_APP.nav.comoCalculamos },
   { href: "/legal", etiqueta: TEXTOS_APP.nav.legal },
 ];

@@ -1,6 +1,6 @@
 import { expect, test, type Page } from "@playwright/test";
 
-const RUTAS = ["/", "/panel", "/taller/T1", "/taller/T2", "/taller/T6", "/como-calculamos", "/legal"];
+const RUTAS = ["/", "/panel", "/taller/T1", "/taller/T2", "/taller/T6", "/escenas", "/como-calculamos", "/legal"];
 const TAMANOS = [
   { width: 1280, height: 720 },
   { width: 1920, height: 1080 },
@@ -128,6 +128,38 @@ test("simulador: en /como-calculamos va tras el caso público; no aparece en T6 
   await expect(page.locator("#caso-publico + #simulador")).toHaveCount(1);
   await page.goto("/taller/T6");
   await expect(page.locator("#simulador")).toHaveCount(0);
+});
+
+test("escenas: desde la navegación; 4 marcas (Ordessa ve verde y «revisión abierta», Trama suma rojo) y caso Milán", async ({ page }) => {
+  await page.goto("/panel");
+  await page.getByRole("navigation", { name: "Principal" }).getByRole("link", { name: "Escenas" }).click();
+  await expect(page).toHaveURL(/\/escenas$/);
+
+  const ordessa = page.getByRole("article", { name: "Lo que ve Ordessa" });
+  await expect(ordessa).toContainText("En margen");
+  await expect(ordessa).toContainText("0,40×");
+  await expect(ordessa).toContainText("Revisión abierta");
+  // Ni nombres ni cifras de otras marcas, ni la suma.
+  for (const ajeno of ["Marca B", "Marca C", "Marca D", "1,30", "6.240"]) await expect(ordessa).not.toContainText(ajeno);
+
+  const tercero = page.getByRole("article", { name: "Lo que calcula Trama como tercero" });
+  await expect(tercero.getByText("En margen")).toHaveCount(4);
+  await expect(tercero.getByRole("row", { name: /Suma de las 4/ })).toContainText("1,30×");
+  await expect(tercero.getByRole("row", { name: /Suma de las 4/ })).toContainText("Revisar");
+
+  const milan = page.locator("#caso-milan");
+  await expect(milan).toContainText("Reconstrucción anonimizada a partir de información pública de prensa");
+  await expect(milan).toContainText("∞");
+  await expect(milan).toContainText("1,47×");
+  await expect(milan).toContainText("≈135 min");
+
+  // Documentos de ejemplo: los tres marcados «SIMULADO»; de ellos salen 4.800 h, 240 min y el 30 %.
+  const documentos = page.locator("#documentos");
+  await expect(documentos.locator("li").filter({ hasText: "Trama usa" })).toHaveCount(3);
+  for (const li of await documentos.locator("li").filter({ hasText: "Trama usa" }).all()) await expect(li).toContainText(/simulado/i);
+  await expect(documentos).toContainText("= 4.800 h de alta");
+  await expect(documentos).toContainText("240 min × 480 chaquetas");
+  await expect(documentos).toContainText("= 30 %");
 });
 
 test("demo ?demo=1: secuencia completa sin errores, sin internet y todo visible al final", async ({ page }) => {

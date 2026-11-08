@@ -26,6 +26,10 @@ const PANTALLAS: { nombre: string; ruta: string; ancla?: string; completa?: bool
   { nombre: "12-taller-T6", ruta: "/taller/T6" },
   { nombre: "13-como-calculamos", ruta: "/como-calculamos", completa: true },
   { nombre: "14-legal", ruta: "/legal", completa: true },
+  // /escenas en el orden del pitch: caso Milán → taller con 4 marcas → documentos simulados.
+  { nombre: "15-escenas-caso-milan", ruta: "/escenas", ancla: "caso-milan" },
+  { nombre: "16-escenas-cuatro-marcas", ruta: "/escenas", ancla: "cuatro-marcas" },
+  { nombre: "17-escenas-documentos", ruta: "/escenas", ancla: "documentos" },
 ];
 
 for (const tamano of TAMANOS) {
