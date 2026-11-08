@@ -2,7 +2,7 @@
   "escenario": "pitch",
   "semilla": 2026,
   "mes": "2026-10",
-  "talleres": 20,
+  "talleres": 26,
   "etiqueta": "datos sintéticos",
   "porArquetipo": [
     {
@@ -10,30 +10,19 @@
       "problemaReal": false,
       "n": 12,
       "estados": {
-        "verde": 12,
-        "ambar": 0,
+        "verde": 10,
+        "ambar": 2,
         "rojo": 0,
         "sin_datos": 0
       }
     },
     {
-      "arquetipo": "subcontrata_oculta",
-      "problemaReal": true,
-      "n": 3,
-      "estados": {
-        "verde": 0,
-        "ambar": 1,
-        "rojo": 2,
-        "sin_datos": 0
-      }
-    },
-    {
-      "arquetipo": "pico_legitimo",
+      "arquetipo": "silencio_alta_rotacion",
       "problemaReal": false,
-      "n": 3,
+      "n": 2,
       "estados": {
         "verde": 2,
-        "ambar": 1,
+        "ambar": 0,
         "rojo": 0,
         "sin_datos": 0
       }
@@ -48,15 +37,59 @@
         "rojo": 0,
         "sin_datos": 2
       }
+    },
+    {
+      "arquetipo": "pico_legitimo",
+      "problemaReal": false,
+      "n": 3,
+      "estados": {
+        "verde": 1,
+        "ambar": 2,
+        "rojo": 0,
+        "sin_datos": 0
+      }
+    },
+    {
+      "arquetipo": "subcontrata_oculta",
+      "problemaReal": true,
+      "n": 3,
+      "estados": {
+        "verde": 0,
+        "ambar": 0,
+        "rojo": 3,
+        "sin_datos": 0
+      }
+    },
+    {
+      "arquetipo": "salario_retenido",
+      "problemaReal": false,
+      "n": 2,
+      "estados": {
+        "verde": 2,
+        "ambar": 0,
+        "rojo": 0,
+        "sin_datos": 0
+      }
+    },
+    {
+      "arquetipo": "horas_extra_excesivas",
+      "problemaReal": false,
+      "n": 2,
+      "estados": {
+        "verde": 2,
+        "ambar": 0,
+        "rojo": 0,
+        "sin_datos": 0
+      }
     }
   ],
   "matriz": {
-    "vp": 2,
-    "fn": 1,
+    "vp": 3,
+    "fn": 0,
     "fp": 0,
-    "vn": 17
+    "vn": 23
   },
-  "sensibilidadRojo": 0.667,
+  "sensibilidadRojo": 1,
   "sensibilidadRojoOAmbar": 1,
   "precisionRojo": 1,
   "falsosRojosEnSanos": 0,
@@ -67,158 +100,206 @@
       "arquetipo": "sano",
       "problemaReal": false,
       "estado": "verde",
-      "ratio": 0.4677,
-      "ratioReal": 0.47
+      "ratio": 0.5294,
+      "ratioReal": 0.53
     },
     {
       "tallerId": "TS-02",
-      "arquetipo": "sano",
+      "arquetipo": "silencio_alta_rotacion",
       "problemaReal": false,
       "estado": "verde",
-      "ratio": 0.516,
-      "ratioReal": 0.52
+      "ratio": 0.478,
+      "ratioReal": 0.48
     },
     {
       "tallerId": "TS-03",
-      "arquetipo": "subcontrata_oculta",
-      "problemaReal": true,
-      "estado": "ambar",
-      "ratio": 1.0384,
-      "ratioReal": 1.04
+      "arquetipo": "silencio_alta_rotacion",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.848,
+      "ratioReal": 0.85
     },
     {
       "tallerId": "TS-04",
       "arquetipo": "sano",
       "problemaReal": false,
-      "estado": "verde",
-      "ratio": 0.6652,
-      "ratioReal": 0.66
+      "estado": "ambar",
+      "ratio": 0.8564,
+      "ratioReal": 0.85
     },
     {
       "tallerId": "TS-05",
-      "arquetipo": "sano",
+      "arquetipo": "informe_tardio_o_ausente",
       "problemaReal": false,
-      "estado": "verde",
-      "ratio": 0.5618,
-      "ratioReal": 0.56
-    },
-    {
-      "tallerId": "TS-06",
-      "arquetipo": "sano",
-      "problemaReal": false,
-      "estado": "verde",
-      "ratio": 0.7202,
+      "estado": "sin_datos",
       "ratioReal": 0.72
     },
     {
-      "tallerId": "TS-07",
-      "arquetipo": "pico_legitimo",
-      "problemaReal": false,
-      "estado": "verde",
-      "ratio": 0.7986,
-      "ratioReal": 0.8
-    },
-    {
-      "tallerId": "TS-08",
-      "arquetipo": "subcontrata_oculta",
-      "problemaReal": true,
-      "estado": "rojo",
-      "ratio": 1.7325,
-      "ratioReal": 1.73
-    },
-    {
-      "tallerId": "TS-09",
-      "arquetipo": "informe_tardio_o_ausente",
-      "problemaReal": false,
-      "estado": "sin_datos",
-      "ratioReal": 0.86
-    },
-    {
-      "tallerId": "TS-10",
+      "tallerId": "TS-06",
       "arquetipo": "pico_legitimo",
       "problemaReal": false,
       "estado": "ambar",
-      "ratio": 0.9311,
-      "ratioReal": 0.94
+      "ratio": 0.8509,
+      "ratioReal": 0.85
     },
     {
-      "tallerId": "TS-11",
-      "arquetipo": "sano",
-      "problemaReal": false,
-      "estado": "verde",
-      "ratio": 0.6093,
-      "ratioReal": 0.61
-    },
-    {
-      "tallerId": "TS-12",
-      "arquetipo": "pico_legitimo",
-      "problemaReal": false,
-      "estado": "verde",
-      "ratio": 0.8246,
-      "ratioReal": 0.82
-    },
-    {
-      "tallerId": "TS-13",
+      "tallerId": "TS-07",
       "arquetipo": "subcontrata_oculta",
       "problemaReal": true,
       "estado": "rojo",
-      "ratio": 1.4954,
-      "ratioReal": 1.5
+      "ratio": 1.3263,
+      "ratioReal": 1.33
     },
     {
-      "tallerId": "TS-14",
+      "tallerId": "TS-08",
+      "arquetipo": "salario_retenido",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.6246,
+      "ratioReal": 0.62
+    },
+    {
+      "tallerId": "TS-09",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "estado": "ambar",
+      "ratio": 0.8808,
+      "ratioReal": 0.88
+    },
+    {
+      "tallerId": "TS-10",
+      "arquetipo": "horas_extra_excesivas",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.835,
+      "ratioReal": 0.83
+    },
+    {
+      "tallerId": "TS-11",
+      "arquetipo": "horas_extra_excesivas",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.8338,
+      "ratioReal": 0.83
+    },
+    {
+      "tallerId": "TS-12",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.6022,
+      "ratioReal": 0.6
+    },
+    {
+      "tallerId": "TS-13",
       "arquetipo": "informe_tardio_o_ausente",
       "problemaReal": false,
       "estado": "sin_datos",
-      "ratioReal": 0.54
+      "ratioReal": 0.66
+    },
+    {
+      "tallerId": "TS-14",
+      "arquetipo": "subcontrata_oculta",
+      "problemaReal": true,
+      "estado": "rojo",
+      "ratio": 1.4441,
+      "ratioReal": 1.44
     },
     {
       "tallerId": "TS-15",
       "arquetipo": "sano",
       "problemaReal": false,
       "estado": "verde",
-      "ratio": 0.4771,
-      "ratioReal": 0.48
+      "ratio": 0.5656,
+      "ratioReal": 0.57
     },
     {
       "tallerId": "TS-16",
       "arquetipo": "sano",
       "problemaReal": false,
       "estado": "verde",
-      "ratio": 0.5324,
-      "ratioReal": 0.53
+      "ratio": 0.5242,
+      "ratioReal": 0.52
     },
     {
       "tallerId": "TS-17",
       "arquetipo": "sano",
       "problemaReal": false,
       "estado": "verde",
-      "ratio": 0.4698,
-      "ratioReal": 0.47
+      "ratio": 0.7435,
+      "ratioReal": 0.74
     },
     {
       "tallerId": "TS-18",
       "arquetipo": "sano",
       "problemaReal": false,
       "estado": "verde",
-      "ratio": 0.7428,
-      "ratioReal": 0.74
+      "ratio": 0.7744,
+      "ratioReal": 0.77
     },
     {
       "tallerId": "TS-19",
-      "arquetipo": "sano",
+      "arquetipo": "salario_retenido",
       "problemaReal": false,
       "estado": "verde",
-      "ratio": 0.4743,
-      "ratioReal": 0.47
+      "ratio": 0.599,
+      "ratioReal": 0.6
     },
     {
       "tallerId": "TS-20",
+      "arquetipo": "pico_legitimo",
+      "problemaReal": false,
+      "estado": "ambar",
+      "ratio": 0.8581,
+      "ratioReal": 0.86
+    },
+    {
+      "tallerId": "TS-21",
       "arquetipo": "sano",
       "problemaReal": false,
       "estado": "verde",
-      "ratio": 0.6398,
-      "ratioReal": 0.64
+      "ratio": 0.4544,
+      "ratioReal": 0.45
+    },
+    {
+      "tallerId": "TS-22",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.6602,
+      "ratioReal": 0.66
+    },
+    {
+      "tallerId": "TS-23",
+      "arquetipo": "pico_legitimo",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.7965,
+      "ratioReal": 0.79
+    },
+    {
+      "tallerId": "TS-24",
+      "arquetipo": "subcontrata_oculta",
+      "problemaReal": true,
+      "estado": "rojo",
+      "ratio": 1.4844,
+      "ratioReal": 1.48
+    },
+    {
+      "tallerId": "TS-25",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.6872,
+      "ratioReal": 0.69
+    },
+    {
+      "tallerId": "TS-26",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.5766,
+      "ratioReal": 0.58
     }
   ]
 }

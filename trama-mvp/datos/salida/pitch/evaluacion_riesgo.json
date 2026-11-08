@@ -1,0 +1,88 @@
+{
+  "semillas": 20,
+  "etiqueta": "datos sintéticos",
+  "porArquetipo": [
+    {
+      "arquetipo": "pico_legitimo",
+      "problema": false,
+      "n": 60,
+      "niveles": {
+        "bajo": 47,
+        "medio": 13,
+        "alto": 0,
+        "critico": 0
+      }
+    },
+    {
+      "arquetipo": "sano",
+      "problema": false,
+      "n": 240,
+      "niveles": {
+        "bajo": 211,
+        "medio": 29,
+        "alto": 0,
+        "critico": 0
+      }
+    },
+    {
+      "arquetipo": "informe_tardio_o_ausente",
+      "problema": false,
+      "n": 40,
+      "niveles": {
+        "bajo": 0,
+        "medio": 40,
+        "alto": 0,
+        "critico": 0
+      }
+    },
+    {
+      "arquetipo": "silencio_alta_rotacion",
+      "problema": true,
+      "n": 40,
+      "niveles": {
+        "bajo": 0,
+        "medio": 40,
+        "alto": 0,
+        "critico": 0
+      }
+    },
+    {
+      "arquetipo": "horas_extra_excesivas",
+      "problema": true,
+      "n": 40,
+      "niveles": {
+        "bajo": 0,
+        "medio": 0,
+        "alto": 7,
+        "critico": 33
+      }
+    },
+    {
+      "arquetipo": "subcontrata_oculta",
+      "problema": true,
+      "n": 60,
+      "niveles": {
+        "bajo": 0,
+        "medio": 11,
+        "alto": 47,
+        "critico": 2
+      }
+    },
+    {
+      "arquetipo": "salario_retenido",
+      "problema": true,
+      "n": 40,
+      "niveles": {
+        "bajo": 0,
+        "medio": 0,
+        "alto": 39,
+        "critico": 1
+      }
+    }
+  ],
+  "deteccion": 129,
+  "deteccionMedio": 180,
+  "falsasAlarmas": 0,
+  "problemas": 180,
+  "sinProblema": 340
+}

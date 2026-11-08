@@ -1,0 +1,685 @@
+[
+  {
+    "tallerId": "TS-11",
+    "nombre": "Artículos de Piel Taray S.L. (ficticio)",
+    "ciudad": "Elche",
+    "nivel": "critico",
+    "puntos": 5.62,
+    "categoria": "sospecha_fundada",
+    "senales": [
+      {
+        "id": "HORAS_NO_REGISTRADAS",
+        "indicadorOIT": "horas extra excesivas",
+        "severidad": 3,
+        "evidencia": 0.9,
+        "fuentes": [
+          "registro de jornada",
+          "entrevistas confidenciales"
+        ],
+        "contradiccion": true,
+        "hallazgo": "El registro dice 39,6 h/semana; en las entrevistas, 48,4 h."
+      },
+      {
+        "id": "HORAS_EXTRA",
+        "indicadorOIT": "horas extra excesivas + retención de salario (parcial)",
+        "severidad": 3,
+        "evidencia": 0.7,
+        "fuentes": [
+          "entrevistas confidenciales"
+        ],
+        "contradiccion": false,
+        "hallazgo": "10,3 h extra a la semana; solo se paga el 17 %."
+      }
+    ],
+    "exposicion": 0.25,
+    "presionComercial": true,
+    "verificacion": [
+      "Cruzar registro de jornada, consumo eléctrico por franjas y entrevistas confidenciales fuera del taller.",
+      "Revisar nóminas de horas extra y su voluntariedad en entrevistas privadas."
+    ],
+    "remediacion": [
+      {
+        "accion": "Registro de jornada fiable y pago de las horas no registradas",
+        "responsable": "Proveedor (verifica el revisor)",
+        "plazo": "30 días",
+        "criterio": "Diferencia registro-entrevistas < 2 h/semana en la siguiente visita"
+      },
+      {
+        "accion": "Limitar horas extra, hacerlas voluntarias y pagarlas",
+        "responsable": "Proveedor; la marca revisa sus plazos",
+        "plazo": "30 días",
+        "criterio": "≤ 4 h extra/semana y 100 % pagadas"
+      },
+      {
+        "accion": "Revisar plazos, volumen y precio por pieza de la marca (posible causa raíz)",
+        "responsable": "Compras y cumplimiento de la marca",
+        "plazo": "Próximo pedido",
+        "criterio": "Plazo y volumen compatibles con la capacidad en alta"
+      }
+    ]
+  },
+  {
+    "tallerId": "TS-10",
+    "nombre": "Manufacturas Retama S.L. (ficticio)",
+    "ciudad": "Elda",
+    "nivel": "critico",
+    "puntos": 5.32,
+    "categoria": "sospecha_fundada",
+    "senales": [
+      {
+        "id": "HORAS_NO_REGISTRADAS",
+        "indicadorOIT": "horas extra excesivas",
+        "severidad": 3,
+        "evidencia": 0.9,
+        "fuentes": [
+          "registro de jornada",
+          "entrevistas confidenciales"
+        ],
+        "contradiccion": true,
+        "hallazgo": "El registro dice 40,6 h/semana; en las entrevistas, 54,1 h."
+      },
+      {
+        "id": "HORAS_EXTRA",
+        "indicadorOIT": "horas extra excesivas + retención de salario (parcial)",
+        "severidad": 3,
+        "evidencia": 0.7,
+        "fuentes": [
+          "entrevistas confidenciales"
+        ],
+        "contradiccion": false,
+        "hallazgo": "15,1 h extra a la semana; solo se paga el 26 %."
+      }
+    ],
+    "exposicion": 0.13,
+    "presionComercial": true,
+    "verificacion": [
+      "Cruzar registro de jornada, consumo eléctrico por franjas y entrevistas confidenciales fuera del taller.",
+      "Revisar nóminas de horas extra y su voluntariedad en entrevistas privadas."
+    ],
+    "remediacion": [
+      {
+        "accion": "Registro de jornada fiable y pago de las horas no registradas",
+        "responsable": "Proveedor (verifica el revisor)",
+        "plazo": "30 días",
+        "criterio": "Diferencia registro-entrevistas < 2 h/semana en la siguiente visita"
+      },
+      {
+        "accion": "Limitar horas extra, hacerlas voluntarias y pagarlas",
+        "responsable": "Proveedor; la marca revisa sus plazos",
+        "plazo": "30 días",
+        "criterio": "≤ 4 h extra/semana y 100 % pagadas"
+      },
+      {
+        "accion": "Revisar plazos, volumen y precio por pieza de la marca (posible causa raíz)",
+        "responsable": "Compras y cumplimiento de la marca",
+        "plazo": "Próximo pedido",
+        "criterio": "Plazo y volumen compatibles con la capacidad en alta"
+      }
+    ]
+  },
+  {
+    "tallerId": "TS-07",
+    "nombre": "Taller de Piel Abubilla S.L. (ficticio)",
+    "ciudad": "Petrer",
+    "nivel": "alto",
+    "puntos": 4.21,
+    "categoria": "sospecha_fundada",
+    "senales": [
+      {
+        "id": "CAPACIDAD",
+        "indicadorOIT": "horas extra excesivas / subcontratación oculta (posible)",
+        "severidad": 3,
+        "evidencia": 1,
+        "fuentes": [
+          "pedidos de la marca",
+          "informe de plantilla (Seguridad Social)"
+        ],
+        "contradiccion": true,
+        "hallazgo": "Los pedidos necesitan 1,33× las horas de alta: producción incompatible con la plantilla."
+      },
+      {
+        "id": "SIN_CANAL",
+        "indicadorOIT": "—",
+        "severidad": 1,
+        "evidencia": 0.6,
+        "fuentes": [
+          "revisor"
+        ],
+        "contradiccion": false,
+        "hallazgo": "Canal de quejas inexistente."
+      }
+    ],
+    "exposicion": 0.25,
+    "presionComercial": true,
+    "verificacion": [
+      "Mapa completo de subcontratas y visita sin aviso para contar a quién trabaja (con y sin alta).",
+      "Instalar un canal de quejas externo, anónimo y en el idioma de la plantilla."
+    ],
+    "remediacion": [
+      {
+        "accion": "Declarar subcontratas y ajustar plazos o pedidos dentro del límite pactado (sin cortar de golpe)",
+        "responsable": "Proveedor + compras de la marca",
+        "plazo": "10 días",
+        "criterio": "Ratio ≤ 1,10 dos meses seguidos con las mismas personas de alta"
+      },
+      {
+        "accion": "Canal de quejas externo y anónimo",
+        "responsable": "Revisor",
+        "plazo": "30 días",
+        "criterio": "Canal activo y conocido por la plantilla"
+      },
+      {
+        "accion": "Revisar plazos, volumen y precio por pieza de la marca (posible causa raíz)",
+        "responsable": "Compras y cumplimiento de la marca",
+        "plazo": "Próximo pedido",
+        "criterio": "Plazo y volumen compatibles con la capacidad en alta"
+      }
+    ]
+  },
+  {
+    "tallerId": "TS-08",
+    "nombre": "Peletería Cárabo S.L. (ficticio)",
+    "ciudad": "Igualada",
+    "nivel": "alto",
+    "puntos": 4.08,
+    "categoria": "sospecha_fundada",
+    "senales": [
+      {
+        "id": "SALARIO_RETENIDO",
+        "indicadorOIT": "retención de salario",
+        "severidad": 4,
+        "evidencia": 0.9,
+        "fuentes": [
+          "nóminas y pagos",
+          "entrevistas confidenciales"
+        ],
+        "contradiccion": false,
+        "hallazgo": "pagos con 35 días de retraso; deducciones del 27,3 %; salario mediano (1037 €) bajo convenio (1400 €)."
+      }
+    ],
+    "exposicion": 0.83,
+    "presionComercial": false,
+    "verificacion": [
+      "Revisar extractos de pago y deducciones con el revisor; entrevistar sobre deudas y adelantos."
+    ],
+    "remediacion": [
+      {
+        "accion": "Pagar los atrasos y devolver deducciones indebidas",
+        "responsable": "Proveedor (verifica el revisor)",
+        "plazo": "15 días",
+        "criterio": "0 días de retraso y deducciones < 3 % en dos nóminas seguidas"
+      }
+    ]
+  },
+  {
+    "tallerId": "TS-24",
+    "nombre": "Taller de Piel Majuelo S.L. (ficticio)",
+    "ciudad": "Ubrique",
+    "nivel": "alto",
+    "puntos": 3.6,
+    "categoria": "sospecha_fundada",
+    "senales": [
+      {
+        "id": "CAPACIDAD",
+        "indicadorOIT": "horas extra excesivas / subcontratación oculta (posible)",
+        "severidad": 3,
+        "evidencia": 1,
+        "fuentes": [
+          "pedidos de la marca",
+          "informe de plantilla (Seguridad Social)"
+        ],
+        "contradiccion": true,
+        "hallazgo": "Los pedidos necesitan 1,48× las horas de alta: producción incompatible con la plantilla."
+      }
+    ],
+    "exposicion": 1,
+    "presionComercial": true,
+    "verificacion": [
+      "Mapa completo de subcontratas y visita sin aviso para contar a quién trabaja (con y sin alta)."
+    ],
+    "remediacion": [
+      {
+        "accion": "Declarar subcontratas y ajustar plazos o pedidos dentro del límite pactado (sin cortar de golpe)",
+        "responsable": "Proveedor + compras de la marca",
+        "plazo": "10 días",
+        "criterio": "Ratio ≤ 1,10 dos meses seguidos con las mismas personas de alta"
+      },
+      {
+        "accion": "Revisar plazos, volumen y precio por pieza de la marca (posible causa raíz)",
+        "responsable": "Compras y cumplimiento de la marca",
+        "plazo": "Próximo pedido",
+        "criterio": "Plazo y volumen compatibles con la capacidad en alta"
+      }
+    ]
+  },
+  {
+    "tallerId": "TS-14",
+    "nombre": "Marroquinería Arrayán S.L. (ficticio)",
+    "ciudad": "Igualada",
+    "nivel": "alto",
+    "puntos": 3.18,
+    "categoria": "sospecha_fundada",
+    "senales": [
+      {
+        "id": "CAPACIDAD",
+        "indicadorOIT": "horas extra excesivas / subcontratación oculta (posible)",
+        "severidad": 3,
+        "evidencia": 1,
+        "fuentes": [
+          "pedidos de la marca",
+          "informe de plantilla (Seguridad Social)"
+        ],
+        "contradiccion": true,
+        "hallazgo": "Los pedidos necesitan 1,44× las horas de alta: producción incompatible con la plantilla."
+      }
+    ],
+    "exposicion": 0.65,
+    "presionComercial": true,
+    "verificacion": [
+      "Mapa completo de subcontratas y visita sin aviso para contar a quién trabaja (con y sin alta)."
+    ],
+    "remediacion": [
+      {
+        "accion": "Declarar subcontratas y ajustar plazos o pedidos dentro del límite pactado (sin cortar de golpe)",
+        "responsable": "Proveedor + compras de la marca",
+        "plazo": "10 días",
+        "criterio": "Ratio ≤ 1,10 dos meses seguidos con las mismas personas de alta"
+      },
+      {
+        "accion": "Revisar plazos, volumen y precio por pieza de la marca (posible causa raíz)",
+        "responsable": "Compras y cumplimiento de la marca",
+        "plazo": "Próximo pedido",
+        "criterio": "Plazo y volumen compatibles con la capacidad en alta"
+      }
+    ]
+  },
+  {
+    "tallerId": "TS-19",
+    "nombre": "Manufacturas Aliso S.L. (ficticio)",
+    "ciudad": "Ubrique",
+    "nivel": "alto",
+    "puntos": 3.01,
+    "categoria": "sospecha_fundada",
+    "senales": [
+      {
+        "id": "SALARIO_RETENIDO",
+        "indicadorOIT": "retención de salario",
+        "severidad": 4,
+        "evidencia": 0.9,
+        "fuentes": [
+          "nóminas y pagos",
+          "entrevistas confidenciales"
+        ],
+        "contradiccion": false,
+        "hallazgo": "pagos con 42 días de retraso; deducciones del 22 %; salario mediano (1129 €) bajo convenio (1400 €)."
+      }
+    ],
+    "exposicion": 0.09,
+    "presionComercial": false,
+    "verificacion": [
+      "Revisar extractos de pago y deducciones con el revisor; entrevistar sobre deudas y adelantos."
+    ],
+    "remediacion": [
+      {
+        "accion": "Pagar los atrasos y devolver deducciones indebidas",
+        "responsable": "Proveedor (verifica el revisor)",
+        "plazo": "15 días",
+        "criterio": "0 días de retraso y deducciones < 3 % en dos nóminas seguidas"
+      }
+    ]
+  },
+  {
+    "tallerId": "TS-03",
+    "nombre": "Artículos de Piel Aladierno S.L. (ficticio)",
+    "ciudad": "Petrer",
+    "nivel": "medio",
+    "puntos": 1.02,
+    "categoria": "sospecha_fundada",
+    "senales": [
+      {
+        "id": "SILENCIO_ROTACION",
+        "indicadorOIT": "intimidación / abuso de vulnerabilidad (posible)",
+        "severidad": 2,
+        "evidencia": 0.6,
+        "fuentes": [
+          "registro de quejas",
+          "rotación de plantilla"
+        ],
+        "contradiccion": true,
+        "hallazgo": "Cero quejas con una rotación del 69 % al año y canal inexistente."
+      }
+    ],
+    "exposicion": 0.13,
+    "presionComercial": false,
+    "verificacion": [
+      "Entrevistas confidenciales a personas que se fueron y a las que siguen; probar el canal de quejas."
+    ],
+    "remediacion": [
+      {
+        "accion": "Canal de quejas externo y protección frente a represalias",
+        "responsable": "Revisor + proveedor",
+        "plazo": "30 días",
+        "criterio": "Canal en uso y rotación a la baja en el siguiente trimestre"
+      }
+    ]
+  },
+  {
+    "tallerId": "TS-02",
+    "nombre": "Peletería Acebuche S.L. (ficticio)",
+    "ciudad": "Igualada",
+    "nivel": "medio",
+    "puntos": 1,
+    "categoria": "sospecha_fundada",
+    "senales": [
+      {
+        "id": "SILENCIO_ROTACION",
+        "indicadorOIT": "intimidación / abuso de vulnerabilidad (posible)",
+        "severidad": 2,
+        "evidencia": 0.6,
+        "fuentes": [
+          "registro de quejas",
+          "rotación de plantilla"
+        ],
+        "contradiccion": true,
+        "hallazgo": "Cero quejas con una rotación del 77 % al año y canal inaccesible."
+      }
+    ],
+    "exposicion": 0.08,
+    "presionComercial": false,
+    "verificacion": [
+      "Entrevistas confidenciales a personas que se fueron y a las que siguen; probar el canal de quejas."
+    ],
+    "remediacion": [
+      {
+        "accion": "Canal de quejas externo y protección frente a represalias",
+        "responsable": "Revisor + proveedor",
+        "plazo": "30 días",
+        "criterio": "Canal en uso y rotación a la baja en el siguiente trimestre"
+      }
+    ]
+  },
+  {
+    "tallerId": "TS-13",
+    "nombre": "Artículos de Piel Alcaudón S.L. (ficticio)",
+    "ciudad": "Almansa",
+    "nivel": "medio",
+    "puntos": 0.86,
+    "categoria": "sin_informacion_suficiente",
+    "senales": [
+      {
+        "id": "OPACIDAD",
+        "indicadorOIT": "—",
+        "severidad": 2,
+        "evidencia": 0.5,
+        "fuentes": [
+          "informe de plantilla"
+        ],
+        "contradiccion": false,
+        "hallazgo": "Falta el informe de plantilla de algún mes: no se puede comprobar la capacidad."
+      }
+    ],
+    "exposicion": 0.15,
+    "presionComercial": false,
+    "verificacion": [
+      "Pedir los datos que faltan con plazo; sin ellos, visita del revisor."
+    ],
+    "remediacion": [
+      {
+        "accion": "Entregar los informes que faltan",
+        "responsable": "Proveedor y su gestoría",
+        "plazo": "10 días",
+        "criterio": "Datos completos de la ventana"
+      }
+    ]
+  },
+  {
+    "tallerId": "TS-05",
+    "nombre": "Artículos de Piel Retama S.L. (ficticio)",
+    "ciudad": "Elche",
+    "nivel": "medio",
+    "puntos": 0.82,
+    "categoria": "sin_informacion_suficiente",
+    "senales": [
+      {
+        "id": "OPACIDAD",
+        "indicadorOIT": "—",
+        "severidad": 2,
+        "evidencia": 0.5,
+        "fuentes": [
+          "informe de plantilla"
+        ],
+        "contradiccion": false,
+        "hallazgo": "Falta el informe de plantilla de algún mes: no se puede comprobar la capacidad."
+      }
+    ],
+    "exposicion": 0.04,
+    "presionComercial": false,
+    "verificacion": [
+      "Pedir los datos que faltan con plazo; sin ellos, visita del revisor."
+    ],
+    "remediacion": [
+      {
+        "accion": "Entregar los informes que faltan",
+        "responsable": "Proveedor y su gestoría",
+        "plazo": "10 días",
+        "criterio": "Datos completos de la ventana"
+      }
+    ]
+  },
+  {
+    "tallerId": "TS-18",
+    "nombre": "Marroquinería Fresno S.L. (ficticio)",
+    "ciudad": "Ubrique",
+    "nivel": "medio",
+    "puntos": 0.57,
+    "categoria": "riesgo_potencial",
+    "senales": [
+      {
+        "id": "SIN_CANAL",
+        "indicadorOIT": "—",
+        "severidad": 1,
+        "evidencia": 0.6,
+        "fuentes": [
+          "revisor"
+        ],
+        "contradiccion": false,
+        "hallazgo": "Canal de quejas inexistente."
+      }
+    ],
+    "exposicion": 0.37,
+    "presionComercial": false,
+    "verificacion": [
+      "Instalar un canal de quejas externo, anónimo y en el idioma de la plantilla."
+    ],
+    "remediacion": [
+      {
+        "accion": "Canal de quejas externo y anónimo",
+        "responsable": "Revisor",
+        "plazo": "30 días",
+        "criterio": "Canal activo y conocido por la plantilla"
+      }
+    ]
+  },
+  {
+    "tallerId": "TS-01",
+    "nombre": "Marroquinería Cárabo S.L. (ficticio)",
+    "ciudad": "Almansa",
+    "nivel": "bajo",
+    "puntos": 0,
+    "categoria": "sin_senales",
+    "senales": [],
+    "exposicion": 0.03,
+    "presionComercial": false,
+    "verificacion": [],
+    "remediacion": []
+  },
+  {
+    "tallerId": "TS-04",
+    "nombre": "Peletería Escaramujo S.L. (ficticio)",
+    "ciudad": "Petrer",
+    "nivel": "bajo",
+    "puntos": 0,
+    "categoria": "sin_senales",
+    "senales": [],
+    "exposicion": 0.1,
+    "presionComercial": false,
+    "verificacion": [],
+    "remediacion": []
+  },
+  {
+    "tallerId": "TS-06",
+    "nombre": "Taller de Piel Rebollo S.L. (ficticio)",
+    "ciudad": "Almansa",
+    "nivel": "bajo",
+    "puntos": 0,
+    "categoria": "sin_senales",
+    "senales": [],
+    "exposicion": 0.39,
+    "presionComercial": false,
+    "verificacion": [],
+    "remediacion": []
+  },
+  {
+    "tallerId": "TS-09",
+    "nombre": "Artículos de Piel Aliso S.L. (ficticio)",
+    "ciudad": "Elda",
+    "nivel": "bajo",
+    "puntos": 0,
+    "categoria": "sin_senales",
+    "senales": [],
+    "exposicion": 0.42,
+    "presionComercial": false,
+    "verificacion": [],
+    "remediacion": []
+  },
+  {
+    "tallerId": "TS-12",
+    "nombre": "Peletería Abubilla S.L. (ficticio)",
+    "ciudad": "Ubrique",
+    "nivel": "bajo",
+    "puntos": 0,
+    "categoria": "sin_senales",
+    "senales": [],
+    "exposicion": 0.42,
+    "presionComercial": false,
+    "verificacion": [],
+    "remediacion": []
+  },
+  {
+    "tallerId": "TS-15",
+    "nombre": "Marroquinería Jara S.L. (ficticio)",
+    "ciudad": "Ubrique",
+    "nivel": "bajo",
+    "puntos": 0,
+    "categoria": "sin_senales",
+    "senales": [],
+    "exposicion": 0.19,
+    "presionComercial": false,
+    "verificacion": [],
+    "remediacion": []
+  },
+  {
+    "tallerId": "TS-16",
+    "nombre": "Marroquinería Cornicabra S.L. (ficticio)",
+    "ciudad": "Petrer",
+    "nivel": "bajo",
+    "puntos": 0,
+    "categoria": "sin_senales",
+    "senales": [],
+    "exposicion": 0.03,
+    "presionComercial": false,
+    "verificacion": [],
+    "remediacion": []
+  },
+  {
+    "tallerId": "TS-17",
+    "nombre": "Peletería Taray S.L. (ficticio)",
+    "ciudad": "Elda",
+    "nivel": "bajo",
+    "puntos": 0,
+    "categoria": "sin_senales",
+    "senales": [],
+    "exposicion": 0.04,
+    "presionComercial": false,
+    "verificacion": [],
+    "remediacion": []
+  },
+  {
+    "tallerId": "TS-20",
+    "nombre": "Artículos de Piel Jara S.L. (ficticio)",
+    "ciudad": "Petrer",
+    "nivel": "bajo",
+    "puntos": 0,
+    "categoria": "sin_senales",
+    "senales": [],
+    "exposicion": 0.18,
+    "presionComercial": false,
+    "verificacion": [],
+    "remediacion": []
+  },
+  {
+    "tallerId": "TS-21",
+    "nombre": "Peletería Madroño S.L. (ficticio)",
+    "ciudad": "Petrer",
+    "nivel": "bajo",
+    "puntos": 0,
+    "categoria": "sin_senales",
+    "senales": [],
+    "exposicion": 0.03,
+    "presionComercial": false,
+    "verificacion": [],
+    "remediacion": []
+  },
+  {
+    "tallerId": "TS-22",
+    "nombre": "Manufacturas Cornicabra S.L. (ficticio)",
+    "ciudad": "Arnedo",
+    "nivel": "bajo",
+    "puntos": 0,
+    "categoria": "sin_senales",
+    "senales": [],
+    "exposicion": 0.1,
+    "presionComercial": false,
+    "verificacion": [],
+    "remediacion": []
+  },
+  {
+    "tallerId": "TS-23",
+    "nombre": "Artículos de Piel Brezo S.L. (ficticio)",
+    "ciudad": "Arnedo",
+    "nivel": "bajo",
+    "puntos": 0,
+    "categoria": "sin_senales",
+    "senales": [],
+    "exposicion": 0.1,
+    "presionComercial": false,
+    "verificacion": [],
+    "remediacion": []
+  },
+  {
+    "tallerId": "TS-25",
+    "nombre": "Manufacturas Quejigo S.L. (ficticio)",
+    "ciudad": "Valverde del Camino",
+    "nivel": "bajo",
+    "puntos": 0,
+    "categoria": "sin_senales",
+    "senales": [],
+    "exposicion": 0.08,
+    "presionComercial": false,
+    "verificacion": [],
+    "remediacion": []
+  },
+  {
+    "tallerId": "TS-26",
+    "nombre": "Marroquinería Sabina S.L. (ficticio)",
+    "ciudad": "Elche",
+    "nivel": "bajo",
+    "puntos": 0,
+    "categoria": "sin_senales",
+    "senales": [],
+    "exposicion": 0.34,
+    "presionComercial": false,
+    "verificacion": [],
+    "remediacion": []
+  }
+]

@@ -34,7 +34,8 @@ export type CodigoIncidencia =
   | "TALLER_MICRO"
   | "DURC_CADUCADO"
   | "JORNADA_FUERA_RANGO"
-  | "PLANTILLA_INCOHERENTE";
+  | "PLANTILLA_INCOHERENTE"
+  | "MUESTRA_INSUFICIENTE";
 
 export type Gravedad = "bloqueante" | "aviso" | "info";
 
@@ -87,6 +88,14 @@ export const CABECERAS = {
     "asseco_vigente", "consulente", "fecha_emision",
   ],
   cuota_facturacion: ["taller_id", "marca_id", "periodo", "cuota_pct", "fuente"],
+  // ---- Muestra laboral: agregados por taller y trimestre que entrega el REVISOR independiente (nunca datos por persona) ----
+  salarios_horas: [
+    "taller_id", "periodo", "personas_entrevistadas", "horas_semana_registro", "horas_semana_entrevistas", "horas_extra_semana",
+    "pct_horas_extra_pagadas", "salario_mediano_mes_eur", "salario_convenio_mes_eur", "dias_retraso_pago", "pct_deducciones",
+  ],
+  voz_quejas: [
+    "taller_id", "periodo", "canal_quejas", "quejas_recibidas", "quejas_resueltas", "rotacion_anual_pct", "represalias_reportadas",
+  ],
 } as const;
 
 export type NombreArchivo = keyof typeof CABECERAS;
@@ -97,6 +106,8 @@ export const ARCHIVO: Record<NombreArchivo, string> = {
   informe_plantilla_es: "informe_plantilla_es.csv",
   lul_agregado_it: "lul_agregado_it.csv",
   cuota_facturacion: "cuota_facturacion.csv",
+  salarios_horas: "salarios_horas.csv",
+  voz_quejas: "voz_quejas.csv",
 };
 
 export type Convenio = "textil" | "marroquineria";
@@ -129,7 +140,14 @@ export type Arquetipo =
   | "rectificacion"
   | "minutos_rebajados"
   | "varias_marcas"
-  | "micro";
+  | "micro"
+  // ---- Muestra laboral (OIT): problemas que el score de capacidad NO ve ----
+  | "horas_extra_excesivas"
+  | "salario_retenido"
+  | "silencio_alta_rotacion";
+
+/** Arquetipos con un problema laboral que no es de capacidad (indicadores de la OIT). */
+export const ARQUETIPOS_LABORALES: readonly Arquetipo[] = ["horas_extra_excesivas", "salario_retenido", "silencio_alta_rotacion"];
 
 /** Arquetipos con un problema real de capacidad (lo que debería acabar en rojo). */
 export const ARQUETIPOS_PROBLEMA: readonly Arquetipo[] = [
@@ -144,6 +162,10 @@ export interface VerdadTaller {
   personasDeclaradas: number;  // lo que figura en el informe
   ratioRealMedio: number;      // carga real ÷ capacidad real declarada, media de la ventana evaluada
   nota: string;
+  /** Problema laboral de cualquier tipo (capacidad u OIT). Opcional para no romper N1. */
+  problemaLaboral?: boolean;
+  /** Indicadores de la OIT que simula este taller (p. ej. «retención de salario»). */
+  indicadoresOIT?: string[];
 }
 
 export interface Verdad {
@@ -199,6 +221,28 @@ export interface DatasetIngerido {
   indicadoresIT?: IndicadorIT[];
   /** Fuente de las horas de cada certificado del seed (clave: id del certificado). */
   fuenteHoras?: Record<string, "informe_es" | "lul_it">;
+  /** Muestra laboral (OIT): agregados del revisor por taller. */
+  laboral?: IndicadoresLaborales[];
+}
+
+/** Agregados por taller y periodo. null = sin dato o suprimido por privacidad (menos de 4 personas entrevistadas). */
+export interface IndicadoresLaborales {
+  tallerId: string;
+  periodo: string;
+  personasEntrevistadas: number;
+  horasSemanaRegistro: number | null;     // registro de jornada del taller (declarado)
+  horasSemanaEntrevistas: number | null;  // media de lo que cuentan las personas entrevistadas (revisor)
+  horasExtraSemana: number | null;
+  pctHorasExtraPagadas: number | null;
+  salarioMedianoMes: number | null;
+  salarioConvenioMes: number | null;
+  diasRetrasoPago: number | null;
+  pctDeducciones: number | null;
+  canalQuejas: "accesible" | "inaccesible" | "no_existe" | null;
+  quejasRecibidas: number | null;
+  quejasResueltas: number | null;
+  rotacionAnualPct: number | null;
+  represaliasReportadas: number | null;
 }
 
 // ---------- Score ----------

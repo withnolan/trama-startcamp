@@ -1,0 +1,4 @@
+taller_id;periodo;canal_quejas;quejas_recibidas;quejas_resueltas;rotacion_anual_pct;represalias_reportadas
+TS-01;2026-08/2026-10;accesible;2;2;12;0
+TS-02;2026-08/2026-10;accesible;0;0;10;
+TI-01;2026-08/2026-10;inaccesible;0;0;85;1

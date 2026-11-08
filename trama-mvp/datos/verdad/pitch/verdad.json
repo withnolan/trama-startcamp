@@ -6,183 +6,316 @@
       "tallerId": "TS-01",
       "arquetipo": "sano",
       "problemaReal": false,
-      "personasReales": 1,
-      "personasDeclaradas": 1,
-      "ratioRealMedio": 0.47,
-      "nota": "Carga dentro de su capacidad."
-    },
-    {
-      "tallerId": "TS-02",
-      "arquetipo": "sano",
-      "problemaReal": false,
-      "personasReales": 2,
-      "personasDeclaradas": 2,
-      "ratioRealMedio": 0.52,
-      "nota": "Carga dentro de su capacidad."
-    },
-    {
-      "tallerId": "TS-03",
-      "arquetipo": "subcontrata_oculta",
-      "problemaReal": true,
-      "personasReales": 4,
-      "personasDeclaradas": 4,
-      "ratioRealMedio": 1.04,
-      "nota": "El exceso de carga lo produce un taller no declarado que no aparece en ningún archivo."
-    },
-    {
-      "tallerId": "TS-04",
-      "arquetipo": "sano",
-      "problemaReal": false,
-      "personasReales": 4,
-      "personasDeclaradas": 4,
-      "ratioRealMedio": 0.66,
-      "nota": "Carga dentro de su capacidad."
-    },
-    {
-      "tallerId": "TS-05",
-      "arquetipo": "sano",
-      "problemaReal": false,
-      "personasReales": 7,
-      "personasDeclaradas": 7,
-      "ratioRealMedio": 0.56,
-      "nota": "Carga dentro de su capacidad."
-    },
-    {
-      "tallerId": "TS-06",
-      "arquetipo": "sano",
-      "problemaReal": false,
-      "personasReales": 32,
-      "personasDeclaradas": 32,
-      "ratioRealMedio": 0.72,
-      "nota": "Carga dentro de su capacidad."
-    },
-    {
-      "tallerId": "TS-07",
-      "arquetipo": "pico_legitimo",
-      "problemaReal": false,
-      "personasReales": 7,
-      "personasDeclaradas": 7,
-      "ratioRealMedio": 0.8,
-      "nota": "Un mes de pico dentro de la ventana; los demás meses, holgados."
-    },
-    {
-      "tallerId": "TS-08",
-      "arquetipo": "subcontrata_oculta",
-      "problemaReal": true,
-      "personasReales": 1,
-      "personasDeclaradas": 1,
-      "ratioRealMedio": 1.73,
-      "nota": "El exceso de carga lo produce un taller no declarado que no aparece en ningún archivo."
-    },
-    {
-      "tallerId": "TS-09",
-      "arquetipo": "informe_tardio_o_ausente",
-      "problemaReal": false,
-      "personasReales": 4,
-      "personasDeclaradas": 4,
-      "ratioRealMedio": 0.86,
-      "nota": "Carga sana, pero falta el informe de 2026-10."
-    },
-    {
-      "tallerId": "TS-10",
-      "arquetipo": "pico_legitimo",
-      "problemaReal": false,
-      "personasReales": 6,
-      "personasDeclaradas": 6,
-      "ratioRealMedio": 0.94,
-      "nota": "Un mes de pico dentro de la ventana; los demás meses, holgados."
-    },
-    {
-      "tallerId": "TS-11",
-      "arquetipo": "sano",
-      "problemaReal": false,
-      "personasReales": 45,
-      "personasDeclaradas": 45,
-      "ratioRealMedio": 0.61,
-      "nota": "Carga dentro de su capacidad."
-    },
-    {
-      "tallerId": "TS-12",
-      "arquetipo": "pico_legitimo",
-      "problemaReal": false,
-      "personasReales": 32,
-      "personasDeclaradas": 32,
-      "ratioRealMedio": 0.82,
-      "nota": "Un mes de pico dentro de la ventana; los demás meses, holgados."
-    },
-    {
-      "tallerId": "TS-13",
-      "arquetipo": "subcontrata_oculta",
-      "problemaReal": true,
-      "personasReales": 16,
-      "personasDeclaradas": 16,
-      "ratioRealMedio": 1.5,
-      "nota": "El exceso de carga lo produce un taller no declarado que no aparece en ningún archivo."
-    },
-    {
-      "tallerId": "TS-14",
-      "arquetipo": "informe_tardio_o_ausente",
-      "problemaReal": false,
-      "personasReales": 2,
-      "personasDeclaradas": 2,
-      "ratioRealMedio": 0.54,
-      "nota": "Carga sana, pero falta el informe de 2026-09 y 2026-10."
-    },
-    {
-      "tallerId": "TS-15",
-      "arquetipo": "sano",
-      "problemaReal": false,
-      "personasReales": 4,
-      "personasDeclaradas": 4,
-      "ratioRealMedio": 0.48,
-      "nota": "Carga dentro de su capacidad."
-    },
-    {
-      "tallerId": "TS-16",
-      "arquetipo": "sano",
-      "problemaReal": false,
+      "problemaLaboral": false,
+      "indicadoresOIT": [],
       "personasReales": 2,
       "personasDeclaradas": 2,
       "ratioRealMedio": 0.53,
       "nota": "Carga dentro de su capacidad."
     },
     {
+      "tallerId": "TS-02",
+      "arquetipo": "silencio_alta_rotacion",
+      "problemaReal": false,
+      "problemaLaboral": true,
+      "indicadoresOIT": [
+        "intimidación y amenazas (posible)",
+        "abuso de la vulnerabilidad (posible)"
+      ],
+      "personasReales": 6,
+      "personasDeclaradas": 6,
+      "ratioRealMedio": 0.48,
+      "nota": "Cero quejas con rotación del 60-120 % y canal inaccesible o inexistente."
+    },
+    {
+      "tallerId": "TS-03",
+      "arquetipo": "silencio_alta_rotacion",
+      "problemaReal": false,
+      "problemaLaboral": true,
+      "indicadoresOIT": [
+        "intimidación y amenazas (posible)",
+        "abuso de la vulnerabilidad (posible)"
+      ],
+      "personasReales": 5,
+      "personasDeclaradas": 5,
+      "ratioRealMedio": 0.85,
+      "nota": "Cero quejas con rotación del 60-120 % y canal inaccesible o inexistente."
+    },
+    {
+      "tallerId": "TS-04",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "problemaLaboral": false,
+      "indicadoresOIT": [],
+      "personasReales": 4,
+      "personasDeclaradas": 4,
+      "ratioRealMedio": 0.85,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-05",
+      "arquetipo": "informe_tardio_o_ausente",
+      "problemaReal": false,
+      "problemaLaboral": false,
+      "indicadoresOIT": [],
+      "personasReales": 2,
+      "personasDeclaradas": 2,
+      "ratioRealMedio": 0.72,
+      "nota": "Carga sana, pero falta el informe de 2026-09 y 2026-10."
+    },
+    {
+      "tallerId": "TS-06",
+      "arquetipo": "pico_legitimo",
+      "problemaReal": false,
+      "problemaLaboral": false,
+      "indicadoresOIT": [],
+      "personasReales": 17,
+      "personasDeclaradas": 17,
+      "ratioRealMedio": 0.85,
+      "nota": "Un mes de pico dentro de la ventana; los demás meses, holgados."
+    },
+    {
+      "tallerId": "TS-07",
+      "arquetipo": "subcontrata_oculta",
+      "problemaReal": true,
+      "problemaLaboral": true,
+      "indicadoresOIT": [
+        "horas extra excesivas (posible)",
+        "condiciones de trabajo abusivas (posible)"
+      ],
+      "personasReales": 6,
+      "personasDeclaradas": 6,
+      "ratioRealMedio": 1.33,
+      "nota": "El exceso de carga lo produce un taller no declarado que no aparece en ningún archivo."
+    },
+    {
+      "tallerId": "TS-08",
+      "arquetipo": "salario_retenido",
+      "problemaReal": false,
+      "problemaLaboral": true,
+      "indicadoresOIT": [
+        "retención de salario",
+        "servidumbre por deudas (posible)"
+      ],
+      "personasReales": 46,
+      "personasDeclaradas": 46,
+      "ratioRealMedio": 0.62,
+      "nota": "Pagos con 30-75 días de retraso, deducciones altas y salario mediano bajo convenio."
+    },
+    {
+      "tallerId": "TS-09",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "problemaLaboral": false,
+      "indicadoresOIT": [],
+      "personasReales": 15,
+      "personasDeclaradas": 15,
+      "ratioRealMedio": 0.88,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-10",
+      "arquetipo": "horas_extra_excesivas",
+      "problemaReal": false,
+      "problemaLaboral": true,
+      "indicadoresOIT": [
+        "horas extra excesivas",
+        "condiciones de trabajo y de vida abusivas"
+      ],
+      "personasReales": 5,
+      "personasDeclaradas": 5,
+      "ratioRealMedio": 0.83,
+      "nota": "El registro de jornada dice 40 h; en las entrevistas cuentan 10-18 h extra a la semana, mal pagadas."
+    },
+    {
+      "tallerId": "TS-11",
+      "arquetipo": "horas_extra_excesivas",
+      "problemaReal": false,
+      "problemaLaboral": true,
+      "indicadoresOIT": [
+        "horas extra excesivas",
+        "condiciones de trabajo y de vida abusivas"
+      ],
+      "personasReales": 11,
+      "personasDeclaradas": 11,
+      "ratioRealMedio": 0.83,
+      "nota": "El registro de jornada dice 40 h; en las entrevistas cuentan 10-18 h extra a la semana, mal pagadas."
+    },
+    {
+      "tallerId": "TS-12",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "problemaLaboral": false,
+      "indicadoresOIT": [],
+      "personasReales": 25,
+      "personasDeclaradas": 25,
+      "ratioRealMedio": 0.6,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-13",
+      "arquetipo": "informe_tardio_o_ausente",
+      "problemaReal": false,
+      "problemaLaboral": false,
+      "indicadoresOIT": [],
+      "personasReales": 8,
+      "personasDeclaradas": 8,
+      "ratioRealMedio": 0.66,
+      "nota": "Carga sana, pero falta el informe de 2026-09 y 2026-10."
+    },
+    {
+      "tallerId": "TS-14",
+      "arquetipo": "subcontrata_oculta",
+      "problemaReal": true,
+      "problemaLaboral": true,
+      "indicadoresOIT": [
+        "horas extra excesivas (posible)",
+        "condiciones de trabajo abusivas (posible)"
+      ],
+      "personasReales": 15,
+      "personasDeclaradas": 15,
+      "ratioRealMedio": 1.44,
+      "nota": "El exceso de carga lo produce un taller no declarado que no aparece en ningún archivo."
+    },
+    {
+      "tallerId": "TS-15",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "problemaLaboral": false,
+      "indicadoresOIT": [],
+      "personasReales": 11,
+      "personasDeclaradas": 11,
+      "ratioRealMedio": 0.57,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-16",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "problemaLaboral": false,
+      "indicadoresOIT": [],
+      "personasReales": 2,
+      "personasDeclaradas": 2,
+      "ratioRealMedio": 0.52,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
       "tallerId": "TS-17",
       "arquetipo": "sano",
       "problemaReal": false,
-      "personasReales": 3,
-      "personasDeclaradas": 3,
-      "ratioRealMedio": 0.47,
+      "problemaLaboral": false,
+      "indicadoresOIT": [],
+      "personasReales": 2,
+      "personasDeclaradas": 2,
+      "ratioRealMedio": 0.74,
       "nota": "Carga dentro de su capacidad."
     },
     {
       "tallerId": "TS-18",
       "arquetipo": "sano",
       "problemaReal": false,
-      "personasReales": 6,
-      "personasDeclaradas": 6,
-      "ratioRealMedio": 0.74,
+      "problemaLaboral": false,
+      "indicadoresOIT": [],
+      "personasReales": 17,
+      "personasDeclaradas": 17,
+      "ratioRealMedio": 0.77,
       "nota": "Carga dentro de su capacidad."
     },
     {
       "tallerId": "TS-19",
-      "arquetipo": "sano",
+      "arquetipo": "salario_retenido",
       "problemaReal": false,
-      "personasReales": 4,
-      "personasDeclaradas": 4,
-      "ratioRealMedio": 0.47,
-      "nota": "Carga dentro de su capacidad."
+      "problemaLaboral": true,
+      "indicadoresOIT": [
+        "retención de salario",
+        "servidumbre por deudas (posible)"
+      ],
+      "personasReales": 5,
+      "personasDeclaradas": 5,
+      "ratioRealMedio": 0.6,
+      "nota": "Pagos con 30-75 días de retraso, deducciones altas y salario mediano bajo convenio."
     },
     {
       "tallerId": "TS-20",
+      "arquetipo": "pico_legitimo",
+      "problemaReal": false,
+      "problemaLaboral": false,
+      "indicadoresOIT": [],
+      "personasReales": 7,
+      "personasDeclaradas": 7,
+      "ratioRealMedio": 0.86,
+      "nota": "Un mes de pico dentro de la ventana; los demás meses, holgados."
+    },
+    {
+      "tallerId": "TS-21",
       "arquetipo": "sano",
       "problemaReal": false,
+      "problemaLaboral": false,
+      "indicadoresOIT": [],
+      "personasReales": 2,
+      "personasDeclaradas": 2,
+      "ratioRealMedio": 0.45,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-22",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "problemaLaboral": false,
+      "indicadoresOIT": [],
+      "personasReales": 5,
+      "personasDeclaradas": 5,
+      "ratioRealMedio": 0.66,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-23",
+      "arquetipo": "pico_legitimo",
+      "problemaReal": false,
+      "problemaLaboral": false,
+      "indicadoresOIT": [],
       "personasReales": 4,
       "personasDeclaradas": 4,
-      "ratioRealMedio": 0.64,
+      "ratioRealMedio": 0.79,
+      "nota": "Un mes de pico dentro de la ventana; los demás meses, holgados."
+    },
+    {
+      "tallerId": "TS-24",
+      "arquetipo": "subcontrata_oculta",
+      "problemaReal": true,
+      "problemaLaboral": true,
+      "indicadoresOIT": [
+        "horas extra excesivas (posible)",
+        "condiciones de trabajo abusivas (posible)"
+      ],
+      "personasReales": 23,
+      "personasDeclaradas": 23,
+      "ratioRealMedio": 1.48,
+      "nota": "El exceso de carga lo produce un taller no declarado que no aparece en ningún archivo."
+    },
+    {
+      "tallerId": "TS-25",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "problemaLaboral": false,
+      "indicadoresOIT": [],
+      "personasReales": 4,
+      "personasDeclaradas": 4,
+      "ratioRealMedio": 0.69,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-26",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "problemaLaboral": false,
+      "indicadoresOIT": [],
+      "personasReales": 21,
+      "personasDeclaradas": 21,
+      "ratioRealMedio": 0.58,
       "nota": "Carga dentro de su capacidad."
     }
   ],
-  "versionGenerador": "n1.0",
+  "versionGenerador": "n1.1-laboral",
   "parametros": "capturado-2026-11-08"
 }

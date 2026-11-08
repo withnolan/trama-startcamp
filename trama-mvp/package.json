@@ -14,9 +14,10 @@
     "datos:generar": "node --experimental-strip-types --no-warnings scripts/datos/generar.ts",
     "datos:ingerir": "node --experimental-strip-types --no-warnings scripts/datos/ingerir.ts",
     "datos:evaluar": "node --experimental-strip-types --no-warnings scripts/datos/evaluar.ts",
-    "datos:todo": "npm run datos:generar -- --escenario pitch --semilla 2026 && npm run datos:ingerir -- --escenario pitch && npm run datos:evaluar -- --escenario pitch",
+    "datos:todo": "npm run datos:generar -- --escenario pitch --semilla 2026 && npm run datos:ingerir -- --escenario pitch && npm run datos:evaluar -- --escenario pitch && npm run datos:riesgo -- --escenario pitch --semillas 20",
     "datos:capturar": "node --experimental-strip-types --no-warnings scripts/datos/capturar-publicos.ts",
-    "datos:evaluar-semillas": "node --experimental-strip-types --no-warnings scripts/datos/evaluar-semillas.ts"
+    "datos:evaluar-semillas": "node --experimental-strip-types --no-warnings scripts/datos/evaluar-semillas.ts",
+    "datos:riesgo": "node --experimental-strip-types --no-warnings scripts/datos/riesgo.ts"
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.3.0",

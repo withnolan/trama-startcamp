@@ -1,0 +1,4 @@
+taller_id;periodo;personas_entrevistadas;horas_semana_registro;horas_semana_entrevistas;horas_extra_semana;pct_horas_extra_pagadas;salario_mediano_mes_eur;salario_convenio_mes_eur;dias_retraso_pago;pct_deducciones
+TS-01;2026-08/2026-10;6;40;41.5;2;95;1550;1400;2;1.5
+TS-02;2026-08/2026-10;3;40;;;;;1400;0;
+TI-01;2026-08/2026-10;5;40;54;14;30;1380;1400;45;18

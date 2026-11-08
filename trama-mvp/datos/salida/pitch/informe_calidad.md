@@ -4,20 +4,20 @@
 
 ## Resumen
 
-- Estado de la ingesta: **OK** · mes de evaluación 2026-10 · hash de los archivos crudos: `5565b588eee6648d…`
-- Archivos: talleres.csv (20 filas) · escandallo.csv (5 filas) · pedidos_erp.csv (228 filas) · informe_plantilla_es.csv (117 filas)
-- Talleres: 20 (20 ES · 0 IT · 0 subcontratas declaradas)
-- Pedidos de la marca: 228 (0 subencargos) · piezas: 5 · versiones de escandallo: 5
-- Informes de horas: 117 (117 informes de plantilla ES · 0 LUL IT) · cuotas de facturación de la marca: 0
-- Incidencias: 0 bloqueantes (filas descartadas) · 2 avisos · 11 informativas
-- Completitud de informes: 117 de 120 taller·mes (98 %)
+- Estado de la ingesta: **OK** · mes de evaluación 2026-10 · hash de los archivos crudos: `ed023a765d0dec0e…`
+- Archivos: talleres.csv (26 filas) · escandallo.csv (5 filas) · pedidos_erp.csv (294 filas) · informe_plantilla_es.csv (152 filas)
+- Talleres: 26 (26 ES · 0 IT · 0 subcontratas declaradas)
+- Pedidos de la marca: 294 (0 subencargos) · piezas: 5 · versiones de escandallo: 5
+- Informes de horas: 152 (152 informes de plantilla ES · 0 LUL IT) · cuotas de facturación de la marca: 0
+- Incidencias: 0 bloqueantes (filas descartadas) · 2 avisos · 10 informativas
+- Completitud de informes: 152 de 156 taller·mes (97 %)
 
 ## Incidencias por código y gravedad
 
 | Código | Bloqueante | Aviso | Info | Total |
 |---|---|---|---|---|
-| TALLER_MICRO | · | · | 6 | 6 |
 | MINUTOS_SIN_CONTRASTAR | · | · | 5 | 5 |
+| TALLER_MICRO | · | · | 5 | 5 |
 | FALTA_INFORME | · | 2 | · | 2 |
 
 ## Completitud por taller y mes
@@ -30,26 +30,33 @@
 | TS-02 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | TS-03 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | TS-04 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| TS-05 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| TS-05 | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
 | TS-06 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | TS-07 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | TS-08 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| TS-09 | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ |
+| TS-09 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | TS-10 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | TS-11 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | TS-12 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| TS-13 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| TS-14 | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
+| TS-13 | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
+| TS-14 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | TS-15 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | TS-16 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | TS-17 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | TS-18 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | TS-19 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | TS-20 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| TS-21 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| TS-22 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| TS-23 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| TS-24 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| TS-25 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| TS-26 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
-## El 5 % de talleres con más incidencias (1)
+## El 5 % de talleres con más incidencias (2)
 
-- **TS-14** · 2 incidencias (bloqueantes 0 · avisos 1) · FALTA_INFORME ×1, TALLER_MICRO ×1
+- **TS-05** · 2 incidencias (bloqueantes 0 · avisos 1) · FALTA_INFORME ×1, TALLER_MICRO ×1
+- **TS-13** · 1 incidencias (bloqueantes 0 · avisos 1) · FALTA_INFORME ×1
 
 ## Filas descartadas por motivo
 
@@ -63,8 +70,8 @@ Ninguna.
 
 ## Detalle de avisos
 
-- **FALTA_INFORME** · taller:TS-09 · Sin informe de horas de 2026-10.
-- **FALTA_INFORME** · taller:TS-14 · Sin informe de horas de 2026-09, 2026-10.
+- **FALTA_INFORME** · taller:TS-05 · Sin informe de horas de 2026-09, 2026-10.
+- **FALTA_INFORME** · taller:TS-13 · Sin informe de horas de 2026-09, 2026-10.
 
 ## Notas
 

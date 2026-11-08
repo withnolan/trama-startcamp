@@ -6,6 +6,7 @@
 import { sumarMeses } from "../calculo/semaforo.ts";
 import type { ISODate, Mes } from "../calculo/tipos.ts";
 import {
+  ARQUETIPOS_LABORALES,
   ARQUETIPOS_PROBLEMA,
   CABECERAS,
   type Arquetipo,
@@ -20,10 +21,11 @@ import {
   type VerdadTaller,
 } from "./contratos.ts";
 import { aCsv } from "./csv.ts";
+import { generarLaboral, OIT_POR_ARQUETIPO, type TallerParaLaboral } from "./laboral.ts";
 import { horasMesConvenio } from "./parametros.ts";
 import { crearRng, type Rng } from "./prng.ts";
 
-export const VERSION_GENERADOR = "n1.0";
+export const VERSION_GENERADOR = "n1.1-laboral";
 
 /** Catálogo de piezas de marroquinería con minutos de escandallo SINTÉTICOS (estimación de demo, sin suelo publicado). */
 export const CATALOGO_PIEZAS = [
@@ -96,6 +98,10 @@ function ratiosMensuales(rng: Rng, arq: Arquetipo, n: number): number[] {
       r[n - 1 - rng.entero(0, 2)] = rng.uniforme(1.3, 1.6); // un mes de pico dentro de la ventana evaluada
       return r;
     }
+    case "horas_extra_excesivas": {
+      const base = rng.uniforme(0.75, 0.92); // carga alta pero «cabe»: se cubre con horas extra que no salen en el registro
+      return Array.from({ length: n }, () => base * rng.uniforme(0.95, 1.05));
+    }
     case "subcontrata_oculta": {
       const base = rng.uniforme(1.0, 2.0); // el exceso lo cose un taller que no figura en ningún sitio
       return Array.from({ length: n }, () => base * rng.uniforme(0.92, 1.08));
@@ -130,13 +136,15 @@ export function generar(
   const informes: FilaInformeES[] = [];
   const verdad: VerdadTaller[] = [];
   const usados = new Set<string>();
+  const paraLaboral: TallerParaLaboral[] = [];
   let nPedido = 0;
 
   arquetipos.forEach((arq, i) => {
     const id = `TS-${String(i + 1).padStart(2, "0")}`;
     const lugar = rng.elegir(CIUDADES_ES);
     const [a, b] = TRAMOS[rng.elegirPonderado(pesosTramo)];
-    const asalariados = rng.entero(a, b);
+    let asalariados = rng.entero(a, b);
+    if (ARQUETIPOS_LABORALES.includes(arq) && asalariados < 4) asalariados = 4 + (asalariados % 3); // con < 4 el revisor no da cifras
     const titulares = asalariados <= 5 && rng.next() < 0.5 ? 1 : 0;
     const piezas = rng.barajar(CATALOGO_PIEZAS).slice(0, rng.entero(1, 3));
 
@@ -187,10 +195,13 @@ export function generar(
     });
 
     const enVentana = meses.map((m, k) => [m, ratios[k]] as const).filter(([m]) => ventana.includes(m));
+    paraLaboral.push({ tallerId: id, arquetipo: arq, personas: asalariados + titulares });
     verdad.push({
       tallerId: id,
       arquetipo: arq,
       problemaReal: ARQUETIPOS_PROBLEMA.includes(arq),
+      problemaLaboral: ARQUETIPOS_PROBLEMA.includes(arq) || ARQUETIPOS_LABORALES.includes(arq),
+      indicadoresOIT: OIT_POR_ARQUETIPO[arq] ?? [],
       personasReales: asalariados + titulares,
       personasDeclaradas: asalariados + titulares,
       ratioRealMedio: r2(enVentana.reduce((s, [, r]) => s + r, 0) / enVentana.length),
@@ -199,7 +210,13 @@ export function generar(
           ? "El exceso de carga lo produce un taller no declarado que no aparece en ningún archivo."
           : arq === "pico_legitimo"
             ? "Un mes de pico dentro de la ventana; los demás meses, holgados."
-            : arq === "informe_tardio_o_ausente"
+            : arq === "horas_extra_excesivas"
+              ? "El registro de jornada dice 40 h; en las entrevistas cuentan 10-18 h extra a la semana, mal pagadas."
+              : arq === "salario_retenido"
+                ? "Pagos con 30-75 días de retraso, deducciones altas y salario mediano bajo convenio."
+                : arq === "silencio_alta_rotacion"
+                  ? "Cero quejas con rotación del 60-120 % y canal inaccesible o inexistente."
+                  : arq === "informe_tardio_o_ausente"
               ? `Carga sana, pero falta el informe de ${[...ausentes].sort().join(" y ")}.`
               : "Carga dentro de su capacidad.",
     });
@@ -215,6 +232,7 @@ export function generar(
       talleres: aCsv(CABECERAS.talleres, talleres as unknown as Record<string, string | number>[]),
       escandallo: aCsv(CABECERAS.escandallo, escandallo),
       pedidos_erp: aCsv(CABECERAS.pedidos_erp, pedidos as unknown as Record<string, string | number>[]),
+      ...generarLaboral(paraLaboral, `${ventana[0]}/${ventana[ventana.length - 1]}`, semilla),
       informe_plantilla_es: aCsv(CABECERAS.informe_plantilla_es, informes as unknown as Record<string, string | number>[]),
     },
     verdad: { escenario: escenario.nombre, semilla, talleres: verdad },

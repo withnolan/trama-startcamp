@@ -49,3 +49,14 @@ N2 añade parámetros capturados por API, los 10 arquetipos, Italia, versiones d
 score v2 (suelo de minutos, LUL, confianza) y evaluación con 20 semillas e intervalos.
 
 **Todas las cifras de la evaluación son «en datos sintéticos»**: no son una validación con clientes ni con datos reales.
+
+## Muestra laboral (OIT) · riesgo por taller
+
+- Dos tablas nuevas que entrega el **revisor independiente**, agregadas por taller y trimestre (nunca por persona; con < 4
+  personas entrevistadas no da cifras): `salarios_horas.csv` y `voz_quejas.csv`.
+- 3 arquetipos nuevos que el score de capacidad no ve: `horas_extra_excesivas`, `salario_retenido`, `silencio_alta_rotacion`.
+- Modelo (`src/lib/datos/riesgo.ts`): Σ (severidad × calidad de evidencia) × probabilidad (señales que convergen) ×
+  exposición, + opacidad → bajo / medio / alto / crítico y categoría (sospecha fundada, riesgo potencial, sin información).
+  Nunca «evidencia confirmada»: eso lo decide el revisor sobre el terreno.
+- `npm run datos:riesgo` → `salida/<esc>/informe_riesgo.md` (panel, priorización, mapa, patrones, verificación,
+  remediación, evaluación con 20 semillas y limitaciones). Supuesto S-L1: salario de convenio de referencia 1.400 €/mes.

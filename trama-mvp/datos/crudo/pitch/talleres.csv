@@ -1,21 +1,27 @@
 taller_id;nombre;pais;ciudad;provincia;nivel;padre_id;especialidad;convenio
-TS-01;Taller de Piel Madroño S.L. (ficticio);ES;Ubrique;Cádiz;1;;Bolso tote;marroquineria
-TS-02;Peletería Arrayán S.L. (ficticio);ES;Valverde del Camino;Huelva;1;;Bolso estructurado;marroquineria
-TS-03;Artículos de Piel Aladierno S.L. (ficticio);ES;Valverde del Camino;Huelva;1;;Bolso estructurado · Tarjetero · Cartera;marroquineria
-TS-04;Artículos de Piel Brezo S.L. (ficticio);ES;Ubrique;Cádiz;1;;Bolso estructurado · Cartera · Cinturón;marroquineria
-TS-05;Peletería Taray S.L. (ficticio);ES;Almansa;Albacete;1;;Tarjetero · Bolso tote;marroquineria
-TS-06;Taller de Piel Abubilla S.L. (ficticio);ES;Almansa;Albacete;1;;Bolso tote · Tarjetero;marroquineria
-TS-07;Peletería Retama S.L. (ficticio);ES;Valverde del Camino;Huelva;1;;Bolso tote · Tarjetero;marroquineria
-TS-08;Taller de Piel Rebollo S.L. (ficticio);ES;Valverde del Camino;Huelva;1;;Bolso estructurado · Cartera;marroquineria
-TS-09;Peletería Avellano S.L. (ficticio);ES;Igualada;Barcelona;1;;Bolso estructurado;marroquineria
-TS-10;Manufacturas Torcaz S.L. (ficticio);ES;Elda;Alicante;1;;Bolso tote;marroquineria
-TS-11;Artículos de Piel Herrerillo S.L. (ficticio);ES;Elda;Alicante;1;;Tarjetero · Cinturón · Bolso estructurado;marroquineria
-TS-12;Manufacturas Herrerillo S.L. (ficticio);ES;Arnedo;La Rioja;1;;Cinturón;marroquineria
-TS-13;Marroquinería Torvisco S.L. (ficticio);ES;Petrer;Alicante;1;;Cinturón · Bolso tote · Tarjetero;marroquineria
-TS-14;Marroquinería Cornicabra S.L. (ficticio);ES;Almansa;Albacete;1;;Bolso estructurado · Bolso tote · Cartera;marroquineria
-TS-15;Marroquinería Torcaz S.L. (ficticio);ES;Almansa;Albacete;1;;Bolso tote;marroquineria
-TS-16;Marroquinería Cárabo S.L. (ficticio);ES;Igualada;Barcelona;1;;Bolso tote;marroquineria
-TS-17;Taller de Piel Alcaudón S.L. (ficticio);ES;Arnedo;La Rioja;1;;Cinturón · Bolso tote · Cartera;marroquineria
-TS-18;Marroquinería Mirlo S.L. (ficticio);ES;Almansa;Albacete;1;;Bolso tote · Bolso estructurado · Tarjetero;marroquineria
-TS-19;Manufacturas Aladierno S.L. (ficticio);ES;Valverde del Camino;Huelva;1;;Bolso estructurado;marroquineria
-TS-20;Peletería Brezo S.L. (ficticio);ES;Elda;Alicante;1;;Cartera;marroquineria
+TS-01;Marroquinería Cárabo S.L. (ficticio);ES;Almansa;Albacete;1;;Tarjetero · Bolso estructurado · Cinturón;marroquineria
+TS-02;Peletería Acebuche S.L. (ficticio);ES;Igualada;Barcelona;1;;Bolso tote;marroquineria
+TS-03;Artículos de Piel Aladierno S.L. (ficticio);ES;Petrer;Alicante;1;;Cartera;marroquineria
+TS-04;Peletería Escaramujo S.L. (ficticio);ES;Petrer;Alicante;1;;Cartera · Cinturón · Bolso estructurado;marroquineria
+TS-05;Artículos de Piel Retama S.L. (ficticio);ES;Elche;Alicante;1;;Cartera · Bolso estructurado · Bolso tote;marroquineria
+TS-06;Taller de Piel Rebollo S.L. (ficticio);ES;Almansa;Albacete;1;;Cartera;marroquineria
+TS-07;Taller de Piel Abubilla S.L. (ficticio);ES;Petrer;Alicante;1;;Cartera;marroquineria
+TS-08;Peletería Cárabo S.L. (ficticio);ES;Igualada;Barcelona;1;;Tarjetero;marroquineria
+TS-09;Artículos de Piel Aliso S.L. (ficticio);ES;Elda;Alicante;1;;Bolso estructurado;marroquineria
+TS-10;Manufacturas Retama S.L. (ficticio);ES;Elda;Alicante;1;;Cinturón · Tarjetero · Bolso estructurado;marroquineria
+TS-11;Artículos de Piel Taray S.L. (ficticio);ES;Elche;Alicante;1;;Cartera;marroquineria
+TS-12;Peletería Abubilla S.L. (ficticio);ES;Ubrique;Cádiz;1;;Bolso estructurado · Tarjetero · Cinturón;marroquineria
+TS-13;Artículos de Piel Alcaudón S.L. (ficticio);ES;Almansa;Albacete;1;;Tarjetero;marroquineria
+TS-14;Marroquinería Arrayán S.L. (ficticio);ES;Igualada;Barcelona;1;;Cartera;marroquineria
+TS-15;Marroquinería Jara S.L. (ficticio);ES;Ubrique;Cádiz;1;;Cinturón;marroquineria
+TS-16;Marroquinería Cornicabra S.L. (ficticio);ES;Petrer;Alicante;1;;Cartera · Bolso estructurado;marroquineria
+TS-17;Peletería Taray S.L. (ficticio);ES;Elda;Alicante;1;;Cinturón · Bolso estructurado;marroquineria
+TS-18;Marroquinería Fresno S.L. (ficticio);ES;Ubrique;Cádiz;1;;Bolso tote · Cartera · Tarjetero;marroquineria
+TS-19;Manufacturas Aliso S.L. (ficticio);ES;Ubrique;Cádiz;1;;Bolso estructurado;marroquineria
+TS-20;Artículos de Piel Jara S.L. (ficticio);ES;Petrer;Alicante;1;;Bolso tote · Cartera · Cinturón;marroquineria
+TS-21;Peletería Madroño S.L. (ficticio);ES;Petrer;Alicante;1;;Tarjetero · Cinturón;marroquineria
+TS-22;Manufacturas Cornicabra S.L. (ficticio);ES;Arnedo;La Rioja;1;;Cinturón · Bolso estructurado;marroquineria
+TS-23;Artículos de Piel Brezo S.L. (ficticio);ES;Arnedo;La Rioja;1;;Bolso tote;marroquineria
+TS-24;Taller de Piel Majuelo S.L. (ficticio);ES;Ubrique;Cádiz;1;;Tarjetero · Cartera;marroquineria
+TS-25;Manufacturas Quejigo S.L. (ficticio);ES;Valverde del Camino;Huelva;1;;Cartera · Bolso estructurado · Tarjetero;marroquineria
+TS-26;Marroquinería Sabina S.L. (ficticio);ES;Elche;Alicante;1;;Tarjetero · Bolso tote · Bolso estructurado;marroquineria
