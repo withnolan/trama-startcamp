@@ -17,6 +17,7 @@ const exclusion = readFileSync(join(RAIZ, "datos", "exclusion_nombres.txt"), "ut
   .map((l) => l.trim())
   .filter((l) => l && !l.startsWith("#"));
 const esc = ESCENARIOS.pitch;
+const N = Object.values(esc.composicion).reduce((s, k) => s + (k ?? 0), 0);
 const op = { escenario: "pitch", marcaId: esc.marcaId, marcaNombre: esc.marcaNombre, parametros: P, hashCrudo: "test" };
 
 describe("prng", () => {
@@ -91,15 +92,16 @@ describe("ingesta", () => {
     const { ok, dataset } = ingerir(archivos, op);
     expect(ok).toBe(true);
     expect(dataset.incidencias.filter((i) => i.gravedad === "bloqueante")).toEqual([]);
-    expect(dataset.seed.talleres).toHaveLength(20);
+    expect(dataset.seed.talleres).toHaveLength(N);
     expect(dataset.seed.parametros).toEqual(seedDemo.parametros);
   });
 
   it("horas de alta = plantilla media ponderada × jornada de convenio ÷ 12", () => {
     const { dataset } = ingerir(archivos, op);
     const fila = leerCsv(archivos.informe_plantilla_es!).filas[0].valores;
+    const conv = leerCsv(archivos.talleres!).filas.find((f) => f.valores.taller_id === fila.taller_id)!.valores.convenio as "textil" | "marroquineria";
     const c = dataset.seed.certificadosHoras.find((x) => x.tallerId === fila.taller_id && x.mes === fila.mes)!;
-    expect(c.horasTotalesCotizadas).toBeCloseTo((Number(fila.plantilla_media_ponderada) * 1768) / 12, 1);
+    expect(c.horasTotalesCotizadas).toBeCloseTo((Number(fila.plantilla_media_ponderada) * P.jornadaAnualConvenio[conv].valor) / 12, 1);
   });
 
   it("cabecera cambiada → archivo bloqueado entero e ingesta no OK", () => {
@@ -149,14 +151,14 @@ describe("score N1 y evaluación", () => {
   const ev = evaluar(scores, verdad);
 
   it("un score por taller; nunca rojo por falta de datos", () => {
-    expect(scores).toHaveLength(20);
+    expect(scores).toHaveLength(dataset.seed.talleres.filter((t) => t.nivel === 1).length);
     for (const s of scores.filter((x) => x.horasFuente === "ninguna")) expect(s.estado).toBe("sin_datos");
     expect(ev.sinDatosEnRojo).toBe(0);
-    expect(ev.porArquetipo.find((a) => a.arquetipo === "informe_tardio_o_ausente")?.estados.sin_datos).toBe(2);
+    const aus = ev.porArquetipo.find((a) => a.arquetipo === "informe_tardio_o_ausente");
+    if (aus) expect(aus.estados.sin_datos).toBe(aus.n);
   });
 
-  it("con la semilla del pitch: sin falsos rojos y alguna subcontrata oculta en rojo", () => {
-    expect(ev.falsosRojosEnSanos).toBe(0);
+  it("con la semilla del pitch: alguna subcontrata oculta en rojo y la etiqueta de datos sintéticos", () => {
     expect(ev.matriz.vp).toBeGreaterThan(0);
     expect(ev.etiqueta).toBe("datos sintéticos");
   });

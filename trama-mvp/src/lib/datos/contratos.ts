@@ -161,11 +161,44 @@ export interface MetaIngesta {
   archivos: { nombre: string; filas: number }[];
 }
 
+/** Una versión del escandallo tal como llegó (N2: la ingesta las conserva todas; el score usa la vigente en cada mes). */
+export interface VersionEscandallo {
+  tipoPiezaId: string;
+  version: number;
+  minutos: number;
+  vigenteDesde: ISODate;
+  autor: string;
+  categoria: string; // texto del CSV: «marroquineria», «confeccion» o una categoría con suelo (p. ej. «americana_forrada»)
+}
+
+export interface CuotaFacturacion {
+  tallerId: string;
+  marcaId: string;
+  periodo: string; // «2026-T3» (303) o «2025» (347) o «2026-10» (declarada)
+  cuotaPct: number; // 1-100
+  fuente: "303" | "347" | "declarada";
+}
+
+/** Indicadores de calidad de Italia (no invalidan el dato; bajan la confianza en el score v2). */
+export interface IndicadorIT {
+  tallerId: string;
+  mes: Mes;
+  durcRegolare: boolean;
+  durcScadenza: ISODate;
+  assecoVigente: boolean;
+}
+
 export interface DatasetIngerido {
   seed: Seed;
   procedencia: Record<string, Procedencia>; // clave: id de la entidad (taller, pedido, certificado)
   incidencias: Incidencia[];
   metaIngesta: MetaIngesta;
+  // ---- N2 (aditivos; opcionales para no romper N1) ----
+  escandalloVersiones?: VersionEscandallo[];
+  cuotas?: CuotaFacturacion[];
+  indicadoresIT?: IndicadorIT[];
+  /** Fuente de las horas de cada certificado del seed (clave: id del certificado). */
+  fuenteHoras?: Record<string, "informe_es" | "lul_it">;
 }
 
 // ---------- Score ----------
@@ -181,6 +214,12 @@ export interface ResultadoScore {
   minutosUsados: "escandallo" | "suelo";
   horasFuente: "informe_es" | "lul_it" | "ninguna";
   explicacion: string[];
+  // ---- N2 (aditivos) ----
+  /** Estimación de la carga total del taller con la cuota de facturación: abre revisión, NUNCA da rojo. */
+  ratioTotalEstimado?: number | null;
+  revisionAbierta?: boolean;
+  /** Estado que daba el motor v1 (semaforo.ts) para comparar. */
+  estadoV1?: EstadoSemaforo;
 }
 
 // ---------- Escenario del generador ----------
