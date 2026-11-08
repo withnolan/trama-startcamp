@@ -1,0 +1,53 @@
+[
+ {
+  "perfil": "Profesora de emprendimiento social",
+  "fijo": true,
+  "notas": {
+   "problema_impacto": 8,
+   "solucion_innovacion": 7,
+   "negocio_viabilidad": 5,
+   "validacion_gtm": 4,
+   "equipo_ejecucion": 7,
+   "pitch_demo": 7
+  },
+  "global": 7,
+  "fuerte": "Entienden el problema a fondo y lo respaldan con fuentes, y su diseño de impacto ataca de frente el efecto perverso de «cortar con el proveedor» (cláusula de no baja, recorte máximo del 20 %, medir si el hueco se cerró con altas o quitando pedidos), todo contado con una honestidad poco común sobre lo simulado y lo no validado.",
+  "fallo": "El modelo solo funciona si aceptan a la vez la marca (cumplimiento y compras), el taller, su gestoría y un sindicato u ONG revisor, y no han hablado con ninguno: validación cero. Además, la presión que vende el pitch está en Italia, donde la fuente de horas es «fase 2» y está sin resolver; en España, donde el dato existe, la obligación de la marca es «abierta» según ellos mismos, y la piel y el calzado por los que empiezan no tienen suelo de minutos.",
+  "pregunta": "Si la presión está en Milán pero vuestro dato hoy solo funciona en España, ¿por qué firmaría el responsable de compras de una marca que fabrica en Ubrique, sin investigación abierta y con el art. 42 ET «abierto» para la confección? ¿Qué coste concreto le evitáis?",
+  "subiria": "Tres pruebas de campo antes de la final: una gestoría que saque un informe real de plantilla media en alta y confirme que pondera la jornada; un responsable de cumplimiento que diga por escrito qué pagaría y qué cláusula no firmaría; y un sindicato u ONG dispuesto a hacer de revisor. Y alinear historia y mercado: o un caso español de piel y calzado con su suelo de minutos, o un plan creíble para tener el dato italiano desde el primer día."
+ },
+ {
+  "perfil": "Inversora early-stage",
+  "fijo": true,
+  "notas": {
+   "problema_impacto": 7,
+   "solucion_innovacion": 7,
+   "negocio_viabilidad": 5,
+   "validacion_gtm": 4,
+   "equipo_ejecucion": 7,
+   "pitch_demo": 7
+  },
+  "global": 6,
+  "fuerte": "El mecanismo es sencillo y difícil de maquillar: compara las horas que exigen los pedidos con las horas de alta y, como tercero neutral, suma la carga de varias marcas en un taller, algo que ninguna ve por separado; además, las cifras tienen fuente, los efectos perversos se miden y el equipo es honesto con lo simulado y lo que falta por validar.",
+  "fallo": "No han hablado con nadie que vaya a pagar, y el producto pide a la marca más de lo que necesita para cubrirse legalmente (6 meses sin dar de baja a ningún taller, recortes del 20 % como máximo, plan firmado de antemano y revisor de 1.000 a 3.000 € por alerta). La urgencia de compra está en Italia, donde su fuente de horas aún no funciona, y en España, donde sí funciona, que la obligación alcance a la marca es una cuestión abierta.",
+  "pregunta": "¿Qué marca concreta tiene hoy presión legal y, a la vez, talleres donde Trama ya funciona? ¿Y por qué os pagaría 720 € por taller y año en vez de pedir ella misma el informe a la gestoría y hacer la división en una hoja de cálculo?",
+  "subiria": "Dos o tres conversaciones reales con cumplimiento o compras de una marca que fabrique en España que digan si firmarían esas cláusulas y pagarían 60 € por taller y mes, y un informe real de plantilla media sacado por una gestoría. También rehacer el mercado contando marcas que de verdad subcontratan, y con el mismo número de talleres por marca que el plan a 2030, que hoy usa 50 frente a los 30-40 del cálculo."
+ },
+ {
+  "perfil": "Abogada laboralista y de cumplimiento",
+  "fijo": false,
+  "notas": {
+   "problema_impacto": 7,
+   "solucion_innovacion": 7,
+   "negocio_viabilidad": 5,
+   "validacion_gtm": 4,
+   "equipo_ejecucion": 7,
+   "pitch_demo": 7
+  },
+  "global": 6,
+  "fuerte": "Plantean lo legal sin estirar normas (art. 42 ET abierto, art. 54.1.d LOEX bien citado, el Reglamento 2024/3015 no obliga a usar ninguna herramienta); privacidad desde el diseño; suman la carga de varias marcas como tercero devolviendo a cada una solo su semáforo; y separan el hueco cerrado con altas del cerrado retirando pedidos.",
+  "fallo": "Todo el impacto depende de cláusulas que no ha leído ninguna marca, taller ni sindicato y que van contra el interés jurídico de la marca (seguir comprando con un recuento firmado de personas sin alta en su cadena). Además, en su propia demo la visita «sin aviso» llega 33 días después de la alerta, cuando el proveedor ya ha declarado la subcontrata, y ningún secreto profesional protege el censo del revisor si lo pide un juzgado.",
+  "pregunta": "Pedís a la marca que firme por adelantado no recortar más de un 20 % aunque vuestro revisor le entregue un recuento firmado de gente sin alta en su cadena. ¿Qué responsable de cumplimiento firma eso, con qué excepciones (trata, riesgo grave, requerimiento judicial), y qué le contestáis al fiscal cuando lo interprete como seguir comprando a sabiendas?",
+  "subiria": "Que el responsable de cumplimiento o el abogado de una marca real lea el plan y diga por escrito qué firmaría (cláusula 0 y tope del 20 % redactados, excepciones por trata o riesgo grave y salida con preaviso), y que una gestoría enseñe un informe real de plantilla media ponderado por jornada y diga cuánto cobra. Y un protocolo del revisor que visite el mismo día al proveedor y a las subcontratas que declare, con el censo seudonimizado y una regla escrita para cuando lo pida una autoridad."
+ }
+]
