@@ -250,6 +250,7 @@ export function ingerir(archivos: ArchivosCrudos, op: OpcionesIngesta): Resultad
   const certs: CertCand[] = [];
   const fuenteHoras: Record<string, "informe_es" | "lul_it"> = {};
   const indicadoresIT: IndicadorIT[] = [];
+  const sinAsseco = new Map<string, Mes[]>(); // taller → meses con LUL sin Asse.Co vigente
   const firmas = new Set<string>(); // fila completa → duplicado exacto
   const yaVisto = (f: Fila) => {
     const k = `${f.archivo}|${Object.values(f.valores).join(";")}`;
@@ -334,8 +335,7 @@ export function ingerir(archivos: ArchivosCrudos, op: OpcionesIngesta): Resultad
       add("PLANTILLA_INCOHERENTE", "aviso", ent(f, t.id), `${ore} h registradas con 0 trabajadores en ${v.mes}.`);
     if (num > 0 && (ore / num < RANGO_HORAS_TRABAJADOR_IT.min || ore / num > RANGO_HORAS_TRABAJADOR_IT.max))
       add("JORNADA_FUERA_RANGO", "aviso", ent(f, t.id), `${r2(ore / num)} h por trabajador en ${v.mes}, fuera de ${RANGO_HORAS_TRABAJADOR_IT.min}-${RANGO_HORAS_TRABAJADOR_IT.max} h/mes.`);
-    if (!asseco)
-      add("FIRMANTE_INCOHERENTE", "info", ent(f, t.id), `LUL de ${v.mes} sin Asse.Co vigente: el motor v1 (semaforo.ts) no cuenta este informe (exige viaAsseCo); el score v2 no lo exige y lo usa como indicador de calidad.`);
+    if (!asseco) sinAsseco.set(t.id, [...(sinAsseco.get(t.id) ?? []), v.mes]);
     const id = `LUL-${t.id}-${v.mes}-${sufijo(f)}`;
     certs.push({
       fila: f,
@@ -349,6 +349,10 @@ export function ingerir(archivos: ArchivosCrudos, op: OpcionesIngesta): Resultad
     indicadoresIT.push({ tallerId: t.id, mes: v.mes, durcRegolare: regolare, durcScadenza: v.durc_scadenza, assecoVigente: asseco });
     procedencia[`informe:${id}`] = { archivo: f.archivo, fila: f.numero, tipoFuente: "oficial", fechaDato: v.mes, firmante: v.consulente };
   }
+
+  // Una incidencia informativa por taller (no por mes) para no ahogar el informe.
+  for (const [tid, ms] of sinAsseco)
+    add("FIRMANTE_INCOHERENTE", "info", `taller:${tid}`, `LUL sin Asse.Co vigente en ${[...new Set(ms)].sort().join(", ")}: el motor v1 (semaforo.ts) no cuenta esos informes (exige viaAsseCo) y da «sin datos»; el score v2 no lo exige y usa Asse.Co como indicador de calidad.`);
 
   // ---- Rectificaciones y tardíos (por taller y mes) ----
   const grupos = new Map<string, CertCand[]>();
@@ -563,7 +567,11 @@ export function informeCalidad(d: DatasetIngerido, ok: boolean): string {
     if (t) porTaller.set(t, [...(porTaller.get(t) ?? []), i]);
   }
   const k = Math.max(1, Math.ceil(s.talleres.length * 0.05));
-  const peores = [...porTaller.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0])).slice(0, k);
+  // Orden: bloqueantes, luego avisos, luego total (las informativas solo desempatan).
+  const n = (xs: Incidencia[], g: Gravedad) => xs.filter((i) => i.gravedad === g).length;
+  const peores = [...porTaller.entries()]
+    .sort((a, b) => n(b[1], "bloqueante") - n(a[1], "bloqueante") || n(b[1], "aviso") - n(a[1], "aviso") || b[1].length - a[1].length || a[0].localeCompare(b[0]))
+    .slice(0, k);
 
   // Filas descartadas por motivo
   const descartes = new Map<string, number>();
@@ -620,7 +628,7 @@ export function informeCalidad(d: DatasetIngerido, ok: boolean): string {
       ? peores.map(([t, xs]) => {
           const c = new Map<string, number>();
           for (const i of xs) c.set(i.codigo, (c.get(i.codigo) ?? 0) + 1);
-          return `- **${t}** · ${xs.length} incidencias · ${[...c.entries()].map(([x, n]) => `${x} ×${n}`).join(", ")}`;
+          return `- **${t}** · ${xs.length} incidencias (bloqueantes ${n(xs, "bloqueante")} · avisos ${n(xs, "aviso")}) · ${[...c.entries()].map(([x, m]) => `${x} ×${m}`).join(", ")}`;
         })
       : ["- Ningún taller tiene incidencias."]),
     "",
