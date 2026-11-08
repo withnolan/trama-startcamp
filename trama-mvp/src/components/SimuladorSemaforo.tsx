@@ -1,7 +1,8 @@
 "use client";
-import { RotateCcw } from "lucide-react";
+import { FileSearch, RotateCcw } from "lucide-react";
 import { motion, useReducedMotion } from "motion/react";
 import { useId, useState } from "react";
+import { Badge } from "@/components/Badge";
 import { Semaforo } from "@/components/Semaforo";
 import { TEXTOS_SIMULADOR } from "@/content/textos";
 import { seed } from "@/data";
@@ -155,7 +156,14 @@ export function SimuladorSemaforo({ inicial = SIMULACION_DEMO }: { inicial?: Ent
                     Toda la carga del taller (estimada con la cuota de facturación):{" "}
                     <strong className="font-semibold">{fmtRatio(r.ratioTotalEstimado, 1)}</strong>
                   </span>
-                  <Semaforo estado={r.estadoTotalEstimado} tamano="sm" />
+                  {/* La estimación por cuota no da rojo (su error es el precio por hora entre clientes): solo abre una revisión. */}
+                  {r.estadoTotalEstimado === "rojo" ? (
+                    <Badge variante="marca" icono={FileSearch}>
+                      {T.abreRevision}
+                    </Badge>
+                  ) : (
+                    <span className="text-base text-tinta-2">{T.sinRevision}</span>
+                  )}
                 </p>
                 <p className="text-sm text-tinta-2">{T.formula}</p>
               </div>

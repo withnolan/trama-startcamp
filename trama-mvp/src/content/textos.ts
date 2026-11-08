@@ -315,14 +315,17 @@ export const TEXTOS_SIMULADOR = {
   minutos: "Minutos por chaqueta",
   escenarios: { demo: "Taller de la demo", casoPublico: "Caso reconstruido con datos públicos" },
   casoPublico:
-    "Reconstrucción anonimizada a partir de información pública de prensa: el proveedor directo no tenía taller propio (capacidad 0) y un subproveedor con 7 personas entregaba entre 6.000 y 7.000 chaquetas al año. Unas 2 h por chaqueta disponibles. 180 min es el suelo público para premium y lujo: con menos minutos declarados, Trama calcula con 180. Aquí puedes bajarlos para ver dónde dejaría de caber sin suelo.",
+    "Reconstrucción anonimizada a partir de información pública de prensa: el proveedor directo no tenía taller propio (capacidad 0) y un subproveedor con 7 personas entregaba entre 6.000 y 7.000 chaquetas al año. Unas 2 h por chaqueta disponibles. 180 min es el suelo externo para premium y lujo: con menos minutos declarados, Trama calcula con 180. Aquí puedes bajarlos para ver dónde dejaría de caber sin suelo.",
   /** "Carga de Ordessa: 8.000 h frente a 3.360 h de alta (2,4×)" */
   cargaMarca: (necesarias: string, alta: string, ratio: string) =>
     `Carga de Ordessa: ${necesarias} frente a ${alta} de alta (${ratio})`,
   /** "Carga total estimada del taller: 11,9× las horas de alta" */
   cargaTotal: (ratio: string) => `Carga total estimada del taller: ${ratio} las horas de alta`,
-  formula: "Carga total ≈ carga de Ordessa ÷ su parte de la facturación del taller.",
-  nota: "El taller de la demo es ficticio (240 min por chaqueta, de su ficha de costes ficticia). El caso reconstruido usa cifras públicas de prensa, anonimizadas, y el suelo público de 180 min por chaqueta (premium y lujo).",
+  formula:
+    "Carga total ≈ carga de Ordessa ÷ su parte de la facturación del taller. Es una estimación (el precio por hora cambia entre clientes): no da rojo, abre una revisión. El rojo directo solo sale si los pedidos de Ordessa superan 1,10× la capacidad.",
+  abreRevision: "Abre una revisión",
+  sinRevision: "No abre revisión",
+  nota: "El taller de la demo es ficticio (240 min por chaqueta, de su ficha de costes ficticia). El caso reconstruido usa cifras públicas de prensa, anonimizadas, y el suelo externo de 180 min por chaqueta (premium y lujo).",
 };
 
 // ---------- /escenas (dos escenas para la demo; mismo cálculo que el panel) ----------
@@ -372,9 +375,9 @@ export const TEXTOS_ESCENAS = {
     },
     cuota: {
       titulo: "Si las demás marcas no usan Trama",
-      /** "Carga total ≈ carga de Ordessa ÷ su parte de la facturación del taller. Con el 30 %: 0,40 ÷ 0,30 ≈ 1,33× → rojo." */
+      /** "Carga total ≈ carga de Ordessa ÷ su parte de la facturación del taller. Con el 30 %: 0,40 ÷ 0,30 ≈ 1,33× → abre una revisión, sin datos de otras marcas." */
       texto: (pct: string, propio: string, cuota: string, total: string) =>
-        `Carga total ≈ carga de Ordessa ÷ su parte de la facturación del taller. Con el ${pct}: ${propio} ÷ ${cuota} ≈ ${total} → rojo, sin datos de otras marcas.`,
+        `Carga total ≈ carga de Ordessa ÷ su parte de la facturación del taller. Con el ${pct}: ${propio} ÷ ${cuota} ≈ ${total} → abre una revisión, sin datos de otras marcas.`,
       enlace: "Cómo se calcula",
       href: "/como-calculamos#varias-marcas",
     },
@@ -393,7 +396,7 @@ export const TEXTOS_ESCENAS = {
       unidadesNota: "La cifra baja del rango publicado (6.000-7.000).",
       /** "× 180 min por chaqueta = 18.000 h necesarias" */
       horas: (minutos: string, horas: string) => `× ${minutos} min por chaqueta = ${horas} necesarias`,
-      minutosNota: (minutos: string) => `${minutos} min: suelo público para premium y lujo (fábrica premium, hasta ${minutos} min de costura).`,
+      minutosNota: (minutos: string) => `${minutos} min: suelo externo para premium y lujo (fábrica premium, hasta ${minutos} min de costura).`,
     },
     proveedor: {
       titulo: "Sin taller propio",
@@ -443,8 +446,9 @@ export const TEXTOS_ESCENAS = {
       columnas: { cliente: "Cliente", importe: "Importe anual" },
       resto: "Resto de clientes",
       total: "Total declarado",
-      /** "la parte de Ordessa, 288.000 € ÷ 960.000 € = 30 %. La marca solo recibe el estado, no la cuota" */
-      usa: (propio: string, total: string, pct: string) => `la parte de Ordessa, ${propio} ÷ ${total} = ${pct}. La marca solo recibe el estado, no la cuota`,
+      /** "la parte de Ordessa, 288.000 € ÷ 960.000 € = 30 %. A la marca solo le llega si abre una revisión, nunca la cuota" */
+      usa: (propio: string, total: string, pct: string) =>
+        `la parte de Ordessa, ${propio} ÷ ${total} = ${pct}. A la marca solo le llega si abre una revisión, nunca la cuota`,
     },
   },
 };

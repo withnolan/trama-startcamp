@@ -56,7 +56,7 @@ export const LEGAL: PaginaTexto = {
         "Cada marca ve solo su semáforo, calculado con sus propios pedidos frente a las horas de alta totales del taller.",
         "Nunca mostramos volúmenes, precios, cuotas ni nombres de otras marcas, ni cuántas trabajan con un taller.",
         "Si 3 o más marcas del taller usan Trama, el cálculo conjunto lo hace Trama como tercero; con menos, la suma solo la ven el taller y el revisor independiente. Si el taller está saturado en conjunto, ese dato solo lo ven el taller y el revisor; la marca solo recibe «revisión abierta», el mismo aviso sea cual sea la causa.",
-        "La carga total estimada con la facturación del taller se entrega como estado, no como cifra, para que no se pueda deducir lo que le compran otras marcas.",
+        "La carga total estimada con la facturación del taller solo abre una revisión: no se entrega como cifra ni como rojo, para que no se pueda deducir lo que le compran otras marcas.",
       ],
       nota: "Referencia: Directrices sobre acuerdos de cooperación horizontal (2023/C 259/01), capítulo 6, intercambio de información. Las estadísticas sectoriales, si las hubiera, serían agregadas e históricas.",
     },
