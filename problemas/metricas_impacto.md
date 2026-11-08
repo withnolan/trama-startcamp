@@ -39,6 +39,61 @@ Mentor 4 · Impacto y regulación · 8-nov-2026. Cifras = seed de la demo (ficti
 **«¿Y si cerráis el hueco quitando pedidos?»** (63 palabras)
 > «Lo mostramos por separado. En la demo, con datos ficticios, a la cadena le faltaban 2.720 horas; hoy, 800. De lo cerrado, 1.120 horas son altas nuevas y 800, pedidos retirados, dentro del límite del 20 %. Y no medimos «cero despidos»: de 18 personas contadas al abrir la alerta, 11 estaban de alta; hoy lo están 14. Quien no puede regularizarse sigue contando.»
 
+## Ronda 3 · Personas sin alta: quién las cuenta, cómo se sigue a las mismas, y quién no tiene vía
+**El problema (jurado R2, experta en impacto).** De la gestoría solo llega un total, y quien trabaja sin alta no figura en él. Si nadie las cuenta, pueden desaparecer del taller en silencio.
+
+**Decisión**
+1. **Las cuenta el revisor independiente (sindicato u ONG), no Trama ni la marca.**
+   - Lo hace en una **visita sin aviso, antes de comunicar la alerta al proveedor**: como mucho 7 días después de la alerta, también en horario de tarde, y con entrevistas confidenciales.
+   - Si se avisa primero al taller, las personas sin alta pueden no estar el día de la visita.
+2. **Censo confidencial del revisor.**
+   - Recoge quién trabaja allí ese día, con un código, y quién está de alta. Lo coteja con la lista nominal (ITA) en la gestoría, sin sacar copia.
+   - La vía de regularización de cada persona la lleva la ONG en su propio expediente de acompañamiento, con el consentimiento de la persona.
+   - **El censo nunca llega a la marca ni a Trama: a Trama solo llegan recuentos firmados por el revisor.** Con 1-3 personas en un grupo se muestra «menos de 4».
+3. **Contraste con las horas.** El hueco dice cuántas personas faltan como mínimo. Si el censo encuentra menos, el revisor sigue buscando: otra subcontrata o trabajo a domicilio (el aparado).
+   - En la demo: 2.720 h en 3 meses ÷ 160 h ≈ 5,7 personas a jornada completa; el censo encontró 7 sin alta.
+4. **A los 6 meses, las mismas personas, sin nombres en Trama.** El revisor repasa su censo persona a persona: otra vez con la lista de la gestoría, una segunda visita y el contacto que mantiene la ONG. Firma recuentos en cinco grupos:
+   - siguen de alta en el taller;
+   - de alta en otro taller de la cadena;
+   - en trámite;
+   - sin vía;
+   - **no localizadas.**
+   «No localizadas» cuenta como no logrado en la métrica principal: así una salida silenciosa se ve.
+5. **Quien no tiene vía de regularización.**
+   - **Lo honesto:** el taller no puede darle de alta. Contratar a una persona extranjera sin autorización es infracción muy grave ([LO 4/2000, art. 54.1.d](https://www.boe.es/buscar/act.php?id=BOE-A-2000-544)), así que el plan **no puede prometerle un empleo legal**.
+   - **Lo que sí hace el plan:**
+     - la cláusula prohíbe que la alerta sea motivo de despido de quien está de alta;
+     - para quien no tiene autorización, la ONG le acompaña: información de derechos, cobro de lo trabajado ([LO 4/2000, art. 36.5](https://www.boe.es/buscar/act.php?id=BOE-A-2000-544)), asistencia jurídica y servicios sociales;
+     - la ONG le informa de las vías que se le puedan abrir: el arraigo al cumplir dos años de estancia, o colaborar con las autoridades si es víctima de explotación (arts. 142-144 RD 1155/2024). Esto último, solo si la persona decide hacerlo;
+     - la marca paga ese acompañamiento como parte del coste de corregir.
+   - La regularización extraordinaria del RD 316/2026 ya cerró su plazo: para casos nuevos queda el arraigo.
+   - **Las cifras «sin vía» y «no localizadas» se publican** en el informe de impacto de cada plan, en agregado.
+
+**Respuesta de 25 s** (64 palabras)
+> «Las cuenta el revisor independiente en una visita sin aviso, antes de avisar al taller. Su censo es confidencial: ni la marca ni Trama ven nombres, solo recuentos. A los seis meses coteja ese censo con la lista de la gestoría y firma cuántas siguen. Quien no tiene vía de regularización se cuenta aparte y se publica: no podemos prometerle empleo legal, sí acompañamiento.»
+
+## Ronda 3 · Meta agregada a 2030 (supuestos marcados, por validar)
+Base de negocio: **600 talleres vigilados**, el «año 3» de Negocio (15 marcas × 40 talleres; `problemas/h_precio_mercado.md`, ≈ 10 % del techo español de 6.083). `mentores/v3_negocio.md` no existía al escribir esto: si cambia la cifra, se recalcula con la misma cuenta.
+
+| Concepto | Cuenta | 2030 |
+|---|---|---|
+| Talleres vigilados cada mes | base de negocio | **600** |
+| Personas en talleres vigilados («cubiertas» = su taller se vigila cada mes, no «protegidas») | 600 × **10 personas por taller** (S1) | **≈ 6.000** |
+| Alertas rojas al año | 600 × **10 %** (S2) | **≈ 60** |
+| Personas en planes de corrección al año (línea base) | 60 × (10 de alta + **3 sin alta**, S3) | **≈ 780** |
+| Personas sin alta identificadas al año | 60 × 3 | **≈ 180** |
+| **Altas esperadas al año de quien trabajaba sin alta** | 180 × **50 %** (S4) | **≈ 90** |
+| Meta de resultado | personas de la línea base de alta a los 6 meses / bajas en la línea base / hueco cerrado con altas | **≥ 80 %** / **0** / **≥ 50 %** (S5) |
+
+**Supuestos** (ninguno validado; el piloto mide los cuatro primeros):
+- **S1.** Plantilla media de 10 personas por taller (el segmento es de 1-49 asalariados).
+- **S2.** El 10 % de los talleres con un rojo al año. Rango 5-20 %, que da 45-180 altas al año.
+- **S3.** 3 personas sin alta por alerta.
+- **S4.** El 50 % de ellas, de alta a los 6 meses (en la demo, 3 de 7 en el mes 3).
+- **S5.** Las metas de resultado son propuesta nuestra.
+
+**Frase:** «Meta 2030, por validar: 600 talleres vigilados, unas 6.000 personas, y 90 altas al año de quien hoy trabaja sin alta.»
+
 ## Qué cambia en la app (para Producto)
 Sin tocar `lib/calculo` ni el seed: solo `src/content/textos.ts`, `src/data/vista.ts` (función `kpis()`), `src/content/legal.ts` y la prueba `src/data/vista.test.ts`.
 
@@ -92,10 +147,23 @@ Sin tocar `lib/calculo` ni el seed: solo `src/content/textos.ts`, `src/data/vist
 - Regla: cualquier lista de revisores, excepciones o cláusulas se llama **«propuesta»** mientras ningún sindicato ni ONG la haya firmado.
 - No se pueden buscar con grep: las capturas y el vídeo de `demo-backup/`.
 
+**7 bis. Ronda 3 (personas sin alta).**
+- `textos.ts` · `KPI_AYUDA.acompanados`, añadir al principio: «Las cuenta el revisor en una visita sin aviso, con un censo confidencial: ni la marca ni Trama ven nombres.»
+- `legal.ts` · `protocolo`, poner la visita primero:
+  - «≤ 7 días · Revisor independiente: visita sin aviso antes de comunicar la alerta al proveedor y censo confidencial de quien trabaja allí, con y sin alta.»
+  - «≤ 15 días · Proveedor: explica el desajuste y declara todas sus subcontratas.»
+  - «≤ 30 días · Revisor: valida el plan.»
+- P2, textos del seed (`src/data/seed.json`, sin tocar fechas ni cifras):
+  - H6: «Permisos art. 18 (vía social) resueltos y alta de los 4 trabajadores restantes» → «Resolución de los permisos art. 18 (vía social) y alta de quien lo obtenga» (no se puede dar por hecho que los 4 lo consigan).
+  - H8: «Revisión a 6 meses: trabajadores de la línea base siguen empleados y de alta» → «Revisión a 6 meses: el revisor coteja su censo y firma cuántas personas de la línea base siguen de alta».
+
 **8. Pitch** (para el mentor de Pitch; no edito su archivo). Lo de [2:02–2:36] ya está bien: «Medimos cuánta gente sigue de alta a los seis meses, y si el hueco se cerró con altas o quitando pedidos». Si en la demo se enseña #impacto, decir: «de 18 personas, 11 estaban de alta al abrir la alerta; hoy, 14: datos ficticios».
 
 ## Qué sigue abierto
 - **Las metas son propuesta nuestra.** Deben fijarse en cada plan con el revisor. Ningún sindicato ni ONG las ha validado.
 - **Quién da los recuentos.** «Siguen de alta» y «sin vía» los da el revisor tras cotejar la lista nominal en la gestoría. Falta probar con una gestoría que se pueda hacer sin sacar nombres.
 - **Trama no tiene solución para quien no cumple los requisitos de ninguna vía:** solo lo hace visible y vigila que se le pague lo trabajado.
+- **Ningún sindicato ni ONG ha aceptado llevar el censo.** Es la conversación que pide el jurado: sin ella, el punto 1 de la ronda 3 es una propuesta.
+- **En la demo, la visita sin aviso (H3, 15-sep) va después de la declaración del proveedor (H1, 21-ago).** El seed es anterior a esta regla y cambiar sus fechas rompe las pruebas, así que no se toca.
+- **La meta 2030 depende de S1-S4,** que nadie ha medido.
 - **El seed solo tiene un plan.** Con varios planes, la descomposición se suma plan a plan, y los meses de referencia y de plan pueden tener longitudes distintas.

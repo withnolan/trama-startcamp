@@ -12,7 +12,12 @@
    - Techo: **6.083 empresas** de confección, piel y calzado con 1 a 49 asalariados (INE, DIRCE a 1-1-2025) × 720 €/año = **4,4 M€/año**.
    - Fase 1, piel y calzado (Ubrique y Elche): **2.217 empresas → 1,6 M€/año**.
    - Italia, en la fase 2: 4.223 empresas de marroquinería → 3,0 M€/año.
-6. **Quitado:**
+6. **Ronda 3, contado en marcas que compran** (sección 6):
+   - Núcleo: **340 empresas**. En España, 165 fabricantes de confección, piel y calzado con 50 o más asalariados (INE). En Italia, 175 empresas de moda de más de 100 M€ (Mediobanca).
+   - Con 30-40 talleres cada una (supuesto): **≈ 8,6 M€/año**.
+   - **Primeras clientas: marcas que fabrican en Italia y en España**, con el piloto en sus talleres españoles.
+   - **Meta 2030: 40 marcas y ≈ 1.500 talleres** (supuesto).
+7. **Quitado:**
    - «90 € por taller y mes» como cuota: con 40 talleres son 43.200 €/año, por encima de lo que pagan hoy las marcas a EcoVadis según fuentes de terceros.
    - «Menos que una auditoría al año» y «menos que una persona de cumplimiento»: no tienen fuente.
    - «46.000 empresas de piel»: son de accesorios de moda más confección.
@@ -97,7 +102,7 @@ Empresas por grupo CNAE y número de asalariados, a 1-1-2025 ([INE, DIRCE, tabla
 | **Fase 1**: piel y calzado (151 + 152), Ubrique y Elche | 2.217 únicos | **1,60 M€** |
 | Fase 1b: confección y punto (141-143), Igualada y Mataró | 3.866 únicos | 2,78 M€ |
 | Año 1 (supuesto): 3 marcas × 30 talleres | 90 pares | 64.800 € (más los informes a coste) |
-| Año 3 (supuesto): 15 marcas × 40 talleres | 600 pares (≤ 600 únicos, ≈ 10 % del techo) | 432.000 € |
+| Año 3, 2029 (supuesto; ver la sección 6): 20 marcas × 40 talleres | 800 pares | 576.000 € |
 
 **Límites, dichos con honestidad:**
 - El DIRCE cuenta **empresas**, no talleres que trabajen para marcas. Cuántas de las 6.083 trabajan para una marca: **NO SÉ** (lo medirá el piloto). Algunas son marcas.

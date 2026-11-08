@@ -14,8 +14,28 @@ El semáforo divide dos cifras y cada una se puede falsear desde un lado distint
 **2. Minutos: los del escandallo con el que la marca paga, con historial, y con suelo.**
 - **De dónde salen.** Los minutos de cada pieza son los de la ficha de costes que compras usa para fijar el precio. No se escriben aparte para Trama.
 - **Historial.** Cada versión queda guardada con fecha y autor.
-- **Suelo.** El semáforo usa el mayor de dos valores: los minutos de la marca o el suelo público de la categoría, si existe. Para una americana forrada, el suelo es de unos 126 min. Si no hay referencia, la pieza se marca «minutos sin contrastar».
+- **Suelo.** El semáforo usa el mayor de dos valores: los minutos de la marca o el suelo público de la categoría, si existe. El suelo depende de la prenda y del segmento (regla cerrada en la ronda 3, abajo). Si no hay referencia, la pieza se marca «minutos sin contrastar».
 - **El revisor** contrasta los minutos en cada alerta y cuando la marca los rebaja.
+
+**Regla cerrada en la ronda 3 (fallo repetido 3 de 3: «los minutos los pone quien paga»)**
+
+| Prenda | Segmento | Suelo | Referencia externa |
+|---|---|---|---|
+| Americana o chaqueta forrada | Industrial | **126 min** | Estudio de tiempos [BUFT 2023](https://buft.edu.bd/upload/_page/P-7.pdf): 76 min estándar solo de costura; con la eficiencia real de una línea (60 %), ≈ 126 min de mano de obra |
+| Americana o chaqueta forrada | Premium y lujo | **180 min** | [Création Gross](https://fashionunited.uk/press/fashion/creation-gross-fashion-made-in-germany/2021111559279) (fábrica premium alemana): «hasta 180 min» de costura por chaqueta. Supuesto nuestro: el lujo no tarda menos que una fábrica premium. Brioni declara más de 16 h ([Il Sole 24 Ore](https://en.ilsole24ore.com/art/in-the-abruzzi-village-where-brioni-grow-new-tailors-AGeai4aB)) |
+| Piel, calzado y el resto | — | **Sin suelo público todavía** | No hemos encontrado tiempos publicados. La pieza va marcada «sin contrastar» y el piloto construye la referencia: el revisor cronometra una muestra en la primera visita |
+
+1. **El segmento es el de la marca, no el de la pieza.** Una marca de lujo usa el suelo de lujo: no puede declarar «industrial» una chaqueta que vende a miles de euros.
+2. **Trama calcula con el mayor** entre los minutos del escandallo y el suelo, y lo enseña.
+3. **Cada cambio de minutos queda en el historial** con fecha y autor. Si la marca rebaja minutos después de un ámbar o de un rojo, el revisor lo ve.
+4. **Si la marca no tiene minutos por modelo** (pasa en calzado), valen los del escandallo del fabricante principal con el que se fija el precio, con las mismas reglas.
+5. **Efecto en el caso Milán** (marca de lujo, suelo de 180 min). Aunque la marca declare 130 min, Trama calcula con 180: 18.000 h ÷ 12.250 h = **1,47×, rojo**. Sin suelo, el rojo empezaría en ≈ 135 min.
+
+**Frase para el pitch** (20 palabras):
+> «Los minutos son los del escandallo de la marca, nunca por debajo de un suelo público por prenda y segmento.»
+
+**Línea para la hoja de datos:**
+> «Minutos por pieza: los del escandallo con el que paga compras, con historial de cambios. Trama usa el mayor entre ese valor y un suelo público por prenda y segmento: americana forrada, industrial ≥ 126 min ([BUFT 2023](https://buft.edu.bd/upload/_page/P-7.pdf)) y premium o lujo ≥ 180 min ([Création Gross](https://fashionunited.uk/press/fashion/creation-gross-fashion-made-in-germany/2021111559279)). El revisor los contrasta en cada alerta. Piel y calzado: sin suelo público todavía (lo construye el piloto).»
 
 **3. La frase del v5 se mantiene, con un matiz.** Se dice «gente que no trabaja allí» (como ya dice el v1), no «gente que no existe». En preguntas se reconoce el hueco del personal que no cose (abajo).
 
@@ -55,8 +75,8 @@ El semáforo divide dos cifras y cada una se puede falsear desde un lado distint
 **«¿Y si el gestor firma lo que le pide el taller?»** (69 palabras)
 > «No le pedimos a nadie que firme horas. El dato es un informe de la Tesorería de la Seguridad Social que el gestor descarga y nos envía sin tocar. Para inflarlo, el taller tendría que dar de alta a gente que no trabaja allí y pagar sus cotizaciones. Y tras una alerta, el revisor, pagado por la marca, coteja la lista nominal en la gestoría y visita sin avisar.»
 
-**«¿Y si la marca baja los minutos para no ver rojos?»** (67 palabras)
-> «Los minutos no se teclean para Trama: son los del escandallo con el que la marca paga cada pieza, y cada cambio queda guardado con fecha y autor. Si bajan de la referencia pública de su categoría (una americana forrada, unos 126 minutos en producción masiva), Trama calcula con la referencia. Y en el caso Milán, el proveedor directo sale rojo con cualquier minutaje: no tenía taller.»
+**«¿Y si la marca baja los minutos para no ver rojos?»** (66 palabras; versión de la ronda 3)
+> «Los minutos no se teclean para Trama: son los del escandallo con el que la marca paga, y cada cambio queda registrado. Además hay un suelo público por prenda y segmento: una chaqueta de lujo, 180 minutos. Trama calcula con el mayor de los dos. En el caso Milán, aunque la marca declarase 130, saldría rojo. En piel y calzado ese suelo lo construye el piloto.»
 
 ## Qué cambia en la app o en el pitch
 
@@ -68,11 +88,11 @@ El semáforo divide dos cifras y cada una se puede falsear desde un lado distint
 |---|---|---|---|
 | P1 | `src/content/como-calculamos.ts` · `horas`, línea España | «España: el gestor laboral o graduado social las saca del Informe de Trabajadores en Alta (ITA) […] y firma solo el total.» | «España: sale del Informe de Plantilla Media de Trabajadores en Alta de la Seguridad Social (Sistema RED), que ya tiene en cuenta la jornada parcial. El gestor lo descarga y lo envía tal cual: nadie firma una cifra. Horas de alta = plantilla media × jornada anual de convenio ÷ 12. La lista nominal (ITA) solo la mira el revisor tras una alerta, en la gestoría.» |
 | P1 | `como-calculamos.ts` · `limites` | «El informe vale lo que su firmante: se apoya en la responsabilidad profesional del gestor laboral, del graduado social o del consulente del lavoro.» | «España: el informe es de la Seguridad Social; el gestor solo lo descarga. Italia: el LUL lo lleva el taller o su consulente y no tiene verificación pública, así que ahí el dato vale lo que su firmante.» |
-| P1 | `como-calculamos.ts` · `carga`, tras «…para fijar el precio.» | — | Añadir: «Cada cambio de minutos queda guardado con fecha y autor. Si están por debajo de la referencia pública de su categoría (americana forrada: unos 126 min en producción masiva; hasta 180 en una fábrica premium), se calcula con la referencia.» |
-| P1 | `textos.ts` · `TEXTOS_ESCENAS.casoMilan`, junto a `umbral` | «Rojo a partir de ≈135 min por chaqueta (con 6.000 al año).» | Añadir debajo: «Entre 126 y 134 min sale ámbar: se pide una explicación al proveedor. El proveedor A sale rojo con cualquier minutaje.» |
+| P1 | `como-calculamos.ts` · `carga`, tras «…para fijar el precio.» | — | Añadir: «Nunca por debajo de un suelo público por prenda y segmento. Americana forrada: industrial 126 min; premium y lujo 180 min. Trama calcula con el mayor de los dos, y cada cambio de minutos queda guardado con fecha y autor. En piel y calzado aún no hay suelo público: la pieza se marca "sin contrastar".» |
+| P1 | `textos.ts` · `TEXTOS_ESCENAS.casoMilan`, junto a `umbral` | «Rojo a partir de ≈135 min por chaqueta (con 6.000 al año).» | Sustituir por: «Suelo de minutos para una marca de lujo: 180 min. Si declara menos, Trama calcula con 180: 1,47×, rojo. Sin suelo, el rojo empezaría en ≈135 min.» Y en `pedidos.minutosNota`: «180 min: suelo público para premium y lujo (fábrica premium, hasta 180 min de costura).» |
 | P2 | `textos.ts` · `ORIGEN_HORAS.ES` | «Personas de alta en la Seguridad Social (ITA) × jornada pactada» | «Plantilla media en alta (Seguridad Social, Sistema RED) × jornada de convenio» |
 | P2 | `src/data/vista.ts:55` · `fuente` de `gestor_laboral` | «a partir del ITA de la Seguridad Social» | «a partir del informe de plantilla media de la Seguridad Social». **Hay que actualizar también `src/data/vista.test.ts:92`**, que espera el texto antiguo. |
-| P2 | Simulador (`TEXTOS_SIMULADOR` + `SimuladorSemaforo`) | — | Si los minutos son menos de 126: «Por debajo de la referencia pública (≈126 min): en producción, Trama calcularía con la referencia». Solo un aviso; el cálculo no cambia. |
+| P2 | Simulador (`TEXTOS_SIMULADOR` + `SimuladorSemaforo`), escenario «Caso reconstruido» | — | Si se escriben menos de 180 min: «Por debajo del suelo (180 min, lujo): Trama calcula con el suelo». **Mejor**, que el simulador use de verdad `Math.max(minutos, 180)` en ese escenario, con una prueba en `simular.test.ts` (130 min → 1,47×, rojo). **Ojo:** el e2e «caso reconstruido → rojo → ámbar → verde» dejaría de pasar si baja los minutos; hay que ajustarlo para que cambie las chaquetas o las personas. |
 
 ## Qué sigue abierto
 - Ver un informe de plantilla media real. Comprobar que pondera la parcialidad (prueba: una persona al 50 % todo el mes debe dar 0,50) y si un tercero puede verificar su huella.

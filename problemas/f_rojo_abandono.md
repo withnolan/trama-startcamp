@@ -18,6 +18,15 @@ Mentor 4 · 8-nov-2026. No es asesoramiento jurídico. Fuentes completas en `inv
 > 5. Si al final la Marca decide salir, lo hará con un plan de salida validado por el revisor: preaviso escrito de al menos 6 meses, información a la representación de los trabajadores y apoyo para su recolocación.
 > 6. Los trabajadores afectados o sus representantes podrán exigir los puntos 3 y 5 como terceros beneficiarios. La penalización por incumplimiento se destinará a ellos.
 
+**Protección desde la entrada (ronda 3)**
+Pedirle a un proveedor que entre en Trama no puede servir para descartarlo antes de la primera alerta. Cláusula 0, que va antes que las otras seis:
+> 0. Durante los 6 meses siguientes a la entrada de un taller en Trama, la Marca no le dará de baja ni le reducirá pedidos más del [20] % por entrar en Trama, por un ámbar o por un «sin datos». Un ámbar solo obliga a pedir una explicación.
+
+Trama publica en el informe de impacto, en agregado, cuántos proveedores han dejado de recibir pedidos en esos 6 meses y por qué.
+
+**Frase para el pitch** (21 palabras):
+> «Y, por contrato, entrar en Trama no le cuesta el cliente a ningún taller: seis meses sin bajas por el semáforo.»
+
 ## Por qué
 - **Loro Piana** dice haber hecho unas 2.400 auditorías y haber cortado con más de 100 proveedores y subproveedores ([Milano Finanza, 17-4-2026](https://www.milanofinanza.it/fashion/loro-piana-si-conclude-in-anticipo-il-procedimento-di-amministrazione-giudiziaria-202604171313344253)). Son cifras de la empresa, y no hay datos de qué pasó con esos trabajadores.
 - **Salir solo como último recurso, y de forma responsable.** Lo dicen la Guía OCDE del sector textil (§3.2.5), los Principios Rectores de la ONU (comentario al 19) y las directrices de la Comisión sobre el Reglamento 2024/3015 (§6.4.3): preaviso razonable, información al sindicato y prevenir los daños de la propia salida.
@@ -40,6 +49,7 @@ Mentor 4 · 8-nov-2026. No es asesoramiento jurídico. Fuentes completas en `inv
   1. Cláusula anti-despido. Cambiar «No impide bajas voluntarias ni despidos disciplinarios justificados» por «No cuentan como incumplimiento la dimisión, el despido disciplinario declarado procedente, la jubilación, la incapacidad permanente ni el fin de un contrato temporal por su causa (como en los ERTE, DA 44.ª.10 LGSS)».
   2. Límite de reducción. Cambiar «Solo puede superarlo si el proveedor se niega a cooperar o incumple de forma grave» por «Solo puede superarlo si el proveedor se niega a cooperar, si hay un peligro grave e inminente (se suspende ese centro, no la relación) o si lo decide una autoridad».
   3. Añadir a la lista: «Salida responsable: si el plan fracasa y la marca decide salir, lo hace con un plan validado por el revisor, preaviso escrito de al menos 6 meses e información a los trabajadores. Nunca por el semáforo solo.»
+  4. Ronda 3. Añadir al principio de la lista: «Desde la entrada: durante los 6 primeros meses de un taller en Trama, entrar en Trama, un ámbar o un "sin datos" no son motivo de baja ni de recortes de más del 20 %.»
 
 ## Qué sigue abierto (lo que no se puede cerrar esta noche)
 - **No hay ninguna marca que la haya firmado.** La cláusula vale lo que valga el contrato que no tenemos.
