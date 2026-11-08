@@ -89,3 +89,5 @@ Una línea por decisión: decisión — motivo.
 - Horas de alta en la ingesta = plantilla media ponderada × jornada anual del convenio ÷ 12 (1.768 h marroquinería, provisional y sin verificar en el BOE hasta A1).
 - Parámetros públicos provisionales copiados a mano con su URL (`capturado: false`); A1 los sustituye por la instantánea.
 - Lista de exclusión de nombres reales (`trama-mvp/datos/exclusion_nombres.txt`, 74 nombres) sacada de MARCAS.md, LLAMADAS.md y los casos de Milán.
+- Parada por consumo (usuario, ~12:20): se para en el mínimo factible. A1, A3 y A4 fusionados en verde; A2 (generador N2) detenido sin commits → descartado (rollback por diseño: su worktree no se fusiona). El escenario sigue siendo el de N1 (España, 4 arquetipos); Italia, varias marcas y minutos rebajados quedan para después del pitch.
+- Con el generador N1, score v1 y v2 coinciden en las 20 semillas; las diferencias de v2 (suelo, LUL sin Asse.Co, cuota) solo aparecerán con el generador N2.

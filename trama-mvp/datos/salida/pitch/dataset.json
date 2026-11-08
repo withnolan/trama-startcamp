@@ -13,7 +13,7 @@
         "2026-09",
         "2026-10"
       ],
-      "minutosEstandar": "escandallo sintético (versión vigente)"
+      "minutosEstandar": "escandallo sintético (versión vigente en 2026-10)"
     },
     "parametros": {
       "mesesVentana": 3,
@@ -3051,7 +3051,7 @@
     ],
     "certificadosHoras": [
       {
-        "id": "CS-TS-01-2026-05-1",
+        "id": "CS-TS-01-2026-05-00001",
         "tallerId": "TS-01",
         "mes": "2026-05",
         "horasTotalesCotizadas": 137.02,
@@ -3065,7 +3065,7 @@
         "fechaEmision": "2026-06-12"
       },
       {
-        "id": "CS-TS-01-2026-06-2",
+        "id": "CS-TS-01-2026-06-00002",
         "tallerId": "TS-01",
         "mes": "2026-06",
         "horasTotalesCotizadas": 135.55,
@@ -3079,7 +3079,7 @@
         "fechaEmision": "2026-07-03"
       },
       {
-        "id": "CS-TS-01-2026-07-3",
+        "id": "CS-TS-01-2026-07-00003",
         "tallerId": "TS-01",
         "mes": "2026-07",
         "horasTotalesCotizadas": 137.02,
@@ -3093,7 +3093,7 @@
         "fechaEmision": "2026-08-10"
       },
       {
-        "id": "CS-TS-01-2026-08-4",
+        "id": "CS-TS-01-2026-08-00004",
         "tallerId": "TS-01",
         "mes": "2026-08",
         "horasTotalesCotizadas": 138.49,
@@ -3107,7 +3107,7 @@
         "fechaEmision": "2026-09-06"
       },
       {
-        "id": "CS-TS-01-2026-09-5",
+        "id": "CS-TS-01-2026-09-00005",
         "tallerId": "TS-01",
         "mes": "2026-09",
         "horasTotalesCotizadas": 139.97,
@@ -3121,7 +3121,7 @@
         "fechaEmision": "2026-10-09"
       },
       {
-        "id": "CS-TS-01-2026-10-6",
+        "id": "CS-TS-01-2026-10-00006",
         "tallerId": "TS-01",
         "mes": "2026-10",
         "horasTotalesCotizadas": 138.49,
@@ -3135,7 +3135,7 @@
         "fechaEmision": "2026-11-06"
       },
       {
-        "id": "CS-TS-02-2026-05-7",
+        "id": "CS-TS-02-2026-05-00007",
         "tallerId": "TS-02",
         "mes": "2026-05",
         "horasTotalesCotizadas": 142.91,
@@ -3151,7 +3151,7 @@
         "fechaEmision": "2026-06-03"
       },
       {
-        "id": "CS-TS-02-2026-06-8",
+        "id": "CS-TS-02-2026-06-00008",
         "tallerId": "TS-02",
         "mes": "2026-06",
         "horasTotalesCotizadas": 144.39,
@@ -3167,7 +3167,7 @@
         "fechaEmision": "2026-07-11"
       },
       {
-        "id": "CS-TS-02-2026-07-9",
+        "id": "CS-TS-02-2026-07-00009",
         "tallerId": "TS-02",
         "mes": "2026-07",
         "horasTotalesCotizadas": 144.39,
@@ -3183,7 +3183,7 @@
         "fechaEmision": "2026-08-10"
       },
       {
-        "id": "CS-TS-02-2026-08-10",
+        "id": "CS-TS-02-2026-08-00010",
         "tallerId": "TS-02",
         "mes": "2026-08",
         "horasTotalesCotizadas": 139.97,
@@ -3199,7 +3199,7 @@
         "fechaEmision": "2026-09-12"
       },
       {
-        "id": "CS-TS-02-2026-09-11",
+        "id": "CS-TS-02-2026-09-00011",
         "tallerId": "TS-02",
         "mes": "2026-09",
         "horasTotalesCotizadas": 144.39,
@@ -3215,7 +3215,7 @@
         "fechaEmision": "2026-10-07"
       },
       {
-        "id": "CS-TS-02-2026-10-12",
+        "id": "CS-TS-02-2026-10-00012",
         "tallerId": "TS-02",
         "mes": "2026-10",
         "horasTotalesCotizadas": 142.91,
@@ -3231,7 +3231,7 @@
         "fechaEmision": "2026-11-03"
       },
       {
-        "id": "CS-TS-03-2026-05-13",
+        "id": "CS-TS-03-2026-05-00013",
         "tallerId": "TS-03",
         "mes": "2026-05",
         "horasTotalesCotizadas": 396.33,
@@ -3247,7 +3247,7 @@
         "fechaEmision": "2026-06-12"
       },
       {
-        "id": "CS-TS-03-2026-06-14",
+        "id": "CS-TS-03-2026-06-00014",
         "tallerId": "TS-03",
         "mes": "2026-06",
         "horasTotalesCotizadas": 396.33,
@@ -3263,7 +3263,7 @@
         "fechaEmision": "2026-07-11"
       },
       {
-        "id": "CS-TS-03-2026-07-15",
+        "id": "CS-TS-03-2026-07-00015",
         "tallerId": "TS-03",
         "mes": "2026-07",
         "horasTotalesCotizadas": 406.64,
@@ -3279,7 +3279,7 @@
         "fechaEmision": "2026-08-04"
       },
       {
-        "id": "CS-TS-03-2026-08-16",
+        "id": "CS-TS-03-2026-08-00016",
         "tallerId": "TS-03",
         "mes": "2026-08",
         "horasTotalesCotizadas": 396.33,
@@ -3295,7 +3295,7 @@
         "fechaEmision": "2026-09-04"
       },
       {
-        "id": "CS-TS-03-2026-09-17",
+        "id": "CS-TS-03-2026-09-00017",
         "tallerId": "TS-03",
         "mes": "2026-09",
         "horasTotalesCotizadas": 399.27,
@@ -3311,7 +3311,7 @@
         "fechaEmision": "2026-10-12"
       },
       {
-        "id": "CS-TS-03-2026-10-18",
+        "id": "CS-TS-03-2026-10-00018",
         "tallerId": "TS-03",
         "mes": "2026-10",
         "horasTotalesCotizadas": 396.33,
@@ -3327,7 +3327,7 @@
         "fechaEmision": "2026-11-05"
       },
       {
-        "id": "CS-TS-04-2026-05-19",
+        "id": "CS-TS-04-2026-05-00019",
         "tallerId": "TS-04",
         "mes": "2026-05",
         "horasTotalesCotizadas": 383.07,
@@ -3343,7 +3343,7 @@
         "fechaEmision": "2026-06-09"
       },
       {
-        "id": "CS-TS-04-2026-06-20",
+        "id": "CS-TS-04-2026-06-00020",
         "tallerId": "TS-04",
         "mes": "2026-06",
         "horasTotalesCotizadas": 377.17,
@@ -3359,7 +3359,7 @@
         "fechaEmision": "2026-07-10"
       },
       {
-        "id": "CS-TS-04-2026-07-21",
+        "id": "CS-TS-04-2026-07-00021",
         "tallerId": "TS-04",
         "mes": "2026-07",
         "horasTotalesCotizadas": 381.59,
@@ -3375,7 +3375,7 @@
         "fechaEmision": "2026-08-04"
       },
       {
-        "id": "CS-TS-04-2026-08-22",
+        "id": "CS-TS-04-2026-08-00022",
         "tallerId": "TS-04",
         "mes": "2026-08",
         "horasTotalesCotizadas": 381.59,
@@ -3391,7 +3391,7 @@
         "fechaEmision": "2026-09-09"
       },
       {
-        "id": "CS-TS-04-2026-09-23",
+        "id": "CS-TS-04-2026-09-00023",
         "tallerId": "TS-04",
         "mes": "2026-09",
         "horasTotalesCotizadas": 378.65,
@@ -3407,7 +3407,7 @@
         "fechaEmision": "2026-10-04"
       },
       {
-        "id": "CS-TS-04-2026-10-24",
+        "id": "CS-TS-04-2026-10-00024",
         "tallerId": "TS-04",
         "mes": "2026-10",
         "horasTotalesCotizadas": 384.54,
@@ -3423,7 +3423,7 @@
         "fechaEmision": "2026-11-08"
       },
       {
-        "id": "CS-TS-05-2026-05-25",
+        "id": "CS-TS-05-2026-05-00025",
         "tallerId": "TS-05",
         "mes": "2026-05",
         "horasTotalesCotizadas": 934.09,
@@ -3437,7 +3437,7 @@
         "fechaEmision": "2026-06-05"
       },
       {
-        "id": "CS-TS-05-2026-06-26",
+        "id": "CS-TS-05-2026-06-00026",
         "tallerId": "TS-05",
         "mes": "2026-06",
         "horasTotalesCotizadas": 917.89,
@@ -3451,7 +3451,7 @@
         "fechaEmision": "2026-07-06"
       },
       {
-        "id": "CS-TS-05-2026-07-27",
+        "id": "CS-TS-05-2026-07-00027",
         "tallerId": "TS-05",
         "mes": "2026-07",
         "horasTotalesCotizadas": 922.31,
@@ -3465,7 +3465,7 @@
         "fechaEmision": "2026-08-04"
       },
       {
-        "id": "CS-TS-05-2026-08-28",
+        "id": "CS-TS-05-2026-08-00028",
         "tallerId": "TS-05",
         "mes": "2026-08",
         "horasTotalesCotizadas": 925.25,
@@ -3479,7 +3479,7 @@
         "fechaEmision": "2026-09-06"
       },
       {
-        "id": "CS-TS-05-2026-09-29",
+        "id": "CS-TS-05-2026-09-00029",
         "tallerId": "TS-05",
         "mes": "2026-09",
         "horasTotalesCotizadas": 910.52,
@@ -3493,7 +3493,7 @@
         "fechaEmision": "2026-10-03"
       },
       {
-        "id": "CS-TS-05-2026-10-30",
+        "id": "CS-TS-05-2026-10-00030",
         "tallerId": "TS-05",
         "mes": "2026-10",
         "horasTotalesCotizadas": 923.78,
@@ -3507,7 +3507,7 @@
         "fechaEmision": "2026-11-08"
       },
       {
-        "id": "CS-TS-06-2026-05-31",
+        "id": "CS-TS-06-2026-05-00031",
         "tallerId": "TS-06",
         "mes": "2026-05",
         "horasTotalesCotizadas": 4275.61,
@@ -3521,7 +3521,7 @@
         "fechaEmision": "2026-06-10"
       },
       {
-        "id": "CS-TS-06-2026-06-32",
+        "id": "CS-TS-06-2026-06-00032",
         "tallerId": "TS-06",
         "mes": "2026-06",
         "horasTotalesCotizadas": 4221.1,
@@ -3535,7 +3535,7 @@
         "fechaEmision": "2026-07-12"
       },
       {
-        "id": "CS-TS-06-2026-07-33",
+        "id": "CS-TS-06-2026-07-00033",
         "tallerId": "TS-06",
         "mes": "2026-07",
         "horasTotalesCotizadas": 4226.99,
@@ -3549,7 +3549,7 @@
         "fechaEmision": "2026-08-06"
       },
       {
-        "id": "CS-TS-06-2026-08-34",
+        "id": "CS-TS-06-2026-08-00034",
         "tallerId": "TS-06",
         "mes": "2026-08",
         "horasTotalesCotizadas": 4219.63,
@@ -3563,7 +3563,7 @@
         "fechaEmision": "2026-09-04"
       },
       {
-        "id": "CS-TS-06-2026-09-35",
+        "id": "CS-TS-06-2026-09-00035",
         "tallerId": "TS-06",
         "mes": "2026-09",
         "horasTotalesCotizadas": 4253.51,
@@ -3577,7 +3577,7 @@
         "fechaEmision": "2026-10-07"
       },
       {
-        "id": "CS-TS-06-2026-10-36",
+        "id": "CS-TS-06-2026-10-00036",
         "tallerId": "TS-06",
         "mes": "2026-10",
         "horasTotalesCotizadas": 4287.4,
@@ -3591,7 +3591,7 @@
         "fechaEmision": "2026-11-10"
       },
       {
-        "id": "CS-TS-07-2026-05-37",
+        "id": "CS-TS-07-2026-05-00037",
         "tallerId": "TS-07",
         "mes": "2026-05",
         "horasTotalesCotizadas": 872.21,
@@ -3605,7 +3605,7 @@
         "fechaEmision": "2026-06-04"
       },
       {
-        "id": "CS-TS-07-2026-06-38",
+        "id": "CS-TS-07-2026-06-00038",
         "tallerId": "TS-07",
         "mes": "2026-06",
         "horasTotalesCotizadas": 861.9,
@@ -3619,7 +3619,7 @@
         "fechaEmision": "2026-07-07"
       },
       {
-        "id": "CS-TS-07-2026-07-39",
+        "id": "CS-TS-07-2026-07-00039",
         "tallerId": "TS-07",
         "mes": "2026-07",
         "horasTotalesCotizadas": 861.9,
@@ -3633,7 +3633,7 @@
         "fechaEmision": "2026-08-10"
       },
       {
-        "id": "CS-TS-07-2026-08-40",
+        "id": "CS-TS-07-2026-08-00040",
         "tallerId": "TS-07",
         "mes": "2026-08",
         "horasTotalesCotizadas": 867.79,
@@ -3647,7 +3647,7 @@
         "fechaEmision": "2026-09-11"
       },
       {
-        "id": "CS-TS-07-2026-09-41",
+        "id": "CS-TS-07-2026-09-00041",
         "tallerId": "TS-07",
         "mes": "2026-09",
         "horasTotalesCotizadas": 884,
@@ -3661,7 +3661,7 @@
         "fechaEmision": "2026-10-12"
       },
       {
-        "id": "CS-TS-07-2026-10-42",
+        "id": "CS-TS-07-2026-10-00042",
         "tallerId": "TS-07",
         "mes": "2026-10",
         "horasTotalesCotizadas": 881.05,
@@ -3675,7 +3675,7 @@
         "fechaEmision": "2026-11-06"
       },
       {
-        "id": "CS-TS-08-2026-05-43",
+        "id": "CS-TS-08-2026-05-00043",
         "tallerId": "TS-08",
         "mes": "2026-05",
         "horasTotalesCotizadas": 139.97,
@@ -3689,7 +3689,7 @@
         "fechaEmision": "2026-06-08"
       },
       {
-        "id": "CS-TS-08-2026-06-44",
+        "id": "CS-TS-08-2026-06-00044",
         "tallerId": "TS-08",
         "mes": "2026-06",
         "horasTotalesCotizadas": 139.97,
@@ -3703,7 +3703,7 @@
         "fechaEmision": "2026-07-07"
       },
       {
-        "id": "CS-TS-08-2026-07-45",
+        "id": "CS-TS-08-2026-07-00045",
         "tallerId": "TS-08",
         "mes": "2026-07",
         "horasTotalesCotizadas": 139.97,
@@ -3717,7 +3717,7 @@
         "fechaEmision": "2026-08-07"
       },
       {
-        "id": "CS-TS-08-2026-08-46",
+        "id": "CS-TS-08-2026-08-00046",
         "tallerId": "TS-08",
         "mes": "2026-08",
         "horasTotalesCotizadas": 139.97,
@@ -3731,7 +3731,7 @@
         "fechaEmision": "2026-09-12"
       },
       {
-        "id": "CS-TS-08-2026-09-47",
+        "id": "CS-TS-08-2026-09-00047",
         "tallerId": "TS-08",
         "mes": "2026-09",
         "horasTotalesCotizadas": 139.97,
@@ -3745,7 +3745,7 @@
         "fechaEmision": "2026-10-07"
       },
       {
-        "id": "CS-TS-08-2026-10-48",
+        "id": "CS-TS-08-2026-10-00048",
         "tallerId": "TS-08",
         "mes": "2026-10",
         "horasTotalesCotizadas": 139.97,
@@ -3759,7 +3759,7 @@
         "fechaEmision": "2026-11-10"
       },
       {
-        "id": "CS-TS-09-2026-05-49",
+        "id": "CS-TS-09-2026-05-00049",
         "tallerId": "TS-09",
         "mes": "2026-05",
         "horasTotalesCotizadas": 388.96,
@@ -3775,7 +3775,7 @@
         "fechaEmision": "2026-06-03"
       },
       {
-        "id": "CS-TS-09-2026-06-50",
+        "id": "CS-TS-09-2026-06-00050",
         "tallerId": "TS-09",
         "mes": "2026-06",
         "horasTotalesCotizadas": 391.91,
@@ -3791,7 +3791,7 @@
         "fechaEmision": "2026-07-06"
       },
       {
-        "id": "CS-TS-09-2026-07-51",
+        "id": "CS-TS-09-2026-07-00051",
         "tallerId": "TS-09",
         "mes": "2026-07",
         "horasTotalesCotizadas": 391.91,
@@ -3807,7 +3807,7 @@
         "fechaEmision": "2026-08-04"
       },
       {
-        "id": "CS-TS-09-2026-08-52",
+        "id": "CS-TS-09-2026-08-00052",
         "tallerId": "TS-09",
         "mes": "2026-08",
         "horasTotalesCotizadas": 388.96,
@@ -3823,7 +3823,7 @@
         "fechaEmision": "2026-09-05"
       },
       {
-        "id": "CS-TS-09-2026-09-53",
+        "id": "CS-TS-09-2026-09-00053",
         "tallerId": "TS-09",
         "mes": "2026-09",
         "horasTotalesCotizadas": 396.33,
@@ -3839,7 +3839,7 @@
         "fechaEmision": "2026-10-03"
       },
       {
-        "id": "CS-TS-10-2026-05-54",
+        "id": "CS-TS-10-2026-05-00054",
         "tallerId": "TS-10",
         "mes": "2026-05",
         "horasTotalesCotizadas": 875.16,
@@ -3853,7 +3853,7 @@
         "fechaEmision": "2026-06-07"
       },
       {
-        "id": "CS-TS-10-2026-06-55",
+        "id": "CS-TS-10-2026-06-00055",
         "tallerId": "TS-10",
         "mes": "2026-06",
         "horasTotalesCotizadas": 878.11,
@@ -3867,7 +3867,7 @@
         "fechaEmision": "2026-07-12"
       },
       {
-        "id": "CS-TS-10-2026-07-56",
+        "id": "CS-TS-10-2026-07-00056",
         "tallerId": "TS-10",
         "mes": "2026-07",
         "horasTotalesCotizadas": 873.69,
@@ -3881,7 +3881,7 @@
         "fechaEmision": "2026-08-06"
       },
       {
-        "id": "CS-TS-10-2026-08-57",
+        "id": "CS-TS-10-2026-08-00057",
         "tallerId": "TS-10",
         "mes": "2026-08",
         "horasTotalesCotizadas": 872.21,
@@ -3895,7 +3895,7 @@
         "fechaEmision": "2026-09-05"
       },
       {
-        "id": "CS-TS-10-2026-09-58",
+        "id": "CS-TS-10-2026-09-00058",
         "tallerId": "TS-10",
         "mes": "2026-09",
         "horasTotalesCotizadas": 857.48,
@@ -3909,7 +3909,7 @@
         "fechaEmision": "2026-10-06"
       },
       {
-        "id": "CS-TS-10-2026-10-59",
+        "id": "CS-TS-10-2026-10-00059",
         "tallerId": "TS-10",
         "mes": "2026-10",
         "horasTotalesCotizadas": 873.69,
@@ -3923,7 +3923,7 @@
         "fechaEmision": "2026-11-09"
       },
       {
-        "id": "CS-TS-11-2026-05-60",
+        "id": "CS-TS-11-2026-05-00060",
         "tallerId": "TS-11",
         "mes": "2026-05",
         "horasTotalesCotizadas": 5698.85,
@@ -3937,7 +3937,7 @@
         "fechaEmision": "2026-06-04"
       },
       {
-        "id": "CS-TS-11-2026-06-61",
+        "id": "CS-TS-11-2026-06-00061",
         "tallerId": "TS-11",
         "mes": "2026-06",
         "horasTotalesCotizadas": 5688.54,
@@ -3951,7 +3951,7 @@
         "fechaEmision": "2026-07-04"
       },
       {
-        "id": "CS-TS-11-2026-07-62",
+        "id": "CS-TS-11-2026-07-00062",
         "tallerId": "TS-11",
         "mes": "2026-07",
         "horasTotalesCotizadas": 5557.41,
@@ -3965,7 +3965,7 @@
         "fechaEmision": "2026-08-03"
       },
       {
-        "id": "CS-TS-11-2026-08-63",
+        "id": "CS-TS-11-2026-08-00063",
         "tallerId": "TS-11",
         "mes": "2026-08",
         "horasTotalesCotizadas": 5589.83,
@@ -3979,7 +3979,7 @@
         "fechaEmision": "2026-09-08"
       },
       {
-        "id": "CS-TS-11-2026-09-64",
+        "id": "CS-TS-11-2026-09-00064",
         "tallerId": "TS-11",
         "mes": "2026-09",
         "horasTotalesCotizadas": 5642.87,
@@ -3993,7 +3993,7 @@
         "fechaEmision": "2026-10-03"
       },
       {
-        "id": "CS-TS-11-2026-10-65",
+        "id": "CS-TS-11-2026-10-00065",
         "tallerId": "TS-11",
         "mes": "2026-10",
         "horasTotalesCotizadas": 5623.71,
@@ -4007,7 +4007,7 @@
         "fechaEmision": "2026-11-05"
       },
       {
-        "id": "CS-TS-12-2026-05-66",
+        "id": "CS-TS-12-2026-05-00066",
         "tallerId": "TS-12",
         "mes": "2026-05",
         "horasTotalesCotizadas": 4254.99,
@@ -4021,7 +4021,7 @@
         "fechaEmision": "2026-06-12"
       },
       {
-        "id": "CS-TS-12-2026-06-67",
+        "id": "CS-TS-12-2026-06-00067",
         "tallerId": "TS-12",
         "mes": "2026-06",
         "horasTotalesCotizadas": 4241.73,
@@ -4035,7 +4035,7 @@
         "fechaEmision": "2026-07-10"
       },
       {
-        "id": "CS-TS-12-2026-07-68",
+        "id": "CS-TS-12-2026-07-00068",
         "tallerId": "TS-12",
         "mes": "2026-07",
         "horasTotalesCotizadas": 4249.09,
@@ -4049,7 +4049,7 @@
         "fechaEmision": "2026-08-08"
       },
       {
-        "id": "CS-TS-12-2026-08-69",
+        "id": "CS-TS-12-2026-08-00069",
         "tallerId": "TS-12",
         "mes": "2026-08",
         "horasTotalesCotizadas": 4262.35,
@@ -4063,7 +4063,7 @@
         "fechaEmision": "2026-09-09"
       },
       {
-        "id": "CS-TS-12-2026-09-70",
+        "id": "CS-TS-12-2026-09-00070",
         "tallerId": "TS-12",
         "mes": "2026-09",
         "horasTotalesCotizadas": 4232.89,
@@ -4077,7 +4077,7 @@
         "fechaEmision": "2026-10-10"
       },
       {
-        "id": "CS-TS-12-2026-10-71",
+        "id": "CS-TS-12-2026-10-00071",
         "tallerId": "TS-12",
         "mes": "2026-10",
         "horasTotalesCotizadas": 4169.53,
@@ -4091,7 +4091,7 @@
         "fechaEmision": "2026-11-05"
       },
       {
-        "id": "CS-TS-13-2026-05-72",
+        "id": "CS-TS-13-2026-05-00072",
         "tallerId": "TS-13",
         "mes": "2026-05",
         "horasTotalesCotizadas": 2235.05,
@@ -4105,7 +4105,7 @@
         "fechaEmision": "2026-06-09"
       },
       {
-        "id": "CS-TS-13-2026-06-73",
+        "id": "CS-TS-13-2026-06-00073",
         "tallerId": "TS-13",
         "mes": "2026-06",
         "horasTotalesCotizadas": 2260.09,
@@ -4119,7 +4119,7 @@
         "fechaEmision": "2026-07-08"
       },
       {
-        "id": "CS-TS-13-2026-07-74",
+        "id": "CS-TS-13-2026-07-00074",
         "tallerId": "TS-13",
         "mes": "2026-07",
         "horasTotalesCotizadas": 2232.1,
@@ -4133,7 +4133,7 @@
         "fechaEmision": "2026-08-08"
       },
       {
-        "id": "CS-TS-13-2026-08-75",
+        "id": "CS-TS-13-2026-08-00075",
         "tallerId": "TS-13",
         "mes": "2026-08",
         "horasTotalesCotizadas": 2245.36,
@@ -4147,7 +4147,7 @@
         "fechaEmision": "2026-09-08"
       },
       {
-        "id": "CS-TS-13-2026-09-76",
+        "id": "CS-TS-13-2026-09-00076",
         "tallerId": "TS-13",
         "mes": "2026-09",
         "horasTotalesCotizadas": 2233.57,
@@ -4161,7 +4161,7 @@
         "fechaEmision": "2026-10-07"
       },
       {
-        "id": "CS-TS-13-2026-10-77",
+        "id": "CS-TS-13-2026-10-00077",
         "tallerId": "TS-13",
         "mes": "2026-10",
         "horasTotalesCotizadas": 2274.83,
@@ -4175,7 +4175,7 @@
         "fechaEmision": "2026-11-08"
       },
       {
-        "id": "CS-TS-14-2026-05-78",
+        "id": "CS-TS-14-2026-05-00078",
         "tallerId": "TS-14",
         "mes": "2026-05",
         "horasTotalesCotizadas": 272.57,
@@ -4189,7 +4189,7 @@
         "fechaEmision": "2026-06-04"
       },
       {
-        "id": "CS-TS-14-2026-06-79",
+        "id": "CS-TS-14-2026-06-00079",
         "tallerId": "TS-14",
         "mes": "2026-06",
         "horasTotalesCotizadas": 269.62,
@@ -4203,7 +4203,7 @@
         "fechaEmision": "2026-07-05"
       },
       {
-        "id": "CS-TS-14-2026-07-80",
+        "id": "CS-TS-14-2026-07-00080",
         "tallerId": "TS-14",
         "mes": "2026-07",
         "horasTotalesCotizadas": 272.57,
@@ -4217,7 +4217,7 @@
         "fechaEmision": "2026-08-09"
       },
       {
-        "id": "CS-TS-14-2026-08-81",
+        "id": "CS-TS-14-2026-08-00081",
         "tallerId": "TS-14",
         "mes": "2026-08",
         "horasTotalesCotizadas": 266.67,
@@ -4231,7 +4231,7 @@
         "fechaEmision": "2026-09-04"
       },
       {
-        "id": "CS-TS-15-2026-05-82",
+        "id": "CS-TS-15-2026-05-00082",
         "tallerId": "TS-15",
         "mes": "2026-05",
         "horasTotalesCotizadas": 431.69,
@@ -4247,7 +4247,7 @@
         "fechaEmision": "2026-06-06"
       },
       {
-        "id": "CS-TS-15-2026-06-83",
+        "id": "CS-TS-15-2026-06-00083",
         "tallerId": "TS-15",
         "mes": "2026-06",
         "horasTotalesCotizadas": 434.63,
@@ -4263,7 +4263,7 @@
         "fechaEmision": "2026-07-08"
       },
       {
-        "id": "CS-TS-15-2026-07-84",
+        "id": "CS-TS-15-2026-07-00084",
         "tallerId": "TS-15",
         "mes": "2026-07",
         "horasTotalesCotizadas": 430.21,
@@ -4279,7 +4279,7 @@
         "fechaEmision": "2026-08-09"
       },
       {
-        "id": "CS-TS-15-2026-08-85",
+        "id": "CS-TS-15-2026-08-00085",
         "tallerId": "TS-15",
         "mes": "2026-08",
         "horasTotalesCotizadas": 434.63,
@@ -4295,7 +4295,7 @@
         "fechaEmision": "2026-09-12"
       },
       {
-        "id": "CS-TS-15-2026-09-86",
+        "id": "CS-TS-15-2026-09-00086",
         "tallerId": "TS-15",
         "mes": "2026-09",
         "horasTotalesCotizadas": 434.63,
@@ -4311,7 +4311,7 @@
         "fechaEmision": "2026-10-05"
       },
       {
-        "id": "CS-TS-15-2026-10-87",
+        "id": "CS-TS-15-2026-10-00087",
         "tallerId": "TS-15",
         "mes": "2026-10",
         "horasTotalesCotizadas": 430.21,
@@ -4327,7 +4327,7 @@
         "fechaEmision": "2026-11-05"
       },
       {
-        "id": "CS-TS-16-2026-05-88",
+        "id": "CS-TS-16-2026-05-00088",
         "tallerId": "TS-16",
         "mes": "2026-05",
         "horasTotalesCotizadas": 274.04,
@@ -4341,7 +4341,7 @@
         "fechaEmision": "2026-06-11"
       },
       {
-        "id": "CS-TS-16-2026-06-89",
+        "id": "CS-TS-16-2026-06-00089",
         "tallerId": "TS-16",
         "mes": "2026-06",
         "horasTotalesCotizadas": 278.46,
@@ -4355,7 +4355,7 @@
         "fechaEmision": "2026-07-03"
       },
       {
-        "id": "CS-TS-16-2026-07-90",
+        "id": "CS-TS-16-2026-07-00090",
         "tallerId": "TS-16",
         "mes": "2026-07",
         "horasTotalesCotizadas": 274.04,
@@ -4369,7 +4369,7 @@
         "fechaEmision": "2026-08-05"
       },
       {
-        "id": "CS-TS-16-2026-08-91",
+        "id": "CS-TS-16-2026-08-00091",
         "tallerId": "TS-16",
         "mes": "2026-08",
         "horasTotalesCotizadas": 278.46,
@@ -4383,7 +4383,7 @@
         "fechaEmision": "2026-09-05"
       },
       {
-        "id": "CS-TS-16-2026-09-92",
+        "id": "CS-TS-16-2026-09-00092",
         "tallerId": "TS-16",
         "mes": "2026-09",
         "horasTotalesCotizadas": 278.46,
@@ -4397,7 +4397,7 @@
         "fechaEmision": "2026-10-12"
       },
       {
-        "id": "CS-TS-16-2026-10-93",
+        "id": "CS-TS-16-2026-10-00093",
         "tallerId": "TS-16",
         "mes": "2026-10",
         "horasTotalesCotizadas": 276.99,
@@ -4411,7 +4411,7 @@
         "fechaEmision": "2026-11-03"
       },
       {
-        "id": "CS-TS-17-2026-05-94",
+        "id": "CS-TS-17-2026-05-00094",
         "tallerId": "TS-17",
         "mes": "2026-05",
         "horasTotalesCotizadas": 262.25,
@@ -4427,7 +4427,7 @@
         "fechaEmision": "2026-06-04"
       },
       {
-        "id": "CS-TS-17-2026-06-95",
+        "id": "CS-TS-17-2026-06-00095",
         "tallerId": "TS-17",
         "mes": "2026-06",
         "horasTotalesCotizadas": 262.25,
@@ -4443,7 +4443,7 @@
         "fechaEmision": "2026-07-04"
       },
       {
-        "id": "CS-TS-17-2026-07-96",
+        "id": "CS-TS-17-2026-07-00096",
         "tallerId": "TS-17",
         "mes": "2026-07",
         "horasTotalesCotizadas": 256.36,
@@ -4459,7 +4459,7 @@
         "fechaEmision": "2026-08-10"
       },
       {
-        "id": "CS-TS-17-2026-08-97",
+        "id": "CS-TS-17-2026-08-00097",
         "tallerId": "TS-17",
         "mes": "2026-08",
         "horasTotalesCotizadas": 256.36,
@@ -4475,7 +4475,7 @@
         "fechaEmision": "2026-09-08"
       },
       {
-        "id": "CS-TS-17-2026-09-98",
+        "id": "CS-TS-17-2026-09-00098",
         "tallerId": "TS-17",
         "mes": "2026-09",
         "horasTotalesCotizadas": 257.83,
@@ -4491,7 +4491,7 @@
         "fechaEmision": "2026-10-10"
       },
       {
-        "id": "CS-TS-17-2026-10-99",
+        "id": "CS-TS-17-2026-10-00099",
         "tallerId": "TS-17",
         "mes": "2026-10",
         "horasTotalesCotizadas": 260.78,
@@ -4507,7 +4507,7 @@
         "fechaEmision": "2026-11-08"
       },
       {
-        "id": "CS-TS-18-2026-05-100",
+        "id": "CS-TS-18-2026-05-00100",
         "tallerId": "TS-18",
         "mes": "2026-05",
         "horasTotalesCotizadas": 652.69,
@@ -4523,7 +4523,7 @@
         "fechaEmision": "2026-06-05"
       },
       {
-        "id": "CS-TS-18-2026-06-101",
+        "id": "CS-TS-18-2026-06-00101",
         "tallerId": "TS-18",
         "mes": "2026-06",
         "horasTotalesCotizadas": 652.69,
@@ -4539,7 +4539,7 @@
         "fechaEmision": "2026-07-12"
       },
       {
-        "id": "CS-TS-18-2026-07-102",
+        "id": "CS-TS-18-2026-07-00102",
         "tallerId": "TS-18",
         "mes": "2026-07",
         "horasTotalesCotizadas": 645.32,
@@ -4555,7 +4555,7 @@
         "fechaEmision": "2026-08-10"
       },
       {
-        "id": "CS-TS-18-2026-08-103",
+        "id": "CS-TS-18-2026-08-00103",
         "tallerId": "TS-18",
         "mes": "2026-08",
         "horasTotalesCotizadas": 649.74,
@@ -4571,7 +4571,7 @@
         "fechaEmision": "2026-09-10"
       },
       {
-        "id": "CS-TS-18-2026-09-104",
+        "id": "CS-TS-18-2026-09-00104",
         "tallerId": "TS-18",
         "mes": "2026-09",
         "horasTotalesCotizadas": 646.79,
@@ -4587,7 +4587,7 @@
         "fechaEmision": "2026-10-05"
       },
       {
-        "id": "CS-TS-18-2026-10-105",
+        "id": "CS-TS-18-2026-10-00105",
         "tallerId": "TS-18",
         "mes": "2026-10",
         "horasTotalesCotizadas": 648.27,
@@ -4603,7 +4603,7 @@
         "fechaEmision": "2026-11-05"
       },
       {
-        "id": "CS-TS-19-2026-05-106",
+        "id": "CS-TS-19-2026-05-00106",
         "tallerId": "TS-19",
         "mes": "2026-05",
         "horasTotalesCotizadas": 533.35,
@@ -4617,7 +4617,7 @@
         "fechaEmision": "2026-06-09"
       },
       {
-        "id": "CS-TS-19-2026-06-107",
+        "id": "CS-TS-19-2026-06-00107",
         "tallerId": "TS-19",
         "mes": "2026-06",
         "horasTotalesCotizadas": 543.66,
@@ -4631,7 +4631,7 @@
         "fechaEmision": "2026-07-10"
       },
       {
-        "id": "CS-TS-19-2026-07-108",
+        "id": "CS-TS-19-2026-07-00108",
         "tallerId": "TS-19",
         "mes": "2026-07",
         "horasTotalesCotizadas": 533.35,
@@ -4645,7 +4645,7 @@
         "fechaEmision": "2026-08-03"
       },
       {
-        "id": "CS-TS-19-2026-08-109",
+        "id": "CS-TS-19-2026-08-00109",
         "tallerId": "TS-19",
         "mes": "2026-08",
         "horasTotalesCotizadas": 539.24,
@@ -4659,7 +4659,7 @@
         "fechaEmision": "2026-09-12"
       },
       {
-        "id": "CS-TS-19-2026-09-110",
+        "id": "CS-TS-19-2026-09-00110",
         "tallerId": "TS-19",
         "mes": "2026-09",
         "horasTotalesCotizadas": 546.61,
@@ -4673,7 +4673,7 @@
         "fechaEmision": "2026-10-11"
       },
       {
-        "id": "CS-TS-19-2026-10-111",
+        "id": "CS-TS-19-2026-10-00111",
         "tallerId": "TS-19",
         "mes": "2026-10",
         "horasTotalesCotizadas": 533.35,
@@ -4687,7 +4687,7 @@
         "fechaEmision": "2026-11-04"
       },
       {
-        "id": "CS-TS-20-2026-05-112",
+        "id": "CS-TS-20-2026-05-00112",
         "tallerId": "TS-20",
         "mes": "2026-05",
         "horasTotalesCotizadas": 366.86,
@@ -4703,7 +4703,7 @@
         "fechaEmision": "2026-06-08"
       },
       {
-        "id": "CS-TS-20-2026-06-113",
+        "id": "CS-TS-20-2026-06-00113",
         "tallerId": "TS-20",
         "mes": "2026-06",
         "horasTotalesCotizadas": 371.28,
@@ -4719,7 +4719,7 @@
         "fechaEmision": "2026-07-12"
       },
       {
-        "id": "CS-TS-20-2026-07-114",
+        "id": "CS-TS-20-2026-07-00114",
         "tallerId": "TS-20",
         "mes": "2026-07",
         "horasTotalesCotizadas": 369.81,
@@ -4735,7 +4735,7 @@
         "fechaEmision": "2026-08-08"
       },
       {
-        "id": "CS-TS-20-2026-08-115",
+        "id": "CS-TS-20-2026-08-00115",
         "tallerId": "TS-20",
         "mes": "2026-08",
         "horasTotalesCotizadas": 372.75,
@@ -4751,7 +4751,7 @@
         "fechaEmision": "2026-09-11"
       },
       {
-        "id": "CS-TS-20-2026-09-116",
+        "id": "CS-TS-20-2026-09-00116",
         "tallerId": "TS-20",
         "mes": "2026-09",
         "horasTotalesCotizadas": 366.86,
@@ -4767,7 +4767,7 @@
         "fechaEmision": "2026-10-06"
       },
       {
-        "id": "CS-TS-20-2026-10-117",
+        "id": "CS-TS-20-2026-10-00117",
         "tallerId": "TS-20",
         "mes": "2026-10",
         "horasTotalesCotizadas": 371.28,
@@ -4821,155 +4821,35 @@
     "esperado": null
   },
   "procedencia": {
-    "taller:TS-01": {
-      "archivo": "talleres.csv",
-      "fila": 1,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-02": {
-      "archivo": "talleres.csv",
-      "fila": 2,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-03": {
-      "archivo": "talleres.csv",
-      "fila": 3,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-04": {
-      "archivo": "talleres.csv",
-      "fila": 4,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-05": {
-      "archivo": "talleres.csv",
-      "fila": 5,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-06": {
-      "archivo": "talleres.csv",
-      "fila": 6,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-07": {
-      "archivo": "talleres.csv",
-      "fila": 7,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-08": {
-      "archivo": "talleres.csv",
-      "fila": 8,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-09": {
-      "archivo": "talleres.csv",
-      "fila": 9,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-10": {
-      "archivo": "talleres.csv",
-      "fila": 10,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-11": {
-      "archivo": "talleres.csv",
-      "fila": 11,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-12": {
-      "archivo": "talleres.csv",
-      "fila": 12,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-13": {
-      "archivo": "talleres.csv",
-      "fila": 13,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-14": {
-      "archivo": "talleres.csv",
-      "fila": 14,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-15": {
-      "archivo": "talleres.csv",
-      "fila": 15,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-16": {
-      "archivo": "talleres.csv",
-      "fila": 16,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-17": {
-      "archivo": "talleres.csv",
-      "fila": 17,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-18": {
-      "archivo": "talleres.csv",
-      "fila": 18,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-19": {
-      "archivo": "talleres.csv",
-      "fila": 19,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "taller:TS-20": {
-      "archivo": "talleres.csv",
-      "fila": 20,
-      "tipoFuente": "declarado",
-      "fechaDato": ""
-    },
-    "pieza:TP-BOLSO-ESTR": {
+    "escandallo:TP-BOLSO-ESTR:v1": {
       "archivo": "escandallo.csv",
       "fila": 1,
       "tipoFuente": "declarado",
       "fechaDato": "2026-05-01",
       "firmante": "Compras (ficticio)"
     },
-    "pieza:TP-BOLSO-TOTE": {
+    "escandallo:TP-BOLSO-TOTE:v1": {
       "archivo": "escandallo.csv",
       "fila": 2,
       "tipoFuente": "declarado",
       "fechaDato": "2026-05-01",
       "firmante": "Compras (ficticio)"
     },
-    "pieza:TP-CARTERA": {
+    "escandallo:TP-CARTERA:v1": {
       "archivo": "escandallo.csv",
       "fila": 3,
       "tipoFuente": "declarado",
       "fechaDato": "2026-05-01",
       "firmante": "Compras (ficticio)"
     },
-    "pieza:TP-CINTURON": {
+    "escandallo:TP-CINTURON:v1": {
       "archivo": "escandallo.csv",
       "fila": 4,
       "tipoFuente": "declarado",
       "fechaDato": "2026-05-01",
       "firmante": "Compras (ficticio)"
     },
-    "pieza:TP-TARJETERO": {
+    "escandallo:TP-TARJETERO:v1": {
       "archivo": "escandallo.csv",
       "fila": 5,
       "tipoFuente": "declarado",
@@ -6344,856 +6224,1011 @@
       "tipoFuente": "declarado",
       "fechaDato": "2026-10-01"
     },
-    "informe:CS-TS-01-2026-05-1": {
+    "informe:CS-TS-01-2026-05-00001": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 1,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Alcaudón (ficticia)"
     },
-    "informe:CS-TS-01-2026-06-2": {
+    "informe:CS-TS-01-2026-06-00002": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 2,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Alcaudón (ficticia)"
     },
-    "informe:CS-TS-01-2026-07-3": {
+    "informe:CS-TS-01-2026-07-00003": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 3,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Alcaudón (ficticia)"
     },
-    "informe:CS-TS-01-2026-08-4": {
+    "informe:CS-TS-01-2026-08-00004": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 4,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Alcaudón (ficticia)"
     },
-    "informe:CS-TS-01-2026-09-5": {
+    "informe:CS-TS-01-2026-09-00005": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 5,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Alcaudón (ficticia)"
     },
-    "informe:CS-TS-01-2026-10-6": {
+    "informe:CS-TS-01-2026-10-00006": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 6,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Alcaudón (ficticia)"
     },
-    "informe:CS-TS-02-2026-05-7": {
+    "informe:CS-TS-02-2026-05-00007": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 7,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Serbal (ficticia)"
     },
-    "informe:CS-TS-02-2026-06-8": {
+    "informe:CS-TS-02-2026-06-00008": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 8,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Serbal (ficticia)"
     },
-    "informe:CS-TS-02-2026-07-9": {
+    "informe:CS-TS-02-2026-07-00009": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 9,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Serbal (ficticia)"
     },
-    "informe:CS-TS-02-2026-08-10": {
+    "informe:CS-TS-02-2026-08-00010": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 10,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Serbal (ficticia)"
     },
-    "informe:CS-TS-02-2026-09-11": {
+    "informe:CS-TS-02-2026-09-00011": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 11,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Serbal (ficticia)"
     },
-    "informe:CS-TS-02-2026-10-12": {
+    "informe:CS-TS-02-2026-10-00012": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 12,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Serbal (ficticia)"
     },
-    "informe:CS-TS-03-2026-05-13": {
+    "informe:CS-TS-03-2026-05-00013": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 13,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Cárabo (ficticia)"
     },
-    "informe:CS-TS-03-2026-06-14": {
+    "informe:CS-TS-03-2026-06-00014": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 14,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Cárabo (ficticia)"
     },
-    "informe:CS-TS-03-2026-07-15": {
+    "informe:CS-TS-03-2026-07-00015": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 15,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Cárabo (ficticia)"
     },
-    "informe:CS-TS-03-2026-08-16": {
+    "informe:CS-TS-03-2026-08-00016": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 16,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Cárabo (ficticia)"
     },
-    "informe:CS-TS-03-2026-09-17": {
+    "informe:CS-TS-03-2026-09-00017": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 17,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Cárabo (ficticia)"
     },
-    "informe:CS-TS-03-2026-10-18": {
+    "informe:CS-TS-03-2026-10-00018": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 18,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Cárabo (ficticia)"
     },
-    "informe:CS-TS-04-2026-05-19": {
+    "informe:CS-TS-04-2026-05-00019": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 19,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Coscoja (ficticia)"
     },
-    "informe:CS-TS-04-2026-06-20": {
+    "informe:CS-TS-04-2026-06-00020": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 20,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Coscoja (ficticia)"
     },
-    "informe:CS-TS-04-2026-07-21": {
+    "informe:CS-TS-04-2026-07-00021": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 21,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Coscoja (ficticia)"
     },
-    "informe:CS-TS-04-2026-08-22": {
+    "informe:CS-TS-04-2026-08-00022": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 22,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Coscoja (ficticia)"
     },
-    "informe:CS-TS-04-2026-09-23": {
+    "informe:CS-TS-04-2026-09-00023": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 23,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Coscoja (ficticia)"
     },
-    "informe:CS-TS-04-2026-10-24": {
+    "informe:CS-TS-04-2026-10-00024": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 24,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Coscoja (ficticia)"
     },
-    "informe:CS-TS-05-2026-05-25": {
+    "informe:CS-TS-05-2026-05-00025": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 25,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Jara (ficticia)"
     },
-    "informe:CS-TS-05-2026-06-26": {
+    "informe:CS-TS-05-2026-06-00026": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 26,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Jara (ficticia)"
     },
-    "informe:CS-TS-05-2026-07-27": {
+    "informe:CS-TS-05-2026-07-00027": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 27,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Jara (ficticia)"
     },
-    "informe:CS-TS-05-2026-08-28": {
+    "informe:CS-TS-05-2026-08-00028": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 28,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Jara (ficticia)"
     },
-    "informe:CS-TS-05-2026-09-29": {
+    "informe:CS-TS-05-2026-09-00029": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 29,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Jara (ficticia)"
     },
-    "informe:CS-TS-05-2026-10-30": {
+    "informe:CS-TS-05-2026-10-00030": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 30,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Jara (ficticia)"
     },
-    "informe:CS-TS-06-2026-05-31": {
+    "informe:CS-TS-06-2026-05-00031": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 31,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Quejigo (ficticia)"
     },
-    "informe:CS-TS-06-2026-06-32": {
+    "informe:CS-TS-06-2026-06-00032": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 32,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Quejigo (ficticia)"
     },
-    "informe:CS-TS-06-2026-07-33": {
+    "informe:CS-TS-06-2026-07-00033": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 33,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Quejigo (ficticia)"
     },
-    "informe:CS-TS-06-2026-08-34": {
+    "informe:CS-TS-06-2026-08-00034": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 34,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Quejigo (ficticia)"
     },
-    "informe:CS-TS-06-2026-09-35": {
+    "informe:CS-TS-06-2026-09-00035": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 35,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Quejigo (ficticia)"
     },
-    "informe:CS-TS-06-2026-10-36": {
+    "informe:CS-TS-06-2026-10-00036": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 36,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Quejigo (ficticia)"
     },
-    "informe:CS-TS-07-2026-05-37": {
+    "informe:CS-TS-07-2026-05-00037": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 37,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Alcaudón (ficticia)"
     },
-    "informe:CS-TS-07-2026-06-38": {
+    "informe:CS-TS-07-2026-06-00038": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 38,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Alcaudón (ficticia)"
     },
-    "informe:CS-TS-07-2026-07-39": {
+    "informe:CS-TS-07-2026-07-00039": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 39,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Alcaudón (ficticia)"
     },
-    "informe:CS-TS-07-2026-08-40": {
+    "informe:CS-TS-07-2026-08-00040": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 40,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Alcaudón (ficticia)"
     },
-    "informe:CS-TS-07-2026-09-41": {
+    "informe:CS-TS-07-2026-09-00041": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 41,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Alcaudón (ficticia)"
     },
-    "informe:CS-TS-07-2026-10-42": {
+    "informe:CS-TS-07-2026-10-00042": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 42,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Alcaudón (ficticia)"
     },
-    "informe:CS-TS-08-2026-05-43": {
+    "informe:CS-TS-08-2026-05-00043": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 43,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Brezo (ficticia)"
     },
-    "informe:CS-TS-08-2026-06-44": {
+    "informe:CS-TS-08-2026-06-00044": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 44,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Brezo (ficticia)"
     },
-    "informe:CS-TS-08-2026-07-45": {
+    "informe:CS-TS-08-2026-07-00045": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 45,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Brezo (ficticia)"
     },
-    "informe:CS-TS-08-2026-08-46": {
+    "informe:CS-TS-08-2026-08-00046": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 46,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Brezo (ficticia)"
     },
-    "informe:CS-TS-08-2026-09-47": {
+    "informe:CS-TS-08-2026-09-00047": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 47,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Brezo (ficticia)"
     },
-    "informe:CS-TS-08-2026-10-48": {
+    "informe:CS-TS-08-2026-10-00048": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 48,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Brezo (ficticia)"
     },
-    "informe:CS-TS-09-2026-05-49": {
+    "informe:CS-TS-09-2026-05-00049": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 49,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Carbonero (ficticia)"
     },
-    "informe:CS-TS-09-2026-06-50": {
+    "informe:CS-TS-09-2026-06-00050": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 50,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Carbonero (ficticia)"
     },
-    "informe:CS-TS-09-2026-07-51": {
+    "informe:CS-TS-09-2026-07-00051": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 51,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Carbonero (ficticia)"
     },
-    "informe:CS-TS-09-2026-08-52": {
+    "informe:CS-TS-09-2026-08-00052": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 52,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Carbonero (ficticia)"
     },
-    "informe:CS-TS-09-2026-09-53": {
+    "informe:CS-TS-09-2026-09-00053": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 53,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Carbonero (ficticia)"
     },
-    "informe:CS-TS-10-2026-05-54": {
+    "informe:CS-TS-10-2026-05-00054": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 54,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Sabina (ficticia)"
     },
-    "informe:CS-TS-10-2026-06-55": {
+    "informe:CS-TS-10-2026-06-00055": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 55,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Sabina (ficticia)"
     },
-    "informe:CS-TS-10-2026-07-56": {
+    "informe:CS-TS-10-2026-07-00056": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 56,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Sabina (ficticia)"
     },
-    "informe:CS-TS-10-2026-08-57": {
+    "informe:CS-TS-10-2026-08-00057": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 57,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Sabina (ficticia)"
     },
-    "informe:CS-TS-10-2026-09-58": {
+    "informe:CS-TS-10-2026-09-00058": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 58,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Sabina (ficticia)"
     },
-    "informe:CS-TS-10-2026-10-59": {
+    "informe:CS-TS-10-2026-10-00059": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 59,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Sabina (ficticia)"
     },
-    "informe:CS-TS-11-2026-05-60": {
+    "informe:CS-TS-11-2026-05-00060": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 60,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Acebuche (ficticia)"
     },
-    "informe:CS-TS-11-2026-06-61": {
+    "informe:CS-TS-11-2026-06-00061": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 61,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Acebuche (ficticia)"
     },
-    "informe:CS-TS-11-2026-07-62": {
+    "informe:CS-TS-11-2026-07-00062": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 62,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Acebuche (ficticia)"
     },
-    "informe:CS-TS-11-2026-08-63": {
+    "informe:CS-TS-11-2026-08-00063": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 63,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Acebuche (ficticia)"
     },
-    "informe:CS-TS-11-2026-09-64": {
+    "informe:CS-TS-11-2026-09-00064": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 64,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Acebuche (ficticia)"
     },
-    "informe:CS-TS-11-2026-10-65": {
+    "informe:CS-TS-11-2026-10-00065": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 65,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Acebuche (ficticia)"
     },
-    "informe:CS-TS-12-2026-05-66": {
+    "informe:CS-TS-12-2026-05-00066": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 66,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Vencejo (ficticia)"
     },
-    "informe:CS-TS-12-2026-06-67": {
+    "informe:CS-TS-12-2026-06-00067": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 67,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Vencejo (ficticia)"
     },
-    "informe:CS-TS-12-2026-07-68": {
+    "informe:CS-TS-12-2026-07-00068": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 68,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Vencejo (ficticia)"
     },
-    "informe:CS-TS-12-2026-08-69": {
+    "informe:CS-TS-12-2026-08-00069": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 69,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Vencejo (ficticia)"
     },
-    "informe:CS-TS-12-2026-09-70": {
+    "informe:CS-TS-12-2026-09-00070": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 70,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Vencejo (ficticia)"
     },
-    "informe:CS-TS-12-2026-10-71": {
+    "informe:CS-TS-12-2026-10-00071": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 71,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Vencejo (ficticia)"
     },
-    "informe:CS-TS-13-2026-05-72": {
+    "informe:CS-TS-13-2026-05-00072": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 72,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Jara (ficticia)"
     },
-    "informe:CS-TS-13-2026-06-73": {
+    "informe:CS-TS-13-2026-06-00073": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 73,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Jara (ficticia)"
     },
-    "informe:CS-TS-13-2026-07-74": {
+    "informe:CS-TS-13-2026-07-00074": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 74,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Jara (ficticia)"
     },
-    "informe:CS-TS-13-2026-08-75": {
+    "informe:CS-TS-13-2026-08-00075": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 75,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Jara (ficticia)"
     },
-    "informe:CS-TS-13-2026-09-76": {
+    "informe:CS-TS-13-2026-09-00076": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 76,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Jara (ficticia)"
     },
-    "informe:CS-TS-13-2026-10-77": {
+    "informe:CS-TS-13-2026-10-00077": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 77,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Jara (ficticia)"
     },
-    "informe:CS-TS-14-2026-05-78": {
+    "informe:CS-TS-14-2026-05-00078": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 78,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Mirlo (ficticia)"
     },
-    "informe:CS-TS-14-2026-06-79": {
+    "informe:CS-TS-14-2026-06-00079": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 79,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Mirlo (ficticia)"
     },
-    "informe:CS-TS-14-2026-07-80": {
+    "informe:CS-TS-14-2026-07-00080": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 80,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Mirlo (ficticia)"
     },
-    "informe:CS-TS-14-2026-08-81": {
+    "informe:CS-TS-14-2026-08-00081": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 81,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Mirlo (ficticia)"
     },
-    "informe:CS-TS-15-2026-05-82": {
+    "informe:CS-TS-15-2026-05-00082": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 82,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Rebollo (ficticia)"
     },
-    "informe:CS-TS-15-2026-06-83": {
+    "informe:CS-TS-15-2026-06-00083": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 83,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Rebollo (ficticia)"
     },
-    "informe:CS-TS-15-2026-07-84": {
+    "informe:CS-TS-15-2026-07-00084": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 84,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Rebollo (ficticia)"
     },
-    "informe:CS-TS-15-2026-08-85": {
+    "informe:CS-TS-15-2026-08-00085": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 85,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Rebollo (ficticia)"
     },
-    "informe:CS-TS-15-2026-09-86": {
+    "informe:CS-TS-15-2026-09-00086": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 86,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Rebollo (ficticia)"
     },
-    "informe:CS-TS-15-2026-10-87": {
+    "informe:CS-TS-15-2026-10-00087": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 87,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Rebollo (ficticia)"
     },
-    "informe:CS-TS-16-2026-05-88": {
+    "informe:CS-TS-16-2026-05-00088": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 88,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Taray (ficticia)"
     },
-    "informe:CS-TS-16-2026-06-89": {
+    "informe:CS-TS-16-2026-06-00089": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 89,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Taray (ficticia)"
     },
-    "informe:CS-TS-16-2026-07-90": {
+    "informe:CS-TS-16-2026-07-00090": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 90,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Taray (ficticia)"
     },
-    "informe:CS-TS-16-2026-08-91": {
+    "informe:CS-TS-16-2026-08-00091": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 91,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Taray (ficticia)"
     },
-    "informe:CS-TS-16-2026-09-92": {
+    "informe:CS-TS-16-2026-09-00092": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 92,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Taray (ficticia)"
     },
-    "informe:CS-TS-16-2026-10-93": {
+    "informe:CS-TS-16-2026-10-00093": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 93,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Taray (ficticia)"
     },
-    "informe:CS-TS-17-2026-05-94": {
+    "informe:CS-TS-17-2026-05-00094": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 94,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Rebollo (ficticia)"
     },
-    "informe:CS-TS-17-2026-06-95": {
+    "informe:CS-TS-17-2026-06-00095": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 95,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Rebollo (ficticia)"
     },
-    "informe:CS-TS-17-2026-07-96": {
+    "informe:CS-TS-17-2026-07-00096": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 96,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Rebollo (ficticia)"
     },
-    "informe:CS-TS-17-2026-08-97": {
+    "informe:CS-TS-17-2026-08-00097": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 97,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Rebollo (ficticia)"
     },
-    "informe:CS-TS-17-2026-09-98": {
+    "informe:CS-TS-17-2026-09-00098": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 98,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Rebollo (ficticia)"
     },
-    "informe:CS-TS-17-2026-10-99": {
+    "informe:CS-TS-17-2026-10-00099": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 99,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Rebollo (ficticia)"
     },
-    "informe:CS-TS-18-2026-05-100": {
+    "informe:CS-TS-18-2026-05-00100": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 100,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Carbonero (ficticia)"
     },
-    "informe:CS-TS-18-2026-06-101": {
+    "informe:CS-TS-18-2026-06-00101": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 101,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Carbonero (ficticia)"
     },
-    "informe:CS-TS-18-2026-07-102": {
+    "informe:CS-TS-18-2026-07-00102": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 102,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Carbonero (ficticia)"
     },
-    "informe:CS-TS-18-2026-08-103": {
+    "informe:CS-TS-18-2026-08-00103": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 103,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Carbonero (ficticia)"
     },
-    "informe:CS-TS-18-2026-09-104": {
+    "informe:CS-TS-18-2026-09-00104": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 104,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Carbonero (ficticia)"
     },
-    "informe:CS-TS-18-2026-10-105": {
+    "informe:CS-TS-18-2026-10-00105": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 105,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Carbonero (ficticia)"
     },
-    "informe:CS-TS-19-2026-05-106": {
+    "informe:CS-TS-19-2026-05-00106": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 106,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Acebuche (ficticia)"
     },
-    "informe:CS-TS-19-2026-06-107": {
+    "informe:CS-TS-19-2026-06-00107": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 107,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Acebuche (ficticia)"
     },
-    "informe:CS-TS-19-2026-07-108": {
+    "informe:CS-TS-19-2026-07-00108": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 108,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Acebuche (ficticia)"
     },
-    "informe:CS-TS-19-2026-08-109": {
+    "informe:CS-TS-19-2026-08-00109": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 109,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Acebuche (ficticia)"
     },
-    "informe:CS-TS-19-2026-09-110": {
+    "informe:CS-TS-19-2026-09-00110": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 110,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Acebuche (ficticia)"
     },
-    "informe:CS-TS-19-2026-10-111": {
+    "informe:CS-TS-19-2026-10-00111": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 111,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Acebuche (ficticia)"
     },
-    "informe:CS-TS-20-2026-05-112": {
+    "informe:CS-TS-20-2026-05-00112": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 112,
       "tipoFuente": "oficial",
       "fechaDato": "2026-05",
       "firmante": "Gestoría Majuelo (ficticia)"
     },
-    "informe:CS-TS-20-2026-06-113": {
+    "informe:CS-TS-20-2026-06-00113": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 113,
       "tipoFuente": "oficial",
       "fechaDato": "2026-06",
       "firmante": "Gestoría Majuelo (ficticia)"
     },
-    "informe:CS-TS-20-2026-07-114": {
+    "informe:CS-TS-20-2026-07-00114": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 114,
       "tipoFuente": "oficial",
       "fechaDato": "2026-07",
       "firmante": "Gestoría Majuelo (ficticia)"
     },
-    "informe:CS-TS-20-2026-08-115": {
+    "informe:CS-TS-20-2026-08-00115": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 115,
       "tipoFuente": "oficial",
       "fechaDato": "2026-08",
       "firmante": "Gestoría Majuelo (ficticia)"
     },
-    "informe:CS-TS-20-2026-09-116": {
+    "informe:CS-TS-20-2026-09-00116": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 116,
       "tipoFuente": "oficial",
       "fechaDato": "2026-09",
       "firmante": "Gestoría Majuelo (ficticia)"
     },
-    "informe:CS-TS-20-2026-10-117": {
+    "informe:CS-TS-20-2026-10-00117": {
       "archivo": "informe_plantilla_es.csv",
       "fila": 117,
       "tipoFuente": "oficial",
       "fechaDato": "2026-10",
       "firmante": "Gestoría Majuelo (ficticia)"
+    },
+    "pieza:TP-BOLSO-ESTR": {
+      "archivo": "escandallo.csv",
+      "fila": 1,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05-01",
+      "firmante": "Compras (ficticio)"
+    },
+    "pieza:TP-BOLSO-TOTE": {
+      "archivo": "escandallo.csv",
+      "fila": 2,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05-01",
+      "firmante": "Compras (ficticio)"
+    },
+    "pieza:TP-CARTERA": {
+      "archivo": "escandallo.csv",
+      "fila": 3,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05-01",
+      "firmante": "Compras (ficticio)"
+    },
+    "pieza:TP-CINTURON": {
+      "archivo": "escandallo.csv",
+      "fila": 4,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05-01",
+      "firmante": "Compras (ficticio)"
+    },
+    "pieza:TP-TARJETERO": {
+      "archivo": "escandallo.csv",
+      "fila": 5,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05-01",
+      "firmante": "Compras (ficticio)"
+    },
+    "taller:TS-01": {
+      "archivo": "talleres.csv",
+      "fila": 1,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-02": {
+      "archivo": "talleres.csv",
+      "fila": 2,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-03": {
+      "archivo": "talleres.csv",
+      "fila": 3,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-04": {
+      "archivo": "talleres.csv",
+      "fila": 4,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-05": {
+      "archivo": "talleres.csv",
+      "fila": 5,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-06": {
+      "archivo": "talleres.csv",
+      "fila": 6,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-07": {
+      "archivo": "talleres.csv",
+      "fila": 7,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-08": {
+      "archivo": "talleres.csv",
+      "fila": 8,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-09": {
+      "archivo": "talleres.csv",
+      "fila": 9,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-10": {
+      "archivo": "talleres.csv",
+      "fila": 10,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-11": {
+      "archivo": "talleres.csv",
+      "fila": 11,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-12": {
+      "archivo": "talleres.csv",
+      "fila": 12,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-13": {
+      "archivo": "talleres.csv",
+      "fila": 13,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-14": {
+      "archivo": "talleres.csv",
+      "fila": 14,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-15": {
+      "archivo": "talleres.csv",
+      "fila": 15,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-16": {
+      "archivo": "talleres.csv",
+      "fila": 16,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-17": {
+      "archivo": "talleres.csv",
+      "fila": 17,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-18": {
+      "archivo": "talleres.csv",
+      "fila": 18,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-19": {
+      "archivo": "talleres.csv",
+      "fila": 19,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
+    },
+    "taller:TS-20": {
+      "archivo": "talleres.csv",
+      "fila": 20,
+      "tipoFuente": "declarado",
+      "fechaDato": "2026-05"
     }
   },
   "incidencias": [
     {
       "codigo": "MINUTOS_SIN_CONTRASTAR",
       "gravedad": "info",
-      "entidad": "pieza:TP-BOLSO-ESTR",
-      "detalle": "No hay suelo público de minutos para esta categoría."
+      "entidad": "escandallo.csv:1 · pieza:TP-BOLSO-ESTR",
+      "detalle": "No hay suelo público de minutos para la categoría «marroquineria»: minutos de TP-BOLSO-ESTR sin contrastar."
     },
     {
       "codigo": "MINUTOS_SIN_CONTRASTAR",
       "gravedad": "info",
-      "entidad": "pieza:TP-BOLSO-TOTE",
-      "detalle": "No hay suelo público de minutos para esta categoría."
+      "entidad": "escandallo.csv:2 · pieza:TP-BOLSO-TOTE",
+      "detalle": "No hay suelo público de minutos para la categoría «marroquineria»: minutos de TP-BOLSO-TOTE sin contrastar."
     },
     {
       "codigo": "MINUTOS_SIN_CONTRASTAR",
       "gravedad": "info",
-      "entidad": "pieza:TP-CARTERA",
-      "detalle": "No hay suelo público de minutos para esta categoría."
+      "entidad": "escandallo.csv:3 · pieza:TP-CARTERA",
+      "detalle": "No hay suelo público de minutos para la categoría «marroquineria»: minutos de TP-CARTERA sin contrastar."
     },
     {
       "codigo": "MINUTOS_SIN_CONTRASTAR",
       "gravedad": "info",
-      "entidad": "pieza:TP-CINTURON",
-      "detalle": "No hay suelo público de minutos para esta categoría."
+      "entidad": "escandallo.csv:4 · pieza:TP-CINTURON",
+      "detalle": "No hay suelo público de minutos para la categoría «marroquineria»: minutos de TP-CINTURON sin contrastar."
     },
     {
       "codigo": "MINUTOS_SIN_CONTRASTAR",
       "gravedad": "info",
-      "entidad": "pieza:TP-TARJETERO",
-      "detalle": "No hay suelo público de minutos para esta categoría."
+      "entidad": "escandallo.csv:5 · pieza:TP-TARJETERO",
+      "detalle": "No hay suelo público de minutos para la categoría «marroquineria»: minutos de TP-TARJETERO sin contrastar."
     },
     {
       "codigo": "TALLER_MICRO",
@@ -7217,13 +7252,13 @@
       "codigo": "FALTA_INFORME",
       "gravedad": "aviso",
       "entidad": "taller:TS-09",
-      "detalle": "Sin informe de 2026-10."
+      "detalle": "Sin informe de horas de 2026-10."
     },
     {
       "codigo": "FALTA_INFORME",
       "gravedad": "aviso",
       "entidad": "taller:TS-14",
-      "detalle": "Sin informe de 2026-09, 2026-10."
+      "detalle": "Sin informe de horas de 2026-09, 2026-10."
     },
     {
       "codigo": "TALLER_MICRO",
@@ -7267,5 +7302,168 @@
         "filas": 117
       }
     ]
+  },
+  "escandalloVersiones": [
+    {
+      "tipoPiezaId": "TP-BOLSO-ESTR",
+      "version": 1,
+      "minutos": 360,
+      "vigenteDesde": "2026-05-01",
+      "autor": "Compras (ficticio)",
+      "categoria": "marroquineria"
+    },
+    {
+      "tipoPiezaId": "TP-BOLSO-TOTE",
+      "version": 1,
+      "minutos": 180,
+      "vigenteDesde": "2026-05-01",
+      "autor": "Compras (ficticio)",
+      "categoria": "marroquineria"
+    },
+    {
+      "tipoPiezaId": "TP-CARTERA",
+      "version": 1,
+      "minutos": 90,
+      "vigenteDesde": "2026-05-01",
+      "autor": "Compras (ficticio)",
+      "categoria": "marroquineria"
+    },
+    {
+      "tipoPiezaId": "TP-CINTURON",
+      "version": 1,
+      "minutos": 45,
+      "vigenteDesde": "2026-05-01",
+      "autor": "Compras (ficticio)",
+      "categoria": "marroquineria"
+    },
+    {
+      "tipoPiezaId": "TP-TARJETERO",
+      "version": 1,
+      "minutos": 40,
+      "vigenteDesde": "2026-05-01",
+      "autor": "Compras (ficticio)",
+      "categoria": "marroquineria"
+    }
+  ],
+  "cuotas": [],
+  "indicadoresIT": [],
+  "fuenteHoras": {
+    "CS-TS-01-2026-05-00001": "informe_es",
+    "CS-TS-01-2026-06-00002": "informe_es",
+    "CS-TS-01-2026-07-00003": "informe_es",
+    "CS-TS-01-2026-08-00004": "informe_es",
+    "CS-TS-01-2026-09-00005": "informe_es",
+    "CS-TS-01-2026-10-00006": "informe_es",
+    "CS-TS-02-2026-05-00007": "informe_es",
+    "CS-TS-02-2026-06-00008": "informe_es",
+    "CS-TS-02-2026-07-00009": "informe_es",
+    "CS-TS-02-2026-08-00010": "informe_es",
+    "CS-TS-02-2026-09-00011": "informe_es",
+    "CS-TS-02-2026-10-00012": "informe_es",
+    "CS-TS-03-2026-05-00013": "informe_es",
+    "CS-TS-03-2026-06-00014": "informe_es",
+    "CS-TS-03-2026-07-00015": "informe_es",
+    "CS-TS-03-2026-08-00016": "informe_es",
+    "CS-TS-03-2026-09-00017": "informe_es",
+    "CS-TS-03-2026-10-00018": "informe_es",
+    "CS-TS-04-2026-05-00019": "informe_es",
+    "CS-TS-04-2026-06-00020": "informe_es",
+    "CS-TS-04-2026-07-00021": "informe_es",
+    "CS-TS-04-2026-08-00022": "informe_es",
+    "CS-TS-04-2026-09-00023": "informe_es",
+    "CS-TS-04-2026-10-00024": "informe_es",
+    "CS-TS-05-2026-05-00025": "informe_es",
+    "CS-TS-05-2026-06-00026": "informe_es",
+    "CS-TS-05-2026-07-00027": "informe_es",
+    "CS-TS-05-2026-08-00028": "informe_es",
+    "CS-TS-05-2026-09-00029": "informe_es",
+    "CS-TS-05-2026-10-00030": "informe_es",
+    "CS-TS-06-2026-05-00031": "informe_es",
+    "CS-TS-06-2026-06-00032": "informe_es",
+    "CS-TS-06-2026-07-00033": "informe_es",
+    "CS-TS-06-2026-08-00034": "informe_es",
+    "CS-TS-06-2026-09-00035": "informe_es",
+    "CS-TS-06-2026-10-00036": "informe_es",
+    "CS-TS-07-2026-05-00037": "informe_es",
+    "CS-TS-07-2026-06-00038": "informe_es",
+    "CS-TS-07-2026-07-00039": "informe_es",
+    "CS-TS-07-2026-08-00040": "informe_es",
+    "CS-TS-07-2026-09-00041": "informe_es",
+    "CS-TS-07-2026-10-00042": "informe_es",
+    "CS-TS-08-2026-05-00043": "informe_es",
+    "CS-TS-08-2026-06-00044": "informe_es",
+    "CS-TS-08-2026-07-00045": "informe_es",
+    "CS-TS-08-2026-08-00046": "informe_es",
+    "CS-TS-08-2026-09-00047": "informe_es",
+    "CS-TS-08-2026-10-00048": "informe_es",
+    "CS-TS-09-2026-05-00049": "informe_es",
+    "CS-TS-09-2026-06-00050": "informe_es",
+    "CS-TS-09-2026-07-00051": "informe_es",
+    "CS-TS-09-2026-08-00052": "informe_es",
+    "CS-TS-09-2026-09-00053": "informe_es",
+    "CS-TS-10-2026-05-00054": "informe_es",
+    "CS-TS-10-2026-06-00055": "informe_es",
+    "CS-TS-10-2026-07-00056": "informe_es",
+    "CS-TS-10-2026-08-00057": "informe_es",
+    "CS-TS-10-2026-09-00058": "informe_es",
+    "CS-TS-10-2026-10-00059": "informe_es",
+    "CS-TS-11-2026-05-00060": "informe_es",
+    "CS-TS-11-2026-06-00061": "informe_es",
+    "CS-TS-11-2026-07-00062": "informe_es",
+    "CS-TS-11-2026-08-00063": "informe_es",
+    "CS-TS-11-2026-09-00064": "informe_es",
+    "CS-TS-11-2026-10-00065": "informe_es",
+    "CS-TS-12-2026-05-00066": "informe_es",
+    "CS-TS-12-2026-06-00067": "informe_es",
+    "CS-TS-12-2026-07-00068": "informe_es",
+    "CS-TS-12-2026-08-00069": "informe_es",
+    "CS-TS-12-2026-09-00070": "informe_es",
+    "CS-TS-12-2026-10-00071": "informe_es",
+    "CS-TS-13-2026-05-00072": "informe_es",
+    "CS-TS-13-2026-06-00073": "informe_es",
+    "CS-TS-13-2026-07-00074": "informe_es",
+    "CS-TS-13-2026-08-00075": "informe_es",
+    "CS-TS-13-2026-09-00076": "informe_es",
+    "CS-TS-13-2026-10-00077": "informe_es",
+    "CS-TS-14-2026-05-00078": "informe_es",
+    "CS-TS-14-2026-06-00079": "informe_es",
+    "CS-TS-14-2026-07-00080": "informe_es",
+    "CS-TS-14-2026-08-00081": "informe_es",
+    "CS-TS-15-2026-05-00082": "informe_es",
+    "CS-TS-15-2026-06-00083": "informe_es",
+    "CS-TS-15-2026-07-00084": "informe_es",
+    "CS-TS-15-2026-08-00085": "informe_es",
+    "CS-TS-15-2026-09-00086": "informe_es",
+    "CS-TS-15-2026-10-00087": "informe_es",
+    "CS-TS-16-2026-05-00088": "informe_es",
+    "CS-TS-16-2026-06-00089": "informe_es",
+    "CS-TS-16-2026-07-00090": "informe_es",
+    "CS-TS-16-2026-08-00091": "informe_es",
+    "CS-TS-16-2026-09-00092": "informe_es",
+    "CS-TS-16-2026-10-00093": "informe_es",
+    "CS-TS-17-2026-05-00094": "informe_es",
+    "CS-TS-17-2026-06-00095": "informe_es",
+    "CS-TS-17-2026-07-00096": "informe_es",
+    "CS-TS-17-2026-08-00097": "informe_es",
+    "CS-TS-17-2026-09-00098": "informe_es",
+    "CS-TS-17-2026-10-00099": "informe_es",
+    "CS-TS-18-2026-05-00100": "informe_es",
+    "CS-TS-18-2026-06-00101": "informe_es",
+    "CS-TS-18-2026-07-00102": "informe_es",
+    "CS-TS-18-2026-08-00103": "informe_es",
+    "CS-TS-18-2026-09-00104": "informe_es",
+    "CS-TS-18-2026-10-00105": "informe_es",
+    "CS-TS-19-2026-05-00106": "informe_es",
+    "CS-TS-19-2026-06-00107": "informe_es",
+    "CS-TS-19-2026-07-00108": "informe_es",
+    "CS-TS-19-2026-08-00109": "informe_es",
+    "CS-TS-19-2026-09-00110": "informe_es",
+    "CS-TS-19-2026-10-00111": "informe_es",
+    "CS-TS-20-2026-05-00112": "informe_es",
+    "CS-TS-20-2026-06-00113": "informe_es",
+    "CS-TS-20-2026-07-00114": "informe_es",
+    "CS-TS-20-2026-08-00115": "informe_es",
+    "CS-TS-20-2026-09-00116": "informe_es",
+    "CS-TS-20-2026-10-00117": "informe_es"
   }
 }

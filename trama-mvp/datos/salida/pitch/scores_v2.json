@@ -1,0 +1,701 @@
+[
+  {
+    "tallerId": "TS-01",
+    "mes": "2026-10",
+    "ratio": 0.4677,
+    "estado": "verde",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza.",
+      "Taller pequeño (3 personas o menos): más margen y la marca solo ve el estado."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 195 h; el informe de plantilla recoge 417 h de alta.",
+      "Carga ÷ horas = 0,47× (verde hasta 0,85, rojo por encima de 1,25).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "verde",
+    "micro": true,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-01",
+        "carga": 195,
+        "horas": 416.95000000000005,
+        "micro": true,
+        "sinDatos": false,
+        "ratio": 0.4677,
+        "estado": "verde"
+      }
+    ],
+    "horasNecesarias": 195,
+    "horasDeAlta": 416.95000000000005,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-02",
+    "mes": "2026-10",
+    "ratio": 0.516,
+    "estado": "verde",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza.",
+      "Taller pequeño (3 personas o menos): más margen y la marca solo ve el estado."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 462 h; el informe de plantilla recoge 895 h de alta.",
+      "Carga ÷ horas = 0,52× (verde hasta 0,85, rojo por encima de 1,25).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "verde",
+    "micro": true,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-02",
+        "carga": 462,
+        "horas": 895.27,
+        "micro": true,
+        "sinDatos": false,
+        "ratio": 0.516,
+        "estado": "verde"
+      }
+    ],
+    "horasNecesarias": 462,
+    "horasDeAlta": 895.27,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-03",
+    "mes": "2026-10",
+    "ratio": 1.0384,
+    "estado": "ambar",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 1724 h; el informe de plantilla recoge 1660 h de alta.",
+      "Carga ÷ horas = 1,04× (verde hasta 0,85, rojo por encima de 1,10).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "ambar",
+    "micro": false,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-03",
+        "carga": 1723.6666666666665,
+        "horas": 1659.9299999999998,
+        "micro": false,
+        "sinDatos": false,
+        "ratio": 1.0384,
+        "estado": "ambar"
+      }
+    ],
+    "horasNecesarias": 1723.6666666666665,
+    "horasDeAlta": 1659.9299999999998,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-04",
+    "mes": "2026-10",
+    "ratio": 0.6652,
+    "estado": "verde",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 1081 h; el informe de plantilla recoge 1625 h de alta.",
+      "Carga ÷ horas = 0,67× (verde hasta 0,85, rojo por encima de 1,10).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "verde",
+    "micro": false,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-04",
+        "carga": 1080.75,
+        "horas": 1624.7799999999997,
+        "micro": false,
+        "sinDatos": false,
+        "ratio": 0.6652,
+        "estado": "verde"
+      }
+    ],
+    "horasNecesarias": 1080.75,
+    "horasDeAlta": 1624.7799999999997,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-05",
+    "mes": "2026-10",
+    "ratio": 0.5618,
+    "estado": "verde",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 1550 h; el informe de plantilla recoge 2760 h de alta.",
+      "Carga ÷ horas = 0,56× (verde hasta 0,85, rojo por encima de 1,10).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "verde",
+    "micro": false,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-05",
+        "carga": 1550.3333333333335,
+        "horas": 2759.55,
+        "micro": false,
+        "sinDatos": false,
+        "ratio": 0.5618,
+        "estado": "verde"
+      }
+    ],
+    "horasNecesarias": 1550.3333333333335,
+    "horasDeAlta": 2759.55,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-06",
+    "mes": "2026-10",
+    "ratio": 0.7202,
+    "estado": "verde",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 9190 h; el informe de plantilla recoge 12.761 h de alta.",
+      "Carga ÷ horas = 0,72× (verde hasta 0,85, rojo por encima de 1,10).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "verde",
+    "micro": false,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-06",
+        "carga": 9190.333333333332,
+        "horas": 12760.539999999999,
+        "micro": false,
+        "sinDatos": false,
+        "ratio": 0.7202,
+        "estado": "verde"
+      }
+    ],
+    "horasNecesarias": 9190.333333333332,
+    "horasDeAlta": 12760.539999999999,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-07",
+    "mes": "2026-10",
+    "ratio": 0.7986,
+    "estado": "verde",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 2103 h; el informe de plantilla recoge 2633 h de alta.",
+      "Carga ÷ horas = 0,80× (verde hasta 0,85, rojo por encima de 1,10).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "verde",
+    "micro": false,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-07",
+        "carga": 2102.666666666667,
+        "horas": 2632.84,
+        "micro": false,
+        "sinDatos": false,
+        "ratio": 0.7986,
+        "estado": "verde"
+      }
+    ],
+    "horasNecesarias": 2102.666666666667,
+    "horasDeAlta": 2632.84,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-08",
+    "mes": "2026-10",
+    "ratio": 1.7325,
+    "estado": "rojo",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza.",
+      "Taller pequeño (3 personas o menos): más margen y la marca solo ve el estado."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 728 h; el informe de plantilla recoge 420 h de alta.",
+      "Carga ÷ horas = 1,73× (verde hasta 0,85, rojo por encima de 1,25).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "rojo",
+    "micro": true,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-08",
+        "carga": 727.5,
+        "horas": 419.90999999999997,
+        "micro": true,
+        "sinDatos": false,
+        "ratio": 1.7325,
+        "estado": "rojo"
+      }
+    ],
+    "horasNecesarias": 727.5,
+    "horasDeAlta": 419.90999999999997,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-09",
+    "mes": "2026-10",
+    "estado": "sin_datos",
+    "confianza": "baja",
+    "motivosConfianza": [
+      "[grave] Falta el informe de plantilla de TS-09 de 2026-10.",
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "ninguna",
+    "explicacion": [
+      "Falta el informe de plantilla de 2026-10: no se calcula el semáforo de la cadena (nunca rojo por falta de datos).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "sin_datos",
+    "micro": false,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-09",
+        "carga": 1410,
+        "horas": 1093.29,
+        "micro": false,
+        "sinDatos": true,
+        "estado": "sin_datos"
+      }
+    ],
+    "horasNecesarias": 1410,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-10",
+    "mes": "2026-10",
+    "ratio": 0.9311,
+    "estado": "ambar",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 2424 h; el informe de plantilla recoge 2603 h de alta.",
+      "Carga ÷ horas = 0,93× (verde hasta 0,85, rojo por encima de 1,10).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "ambar",
+    "micro": false,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-10",
+        "carga": 2424,
+        "horas": 2603.38,
+        "micro": false,
+        "sinDatos": false,
+        "ratio": 0.9311,
+        "estado": "ambar"
+      }
+    ],
+    "horasNecesarias": 2424,
+    "horasDeAlta": 2603.38,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-11",
+    "mes": "2026-10",
+    "ratio": 0.6093,
+    "estado": "verde",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 10.270 h; el informe de plantilla recoge 16.856 h de alta.",
+      "Carga ÷ horas = 0,61× (verde hasta 0,85, rojo por encima de 1,10).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "verde",
+    "micro": false,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-11",
+        "carga": 10270.416666666666,
+        "horas": 16856.41,
+        "micro": false,
+        "sinDatos": false,
+        "ratio": 0.6093,
+        "estado": "verde"
+      }
+    ],
+    "horasNecesarias": 10270.416666666666,
+    "horasDeAlta": 16856.41,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-12",
+    "mes": "2026-10",
+    "ratio": 0.8246,
+    "estado": "verde",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 10.444 h; el informe de plantilla recoge 12.665 h de alta.",
+      "Carga ÷ horas = 0,82× (verde hasta 0,85, rojo por encima de 1,10).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "verde",
+    "micro": false,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-12",
+        "carga": 10443.75,
+        "horas": 12664.77,
+        "micro": false,
+        "sinDatos": false,
+        "ratio": 0.8246,
+        "estado": "verde"
+      }
+    ],
+    "horasNecesarias": 10443.75,
+    "horasDeAlta": 12664.77,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-13",
+    "mes": "2026-10",
+    "ratio": 1.4954,
+    "estado": "rojo",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 10.099 h; el informe de plantilla recoge 6754 h de alta.",
+      "Carga ÷ horas = 1,50× (verde hasta 0,85, rojo por encima de 1,10).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "rojo",
+    "micro": false,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-13",
+        "carga": 10099.25,
+        "horas": 6753.76,
+        "micro": false,
+        "sinDatos": false,
+        "ratio": 1.4954,
+        "estado": "rojo"
+      }
+    ],
+    "horasNecesarias": 10099.25,
+    "horasDeAlta": 6753.76,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-14",
+    "mes": "2026-10",
+    "estado": "sin_datos",
+    "confianza": "baja",
+    "motivosConfianza": [
+      "[grave] Falta el informe de plantilla de TS-14 de 2026-09, 2026-10.",
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "ninguna",
+    "explicacion": [
+      "Falta el informe de plantilla de 2026-09, 2026-10: no se calcula el semáforo de la cadena (nunca rojo por falta de datos).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "sin_datos",
+    "micro": false,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-14",
+        "carga": 439.5,
+        "horas": 266.67,
+        "micro": false,
+        "sinDatos": true,
+        "estado": "sin_datos"
+      }
+    ],
+    "horasNecesarias": 439.5,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-15",
+    "mes": "2026-10",
+    "ratio": 0.4771,
+    "estado": "verde",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 849 h; el informe de plantilla recoge 1779 h de alta.",
+      "Carga ÷ horas = 0,48× (verde hasta 0,85, rojo por encima de 1,10).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "verde",
+    "micro": false,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-15",
+        "carga": 849,
+        "horas": 1779.47,
+        "micro": false,
+        "sinDatos": false,
+        "ratio": 0.4771,
+        "estado": "verde"
+      }
+    ],
+    "horasNecesarias": 849,
+    "horasDeAlta": 1779.47,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-16",
+    "mes": "2026-10",
+    "ratio": 0.5324,
+    "estado": "verde",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza.",
+      "Taller pequeño (3 personas o menos): más margen y la marca solo ve el estado."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 444 h; el informe de plantilla recoge 834 h de alta.",
+      "Carga ÷ horas = 0,53× (verde hasta 0,85, rojo por encima de 1,25).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "verde",
+    "micro": true,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-16",
+        "carga": 444,
+        "horas": 833.91,
+        "micro": true,
+        "sinDatos": false,
+        "ratio": 0.5324,
+        "estado": "verde"
+      }
+    ],
+    "horasNecesarias": 444,
+    "horasDeAlta": 833.91,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-17",
+    "mes": "2026-10",
+    "ratio": 0.4698,
+    "estado": "verde",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza.",
+      "Taller pequeño (3 personas o menos): más margen y la marca solo ve el estado."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 578 h; el informe de plantilla recoge 1231 h de alta.",
+      "Carga ÷ horas = 0,47× (verde hasta 0,85, rojo por encima de 1,25).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "verde",
+    "micro": true,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-17",
+        "carga": 578.25,
+        "horas": 1230.97,
+        "micro": true,
+        "sinDatos": false,
+        "ratio": 0.4698,
+        "estado": "verde"
+      }
+    ],
+    "horasNecesarias": 578.25,
+    "horasDeAlta": 1230.97,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-18",
+    "mes": "2026-10",
+    "ratio": 0.7428,
+    "estado": "verde",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 1781 h; el informe de plantilla recoge 2398 h de alta.",
+      "Carga ÷ horas = 0,74× (verde hasta 0,85, rojo por encima de 1,10).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "verde",
+    "micro": false,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-18",
+        "carga": 1781.0000000000002,
+        "horas": 2397.8,
+        "micro": false,
+        "sinDatos": false,
+        "ratio": 0.7428,
+        "estado": "verde"
+      }
+    ],
+    "horasNecesarias": 1781.0000000000002,
+    "horasDeAlta": 2397.8,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-19",
+    "mes": "2026-10",
+    "ratio": 0.4743,
+    "estado": "verde",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 768 h; el informe de plantilla recoge 1619 h de alta.",
+      "Carga ÷ horas = 0,47× (verde hasta 0,85, rojo por encima de 1,10).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "verde",
+    "micro": false,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-19",
+        "carga": 768,
+        "horas": 1619.1999999999998,
+        "micro": false,
+        "sinDatos": false,
+        "ratio": 0.4743,
+        "estado": "verde"
+      }
+    ],
+    "horasNecesarias": 768,
+    "horasDeAlta": 1619.1999999999998,
+    "horasPorSuelo": 0
+  },
+  {
+    "tallerId": "TS-20",
+    "mes": "2026-10",
+    "ratio": 0.6398,
+    "estado": "verde",
+    "confianza": "media",
+    "motivosConfianza": [
+      "Minutos sin contrastar: no hay suelo público para esta categoría de pieza."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 1001 h; el informe de plantilla recoge 1564 h de alta.",
+      "Carga ÷ horas = 0,64× (verde hasta 0,85, rojo por encima de 1,10).",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ],
+    "revisionAbierta": false,
+    "estadoV1": "verde",
+    "micro": false,
+    "evaluaciones": [
+      {
+        "tipo": "cadena",
+        "tallerId": "TS-20",
+        "carga": 1000.5,
+        "horas": 1563.89,
+        "micro": false,
+        "sinDatos": false,
+        "ratio": 0.6398,
+        "estado": "verde"
+      }
+    ],
+    "horasNecesarias": 1000.5,
+    "horasDeAlta": 1563.89,
+    "horasPorSuelo": 0
+  }
+]

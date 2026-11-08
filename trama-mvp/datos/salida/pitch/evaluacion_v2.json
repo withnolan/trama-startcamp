@@ -1,0 +1,224 @@
+{
+  "escenario": "pitch",
+  "semilla": 2026,
+  "mes": "2026-10",
+  "talleres": 20,
+  "etiqueta": "datos sintéticos",
+  "porArquetipo": [
+    {
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "n": 12,
+      "estados": {
+        "verde": 12,
+        "ambar": 0,
+        "rojo": 0,
+        "sin_datos": 0
+      }
+    },
+    {
+      "arquetipo": "subcontrata_oculta",
+      "problemaReal": true,
+      "n": 3,
+      "estados": {
+        "verde": 0,
+        "ambar": 1,
+        "rojo": 2,
+        "sin_datos": 0
+      }
+    },
+    {
+      "arquetipo": "pico_legitimo",
+      "problemaReal": false,
+      "n": 3,
+      "estados": {
+        "verde": 2,
+        "ambar": 1,
+        "rojo": 0,
+        "sin_datos": 0
+      }
+    },
+    {
+      "arquetipo": "informe_tardio_o_ausente",
+      "problemaReal": false,
+      "n": 2,
+      "estados": {
+        "verde": 0,
+        "ambar": 0,
+        "rojo": 0,
+        "sin_datos": 2
+      }
+    }
+  ],
+  "matriz": {
+    "vp": 2,
+    "fn": 1,
+    "fp": 0,
+    "vn": 17
+  },
+  "sensibilidadRojo": 0.667,
+  "sensibilidadRojoOAmbar": 1,
+  "precisionRojo": 1,
+  "falsosRojosEnSanos": 0,
+  "sinDatosEnRojo": 0,
+  "detalle": [
+    {
+      "tallerId": "TS-01",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.4677,
+      "ratioReal": 0.47
+    },
+    {
+      "tallerId": "TS-02",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.516,
+      "ratioReal": 0.52
+    },
+    {
+      "tallerId": "TS-03",
+      "arquetipo": "subcontrata_oculta",
+      "problemaReal": true,
+      "estado": "ambar",
+      "ratio": 1.0384,
+      "ratioReal": 1.04
+    },
+    {
+      "tallerId": "TS-04",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.6652,
+      "ratioReal": 0.66
+    },
+    {
+      "tallerId": "TS-05",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.5618,
+      "ratioReal": 0.56
+    },
+    {
+      "tallerId": "TS-06",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.7202,
+      "ratioReal": 0.72
+    },
+    {
+      "tallerId": "TS-07",
+      "arquetipo": "pico_legitimo",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.7986,
+      "ratioReal": 0.8
+    },
+    {
+      "tallerId": "TS-08",
+      "arquetipo": "subcontrata_oculta",
+      "problemaReal": true,
+      "estado": "rojo",
+      "ratio": 1.7325,
+      "ratioReal": 1.73
+    },
+    {
+      "tallerId": "TS-09",
+      "arquetipo": "informe_tardio_o_ausente",
+      "problemaReal": false,
+      "estado": "sin_datos",
+      "ratioReal": 0.86
+    },
+    {
+      "tallerId": "TS-10",
+      "arquetipo": "pico_legitimo",
+      "problemaReal": false,
+      "estado": "ambar",
+      "ratio": 0.9311,
+      "ratioReal": 0.94
+    },
+    {
+      "tallerId": "TS-11",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.6093,
+      "ratioReal": 0.61
+    },
+    {
+      "tallerId": "TS-12",
+      "arquetipo": "pico_legitimo",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.8246,
+      "ratioReal": 0.82
+    },
+    {
+      "tallerId": "TS-13",
+      "arquetipo": "subcontrata_oculta",
+      "problemaReal": true,
+      "estado": "rojo",
+      "ratio": 1.4954,
+      "ratioReal": 1.5
+    },
+    {
+      "tallerId": "TS-14",
+      "arquetipo": "informe_tardio_o_ausente",
+      "problemaReal": false,
+      "estado": "sin_datos",
+      "ratioReal": 0.54
+    },
+    {
+      "tallerId": "TS-15",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.4771,
+      "ratioReal": 0.48
+    },
+    {
+      "tallerId": "TS-16",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.5324,
+      "ratioReal": 0.53
+    },
+    {
+      "tallerId": "TS-17",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.4698,
+      "ratioReal": 0.47
+    },
+    {
+      "tallerId": "TS-18",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.7428,
+      "ratioReal": 0.74
+    },
+    {
+      "tallerId": "TS-19",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.4743,
+      "ratioReal": 0.47
+    },
+    {
+      "tallerId": "TS-20",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "estado": "verde",
+      "ratio": 0.6398,
+      "ratioReal": 0.64
+    }
+  ]
+}

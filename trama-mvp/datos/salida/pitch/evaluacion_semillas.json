@@ -1,0 +1,3559 @@
+{
+  "escenario": "pitch",
+  "etiqueta": "datos sintéticos",
+  "semillas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "talleresPorSemilla": {
+    "media": 20,
+    "p5": 20,
+    "p95": 20,
+    "min": 20,
+    "max": 20,
+    "n": 20
+  },
+  "porArquetipo": [
+    {
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "talleresTotales": 240,
+      "v1": {
+        "rojo": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        },
+        "rojoOAmbar": {
+          "media": 0.0167,
+          "p5": 0,
+          "p95": 0.0875,
+          "min": 0,
+          "max": 0.1667,
+          "n": 20
+        },
+        "sinDatos": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        },
+        "revision": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        }
+      },
+      "v2": {
+        "rojo": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        },
+        "rojoOAmbar": {
+          "media": 0.0167,
+          "p5": 0,
+          "p95": 0.0875,
+          "min": 0,
+          "max": 0.1667,
+          "n": 20
+        },
+        "sinDatos": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        },
+        "revision": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        }
+      }
+    },
+    {
+      "arquetipo": "pico_legitimo",
+      "problemaReal": false,
+      "talleresTotales": 60,
+      "v1": {
+        "rojo": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        },
+        "rojoOAmbar": {
+          "media": 0.2,
+          "p5": 0,
+          "p95": 0.35,
+          "min": 0,
+          "max": 0.6667,
+          "n": 20
+        },
+        "sinDatos": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        },
+        "revision": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        }
+      },
+      "v2": {
+        "rojo": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        },
+        "rojoOAmbar": {
+          "media": 0.2,
+          "p5": 0,
+          "p95": 0.35,
+          "min": 0,
+          "max": 0.6667,
+          "n": 20
+        },
+        "sinDatos": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        },
+        "revision": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        }
+      }
+    },
+    {
+      "arquetipo": "informe_tardio_o_ausente",
+      "problemaReal": false,
+      "talleresTotales": 40,
+      "v1": {
+        "rojo": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        },
+        "rojoOAmbar": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        },
+        "sinDatos": {
+          "media": 1,
+          "p5": 1,
+          "p95": 1,
+          "min": 1,
+          "max": 1,
+          "n": 20
+        },
+        "revision": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        }
+      },
+      "v2": {
+        "rojo": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        },
+        "rojoOAmbar": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        },
+        "sinDatos": {
+          "media": 1,
+          "p5": 1,
+          "p95": 1,
+          "min": 1,
+          "max": 1,
+          "n": 20
+        },
+        "revision": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        }
+      }
+    },
+    {
+      "arquetipo": "subcontrata_oculta",
+      "problemaReal": true,
+      "talleresTotales": 60,
+      "v1": {
+        "rojo": {
+          "media": 0.9,
+          "p5": 0.65,
+          "p95": 1,
+          "min": 0.3333,
+          "max": 1,
+          "n": 20
+        },
+        "rojoOAmbar": {
+          "media": 1,
+          "p5": 1,
+          "p95": 1,
+          "min": 1,
+          "max": 1,
+          "n": 20
+        },
+        "sinDatos": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        },
+        "revision": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        }
+      },
+      "v2": {
+        "rojo": {
+          "media": 0.9,
+          "p5": 0.65,
+          "p95": 1,
+          "min": 0.3333,
+          "max": 1,
+          "n": 20
+        },
+        "rojoOAmbar": {
+          "media": 1,
+          "p5": 1,
+          "p95": 1,
+          "min": 1,
+          "max": 1,
+          "n": 20
+        },
+        "sinDatos": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        },
+        "revision": {
+          "media": 0,
+          "p5": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0,
+          "n": 20
+        }
+      }
+    }
+  ],
+  "global": {
+    "v1": {
+      "sensibilidadRojo": {
+        "media": 0.9,
+        "p5": 0.65,
+        "p95": 1,
+        "min": 0.3333,
+        "max": 1,
+        "n": 20
+      },
+      "sensibilidadRojoOAmbar": {
+        "media": 1,
+        "p5": 1,
+        "p95": 1,
+        "min": 1,
+        "max": 1,
+        "n": 20
+      },
+      "precisionRojo": {
+        "media": 1,
+        "p5": 1,
+        "p95": 1,
+        "min": 1,
+        "max": 1,
+        "n": 20
+      },
+      "tasaFalsosRojos": {
+        "media": 0,
+        "p5": 0,
+        "p95": 0,
+        "min": 0,
+        "max": 0,
+        "n": 20
+      },
+      "falsosRojos": {
+        "media": 0,
+        "p5": 0,
+        "p95": 0,
+        "min": 0,
+        "max": 0,
+        "n": 20
+      },
+      "sinDatosEnRojo": {
+        "media": 0,
+        "p5": 0,
+        "p95": 0,
+        "min": 0,
+        "max": 0,
+        "n": 20
+      },
+      "revisionVariasMarcas": {
+        "media": null,
+        "p5": null,
+        "p95": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      }
+    },
+    "v2": {
+      "sensibilidadRojo": {
+        "media": 0.9,
+        "p5": 0.65,
+        "p95": 1,
+        "min": 0.3333,
+        "max": 1,
+        "n": 20
+      },
+      "sensibilidadRojoOAmbar": {
+        "media": 1,
+        "p5": 1,
+        "p95": 1,
+        "min": 1,
+        "max": 1,
+        "n": 20
+      },
+      "precisionRojo": {
+        "media": 1,
+        "p5": 1,
+        "p95": 1,
+        "min": 1,
+        "max": 1,
+        "n": 20
+      },
+      "tasaFalsosRojos": {
+        "media": 0,
+        "p5": 0,
+        "p95": 0,
+        "min": 0,
+        "max": 0,
+        "n": 20
+      },
+      "falsosRojos": {
+        "media": 0,
+        "p5": 0,
+        "p95": 0,
+        "min": 0,
+        "max": 0,
+        "n": 20
+      },
+      "sinDatosEnRojo": {
+        "media": 0,
+        "p5": 0,
+        "p95": 0,
+        "min": 0,
+        "max": 0,
+        "n": 20
+      },
+      "revisionVariasMarcas": {
+        "media": null,
+        "p5": null,
+        "p95": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      }
+    }
+  },
+  "sinDatosEnRojoTotal": {
+    "v1": 0,
+    "v2": 0
+  },
+  "curva": [
+    {
+      "umbral": 1,
+      "sensibilidad": {
+        "media": 0.9667,
+        "p5": 0.6667,
+        "p95": 1,
+        "min": 0.6667,
+        "max": 1,
+        "n": 20
+      },
+      "tasaFalsosRojos": {
+        "media": 0,
+        "p5": 0,
+        "p95": 0,
+        "min": 0,
+        "max": 0,
+        "n": 20
+      }
+    },
+    {
+      "umbral": 1.05,
+      "sensibilidad": {
+        "media": 0.95,
+        "p5": 0.65,
+        "p95": 1,
+        "min": 0.3333,
+        "max": 1,
+        "n": 20
+      },
+      "tasaFalsosRojos": {
+        "media": 0,
+        "p5": 0,
+        "p95": 0,
+        "min": 0,
+        "max": 0,
+        "n": 20
+      }
+    },
+    {
+      "umbral": 1.1,
+      "sensibilidad": {
+        "media": 0.9,
+        "p5": 0.65,
+        "p95": 1,
+        "min": 0.3333,
+        "max": 1,
+        "n": 20
+      },
+      "tasaFalsosRojos": {
+        "media": 0,
+        "p5": 0,
+        "p95": 0,
+        "min": 0,
+        "max": 0,
+        "n": 20
+      }
+    },
+    {
+      "umbral": 1.15,
+      "sensibilidad": {
+        "media": 0.8833,
+        "p5": 0.65,
+        "p95": 1,
+        "min": 0.3333,
+        "max": 1,
+        "n": 20
+      },
+      "tasaFalsosRojos": {
+        "media": 0,
+        "p5": 0,
+        "p95": 0,
+        "min": 0,
+        "max": 0,
+        "n": 20
+      }
+    },
+    {
+      "umbral": 1.2,
+      "sensibilidad": {
+        "media": 0.8333,
+        "p5": 0.3333,
+        "p95": 1,
+        "min": 0.3333,
+        "max": 1,
+        "n": 20
+      },
+      "tasaFalsosRojos": {
+        "media": 0,
+        "p5": 0,
+        "p95": 0,
+        "min": 0,
+        "max": 0,
+        "n": 20
+      }
+    },
+    {
+      "umbral": 1.25,
+      "sensibilidad": {
+        "media": 0.7667,
+        "p5": 0.3333,
+        "p95": 1,
+        "min": 0.3333,
+        "max": 1,
+        "n": 20
+      },
+      "tasaFalsosRojos": {
+        "media": 0,
+        "p5": 0,
+        "p95": 0,
+        "min": 0,
+        "max": 0,
+        "n": 20
+      }
+    },
+    {
+      "umbral": 1.3,
+      "sensibilidad": {
+        "media": 0.7333,
+        "p5": 0.3333,
+        "p95": 1,
+        "min": 0.3333,
+        "max": 1,
+        "n": 20
+      },
+      "tasaFalsosRojos": {
+        "media": 0,
+        "p5": 0,
+        "p95": 0,
+        "min": 0,
+        "max": 0,
+        "n": 20
+      }
+    }
+  ],
+  "suelo": {
+    "conSuelo": {
+      "media": 0,
+      "p5": 0,
+      "p95": 0,
+      "min": 0,
+      "max": 0,
+      "n": 20
+    },
+    "cambianDeEstado": {
+      "media": 0,
+      "p5": 0,
+      "p95": 0,
+      "min": 0,
+      "max": 0,
+      "n": 20
+    },
+    "pasanARojo": {
+      "media": 0,
+      "p5": 0,
+      "p95": 0,
+      "min": 0,
+      "max": 0,
+      "n": 20
+    },
+    "minutosRebajadosConSuelo": {
+      "media": null,
+      "p5": null,
+      "p95": null,
+      "min": null,
+      "max": null,
+      "n": 0
+    }
+  },
+  "cambiosV1V2Total": 0,
+  "frases": [
+    "En datos sintéticos (20 semillas de 20 talleres inventados; 60 casos con un problema real de capacidad en total), Trama pone en rojo el 90 % (intervalo 5-95 % entre semillas: 65-100 %) de los talleres con problema.",
+    "En datos sintéticos, el 100 % (igual en las 20 semillas) de los talleres con un problema real queda al menos en ámbar, que ya obliga a pedir una explicación al proveedor.",
+    "En datos sintéticos, ninguno de los 340 talleres sin problema real (sano, pico_legitimo, informe_tardio_o_ausente) salió en rojo en las 20 semillas: 0 falsos rojos.",
+    "En datos sintéticos, ningún taller sin informe acabó en rojo en las 20 semillas (0 casos): si falta el dato, Trama dice «sin datos», no acusa.",
+    "En datos sintéticos, un pico legítimo de un mes acaba en rojo en el 0 % (igual en las 20 semillas) de los casos y en rojo o ámbar en el 20 % (intervalo 5-95 % entre semillas: 0-35 %): la ventana de 3 meses lo absorbe."
+  ],
+  "noDetecta": [
+    "Personal sin alta o altas a media jornada falsas: si la carga de pedidos de la marca cabe en las horas declaradas, no hay ninguna señal. El score compara pedidos con horas de alta; no cuenta personas.",
+    "Trabajo de otras marcas que no están en Trama: sin cuota de facturación es invisible; con cuota solo abre una revisión, nunca da rojo (por diseño).",
+    "Subcontrata oculta con poco exceso (ratio entre 1,0 y 1,1): sale en ámbar, no en rojo.",
+    "Minutos rebajados en piel y calzado: no hay suelo público, así que el suelo no actúa y la rebaja solo queda en el historial del escandallo.",
+    "Talleres sin informe: «sin datos», nunca rojo. Es una regla del producto, no un fallo de detección.",
+    "Es un mínimo con los pedidos de una marca: si el problema no deja huella en los datos que llegan, ningún score lo ve."
+  ],
+  "corridas": [
+    {
+      "semilla": 1,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 0.6667,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0.6667,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 0.6667,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 0.6667,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 0.3333,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 0.3333,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 0.3333,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 2,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 3,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 0.6667,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0.6667,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 0.6667,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 0.6667,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 4,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 5,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 6,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 7,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0.1667,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0.1667,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 8,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 9,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 0.6667,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0.6667,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 0.6667,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 0.6667,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 0.3333,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 0.3333,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 0.3333,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 10,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 0.6667,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0.6667,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 0.6667,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 0.6667,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 11,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 12,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 13,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 14,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 15,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0.0833,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0.0833,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 16,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 0.3333,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0.3333,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 0.3333,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 0.3333,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 0.3333,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 0.3333,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 0.3333,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 0.3333,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 0.3333,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 0.3333,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 17,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.6667,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.6667,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 0.6667,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 0.3333,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 18,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0.0833,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0.0833,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 19,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    },
+    {
+      "semilla": 20,
+      "talleres": 20,
+      "porArquetipo": [
+        {
+          "arquetipo": "pico_legitimo",
+          "problemaReal": false,
+          "v1": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 0,
+            "rojoOAmbar": 0.3333,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "informe_tardio_o_ausente",
+          "problemaReal": false,
+          "v1": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          },
+          "v2": {
+            "n": 2,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 1,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "sano",
+          "problemaReal": false,
+          "v1": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 12,
+            "rojo": 0,
+            "rojoOAmbar": 0,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        },
+        {
+          "arquetipo": "subcontrata_oculta",
+          "problemaReal": true,
+          "v1": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          },
+          "v2": {
+            "n": 3,
+            "rojo": 1,
+            "rojoOAmbar": 1,
+            "sinDatos": 0,
+            "revision": 0
+          }
+        }
+      ],
+      "global": {
+        "v1": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        },
+        "v2": {
+          "problemas": 3,
+          "sinProblema": 17,
+          "sensibilidadRojo": 1,
+          "sensibilidadRojoOAmbar": 1,
+          "precisionRojo": 1,
+          "tasaFalsosRojos": 0,
+          "falsosRojos": 0,
+          "sinDatosEnRojo": 0,
+          "revisionVariasMarcas": null
+        }
+      },
+      "curva": [
+        {
+          "umbral": 1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.05,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.1,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.15,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.2,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.25,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        },
+        {
+          "umbral": 1.3,
+          "sensibilidad": 1,
+          "tasaFalsosRojos": 0
+        }
+      ],
+      "suelo": {
+        "conSuelo": 0,
+        "cambianDeEstado": 0,
+        "pasanARojo": 0,
+        "minutosRebajadosConSuelo": null
+      },
+      "cambiosV1V2": 0
+    }
+  ],
+  "versionGenerador": "n1.0",
+  "parametros": "capturado-2026-11-08"
+}
