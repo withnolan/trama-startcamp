@@ -1,0 +1,76 @@
+# Nombres REALES que no pueden aparecer en los datos sintéticos (marcas, talleres, gestorías, organizaciones).
+# Fuente: MARCAS.md, LLAMADAS.md, HOJA_DATOS.md, investigacion/ y specs/BRIEF.md. Uno por línea; se compara sin acentos y en minúsculas.
+A3 Leather Innovation Center
+AVECAL
+Adolfo Domínguez
+Aeffe
+Alberta Ferretti
+Alviero Martini
+Armani
+Balboa Asesores
+Billeo
+Bottega Veneta
+Brioni
+Brunello Cucinelli
+Burberry
+CCOO de Industria de Andalucía
+Callaghan
+Camper
+Cardenete Asesores
+Castañer
+Celine
+Chanel
+Clover
+Colegio Oficial de Graduados Sociales de Cádiz y Ceuta
+Col·legi de Graduats Socials de Barcelona
+Consejo General de Colegios Oficiales de Graduados Sociales de España
+Création Gross
+Depaco's
+Dior
+EcoVadis
+Ecoalf
+Evergreen
+Fabricante de Calzado
+Fendi
+Ferragamo
+Fluchos
+Furla
+Gelso
+Gestió Rambla 2
+Gucci
+Happy Punt
+Hermès
+Hispanitas
+INESCOP
+Inditex
+Kering
+LVMH
+Lancel
+Lasges Assessors
+Leather Cluster Barcelona
+Loewe
+Loro Piana
+Lottusse
+Louis Vuitton
+MODACC
+Mango
+Mascaró
+Morera Pell
+Moschino
+Museo de la Piel de Ubrique
+Ordesa
+Pikolinos
+Piquadro
+Pollini
+Prada
+Pretty Ballerinas
+Pura López
+Sedex
+Sita Murt
+Sor-Man
+The Bridge
+Tod's
+UGT FICA Andalucía
+Valentino
+Zara
+amfori

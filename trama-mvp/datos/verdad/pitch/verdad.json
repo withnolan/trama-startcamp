@@ -1,0 +1,188 @@
+{
+  "escenario": "pitch",
+  "semilla": 2026,
+  "talleres": [
+    {
+      "tallerId": "TS-01",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "personasReales": 1,
+      "personasDeclaradas": 1,
+      "ratioRealMedio": 0.47,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-02",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "personasReales": 2,
+      "personasDeclaradas": 2,
+      "ratioRealMedio": 0.52,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-03",
+      "arquetipo": "subcontrata_oculta",
+      "problemaReal": true,
+      "personasReales": 4,
+      "personasDeclaradas": 4,
+      "ratioRealMedio": 1.04,
+      "nota": "El exceso de carga lo produce un taller no declarado que no aparece en ningún archivo."
+    },
+    {
+      "tallerId": "TS-04",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "personasReales": 4,
+      "personasDeclaradas": 4,
+      "ratioRealMedio": 0.66,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-05",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "personasReales": 7,
+      "personasDeclaradas": 7,
+      "ratioRealMedio": 0.56,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-06",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "personasReales": 32,
+      "personasDeclaradas": 32,
+      "ratioRealMedio": 0.72,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-07",
+      "arquetipo": "pico_legitimo",
+      "problemaReal": false,
+      "personasReales": 7,
+      "personasDeclaradas": 7,
+      "ratioRealMedio": 0.8,
+      "nota": "Un mes de pico dentro de la ventana; los demás meses, holgados."
+    },
+    {
+      "tallerId": "TS-08",
+      "arquetipo": "subcontrata_oculta",
+      "problemaReal": true,
+      "personasReales": 1,
+      "personasDeclaradas": 1,
+      "ratioRealMedio": 1.73,
+      "nota": "El exceso de carga lo produce un taller no declarado que no aparece en ningún archivo."
+    },
+    {
+      "tallerId": "TS-09",
+      "arquetipo": "informe_tardio_o_ausente",
+      "problemaReal": false,
+      "personasReales": 4,
+      "personasDeclaradas": 4,
+      "ratioRealMedio": 0.86,
+      "nota": "Carga sana, pero falta el informe de 2026-10."
+    },
+    {
+      "tallerId": "TS-10",
+      "arquetipo": "pico_legitimo",
+      "problemaReal": false,
+      "personasReales": 6,
+      "personasDeclaradas": 6,
+      "ratioRealMedio": 0.94,
+      "nota": "Un mes de pico dentro de la ventana; los demás meses, holgados."
+    },
+    {
+      "tallerId": "TS-11",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "personasReales": 45,
+      "personasDeclaradas": 45,
+      "ratioRealMedio": 0.61,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-12",
+      "arquetipo": "pico_legitimo",
+      "problemaReal": false,
+      "personasReales": 32,
+      "personasDeclaradas": 32,
+      "ratioRealMedio": 0.82,
+      "nota": "Un mes de pico dentro de la ventana; los demás meses, holgados."
+    },
+    {
+      "tallerId": "TS-13",
+      "arquetipo": "subcontrata_oculta",
+      "problemaReal": true,
+      "personasReales": 16,
+      "personasDeclaradas": 16,
+      "ratioRealMedio": 1.5,
+      "nota": "El exceso de carga lo produce un taller no declarado que no aparece en ningún archivo."
+    },
+    {
+      "tallerId": "TS-14",
+      "arquetipo": "informe_tardio_o_ausente",
+      "problemaReal": false,
+      "personasReales": 2,
+      "personasDeclaradas": 2,
+      "ratioRealMedio": 0.54,
+      "nota": "Carga sana, pero falta el informe de 2026-09 y 2026-10."
+    },
+    {
+      "tallerId": "TS-15",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "personasReales": 4,
+      "personasDeclaradas": 4,
+      "ratioRealMedio": 0.48,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-16",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "personasReales": 2,
+      "personasDeclaradas": 2,
+      "ratioRealMedio": 0.53,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-17",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "personasReales": 3,
+      "personasDeclaradas": 3,
+      "ratioRealMedio": 0.47,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-18",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "personasReales": 6,
+      "personasDeclaradas": 6,
+      "ratioRealMedio": 0.74,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-19",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "personasReales": 4,
+      "personasDeclaradas": 4,
+      "ratioRealMedio": 0.47,
+      "nota": "Carga dentro de su capacidad."
+    },
+    {
+      "tallerId": "TS-20",
+      "arquetipo": "sano",
+      "problemaReal": false,
+      "personasReales": 4,
+      "personasDeclaradas": 4,
+      "ratioRealMedio": 0.64,
+      "nota": "Carga dentro de su capacidad."
+    }
+  ],
+  "versionGenerador": "n1.0",
+  "parametros": "provisional-N1"
+}

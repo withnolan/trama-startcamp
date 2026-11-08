@@ -80,3 +80,12 @@ Una línea por decisión: decisión — motivo.
 - Meta 2030 unificada a ≈ 37 talleres por marca (40 marcas, ≈ 1.150 talleres, ≈ 11.500 personas, ≈ 1,08 M€/año) tras detectar la incoherencia en la ronda 4.
 - Licencias: directas permisivas; transitivas MPL-2.0 (lightningcss, axe-core: desarrollo) y LGPL-3.0 (sharp, opcional y sin usar) documentadas como excepción en `MVP_ESTADO.md` — quitarlas rompe Tailwind o el lint.
 - Conocido y no corregido: en el seed la visita del revisor llega 33 días después de la alerta (la regla dice: sin aviso, antes de comunicar la alerta y como máximo en 7 días); cambiar fechas rompe los tests calibrados — se dice en `PREGUNTAS.md`.
+
+## Pipeline de datos (8-nov, desde las 11:49; rama `datos`, SUPERPROMPT_DATOS.md)
+- Trabajo en la rama `datos` con etiqueta `datos-n0` sobre `main` como rollback final; `main` no se toca antes del pitch.
+- N1 lo construye el orquestador solo (sin subagentes): pipeline de principio a fin antes de paralelizar.
+- Scripts en TypeScript con `node --experimental-strip-types` e imports con extensión `.ts`; se añade `allowImportingTsExtensions` a `tsconfig.json` (requiere `noEmit`, que ya estaba) — sin dependencias nuevas.
+- N1 incluye `escandallo.csv` (1 versión por pieza) además de los 3 archivos previstos: el Seed necesita los minutos y así la ingesta no depende de constantes del generador.
+- Horas de alta en la ingesta = plantilla media ponderada × jornada anual del convenio ÷ 12 (1.768 h marroquinería, provisional y sin verificar en el BOE hasta A1).
+- Parámetros públicos provisionales copiados a mano con su URL (`capturado: false`); A1 los sustituye por la instantánea.
+- Lista de exclusión de nombres reales (`trama-mvp/datos/exclusion_nombres.txt`, 74 nombres) sacada de MARCAS.md, LLAMADAS.md y los casos de Milán.

@@ -1,0 +1,340 @@
+[
+  {
+    "tallerId": "TS-01",
+    "mes": "2026-10",
+    "ratio": 0.4677,
+    "estado": "verde",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 195 h; el informe de plantilla recoge 417 h de alta.",
+      "Ratio 0,47× → verde.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  },
+  {
+    "tallerId": "TS-02",
+    "mes": "2026-10",
+    "ratio": 0.516,
+    "estado": "verde",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 462 h; el informe de plantilla recoge 895 h de alta.",
+      "Ratio 0,52× → verde.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  },
+  {
+    "tallerId": "TS-03",
+    "mes": "2026-10",
+    "ratio": 1.0384,
+    "estado": "ambar",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 1724 h; el informe de plantilla recoge 1660 h de alta.",
+      "Ratio 1,04× → ambar.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  },
+  {
+    "tallerId": "TS-04",
+    "mes": "2026-10",
+    "ratio": 0.6652,
+    "estado": "verde",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 1081 h; el informe de plantilla recoge 1625 h de alta.",
+      "Ratio 0,67× → verde.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  },
+  {
+    "tallerId": "TS-05",
+    "mes": "2026-10",
+    "ratio": 0.5618,
+    "estado": "verde",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 1550 h; el informe de plantilla recoge 2760 h de alta.",
+      "Ratio 0,56× → verde.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  },
+  {
+    "tallerId": "TS-06",
+    "mes": "2026-10",
+    "ratio": 0.7202,
+    "estado": "verde",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 9190 h; el informe de plantilla recoge 12.761 h de alta.",
+      "Ratio 0,72× → verde.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  },
+  {
+    "tallerId": "TS-07",
+    "mes": "2026-10",
+    "ratio": 0.7986,
+    "estado": "verde",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 2103 h; el informe de plantilla recoge 2633 h de alta.",
+      "Ratio 0,80× → verde.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  },
+  {
+    "tallerId": "TS-08",
+    "mes": "2026-10",
+    "ratio": 1.7325,
+    "estado": "rojo",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 728 h; el informe de plantilla recoge 420 h de alta.",
+      "Ratio 1,73× → rojo.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  },
+  {
+    "tallerId": "TS-09",
+    "mes": "2026-10",
+    "estado": "sin_datos",
+    "confianza": "baja",
+    "motivosConfianza": [
+      "Falta el informe de plantilla de algún mes de la ventana.",
+      "FALTA_INFORME: Sin informe de 2026-10.",
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "ninguna",
+    "explicacion": [
+      "Sin informe de 2026-10: no se calcula el semáforo (nunca rojo por falta de datos)."
+    ]
+  },
+  {
+    "tallerId": "TS-10",
+    "mes": "2026-10",
+    "ratio": 0.9311,
+    "estado": "ambar",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 2424 h; el informe de plantilla recoge 2603 h de alta.",
+      "Ratio 0,93× → ambar.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  },
+  {
+    "tallerId": "TS-11",
+    "mes": "2026-10",
+    "ratio": 0.6093,
+    "estado": "verde",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 10.270 h; el informe de plantilla recoge 16.856 h de alta.",
+      "Ratio 0,61× → verde.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  },
+  {
+    "tallerId": "TS-12",
+    "mes": "2026-10",
+    "ratio": 0.8246,
+    "estado": "verde",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 10.444 h; el informe de plantilla recoge 12.665 h de alta.",
+      "Ratio 0,82× → verde.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  },
+  {
+    "tallerId": "TS-13",
+    "mes": "2026-10",
+    "ratio": 1.4954,
+    "estado": "rojo",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 10.099 h; el informe de plantilla recoge 6754 h de alta.",
+      "Ratio 1,50× → rojo.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  },
+  {
+    "tallerId": "TS-14",
+    "mes": "2026-10",
+    "estado": "sin_datos",
+    "confianza": "baja",
+    "motivosConfianza": [
+      "Falta el informe de plantilla de algún mes de la ventana.",
+      "FALTA_INFORME: Sin informe de 2026-09, 2026-10.",
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "ninguna",
+    "explicacion": [
+      "Sin informe de 2026-09, 2026-10: no se calcula el semáforo (nunca rojo por falta de datos)."
+    ]
+  },
+  {
+    "tallerId": "TS-15",
+    "mes": "2026-10",
+    "ratio": 0.4771,
+    "estado": "verde",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 849 h; el informe de plantilla recoge 1779 h de alta.",
+      "Ratio 0,48× → verde.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  },
+  {
+    "tallerId": "TS-16",
+    "mes": "2026-10",
+    "ratio": 0.5324,
+    "estado": "verde",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 444 h; el informe de plantilla recoge 834 h de alta.",
+      "Ratio 0,53× → verde.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  },
+  {
+    "tallerId": "TS-17",
+    "mes": "2026-10",
+    "ratio": 0.4698,
+    "estado": "verde",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 578 h; el informe de plantilla recoge 1231 h de alta.",
+      "Ratio 0,47× → verde.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  },
+  {
+    "tallerId": "TS-18",
+    "mes": "2026-10",
+    "ratio": 0.7428,
+    "estado": "verde",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 1781 h; el informe de plantilla recoge 2398 h de alta.",
+      "Ratio 0,74× → verde.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  },
+  {
+    "tallerId": "TS-19",
+    "mes": "2026-10",
+    "ratio": 0.4743,
+    "estado": "verde",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 768 h; el informe de plantilla recoge 1619 h de alta.",
+      "Ratio 0,47× → verde.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  },
+  {
+    "tallerId": "TS-20",
+    "mes": "2026-10",
+    "ratio": 0.6398,
+    "estado": "verde",
+    "confianza": "alta",
+    "motivosConfianza": [
+      "Minutos del escandallo sin suelo público (marroquinería): sin contrastar."
+    ],
+    "minutosUsados": "escandallo",
+    "horasFuente": "informe_es",
+    "explicacion": [
+      "Entre 2026-08 y 2026-10, tus pedidos necesitan unas 1001 h; el informe de plantilla recoge 1564 h de alta.",
+      "Ratio 0,64× → verde.",
+      "Es un indicio que abre una revisión, no una prueba. Decide una persona."
+    ]
+  }
+]

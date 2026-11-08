@@ -1,0 +1,6 @@
+tipo_pieza_id;version;minutos;vigente_desde;autor;categoria
+TP-BOLSO-ESTR;1;360;2026-05-01;Compras (ficticio);marroquineria
+TP-BOLSO-TOTE;1;180;2026-05-01;Compras (ficticio);marroquineria
+TP-CARTERA;1;90;2026-05-01;Compras (ficticio);marroquineria
+TP-CINTURON;1;45;2026-05-01;Compras (ficticio);marroquineria
+TP-TARJETERO;1;40;2026-05-01;Compras (ficticio);marroquineria
