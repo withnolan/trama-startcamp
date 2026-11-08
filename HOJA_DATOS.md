@@ -1,8 +1,8 @@
 # HOJA DE DATOS · Trama
 
-Para el jurado y para el equipo · 8-nov-2026 · versión 3 · todo lo marcado «por validar» o «supuesto» es nuestro, no un dato.
+Para el jurado y para el equipo · 8-nov-2026 · versión 4 · todo lo marcado «por validar» o «supuesto» es nuestro, no un dato.
 
-**Qué es.** Cada mes, Trama compara las horas que necesitan los pedidos de una marca (pedidos × minutos por pieza: los de su escandallo, **nunca por debajo de un suelo externo por prenda y segmento**) con las horas de alta de cada taller de su cadena (plantilla media en alta en la Seguridad Social, que pondera la jornada de cada contrato; la saca su gestoría del Sistema RED y a Trama solo llega el total). Si no caben, abre una revisión y un plan de corrección que la marca firmó al contratar. Ayuda a decidir dónde mirar y documenta que la marca vigiló. **No detecta trabajo forzoso ni da sellos: mide un riesgo de capacidad.**
+**Qué es.** Cada mes, Trama compara las horas que necesitan los pedidos de una marca (pedidos × minutos por pieza: los de su escandallo, **nunca por debajo del mínimo industrial publicado de cada prenda**) con las horas de alta de cada taller de su cadena (plantilla en alta en la Seguridad Social, con la jornada de cada contrato; la saca su gestoría del Sistema RED y a Trama solo llega el total). Si no caben, abre una revisión y un plan de corrección que la marca firmó al contratar. Ayuda a decidir dónde mirar y documenta que la marca vigiló. **No detecta trabajo forzoso ni da sellos: mide un riesgo de capacidad.**
 
 ## Cifras clave
 
@@ -16,12 +16,15 @@ Para el jurado y para el equipo · 8-nov-2026 · versión 3 · todo lo marcado �
 | España: deberes de quien encarga su propia actividad | Comprobar el alta de cada trabajador de la contrata (art. 16 LGSS) y responder de sus cuotas y salarios (art. 42 ET). **Si alcanza a un encargo de confección: abierto** (laboralista) | [BOE, ET](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430) · [BOE, LGSS](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724) |
 | Horizonte UE | Reglamento (UE) 2024/3015: prohíbe comercializar productos hechos con trabajo forzoso desde el 14-12-2027. No obliga a usar ninguna herramienta | [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2024/3015/oj/spa) |
 
-## Minutos por pieza: el suelo
+## Fuente de las horas
+- **España:** informe de plantilla media de trabajadores en alta (TGSS), que el gestor saca del Sistema RED. **Que pondera la jornada de cada contrato está respaldado por el Boletín de Noticias RED 2011/13, por confirmar que sigue vigente** con un informe real. Si no la pondera, la gestoría la calcula con el coeficiente de parcialidad del ITA y envía solo el total.
+- **Italia (fase 2):** el **LUL** (libro único del trabajo, art. 39 DL 112/2008) registra cada día las horas trabajadas de cada persona; lo lleva el empleador o su consulente del lavoro, que enviaría solo el total. No tiene copia pública verificable, así que se cruza con el **DURC** online (al corriente de cotizaciones, consultable, vale 120 días) y, si el taller la tiene, con la **Asse.Co** (asseverazione anual de un consulente tercero, con revisión cada 4 meses; no cuenta horas). Fuentes: `investigacion/fuentes_horas.md` §7.
+
+## Minutos por pieza: suelo y referencia
 - Son los del **escandallo con el que compras fija el precio**, con historial de cambios (fecha y autor).
-- **Trama calcula con el mayor** entre ese valor y un **suelo externo por prenda y segmento**. El segmento es el de la marca: una marca de lujo no puede declarar «industrial» una chaqueta que vende a miles de euros.
-  - Americana o chaqueta forrada, **industrial: 126 min** ([BUFT 2023](https://buft.edu.bd/upload/_page/P-7.pdf): 76 min estándar de costura, ≈ 126 min con la eficiencia real de una línea).
-  - Americana o chaqueta forrada, **premium o lujo: 180 min** ([Création Gross](https://fashionunited.uk/press/fashion/creation-gross-fashion-made-in-germany/2021111559279): «hasta 180 min» de costura; Brioni declara más de 16 h).
-- **Caso Milán:** aunque la marca declarase 130 min, Trama calcula con 180 → 1,47×, rojo. Sin suelo, el rojo empezaría en ≈ 135 min.
+- **Suelo = mínimo industrial publicado de cada prenda.** Trama calcula con el mayor entre el escandallo y ese mínimo. Americana o chaqueta forrada: **126 min** ([BUFT 2023](https://buft.edu.bd/upload/_page/P-7.pdf): 76 min estándar de costura, ≈ 126 min con la eficiencia real de una línea).
+- **Referencia premium: 180 min** ([Création Gross](https://fashionunited.uk/press/fashion/creation-gross-fashion-made-in-germany/2021111559279): «hasta 180 min» de costura en una fábrica premium). Es el techo de su rango, **no un suelo**: el revisor la usa para contrastar los minutos de marcas premium o de lujo (Brioni declara más de 16 h).
+- **Caso Milán:** el proveedor directo, sin taller, sale rojo con cualquier minutaje. Subproveedor (7 personas, 6.000 chaquetas): con el mínimo industrial, **1,03×, ámbar, al límite** (un ámbar obliga a pedir una explicación); con 130 min, 1,06×; con minutos de fábrica premium (180), **1,47×, rojo**. El rojo empieza hacia 135 min (116 con 7.000 chaquetas).
 - **Piel y calzado (fase 1): sin suelo publicado todavía.** La pieza sale «minutos sin contrastar»; el revisor cronometra una muestra en la primera visita y el piloto construye la referencia. Si la marca no tiene minutos por modelo, valen los del escandallo de su fabricante principal.
 
 ## Personas sin alta: quién las cuenta
@@ -31,11 +34,11 @@ Para el jurado y para el equipo · 8-nov-2026 · versión 3 · todo lo marcado �
 - **Sin vía de regularización:** no se puede prometer empleo legal (LO 4/2000, art. 54.1.d). La ONG acompaña (derechos y cobro de lo trabajado, art. 36.5), y la cifra se publica.
 
 ## Qué es simulado en la demo
-La marca (Ordessa), los talleres, los pedidos, las plantillas y las horas son **inventados**; las ciudades son reales. «Caso Milán 2025» usa cifras de prensa **anonimizadas** (7 personas, 6.000 chaquetas al año) con el **suelo de lujo de 180 min**, elegido por nosotros (1,47 → rojo). «Taller con 4 marcas» es inventado (0,40 · 0,35 · 0,30 · 0,25 → suma 1,30). Los documentos de «3 · Documentos» van marcados SIMULADO. Sin backend, login ni datos reales; el cálculo sí es el de verdad (con tests automáticos) y funciona sin internet.
+La marca (Ordessa), los talleres, los pedidos, las plantillas y las horas son **inventados**; las ciudades son reales. «Caso Milán 2025» usa cifras de prensa **anonimizadas** (7 personas, 6.000 chaquetas al año) con el mínimo industrial (126 min → 1,03×, ámbar) y la referencia de fábrica premium (180 min → 1,47×, rojo). Los minutos reales de esa chaqueta no se conocen. «Taller con 4 marcas» es inventado (0,40 · 0,35 · 0,30 · 0,25 → suma 1,30). Los documentos de «3 · Documentos» van marcados SIMULADO. Sin backend, login ni datos reales; el cálculo sí es el de verdad (con tests automáticos) y funciona sin internet.
 
 ## Qué está validado y qué no
-- **Comprobado con fuentes:** que el informe de plantilla media en alta existe y lo saca el gestor (Sistema RED); la jornada de cada convenio (BOE); el caso de Milán y las 22 peticiones de documentos; el tamaño del trabajo no declarado en España; los suelos de minutos de la americana forrada; ninguna de las 18 herramientas, normas y plataformas revisadas cruza, que sepamos, cada mes pedidos con horas de alta.
-- **Sin validar:** ninguna marca, gestoría, taller, sindicato ni ONG consultado todavía; el precio; que el gestor saque el informe cada mes, cuánto cobra y si el informe pondera hoy la jornada parcial; el suelo de minutos de piel y calzado; cuántos talleres tiene cada marca en España; si el art. 42 ET alcanza a la confección; quién hace de revisor y lleva el censo; el efecto de la cláusula de no despido ante un juez; los supuestos de la meta 2030.
+- **Comprobado con fuentes:** que el informe de plantilla media en alta existe y lo saca el gestor (Sistema RED), y que según el Boletín de Noticias RED 2011/13 pondera la jornada de cada contrato; la jornada de cada convenio (BOE); el caso de Milán y las 22 peticiones de documentos; el tamaño del trabajo no declarado en España; el mínimo industrial (126 min) y la referencia premium (180 min) de la americana forrada; qué registra el LUL italiano; ninguna de las 18 herramientas, normas y plataformas revisadas cruza, que sepamos, cada mes pedidos con horas de alta.
+- **Sin validar:** ninguna marca, gestoría, taller, sindicato ni ONG consultado todavía; el precio; que el gestor saque el informe cada mes y cuánto cobra; que la ponderación del Boletín RED de 2011 siga vigente (ver un informe real); cómo obtener el LUL en la práctica; el suelo de minutos de piel y calzado; cuántos talleres tiene cada marca en España; si el art. 42 ET alcanza a la confección; quién hace de revisor y lleva el censo; el efecto de la cláusula de no despido ante un juez; los supuestos de la meta 2030.
 
 ## Mercado, precio y cuentas (por validar)
 | Concepto | Supuesto |
@@ -45,7 +48,9 @@ La marca (Ordessa), los talleres, los pedidos, las plantillas y las horas son **
 | Coste de corregir (aparte, solo si hay alerta) | **1.000-3.000 € por alerta**, pagado por la marca directo al revisor; Trama no cobra margen. Subir el precio por pieza lo decide compras; Trama no fija ni junta precios |
 | **Mercado en marcas que compran** | España: **165** empresas de confección, piel y calzado con 50 o más asalariados ([INE, tabla 73019](https://www.ine.es/jaxiT3/Tabla.htm?t=73019)); Italia: **175** empresas de moda de más de 100 M€ ([Mediobanca](https://www.mediobanca.com/it/hp-media/eventi-iniziative/l-area-studi-mediobanca-pubblica-il-nuovo-report-sulla-moda.html)). × 30-40 talleres cada una (supuesto) × 720 € = **≈ 8,6 M€/año** |
 | Comprobación en talleres | 6.083 empresas españolas de confección, piel y calzado con 1-49 asalariados, cada una contada una vez → 4,4 M€/año de techo (INE) |
-| Primeras clientas | Marcas que fabrican en Italia y en España (allí está la presión; aquí, el dato oficial y el piloto). Según Modaes (2024), Chanel, Dior y Prada están entre los clientes de Ubrique. Vía rápida, por validar: su fabricante principal de Ubrique o Elche |
+| Primeras clientas | Marcas que fabrican en Italia y en España (allí está la presión; aquí, el dato oficial y el piloto). Según Modaes (2024), Chanel, Dior y Prada están entre los clientes de Ubrique |
+| **Canal de entrada** (por validar) | **Un fabricante principal de Ubrique o Elche que produce para varias marcas.** Conoce a sus subcontratas, habla con cumplimiento de sus clientes y, para él, Trama es la forma de enseñarles que controla su capacidad |
+| **A quién pedimos la carta** (perfil, sin nombres) | (a) Responsable de cumplimiento o sostenibilidad, junto con compras, de una marca mediana o grande que fabrique en Italia y en España. (b) Dirección general o de operaciones de un fabricante principal de Ubrique o Elche que trabaje para varias marcas. Firman cumplimiento y compras, o la dirección del fabricante |
 | Camino | 2027: 3 marcas, 90 pares marca-taller, 64.800 € · 2028: 10, 350, 252.000 € · 2029: 20, 800, 576.000 € · 2030: 40, ≈ 2.000, ≈ 1,44 M€ |
 
 ## Meta 2030 (supuestos por validar; los mide el piloto)
