@@ -127,10 +127,70 @@ Empresas por grupo CNAE y número de asalariados, a 1-1-2025 ([INE, DIRCE, tabla
   2. La carta de intención la firman cumplimiento y compras.
   3. En el piloto, una persona de compras dedica 2-3 h a revisar el precio por pieza frente al coste de convenio (`v5_segunda_cuenta.md`).
 - **Riesgo del J3 (vender a cumplimiento en el lujo es lento): no está resuelto.** Primeros clientes que proponemos, sin validar:
-  - marcas medianas que fabrican en España;
-  - fabricantes principales que quieren enseñar a sus marcas que controlan sus subcontratas.
+  - marcas que fabrican en Italia y en España (sección 6);
+  - sus fabricantes principales de Ubrique y Elche, donde decide el dueño, que quieren enseñar a sus marcas que controlan sus subcontratas.
+
+### 6. Mercado en marcas, salida al mercado y meta 2030 (ronda 3)
+
+**Cuántas empresas pueden comprar.** En ingresos se cuentan pares marca-taller: cada marca paga por sus talleres.
+
+| Segmento | Cuántas | Fuente | Talleres por cliente (supuesto) | €/año (720 € por par) |
+|---|---|---|---|---|
+| **España**: fabricantes de confección, piel y calzado con **50 o más asalariados**. Suelen tener marca propia o ser el fabricante principal que subcontrata | **165** (141: 53 · 143: 6 · 151: 41 · 152: 65) | [INE, DIRCE 1-1-2025, tabla 73019](https://www.ine.es/jaxiT3/Tabla.htm?t=73019) ✅ | 30 (rango 10-30) | **3,56 M€** (rango 1,2-3,6) |
+| España, cota amplia: con **20 o más** asalariados | 645 | La misma ✅ | 10 | 4,6 M€ (cota alternativa, no se suma) |
+| Casas de lujo extranjeras que fabrican en España | **≥ 3 documentadas**: Chanel, Dior y Prada, como clientes de Ubrique ([Modaes, 26-ago-2024](https://www.modaes.com/entorno/los-hubs-de-la-moda-en-espana-andalucia-la-cuna-del-cuero-y-la-artesania)) ✅. Cuántas en total: **NO SÉ** | — | NO SÉ | No se cuentan |
+| Marcas españolas sin fábrica (comercio al por mayor) | **NO SÉ**: el DIRCE no separa la clase 46.42 en esta tabla | — | — | No se cuentan |
+| **Italia**: empresas de moda de más de 100 M€ | **175** | [Mediobanca](https://www.mediobanca.com/it/hp-media/eventi-iniziative/l-area-studi-mediobanca-pubblica-il-nuovo-report-sulla-moda.html) ✅ | 40 (como referencia, Prada tiene ≈1.000 proveedores y subcontratistas: [FashionUnited/FT](https://fashionunited.uk/news/business/prada-terminates-222-suppliers-over-compliance-violations/2026013086016) ✅) | **5,04 M€** |
+| **Núcleo, España + Italia** | **340** | | | **≈ 8,6 M€/año** |
+
+Cuadra con la cuenta en talleres (sección 4). En España, 165 × 30 = 4.950 pares, por debajo de los 6.083 talleres únicos: no todos los talleres trabajan para un fabricante grande.
+
+**SOM a 3 años (marcas × talleres × precio; supuestos):**
+
+| Año | Marcas clientas | Talleres por marca | Pares | Cuota €/año |
+|---|---|---|---|---|
+| 2027 (piloto + primer año) | 3 | 30 | 90 | 64.800 |
+| 2028 | 10 | 35 | 350 | 252.000 (supera el equilibrio, ≈182 pares) |
+| **2029 (año 3)** | **20** (14 en España, 6 en Italia) | 40 | **800** | **576.000**: ≈ 6,7 % del núcleo en marcas |
+
+**Cómo se escala** (con fuente; no se suma al mercado):
+1. **Italia: la presión ya existe.**
+   - Cinco administraciones judiciales en Milán en 2024-2025 ✅.
+   - La Fiscalía de Milán pidió documentos a **22 marcas** (13 en dic-2025 y 9 en jul-2026). **Ninguna está investigada** ✅ (`investigacion/hechos_legales.md` §1.d).
+   - El protocolo de Milán es **voluntario**. Las marcas que se adhieren se comprometen a verificar cada año «un campione significativo pari almeno al 40% su base annua ovvero al 30% dell'importo degli acquisti annui» de sus proveedores de primer nivel, y los niveles siguientes según el riesgo (art. 3.4). Debe ser una verificación «effettiva e sostanziale». Dura 3 años y se renueva ✅ (texto del [protocolo](https://www.eticanews.it/wp-content/uploads/2025/06/protocollo-moda-26.05.2025.pdf), leído esta noche). **No «obliga»: compromete a quien se adhiere.**
+2. **UE: 194.500 empresas de textil y confección**, el 99,7 % pymes ([EURATEX 2026](https://euratex.eu/wp-content/uploads/2026-EURATEX-Facts-Key-Figures.pdf)) ✅.
+   - Contando cada una una vez, el techo es de ≈ 140 M€/año, sin piel ni calzado.
+   - Horizonte: el Reglamento 2024/3015 se aplica en toda la UE desde el 14-12-2027 ✅.
+3. **Otros sectores que subcontratan mano de obra.** En Italia, la construcción ya compara por ley el coste de mano de obra con el valor de la obra (DURC di congruità, DM 143/2021; `investigacion/fuentes_horas.md` §7) ✅/⚠. Fincantieri (piloto Asse.Co con 40 empresas, 2024) y ANCE (2025) ya vigilan a sus subcontratas ✅ (`investigacion/mercado_competencia.md` §3.2). **No tenemos cifras de mercado: no se cuenta.**
+
+**Salida al mercado: primeras clientas.**
+- **Decisión.** Primeras clientas: **marcas que fabrican en Italia y en España**, y sus fabricantes principales de Ubrique y Elche. **El piloto, en sus talleres españoles.**
+- **¿Refuerza el «por qué ya»? Sí, si se dice bien.**
+  - La presión documentada está en Italia y recae en casas que también fabrican aquí.
+  - Según Modaes, Chanel, Dior y Prada están entre los clientes de Ubrique. Dior pasó por administración judicial en 2024. Prada (dic-2025) y Chanel (jul-2026) recibieron peticiones de documentos, **sin estar investigadas**.
+  - Para su equipo de cumplimiento, España es el mismo riesgo sin herramienta. Según la empresa, Loro Piana salió de la medida con «valoraciones sistemáticas de la capacidad productiva». Hacer eso en sus talleres españoles es coherente, y aquí el dato es oficial (TGSS), más fácil de obtener que el LUL italiano.
+- **¿Contradice el piloto en España? No.** El piloto sigue aquí; solo cambia quién compra. Los talleres italianos (LUL) siguen en la fase 2.
+- **Límites:**
+  - No hemos hablado con ninguna. Los mensajes de `MARCAS.md` no tienen respuesta.
+  - El lujo compra despacio (J3). Por eso, la vía rápida es el fabricante principal (por validar).
+  - **En el pitch no se nombra a ninguna marca**: podría sonar a que están investigadas.
+  - El art. 42 ET sigue abierto: no es el argumento.
+
+**Meta 2030 (negocio; supuesto):**
+- **40 marcas clientas** (25 en España, 15 en Italia).
+- **≈ 1.500 talleres únicos vigilados**: ≈ 2.000 pares, con ≈ 1,3 marcas por taller (supuesto).
+- **≈ 1,44 M€/año** de cuota.
+- **≈ 15.000 personas** en esas plantillas (supuesto: ≈10 por taller). Referencias: la marroquinería italiana tiene 11 de media, 46.803 / 4.223 ✅. En España, las empresas de 1 a 49 asalariados tienen ≈7, estimación propia con el punto medio de cada estrato del INE.
+- Camino: 2027, 3 marcas / 90 pares · 2028, 10 / 350 · 2029, 20 / 800 · 2030, 40 / 2.000.
+- Las altas y las personas protegidas las fija el mentor de Impacto.
 
 ## Respuesta de 25 s
+
+**«¿Cuántas marcas os pueden comprar?»** (67 palabras)
+> «En España, 165 fabricantes de moda, piel y calzado con 50 o más asalariados, según el INE; en Italia, 175 grupos de moda de más de 100 millones. Con 30 a 40 talleres cada uno, son unos 8,6 millones al año. Empezamos por las marcas que fabrican en los dos países, y la meta para 2030 es de 40 marcas y 1.500 talleres. Todo, supuestos por validar.»
+
+**«¿Por qué pagaría ya una marca en España?»** (68 palabras)
+> «Porque las casas de lujo que producen en Ubrique también producen en Italia, y allí la presión ya existe: la Fiscalía de Milán ha pedido documentos sobre su cadena a 22 marcas, sin investigarlas. Lo que allí les piden, aquí, que sepamos, nadie lo cruza, y en España el dato de horas es oficial. El artículo 42 todavía tiene que confirmarlo un laboralista.»
 
 **«¿Cuánto cobráis y cuánto ganáis?»** (69 palabras)
 > «Cobramos a la marca 60 € por taller y mes. El informe de la gestoría lo repercutimos a coste, entre 15 y 30 €, y nunca lo paga el taller. Si salta una alerta, la marca paga aparte y directamente al revisor una tarifa fija: estimamos de mil a tres mil euros. Nosotros no cobramos nada de la corrección, así que no ganamos más con más rojos. Todo, por validar.»
@@ -148,8 +208,14 @@ Empresas por grupo CNAE y número de asalariados, a 1-1-2025 ([INE, DIRCE, tabla
   - añadir que la corrección se paga al revisor y Trama no cobra nada de ella;
   - añadir el punto de equilibrio como supuesto.
 - **App:** nada esta noche (Producto). Si se quiere una línea en `/legal`: «Trama no cobra por las alertas ni por la corrección».
+- **Ronda 3:** el bloque de negocio del pitch se sustituye por el de `mentores/v3_negocio.md` (mercado en marcas, primeras clientas y meta 2030; ≈559 palabras en total). En la hoja:
+  - una fila «Mercado en marcas»;
+  - una fila «Meta 2030»;
+  - «Italia: clientas desde el principio; talleres italianos, en la fase 2».
 
 ## Qué sigue abierto
+- **Talleres por marca:** no hay ningún dato para España (los 30 son un supuesto). Tampoco sabemos cuántas casas extranjeras fabrican en España ni cuántas marcas españolas sin fábrica subcontratan aquí.
+- Si las marcas que fabrican en Italia y en España comprarían: no hemos hablado con ninguna.
 - **Lo que cobra una gestoría por el informe mensual** (P1 de `LLAMADAS.md`). Es la única partida que mueve el margen.
 - **Si una marca pagaría 60 €:** no hemos hablado con ninguna. Por eso la carta de intención lleva el precio orientativo.
 - Tarifa por jornada de un revisor en España, y qué ONG o sindicato haría de revisor (no hay ninguno confirmado).
