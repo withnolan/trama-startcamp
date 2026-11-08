@@ -46,4 +46,4 @@ Rúbrica fija: `jurado/rubrica.md` (Problema e impacto 25 · Solución e innovac
 2. **La presión legal está en Italia y el dato hoy funciona en España**; en Italia el LUL está identificado pero sin probar; en España el art. 42 ET para la confección está abierto.
 3. **Cláusulas sin leer por ninguna marca** (cláusula 0, tope del 20 %, no despido) y excepciones por trata o riesgo grave por redactar con un abogado.
 4. **Suelo de minutos para piel y calzado**: no existe referencia pública; lo construiría el piloto.
-5. **Demo**: en el seed la visita del revisor llega 33 días después de la alerta (la regla dice el mismo día); el censo del revisor no tiene secreto profesional frente a un juzgado.
+5. **Demo**: en el seed la visita del revisor llega 33 días después de la alerta (la regla dice: sin aviso, antes de comunicar la alerta y como máximo en 7 días); el censo del revisor no tiene secreto profesional frente a un juzgado.

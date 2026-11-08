@@ -134,6 +134,24 @@ Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite ho
 
 ---
 
+## Lo que preguntó el jurado de la ronda 4 (no cambia el pitch)
+
+### 22. ¿Por qué os pagaría 720 € por taller y año en vez de pedir ella misma el informe a la gestoría y hacer la división en una hoja de cálculo?
+*Responde Orador 4.*
+> Con un taller, podría hacerlo ella. Lo que su hoja de cálculo no da: sumar los pedidos de otras marcas en el mismo taller sin que ninguna vea los de las otras, porque eso solo lo puede hacer un tercero; el suelo de minutos; las subcontratas declaradas de toda la cadena; el revisor y el plan firmado; y un historial que documenta qué vio y qué hizo.
+
+### 23. ¿Qué responsable de cumplimiento firma no recortar más de un 20 % con un recuento firmado de gente sin alta en su cadena? ¿Con qué excepciones (trata, riesgo grave, requerimiento judicial), y qué le decís al fiscal si lo ve como seguir comprando a sabiendas?
+*Responde Orador 3.*
+> Las excepciones están escritas: negativa a cooperar, peligro grave e inminente, trabajo forzoso confirmado y lo que ordene una autoridad; la trata la añadimos. Al fiscal: seguir comprando con un plan supervisado que da de alta a la gente no es mirar a otro lado; Milán reprochó no verificar. Que se sostenga lo confirma un abogado antes del piloto, y quién lo firma aún no lo sabemos.
+
+### 24. En vuestra demo la visita sin aviso llega 33 días después de la alerta, y el censo del revisor no lo protege ningún secreto profesional si lo pide un juzgado.
+*Responde Orador 3.*
+> Tiene razón en las dos. La fecha de la demo es un ejemplo anterior a la regla: visita sin aviso antes de comunicar la alerta, en 7 días como máximo, al proveedor y a las subcontratas que tenga declaradas. El censo va seudonimizado, con una regla escrita para requerimientos de una autoridad. Pero si un juzgado lo pide, no podemos garantizar que no se entregue.
+
+Fuentes: `problemas/b_varias_marcas.md` (tercero con al menos tres marcas), `problemas/c_informe_complaciente.md` (suelo e historial), `problemas/f_rojo_abandono.md` y `investigacion/encaje_legal.md` §f (excepciones de la cláusula; OCDE §3.2.5 y directrices de la Comisión §6.4.3: salir como último recurso), `investigacion/hechos_legales.md` §1 (Milán reprochó no verificar la capacidad), `problemas/metricas_impacto.md` (censo con códigos).
+
+---
+
 ## De reserva
 
 ### R1. ¿Y si el proveedor no declara su subcontrata?
@@ -171,6 +189,6 @@ Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite ho
 
 ## Recuento por respuesta
 
-Todas ≤ 70 palabras (cuenta automática de las líneas «>»): J1 69 · J2 70 · J3 68 · J4 70 · J5 67 · 1: 63 · 2: 69 · 3: 61 · 4: 69 · 5: 69 · 6: 63 · 7: 68 · 8: 70 · 9: 64 · 10: 63 · 11: 58 · 12: 67 · 13: 63 · 14: 66 · 15: 64 · 16: 68 · 17: 68 · 18: 63 · 19: 70 · 20: 65 · 21: 66 · R1 52 · R2 63 · R3 61 · R4 68 · R5 58 · R6 57 · R7 52. Si el jurado corta, basta la primera frase: ya lleva el dato.
+Todas ≤ 70 palabras (cuenta automática de las líneas «>»): J1 69 · J2 70 · J3 68 · J4 70 · J5 67 · 1: 63 · 2: 69 · 3: 61 · 4: 69 · 5: 69 · 6: 63 · 7: 68 · 8: 70 · 9: 64 · 10: 63 · 11: 58 · 12: 67 · 13: 63 · 14: 66 · 15: 64 · 16: 68 · 17: 68 · 18: 63 · 19: 70 · 20: 65 · 21: 66 · 22: 67 · 23: 67 · 24: 68 · R1 52 · R2 63 · R3 61 · R4 68 · R5 58 · R6 57 · R7 52. Si el jurado corta, basta la primera frase: ya lleva el dato.
 
 Fuentes de las respuestas nuevas: suelo de minutos (`problemas/c_informe_complaciente.md`, ronda 3), personas sin alta y meta 2030 (`problemas/metricas_impacto.md`, ronda 3, recalculada con las cifras de Negocio), cláusula cero (`problemas/f_rojo_abandono.md`), mercado en marcas y primeras clientas (`problemas/h_precio_mercado.md` §6), Inspección y caso de Valencia (`problemas/d_no_declarado_vs_forzoso.md`). Ronda 4: suelo de minutos = mínimo industrial de 126 min y 180 como referencia premium (`problemas/c_informe_complaciente.md`, cifras 1,03× y 1,47×); Italia, LUL, DURC y Asse.Co (`investigacion/fuentes_horas.md` §7, `investigacion/hechos_legales.md` §5); «prueba en contra», reproche de Milán y salida de Loro Piana (`investigacion/hechos_legales.md` §1, `investigacion/encaje_legal.md` §d, fuente [18]).
