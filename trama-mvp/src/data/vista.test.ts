@@ -35,12 +35,16 @@ describe("vista", () => {
     expect(d.porQue).toEqual([]);
   });
 
-  it("KPIs de marca: 5 en orden, principal 77,78 % provisional", () => {
+  it("KPIs de marca: 5 en orden, con punto de partida (problemas/metricas_impacto.md)", () => {
     const k = kpisMarca();
     expect(k.map((x) => x.id)).toEqual(["principal", "horasRegularizadas", "acompanados", "pedidosMantenidos", "fallos"]);
-    expect(k.map((x) => x.valor)).toEqual([77.78, 1120, 4, 90, 0]);
-    expect(k[0].contexto).toBe("14 de 18 trabajadores · provisional (mes 3 de 6) · definitiva el 7 feb 2027");
-    expect(k[4].variante).toBe("fallo");
+    expect(k.map((x) => x.valor)).toEqual([77.78, 58.33, 7, 90, 0]);
+    expect(k[0].contexto).toBe("14 de 18 personas · al abrir la alerta, 11 de alta · provisional (mes 3 de 6) · definitiva el 7 feb 2027");
+    // Hueco de la cadena: 2.720 h → 800 h; de las 1.920 h cerradas, 1.120 h con altas (58 %) y 800 h retirando pedidos.
+    expect(k[1]).toMatchObject({ formato: "porcentaje", contexto: "1.120 h con altas nuevas · 800 h con pedidos retirados · faltaban 2.720 h, hoy 800 h" });
+    expect(k[2].contexto).toBe("3 ya de alta · 4 en trámite · 0 sin vía de regularización");
+    expect(k[3].contexto).toBe("Reducción del 10 % · límite pactado 20 % · partida: 2.667 h al mes (may–jul 2026)");
+    expect(k[4]).toMatchObject({ variante: "fallo", contexto: "de 14 personas que han estado de alta · lo cuenta el revisor con la lista de la gestoría" });
   });
 
   it("detalle T1: cadena, alerta 8.000 / 3.360, 4 ventanas, plan con límite 20 y usado 10", () => {
@@ -67,7 +71,7 @@ describe("vista", () => {
     expect(d.plan).toMatchObject({ id: "PC-001", limiteReduccionPct: 20, reduccionUsadaPct: 10, revisorTipo: "ONG" });
     expect(d.plan!.hitos.map((h) => h.estado)).toEqual(["hecho", "hecho", "hecho", "hecho", "hecho", "en-curso", "en-curso", "pendiente"]);
     expect(d.plan!.extensiones).toEqual([{ tallerId: "T2", nombre: "Laboratorio Bagolaro", fecha: "2026-08-20", motivo: "Subcontrata declarada tras la alerta" }]);
-    expect(d.impacto.map((k) => k.valor)).toEqual([77.78, 1120, 4, 90]);
+    expect(d.impacto.map((k) => k.valor)).toEqual([77.78, 58.33, 7, 90]);
     expect(d.porQue).toEqual([
       "Los pedidos de Ordessa a esta cadena necesitan 7.200 h en ago–oct 2026; el personal de alta suma 6.400 h (1,13×).",
       "Supera el límite rojo de 1,10× para talleres de más de 3 personas.",

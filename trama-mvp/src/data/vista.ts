@@ -120,18 +120,54 @@ export function contarEstados(): Record<EstadoSemaforo | "todos", number> {
 }
 
 // ---------- KPIs ----------
-function kpis(m: MetricasImpacto): KpiVista[] {
+const suma = (xs: number[]) => xs.reduce((a, b) => a + b, 0);
+
+/**
+ * Lo que la rediseñada tarjeta de impacto necesita y MetricasImpacto no trae (problemas/metricas_impacto.md):
+ * recuentos de la línea base y hueco de horas de la cadena al abrir la alerta frente a hoy, plan a plan.
+ */
+function recuentosPlanes(planes: PlanCorreccion[]) {
+  const r = { deAltaEnAlerta: 0, sinAlta: 0, yaDeAlta: 0, enTramite: 0, altas: 0, retirados: 0, faltaban: 0, hoy: 0 };
+  for (const p of planes) {
+    const pt = p.proteccionTrabajadores;
+    r.deAltaEnAlerta += suma(pt.lineaBase.map((l) => l.deAltaEnAlerta));
+    r.sinAlta += suma(pt.lineaBase.map((l) => l.sinAltaIdentificados));
+    r.yaDeAlta += pt.altasDirectas + suma(pt.regularizaciones.map((g) => g.resueltasFavorables));
+    r.enTramite += suma(pt.regularizaciones.map((g) => g.iniciadas - g.resueltasFavorables - g.denegadas));
+    const mesAlerta = seed.alertas.find((a) => a.id === p.alertaId)?.mesEvaluado;
+    if (!mesAlerta) continue;
+    const antes = evaluarCadena(seed, p.tallerRaizId, mesAlerta);
+    const ahora = evaluarCadena(seed, p.tallerRaizId, MES_ACTUAL);
+    const [c0, h0, c1, h1] = [antes.horasNecesarias, antes.horasCotizadas, ahora.horasNecesarias, ahora.horasCotizadas].map((x) => x ?? 0);
+    r.altas += h1 - h0; // más plantilla de alta
+    r.retirados += c0 - c1; // menos pedidos
+    r.faltaban += Math.max(0, c0 - h0);
+    r.hoy += Math.max(0, c1 - h1);
+  }
+  return { ...r, sinVia: r.sinAlta - r.yaDeAlta - r.enTramite }; // sin vía incluye las denegadas
+}
+
+/** `planes`: los mismos con los que se calculó `m` (todos los de la marca, o el del taller). */
+function kpis(m: MetricasImpacto, planes: PlanCorreccion[]): KpiVista[] {
   const p = m.principal;
-  const a = m.trabajadoresAcompanados;
   const pm = m.pedidosMantenidos;
-  const f = m.fallos;
+  const r = recuentosPlanes(planes);
+  const recuento = (n: number) => (n >= 1 && n <= 3 ? KPI_CONTEXTO.menosDe4 : fmtNumero(n));
   const principal = KPI_CONTEXTO.principal(
     fmtNumero(p.siguenEmpleadosYDeAlta),
     fmtNumero(p.trabajadoresLineaBase),
+    fmtNumero(r.deAltaEnAlerta),
     p.mesesDesdeAlerta,
     MESES_SEGUIMIENTO,
     p.definitiva,
   );
+  // Con los dos tramos positivos, la tarjeta da el % del hueco cerrado con altas; si no, las horas con su signo.
+  const cerrado = r.altas + r.retirados;
+  const conPorcentaje = r.altas >= 0 && r.retirados >= 0 && cerrado > 0;
+  const haEstadoDeAlta = r.deAltaEnAlerta + r.yaDeAlta;
+  const partida = planes.length
+    ? `${fmtHoras(pm.horasMensualesReferencia)} al mes${planes.length === 1 ? ` (${fmtVentana(planes[0].periodoReferenciaPedidos)})` : ""}`
+    : null;
   return [
     {
       id: "principal",
@@ -150,18 +186,18 @@ function kpis(m: MetricasImpacto): KpiVista[] {
     {
       id: "horasRegularizadas",
       etiqueta: KPI_ETIQUETAS.horasRegularizadas,
-      valor: m.horasRegularizadas,
-      formato: "horas",
+      valor: conPorcentaje ? Math.round((r.altas / cerrado) * 10000) / 100 : r.altas,
+      formato: conPorcentaje ? "porcentaje" : "horas",
       variante: "normal",
-      contexto: KPI_CONTEXTO.horasRegularizadas,
+      contexto: KPI_CONTEXTO.horasRegularizadas(fmtHoras(r.altas), fmtHoras(r.retirados), fmtHoras(r.faltaban), fmtHoras(r.hoy)),
     },
     {
       id: "acompanados",
       etiqueta: KPI_ETIQUETAS.acompanados,
-      valor: a.iniciados,
+      valor: r.sinAlta,
       formato: "entero",
       variante: "normal",
-      contexto: KPI_CONTEXTO.acompanados(fmtNumero(a.resueltosFavorables), fmtNumero(a.altasDirectas)),
+      contexto: KPI_CONTEXTO.acompanados(fmtNumero(r.yaDeAlta), recuento(r.enTramite), recuento(r.sinVia)),
     },
     {
       id: "pedidosMantenidos",
@@ -169,21 +205,25 @@ function kpis(m: MetricasImpacto): KpiVista[] {
       valor: pm.porcentajeMantenido,
       formato: "porcentaje",
       variante: "normal",
-      contexto: KPI_CONTEXTO.pedidosMantenidos(fmtPct(pm.reduccionPct), fmtPct(pm.limiteReduccionPct)),
+      contexto: KPI_CONTEXTO.pedidosMantenidos(fmtPct(pm.reduccionPct), fmtPct(pm.limiteReduccionPct), partida, !pm.cumpleLimite),
     },
     {
       id: "fallos",
       etiqueta: KPI_ETIQUETAS.fallos,
-      valor: f.despidosTrasAlerta + f.planesConCaidaPedidosSobreLimite,
+      valor: Math.max(0, haEstadoDeAlta - p.siguenEmpleadosYDeAlta),
       formato: "entero",
       variante: "fallo",
-      contexto: KPI_CONTEXTO.fallos(fmtNumero(f.despidosTrasAlerta), fmtNumero(f.planesConCaidaPedidosSobreLimite)),
+      contexto: KPI_CONTEXTO.fallos(fmtNumero(haEstadoDeAlta)),
     },
   ];
 }
 
 /** 5 KPIs de marca: [principal, horasRegularizadas, acompanados, pedidosMantenidos, fallos]. */
-export const kpisMarca = (): KpiVista[] => kpis(calcularMetricas(seed, FECHA_CORTE));
+export const kpisMarca = (): KpiVista[] =>
+  kpis(
+    calcularMetricas(seed, FECHA_CORTE),
+    seed.planesCorreccion.filter((p) => p.marcaId === seed.marca.id),
+  );
 
 // ---------- Detalle ----------
 function ventanas(t: Taller, ocultar: boolean): VentanaHoras[] {
@@ -357,7 +397,7 @@ export function detalleTaller(id: string): DetalleTaller | null {
     alerta: al,
     nodos: nodos(t),
     plan: p && metricas ? plan(p, metricas) : null,
-    impacto: metricas ? kpis(metricas).slice(0, 4) : [], // sin plan no hay impacto que medir
+    impacto: p && metricas ? kpis(metricas, [p]).slice(0, 4) : [], // sin plan no hay impacto que medir
     porQue: porQue(t, estado, ev, al, ocultar),
     comprobaciones: esAlerta(estado) ? [...COMPROBACIONES_ALERTA] : [],
   };

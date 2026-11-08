@@ -183,38 +183,46 @@ export const TEXTOS_PANEL = {
   error: "No hemos podido leer los datos de la demo. Recarga la página.",
 };
 
-// ---------- KPIs (DESIGN §6, DATA_MODEL §4) ----------
+// ---------- KPIs (DESIGN §6, DATA_MODEL §4; rediseño en problemas/metricas_impacto.md) ----------
 export const KPI_ETIQUETAS = {
-  principal: "Siguen empleados y dados de alta 6 meses después de la alerta",
-  horasRegularizadas: "Horas regularizadas",
-  acompanados: "Trabajadores acompañados en su regularización",
+  principal: "Personas de la línea base que siguen de alta",
+  horasRegularizadas: "Hueco cerrado con altas nuevas",
+  acompanados: "Personas sin alta al abrir la alerta",
   pedidosMantenidos: "Pedidos mantenidos durante el plan",
-  fallos: "Despidos o recortes por encima del límite",
+  fallos: "Bajas en la línea base desde la alerta",
 };
 
 /** Cómo se calcula cada KPI, en una frase (tooltip o nota). */
 export const KPI_AYUDA = {
   principal:
-    "Personas de la línea base (con y sin alta al abrir la alerta) que siguen empleadas y de alta. Provisional hasta cumplir 6 meses.",
-  horasRegularizadas: "Horas de alta de más en los talleres del plan frente a su media del periodo de referencia.",
+    "Personas contadas al abrir la alerta, con y sin alta. Solo cuenta como logro estar de alta, y nadie sale de la línea base. Provisional hasta los 6 meses.",
+  horasRegularizadas:
+    "Parte del hueco de horas de la cadena que se ha cerrado con más plantilla de alta, frente a la que se ha cerrado retirando pedidos.",
   acompanados:
-    "Regularizaciones iniciadas con una ONG o un sindicato: arraigo sociolaboral (España) o permiso art. 18 por la vía social (Italia).",
+    "Las cuenta el revisor en una visita sin aviso, con un censo confidencial: ni la marca ni Trama ven nombres. Recuento agregado del revisor: ya de alta, en trámite (arraigo en España, art. 18 en Italia) o sin vía (no cumplen los requisitos o les fue denegada). Con 1-3 personas se muestra «menos de 4».",
   pedidosMantenidos: "Pedidos a la cadena durante el plan frente al periodo de referencia, en horas estándar al mes.",
-  fallos: "Despidos tras la alerta y planes con una caída de pedidos por encima del límite pactado. Lo esperado es 0.",
+  fallos:
+    "Personas de la línea base que han estado de alta y ya no lo están. Sustituye al recuento de despidos, que declara el propio taller.",
 };
 
-/** Línea `contexto` de cada KpiCard. */
+/** Línea `contexto` de cada KpiCard: de dónde partía → dónde está. Cifras ya formateadas. */
 export const KPI_CONTEXTO = {
-  /** "14 de 18 trabajadores · provisional (mes 3 de 6)" */
-  principal: (siguen: string, base: string, mes: number, de: number, definitiva: boolean) =>
-    `${siguen} de ${base} trabajadores · ${definitiva ? "definitiva" : `provisional (mes ${mes} de ${de})`}`,
-  horasRegularizadas: "En los talleres del plan, frente al periodo de referencia",
-  /** "0 resueltos · 3 altas directas" */
-  acompanados: (resueltos: string, altas: string) => `${resueltos} resueltos · ${altas} altas directas`,
-  /** "Reducción del 10 % · límite pactado 20 %" */
-  pedidosMantenidos: (reduccion: string, limite: string) => `Reducción del ${reduccion} · límite pactado ${limite}`,
-  /** "0 despidos · 0 planes con recorte sobre el límite" */
-  fallos: (despidos: string, planes: string) => `${despidos} despidos · ${planes} planes con recorte sobre el límite`,
+  /** "14 de 18 personas · al abrir la alerta, 11 de alta · provisional (mes 3 de 6)" */
+  principal: (siguen: string, base: string, partida: string, mes: number, de: number, definitiva: boolean) =>
+    `${siguen} de ${base} personas · al abrir la alerta, ${partida} de alta · ${definitiva ? "definitiva" : `provisional (mes ${mes} de ${de})`}`,
+  /** "1.120 h con altas nuevas · 800 h con pedidos retirados · faltaban 2.720 h, hoy 800 h" */
+  horasRegularizadas: (altas: string, retirados: string, faltaban: string, hoy: string) =>
+    `${altas} con altas nuevas · ${retirados} con pedidos retirados · faltaban ${faltaban}, hoy ${hoy}`,
+  /** "3 ya de alta · 4 en trámite · 0 sin vía de regularización" */
+  acompanados: (yaDeAlta: string, enTramite: string, sinVia: string) =>
+    `${yaDeAlta} ya de alta · ${enTramite} en trámite · ${sinVia} sin vía de regularización`,
+  /** "Reducción del 10 % · límite pactado 20 % · partida: 2.667 h al mes (may–jul 2026)" */
+  pedidosMantenidos: (reduccion: string, limite: string, partida: string | null, supera: boolean) =>
+    `Reducción del ${reduccion} · límite pactado ${limite}${supera ? " · supera el límite" : ""}${partida ? ` · partida: ${partida}` : ""}`,
+  /** "de 14 personas que han estado de alta · lo cuenta el revisor con la lista de la gestoría" */
+  fallos: (personas: string) => `de ${personas} personas que han estado de alta · lo cuenta el revisor con la lista de la gestoría`,
+  /** Grupos de 1 a 3 personas que revelan situación migratoria: «menos de 4» (misma regla de privacidad que el resto). */
+  menosDe4: "menos de 4",
 };
 
 // ---------- /taller/[id] ----------
