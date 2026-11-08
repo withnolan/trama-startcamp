@@ -271,7 +271,10 @@ function CasoMilan() {
           {M.subproveedor.texto(necesarias, fmtHoras(e.deAltaB), fmtNumero(e.personasB), fmtHoras(e.horasPersonaAno))}
         </p>
         <p className="font-medium text-rojo-texto">{M.subproveedor.conclusion(fmtRatio(P.umbralRojo, 2))}</p>
-        <p className="text-sm text-tinta-2 tabular-nums">{M.umbral(fmtNumero(e.minutosRojo), fmtNumero(e.chaquetasAno))}</p>
+        {/* Lo dice el pitch en voz alta («aunque declare 130, Trama usa 180»): a tamaño de cuerpo, no de nota. */}
+        <p className="text-tinta tabular-nums">
+          {M.umbral(fmtNumero(e.minutos), fmtRatio(e.subproveedorB.ratio, 2), fmtNumero(e.minutosRojo))}
+        </p>
       </div>
     ),
   };

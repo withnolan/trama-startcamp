@@ -183,38 +183,46 @@ export const TEXTOS_PANEL = {
   error: "No hemos podido leer los datos de la demo. Recarga la página.",
 };
 
-// ---------- KPIs (DESIGN §6, DATA_MODEL §4) ----------
+// ---------- KPIs (DESIGN §6, DATA_MODEL §4; rediseño en problemas/metricas_impacto.md) ----------
 export const KPI_ETIQUETAS = {
-  principal: "Siguen empleados y dados de alta 6 meses después de la alerta",
-  horasRegularizadas: "Horas regularizadas",
-  acompanados: "Trabajadores acompañados en su regularización",
+  principal: "Personas de la línea base que siguen de alta",
+  horasRegularizadas: "Hueco cerrado con altas nuevas",
+  acompanados: "Personas sin alta al abrir la alerta",
   pedidosMantenidos: "Pedidos mantenidos durante el plan",
-  fallos: "Despidos o recortes por encima del límite",
+  fallos: "Bajas en la línea base desde la alerta",
 };
 
 /** Cómo se calcula cada KPI, en una frase (tooltip o nota). */
 export const KPI_AYUDA = {
   principal:
-    "Personas de la línea base (con y sin alta al abrir la alerta) que siguen empleadas y de alta. Provisional hasta cumplir 6 meses.",
-  horasRegularizadas: "Horas de alta de más en los talleres del plan frente a su media del periodo de referencia.",
+    "Personas contadas al abrir la alerta, con y sin alta. Solo cuenta como logro estar de alta, y nadie sale de la línea base. Provisional hasta los 6 meses.",
+  horasRegularizadas:
+    "Parte del hueco de horas de la cadena que se ha cerrado con más plantilla de alta, frente a la que se ha cerrado retirando pedidos.",
   acompanados:
-    "Regularizaciones iniciadas con una ONG o un sindicato: arraigo sociolaboral (España) o permiso art. 18 por la vía social (Italia).",
+    "Las cuenta el revisor en una visita sin aviso, con un censo confidencial: ni la marca ni Trama ven nombres. Recuento agregado del revisor: ya de alta, en trámite (arraigo en España, art. 18 en Italia) o sin vía (no cumplen los requisitos o les fue denegada). Con 1-3 personas se muestra «menos de 4».",
   pedidosMantenidos: "Pedidos a la cadena durante el plan frente al periodo de referencia, en horas estándar al mes.",
-  fallos: "Despidos tras la alerta y planes con una caída de pedidos por encima del límite pactado. Lo esperado es 0.",
+  fallos:
+    "Personas de la línea base que han estado de alta y ya no lo están. Sustituye al recuento de despidos, que declara el propio taller.",
 };
 
-/** Línea `contexto` de cada KpiCard. */
+/** Línea `contexto` de cada KpiCard: de dónde partía → dónde está. Cifras ya formateadas. */
 export const KPI_CONTEXTO = {
-  /** "14 de 18 trabajadores · provisional (mes 3 de 6)" */
-  principal: (siguen: string, base: string, mes: number, de: number, definitiva: boolean) =>
-    `${siguen} de ${base} trabajadores · ${definitiva ? "definitiva" : `provisional (mes ${mes} de ${de})`}`,
-  horasRegularizadas: "En los talleres del plan, frente al periodo de referencia",
-  /** "0 resueltos · 3 altas directas" */
-  acompanados: (resueltos: string, altas: string) => `${resueltos} resueltos · ${altas} altas directas`,
-  /** "Reducción del 10 % · límite pactado 20 %" */
-  pedidosMantenidos: (reduccion: string, limite: string) => `Reducción del ${reduccion} · límite pactado ${limite}`,
-  /** "0 despidos · 0 planes con recorte sobre el límite" */
-  fallos: (despidos: string, planes: string) => `${despidos} despidos · ${planes} planes con recorte sobre el límite`,
+  /** "14 de 18 personas · al abrir la alerta, 11 de alta · provisional (mes 3 de 6)" */
+  principal: (siguen: string, base: string, partida: string, mes: number, de: number, definitiva: boolean) =>
+    `${siguen} de ${base} personas · al abrir la alerta, ${partida} de alta · ${definitiva ? "definitiva" : `provisional (mes ${mes} de ${de})`}`,
+  /** "1.120 h con altas nuevas · 800 h con pedidos retirados · faltaban 2.720 h, hoy 800 h" */
+  horasRegularizadas: (altas: string, retirados: string, faltaban: string, hoy: string) =>
+    `${altas} con altas nuevas · ${retirados} con pedidos retirados · faltaban ${faltaban}, hoy ${hoy}`,
+  /** "3 ya de alta · 4 en trámite · 0 sin vía de regularización" */
+  acompanados: (yaDeAlta: string, enTramite: string, sinVia: string) =>
+    `${yaDeAlta} ya de alta · ${enTramite} en trámite · ${sinVia} sin vía de regularización`,
+  /** "Reducción del 10 % · límite pactado 20 % · partida: 2.667 h al mes (may–jul 2026)" */
+  pedidosMantenidos: (reduccion: string, limite: string, partida: string | null, supera: boolean) =>
+    `Reducción del ${reduccion} · límite pactado ${limite}${supera ? " · supera el límite" : ""}${partida ? ` · partida: ${partida}` : ""}`,
+  /** "de 14 personas que han estado de alta · lo cuenta el revisor con la lista de la gestoría" */
+  fallos: (personas: string) => `de ${personas} personas que han estado de alta · lo cuenta el revisor con la lista de la gestoría`,
+  /** Grupos de 1 a 3 personas que revelan situación migratoria: «menos de 4» (misma regla de privacidad que el resto). */
+  menosDe4: "menos de 4",
 };
 
 // ---------- /taller/[id] ----------
@@ -307,14 +315,17 @@ export const TEXTOS_SIMULADOR = {
   minutos: "Minutos por chaqueta",
   escenarios: { demo: "Taller de la demo", casoPublico: "Caso reconstruido con datos públicos" },
   casoPublico:
-    "Reconstrucción anonimizada a partir de información pública de prensa: el proveedor directo no tenía taller propio (capacidad 0) y un subproveedor con 7 personas entregaba entre 6.000 y 7.000 chaquetas al año. Unas 2 h por chaqueta disponibles. 180 min por chaqueta es una estimación con fuente pública (taller premium): muévelos para ver dónde deja de caber.",
+    "Reconstrucción anonimizada a partir de información pública de prensa: el proveedor directo no tenía taller propio (capacidad 0) y un subproveedor con 7 personas entregaba entre 6.000 y 7.000 chaquetas al año. Unas 2 h por chaqueta disponibles. 180 min es el suelo externo para premium y lujo: con menos minutos declarados, Trama calcula con 180. Aquí puedes bajarlos para ver dónde dejaría de caber sin suelo.",
   /** "Carga de Ordessa: 8.000 h frente a 3.360 h de alta (2,4×)" */
   cargaMarca: (necesarias: string, alta: string, ratio: string) =>
     `Carga de Ordessa: ${necesarias} frente a ${alta} de alta (${ratio})`,
   /** "Carga total estimada del taller: 11,9× las horas de alta" */
   cargaTotal: (ratio: string) => `Carga total estimada del taller: ${ratio} las horas de alta`,
-  formula: "Carga total ≈ carga de Ordessa ÷ su parte de la facturación del taller.",
-  nota: "El taller de la demo es ficticio (240 min por chaqueta, de su ficha de costes ficticia). El caso reconstruido usa cifras públicas de prensa, anonimizadas, y 180 min por chaqueta: estimación con fuente pública.",
+  formula:
+    "Carga total ≈ carga de Ordessa ÷ su parte de la facturación del taller. Es una estimación (el precio por hora cambia entre clientes): no da rojo, abre una revisión. El rojo directo solo sale si los pedidos de Ordessa superan 1,10× la capacidad.",
+  abreRevision: "Abre una revisión",
+  sinRevision: "No abre revisión",
+  nota: "El taller de la demo es ficticio (240 min por chaqueta, de su ficha de costes ficticia). El caso reconstruido usa cifras públicas de prensa, anonimizadas, y el suelo externo de 180 min por chaqueta (premium y lujo).",
 };
 
 // ---------- /escenas (dos escenas para la demo; mismo cálculo que el panel) ----------
@@ -364,9 +375,9 @@ export const TEXTOS_ESCENAS = {
     },
     cuota: {
       titulo: "Si las demás marcas no usan Trama",
-      /** "Carga total ≈ carga de Ordessa ÷ su parte de la facturación del taller. Con el 30 %: 0,40 ÷ 0,30 ≈ 1,33× → rojo." */
+      /** "Carga total ≈ carga de Ordessa ÷ su parte de la facturación del taller. Con el 30 %: 0,40 ÷ 0,30 ≈ 1,33× → abre una revisión, sin datos de otras marcas." */
       texto: (pct: string, propio: string, cuota: string, total: string) =>
-        `Carga total ≈ carga de Ordessa ÷ su parte de la facturación del taller. Con el ${pct}: ${propio} ÷ ${cuota} ≈ ${total} → rojo, sin datos de otras marcas.`,
+        `Carga total ≈ carga de Ordessa ÷ su parte de la facturación del taller. Con el ${pct}: ${propio} ÷ ${cuota} ≈ ${total} → abre una revisión, sin datos de otras marcas.`,
       enlace: "Cómo se calcula",
       href: "/como-calculamos#varias-marcas",
     },
@@ -385,7 +396,7 @@ export const TEXTOS_ESCENAS = {
       unidadesNota: "La cifra baja del rango publicado (6.000-7.000).",
       /** "× 180 min por chaqueta = 18.000 h necesarias" */
       horas: (minutos: string, horas: string) => `× ${minutos} min por chaqueta = ${horas} necesarias`,
-      minutosNota: (minutos: string) => `${minutos} min: estimación con fuente pública (taller premium).`,
+      minutosNota: (minutos: string) => `${minutos} min: suelo externo para premium y lujo (fábrica premium, hasta ${minutos} min de costura).`,
     },
     proveedor: {
       titulo: "Sin taller propio",
@@ -400,8 +411,9 @@ export const TEXTOS_ESCENAS = {
       /** "Supera el límite rojo de 1,10×." */
       conclusion: (limite: string) => `Supera el límite rojo de ${limite}.`,
     },
-    /** "Rojo a partir de ≈135 min por chaqueta (con 6.000 al año)." */
-    umbral: (minutos: string, chaquetas: string) => `Rojo a partir de ≈${minutos} min por chaqueta (con ${chaquetas} al año).`,
+    /** "Suelo de minutos para una marca de lujo: 180 min. Si declara menos, Trama calcula con 180: 1,47×, rojo. Sin suelo, el rojo empezaría en ≈135 min." */
+    umbral: (suelo: string, ratio: string, minutosRojo: string) =>
+      `Suelo de minutos para una marca de lujo: ${suelo} min. Si declara menos, Trama calcula con ${suelo}: ${ratio}, rojo. Sin suelo, el rojo empezaría en ≈${minutosRojo} min.`,
     nota: "Anonimizado: sin nombres de empresas ni personas. Las fuentes de prensa están en la documentación del equipo, no en la app.",
   },
   documentos: {
@@ -434,8 +446,9 @@ export const TEXTOS_ESCENAS = {
       columnas: { cliente: "Cliente", importe: "Importe anual" },
       resto: "Resto de clientes",
       total: "Total declarado",
-      /** "la parte de Ordessa, 288.000 € ÷ 960.000 € = 30 %. La marca solo recibe el estado, no la cuota" */
-      usa: (propio: string, total: string, pct: string) => `la parte de Ordessa, ${propio} ÷ ${total} = ${pct}. La marca solo recibe el estado, no la cuota`,
+      /** "la parte de Ordessa, 288.000 € ÷ 960.000 € = 30 %. A la marca solo le llega si abre una revisión, nunca la cuota" */
+      usa: (propio: string, total: string, pct: string) =>
+        `la parte de Ordessa, ${propio} ÷ ${total} = ${pct}. A la marca solo le llega si abre una revisión, nunca la cuota`,
     },
   },
 };
@@ -570,6 +583,6 @@ export const TEXTOS_PROTECCION = {
 
 /** Sección #impacto del detalle. */
 export const TEXTOS_IMPACTO = {
-  nota: "Recuentos agregados de los talleres del plan, sin nombres. Fuente: informes mensuales y revisor independiente.",
+  nota: "Recuentos agregados de los talleres del plan, sin nombres. A las personas sin alta las cuenta el revisor independiente en una visita sin aviso, con un censo confidencial: ni la marca ni Trama ven nombres.",
   sinPlan: "Sin plan de corrección: no hay métricas de impacto en este taller.",
 };

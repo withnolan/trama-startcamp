@@ -1,4 +1,4 @@
-# PREGUNTAS · Trama · 2 minutos de preguntas (versión 2)
+# PREGUNTAS · Trama · 2 minutos de preguntas (versión 3)
 
 Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite honesto → siguiente paso o petición. Lo hablado va en las líneas «>». Cifras y fuentes: `PITCH_FINAL.md` (tabla final) y `HOJA_DATOS.md`.
 
@@ -18,7 +18,7 @@ Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite ho
 
 ### J2 · Inversor: «No hay precio, ni mercado, ni validación. Y en España se cotiza por base: vuestro "certificado de horas cotizadas" no existe.»
 *Responde Orador 4.*
-> Correcto, y lo hemos quitado. Usamos el informe de plantilla media en alta que el gestor saca del Sistema RED, que pondera la jornada de cada contrato. Precio: 60 € por taller y mes más ese informe a coste; margen del 80 % de la cuota, a escala. Mercado: 6.083 empresas españolas de confección, piel y calzado con plantilla (INE), 4,4 M€ de techo. Validación: ninguna aún; pedimos la carta de intención.
+> Correcto, y lo hemos quitado. Usamos el informe de plantilla media en alta que el gestor saca del Sistema RED, que pondera la jornada de cada contrato. Precio: 60 € por taller y mes más ese informe a coste; margen del 80 % de la cuota, a escala. Mercado: 340 empresas que compran en España e Italia, 8,6 M€ con 30-40 talleres cada una. Validación: ninguna aún; pedimos la carta de intención.
 
 ### J3 · Mentor: «¿Y el taller que trabaja para varias marcas? ¿Y un gestor pagado por el propio taller? No veo demo ni equipo, y vender a cumplimiento en el lujo es lento.»
 *Responde Orador 2.*
@@ -38,13 +38,13 @@ Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite ho
 
 ### 1. ¿Por qué pagaría una marca española ya, en 2026?
 *Responde Orador 4.*
-> Porque el problema está aquí: en 2025 la Inspección afloró más de 120.000 empleos irregulares y, según la Policía, en Valencia un taller con 26 personas sin alta cosía para varias empresas del sector. Y si el encargo es de su propia actividad, la marca ya debe comprobar las altas de su contrata y responde de sus cuotas. Si eso cubre la confección, lo comprobaremos con un laboralista.
+> Porque las casas de lujo que producen en Ubrique también producen en Italia, y allí la presión ya existe: la Fiscalía de Milán ha pedido documentos sobre su cadena a 22 marcas, sin investigarlas. Lo que allí les piden, aquí, que sepamos, nadie lo cruza, y en España el dato de horas es oficial. El artículo 42 todavía tiene que confirmarlo un laboralista.
 
 ### 2. ¿Y si el taller falsea las horas, o el gestor firma lo que le piden?
 *Responde Orador 2.*
 > El gestor no firma una cifra: descarga un informe de la Seguridad Social que, por norma, vale como certificación. Inflarlo exige cotizar cada mes por gente que no trabaja allí. Y como cuenta la jornada de cada contrato, dar de alta a media jornada a quien hace la completa no tapa el hueco. Además, la marca puede pagar visitas sin aviso. Que un tercero pueda verificar ese informe, lo comprobaremos.
 
-### 3. ¿No lo hace ya EcoVadis, Sedex o la plataforma de Milán?
+### 3. ¿No lo hace ya EcoVadis, Sedex o la plataforma de Milán? *(los competidores ya no van en el pitch: van aquí)*
 *Responde Orador 4.*
 > Sedex y amfori hacen una auditoría puntual que se comparte entre clientes; EcoVadis puntúa cuestionarios; TrusTrace traza materiales. Ninguno, que sepamos, cruza cada mes tus pedidos con las horas de alta del taller. Lo más parecido es Milán: pide horas por cliente, pero las declara el taller cada seis meses y sin pedidos. No competimos con ellos: les decimos dónde mirar.
 
@@ -68,9 +68,9 @@ Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite ho
 *Responde Orador 3.*
 > Nunca vemos nombres. La gestoría saca el informe y nos manda un total por taller; el detalle y las nóminas no salen de allí. En talleres de menos de cuatro personas, la marca solo ve el semáforo, sin cifras. La base es el interés legítimo ponderado; haremos una evaluación de impacto antes del piloto, y por contrato nadie decide solo con el semáforo: antes, audiencia al taller y revisión humana.
 
-### 9. ¿Quién fija los minutos por pieza? Si la marca los baja, no ve rojos: con 130 minutos, el caso Milán ya no sale rojo. *(jurado 1)*
+### 9. Los minutos los pone quien paga. ¿Qué le impide bajarlos para salir en verde y usar Trama como coartada? *(jurados de las rondas 1 y 2, 3 de 3)*
 *Responde Orador 2.*
-> Salen del escandallo con el que compras fija el precio, y el taller puede discutirlos. La regla del piloto: cada cambio queda guardado con fecha y autor, y si bajan de una referencia pública manda la referencia, unos 126 minutos solo de costura para una americana forrada. Con ese suelo, el caso Milán sale ámbar, no verde. En calzado, si solo los tiene el fabricante, se le piden a él.
+> No pueden bajar del suelo: Trama calcula con el mayor entre su escandallo y un suelo externo por prenda y segmento; una chaqueta de lujo, 180 minutos. Así, aunque declarase 130, el caso Milán saldría rojo. Cada cambio de minutos queda registrado, y el verde no se puede usar como sello. En piel y calzado, el suelo lo construye el piloto.
 
 ### 10. ¿Y si el taller «cierra» el rojo quitando pedidos o despidiendo?
 *Responde Orador 3.*
@@ -92,9 +92,29 @@ Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite ho
 *Responde Orador 4.*
 > No está en el plan de este año, y no lo vamos a improvisar. La cuenta es la misma, pero la fuente de horas cambia: habría que encontrar allí el equivalente al informe de plantilla en alta de la Seguridad Social y a quien lo descargue, y aún no lo hemos investigado. Orden: España, Italia y después donde nos lleve el primer cliente.
 
-### 14. En España no ha habido un Milán. ¿Cuál es la primera marca con nombre a la que pediréis la carta de intención?
+### 14. En España no ha habido un Milán. ¿Cuál es la primera marca a la que pediréis la carta de intención?
 *Responde Orador 4.*
-> La lista está hecha: marcas medianas que dicen fabricar en España, empezando por una de calzado que lo produce todo en Menorca y una cotizada que produce cada vez más en España y Portugal. No las nombramos sin su permiso. Y que no haya habido un Milán aquí no significa que no haya riesgo: la Inspección afloró más de 120.000 empleos irregulares en 2025.
+> Las primeras clientas son marcas que fabrican en Italia y en España: allí ya les piden documentos, y aquí probamos en sus talleres. La vía rápida, por validar, es su fabricante principal de Ubrique o Elche. En la lista hay una marca de calzado que dice fabricarlo todo en Menorca y una cotizada que produce cada vez más en España. No las nombramos sin su permiso.
+
+---
+
+## Lo que preguntó el jurado de la ronda 2
+
+### 15. De la gestoría solo llega un total y quien trabaja sin alta no figura. ¿Quién cuenta a esas personas, cómo sabéis que a los seis meses son las mismas y qué pasa con quien no tiene vía?
+*Responde Orador 3.*
+> Las cuenta el revisor independiente en una visita sin aviso, antes de avisar al taller. Su censo es confidencial: ni la marca ni Trama ven nombres, solo recuentos. A los seis meses coteja ese censo con la lista de la gestoría y firma cuántas siguen. Quien no tiene vía de regularización se cuenta aparte y se publica: no podemos prometerle empleo legal, sí acompañamiento.
+
+### 16. El mercado en talleres es pequeño. ¿Cuántas marcas os pueden comprar?
+*Responde Orador 4.*
+> En España, 165 fabricantes de moda, piel y calzado con 50 o más asalariados, según el INE; en Italia, 175 grupos de moda de más de 100 millones. Con 30 a 40 talleres cada uno, son unos 8,6 millones al año. Empezamos por las marcas que fabrican en los dos países, y la meta para 2030 es de 40 marcas y 1.500 talleres. Todo, supuestos por validar.
+
+### 17. ¿Cuál es vuestra meta a 2030, en personas?
+*Responde Orador 3.*
+> Por validar: 40 marcas y unos 1.500 talleres vigilados, con unas 15.000 personas. Si el 10 % sale rojo cada año, son 150 alertas; con tres personas sin alta por alerta y la mitad de alta a los seis meses, unas 225 altas al año. Y por plan: el 80 % de la línea base de alta a los seis meses, cero bajas y la mitad del hueco cerrado con altas.
+
+### 18. ¿Y si exigir Trama sirve para descartar talleres antes de la primera alerta?
+*Responde Orador 3.*
+> Lo impide la cláusula cero: durante los seis meses siguientes a la entrada de un taller, la marca no puede darle de baja ni recortarle más del 20 % por entrar en Trama, por un ámbar o por un «sin datos». Un ámbar solo obliga a pedir una explicación. Y Trama publica cuántos proveedores dejaron de recibir pedidos en ese tiempo y por qué.
 
 ---
 
@@ -126,11 +146,15 @@ Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite ho
 
 ---
 
+### R7. ¿Y en piel y calzado, vuestra fase 1, de dónde sale el suelo de minutos?
+*Responde Orador 2.*
+> Todavía no hay tiempos publicados: la pieza sale «minutos sin contrastar», y en la primera visita el revisor cronometra una muestra; con eso el piloto construye el suelo. Si la marca no tiene minutos por modelo, como pasa en calzado, valen los del escandallo de su fabricante principal, con las mismas reglas.
+
 ## Frases que no se dicen nunca
-«Certificado legal» · «demuestra que no hay trabajo forzoso» · «detecta trabajo forzoso» · «evita multas» · «intervenida» o «comisario» (se dice «administración judicial») · «multa» o «sanción» a Loro Piana · «Prada investigada» (solo le pidieron documentos) · «lista pactada con los sindicatos» (es una propuesta) · «ningún despido» como promesa (se dice «medimos la plantilla a seis meses») · «obliga a subir el precio» (lo decide compras) · «Trama suma la carga de todo el taller» (solo si al menos tres marcas usan Trama) · «2.131 fábricas = 1,5 M€» (el techo es 4,4 M€, INE) · «el sector», «las gestorías» o «el mercado» a partir de una sola respuesta.
+«Certificado legal» · «demuestra que no hay trabajo forzoso» · «detecta trabajo forzoso» · «evita multas» · «intervenida» o «comisario» (se dice «administración judicial») · «multa» o «sanción» a Loro Piana · «Prada investigada» (solo le pidieron documentos) · «lista pactada con los sindicatos» (es una propuesta) · «ningún despido» como promesa (se dice «medimos la plantilla a seis meses») · «obliga a subir el precio» (lo decide compras) · «Trama suma la carga de todo el taller» (solo si al menos tres marcas usan Trama) · «2.131 fábricas = 1,5 M€» (el techo es 4,4 M€, INE) · «el protocolo de Milán obliga» (es voluntario: compromete a quien se adhiere) · nombres de marcas en el pitch (en la hoja, con fuente) · «el sector», «las gestorías» o «el mercado» a partir de una sola respuesta.
 
 ## Recuento por respuesta
 
-Todas ≤ 70 palabras (cuenta automática de las líneas «>»): J1 69 · J2 70 · J3 68 · J4 70 · J5 67 · 1: 68 · 2: 70 · 3: 61 · 4: 69 · 5: 65 · 6: 63 · 7: 68 · 8: 70 · 9: 70 · 10: 63 · 11: 58 · 12: 67 · 13: 63 · 14: 64 · R1 52 · R2 63 · R3 61 · R4 68 · R5 58 · R6 57. Si el jurado corta, basta la primera frase: ya lleva el dato.
+Todas ≤ 70 palabras (cuenta automática de las líneas «>»): J1 69 · J2 70 · J3 68 · J4 70 · J5 67 · 1: 63 · 2: 70 · 3: 61 · 4: 69 · 5: 65 · 6: 63 · 7: 68 · 8: 70 · 9: 61 · 10: 63 · 11: 58 · 12: 67 · 13: 63 · 14: 66 · 15: 64 · 16: 67 · 17: 69 · 18: 63 · R1 52 · R2 63 · R3 61 · R4 68 · R5 58 · R6 57 · R7 52. Si el jurado corta, basta la primera frase: ya lleva el dato.
 
-Fuentes nuevas de esta versión: Inspección de Trabajo y caso de Valencia (`problemas/d_no_declarado_vs_forzoso.md`), mercado del INE (`problemas/h_precio_mercado.md`), varias marcas (`problemas/b_varias_marcas.md`), competencia (`problemas/competencia.md`) y precio frente a coste mínimo (`problemas/v5_segunda_cuenta.md`).
+Fuentes de las respuestas nuevas: suelo de minutos (`problemas/c_informe_complaciente.md`, ronda 3), personas sin alta y meta 2030 (`problemas/metricas_impacto.md`, ronda 3, recalculada con las cifras de Negocio), cláusula cero (`problemas/f_rojo_abandono.md`), mercado en marcas y primeras clientas (`problemas/h_precio_mercado.md` §6), Inspección y caso de Valencia (`problemas/d_no_declarado_vs_forzoso.md`).

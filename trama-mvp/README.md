@@ -47,7 +47,7 @@ documentos simulados (plantilla media, escandallo, modelo 347) si sale la pregun
    «Qué comprobaría una persona» (12 s).
 4. Rueda del ratón hasta **«Prueba el cálculo»** (bajo el gráfico de «Horas»): escribir **700** en «Chaquetas en el
    trimestre» → En margen, 0,8× (750 sigue en ámbar: el verde exige ≤ 714). Bajar un poco y arrastrar «Parte de la
-   facturación del taller que es de Ordessa» hasta **20 %** → «Toda la carga del taller…: 4,2×» Revisar (20 s).
+   facturación del taller que es de Ordessa» hasta **20 %** → «Toda la carga del taller…: 4,2×» y «Abre una revisión»: la cuota no da rojo, abre una revisión (20 s).
 5. Navegación **«Escenas»** → caso Milán; botón **«2 · Taller con 4 marcas»** (20 s).
 
 Si vas justo, sáltate el paso 4: el taller con 4 marcas cuenta lo mismo con más claridad (y su tercera tarjeta da la

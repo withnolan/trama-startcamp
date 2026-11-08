@@ -108,6 +108,10 @@ test("simulador en /taller/T1: «Chaquetas» a 700 → verde y el ratio se recal
   await page.locator("#simulador").getByRole("slider", { name: /chaquetas/i }).fill("700");
   await expect(resultado).toContainText("En margen");
   await expect(resultado).toContainText("0,8×"); // 2.800 h / 3.360 h
+  // Cuota al 20 %: la estimación de la carga total no da rojo, abre una revisión.
+  await page.locator("#simulador").getByRole("slider", { name: /facturación/i }).fill("20");
+  await expect(resultado).toContainText("Abre una revisión");
+  await expect(resultado).not.toContainText("Revisar");
 });
 
 test("simulador: caso reconstruido → rojo; menos minutos por chaqueta → ámbar y verde", async ({ page }) => {
