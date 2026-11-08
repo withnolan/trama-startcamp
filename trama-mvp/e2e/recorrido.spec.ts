@@ -114,14 +114,15 @@ test("simulador en /taller/T1: «Chaquetas» a 700 → verde y el ratio se recal
   await expect(resultado).not.toContainText("Revisar");
 });
 
-test("simulador: caso reconstruido → rojo; menos minutos por chaqueta → ámbar y verde", async ({ page }) => {
+test("simulador: caso reconstruido → rojo; con el suelo externo (126 min) → ámbar; menos aún → verde", async ({ page }) => {
   await page.goto("/taller/T1");
   const simulador = page.locator("#simulador");
   const resultado = simulador.locator('[aria-live="polite"]');
   await simulador.getByRole("button", { name: "Caso reconstruido con datos públicos" }).click();
   await expect(resultado).toContainText("Revisar");
-  const minutos = simulador.getByRole("slider", { name: "Minutos por chaqueta" });
-  await minutos.fill("130");
+  // El campo numérico (el deslizador va de 10 en 10 y llevaría 126 a 130).
+  const minutos = simulador.getByRole("spinbutton", { name: "Minutos por chaqueta" });
+  await minutos.fill("126");
   await expect(resultado).toContainText("Vigilar");
   await minutos.fill("100");
   await expect(resultado).toContainText("En margen");
@@ -155,6 +156,7 @@ test("escenas: desde la navegación; 4 marcas (Ordessa ve verde y «revisión ab
   await expect(milan).toContainText("Reconstrucción anonimizada a partir de información pública de prensa");
   await expect(milan).toContainText("∞");
   await expect(milan).toContainText("1,47×");
+  await expect(milan).toContainText("1,03×"); // suelo externo (126 min): ámbar
   await expect(milan).toContainText("≈135 min");
 
   // Documentos de ejemplo: los tres marcados «SIMULADO»; de ellos salen 4.800 h, 240 min y el 30 %.

@@ -5,12 +5,12 @@ import type { ReactNode } from "react";
 import { Badge } from "@/components/Badge";
 import { ChainDiagram } from "@/components/ChainDiagram";
 import { Semaforo } from "@/components/Semaforo";
-import { TEXTOS_ESCENAS } from "@/content/textos";
+import { FILTRO_ESTADO, TEXTOS_ESCENAS } from "@/content/textos";
 import { seed } from "@/data";
 import { DOCUMENTOS, ESCENA_CASO_MILAN, ESCENA_CUATRO_MARCAS } from "@/data/escenas";
 import { PERIODO_ACTUAL } from "@/data/vista";
 import { MIN_MARCAS_SUMA } from "@/lib/calculo/simular";
-import type { NodoCadena } from "@/lib/calculo/tipos";
+import type { EstadoSemaforo, NodoCadena } from "@/lib/calculo/tipos";
 import { fmtHoras, fmtNumero, fmtPct, fmtRatio } from "@/lib/formato";
 
 export const metadata: Metadata = { title: TEXTOS_ESCENAS.titulo, description: TEXTOS_ESCENAS.entradilla };
@@ -232,6 +232,9 @@ function CuatroMarcas() {
 }
 
 // ---------- Caso Milán 2025: proveedor sin taller → subproveedor de 7 personas ----------
+/** «ámbar», «rojo»…: el color que sale del cálculo, en minúscula para la frase. */
+const color = (estado: EstadoSemaforo) => FILTRO_ESTADO[estado].toLowerCase();
+
 function CasoMilan() {
   const e = ESCENA_CASO_MILAN;
   const M = T.casoMilan;
@@ -251,7 +254,7 @@ function CasoMilan() {
         <p className="text-xl font-semibold text-tinta tabular-nums">{M.pedidos.unidades(fmtNumero(e.chaquetasAno))}</p>
         <p className="text-tinta tabular-nums">{M.pedidos.horas(fmtNumero(e.minutos), necesarias)}</p>
         <p className="text-sm text-tinta-2">
-          {M.pedidos.unidadesNota} {M.pedidos.minutosNota(fmtNumero(e.minutos))}
+          {M.pedidos.unidadesNota} {M.pedidos.minutosNota(fmtNumero(e.minutos), fmtNumero(e.suelo))}
         </p>
       </div>
     ),
@@ -268,12 +271,12 @@ function CasoMilan() {
       <div className={pie}>
         <p className={cifra}>{fmtRatio(e.subproveedorB.ratio, 2)}</p>
         <p className="text-tinta tabular-nums">
-          {M.subproveedor.texto(necesarias, fmtHoras(e.deAltaB), fmtNumero(e.personasB), fmtHoras(e.horasPersonaAno))}
+          {M.subproveedor.texto(fmtNumero(e.minutos), necesarias, fmtHoras(e.deAltaB), fmtNumero(e.personasB), fmtHoras(e.horasPersonaAno))}
         </p>
         <p className="font-medium text-rojo-texto">{M.subproveedor.conclusion(fmtRatio(P.umbralRojo, 2))}</p>
         {/* Lo dice el pitch en voz alta («aunque declare 130, Trama usa 180»): a tamaño de cuerpo, no de nota. */}
         <p className="text-tinta tabular-nums">
-          {M.umbral(fmtNumero(e.minutos), fmtRatio(e.subproveedorB.ratio, 2), fmtNumero(e.minutosRojo))}
+          {M.umbral(fmtNumero(e.suelo), fmtRatio(e.conSuelo.ratio, 2), color(e.conSuelo.estado), fmtNumero(e.minutosRojo))}
         </p>
       </div>
     ),
@@ -287,7 +290,7 @@ function CasoMilan() {
           </h2>
           <Badge variante="marca">{M.rotulo}</Badge>
         </div>
-        <p className="text-lg text-tinta">{M.resumen}</p>
+        <p className="text-lg text-tinta">{M.resumen(color(e.conSuelo.estado), color(e.subproveedorB.estado))}</p>
       </header>
       <ChainDiagram nodos={nodos} detalle={detalle} />
       <p className="border-l-4 border-borde-fuerte pl-4 text-sm text-tinta-2">{M.nota}</p>

@@ -315,7 +315,7 @@ export const TEXTOS_SIMULADOR = {
   minutos: "Minutos por chaqueta",
   escenarios: { demo: "Taller de la demo", casoPublico: "Caso reconstruido con datos públicos" },
   casoPublico:
-    "Reconstrucción anonimizada a partir de información pública de prensa: el proveedor directo no tenía taller propio (capacidad 0) y un subproveedor con 7 personas entregaba entre 6.000 y 7.000 chaquetas al año. Unas 2 h por chaqueta disponibles. 180 min es el suelo externo para premium y lujo: con menos minutos declarados, Trama calcula con 180. Aquí puedes bajarlos para ver dónde dejaría de caber sin suelo.",
+    "Reconstrucción anonimizada a partir de información pública de prensa: el proveedor directo no tenía taller propio (capacidad 0: rojo siempre) y un subproveedor con 7 personas entregaba entre 6.000 y 7.000 chaquetas al año. Unas 2 h por chaqueta disponibles. 180 min es la referencia de una fábrica premium; el suelo externo es el mínimo industrial, 126 min, y con él sale ámbar. Mueve los minutos para ver dónde deja de caber.",
   /** "Carga de Ordessa: 8.000 h frente a 3.360 h de alta (2,4×)" */
   cargaMarca: (necesarias: string, alta: string, ratio: string) =>
     `Carga de Ordessa: ${necesarias} frente a ${alta} de alta (${ratio})`,
@@ -325,7 +325,7 @@ export const TEXTOS_SIMULADOR = {
     "Carga total ≈ carga de Ordessa ÷ su parte de la facturación del taller. Es una estimación (el precio por hora cambia entre clientes): no da rojo, abre una revisión. El rojo directo solo sale si los pedidos de Ordessa superan 1,10× la capacidad.",
   abreRevision: "Abre una revisión",
   sinRevision: "No abre revisión",
-  nota: "El taller de la demo es ficticio (240 min por chaqueta, de su ficha de costes ficticia). El caso reconstruido usa cifras públicas de prensa, anonimizadas, y el suelo externo de 180 min por chaqueta (premium y lujo).",
+  nota: "El taller de la demo es ficticio (240 min por chaqueta, de su ficha de costes ficticia). El caso reconstruido usa cifras públicas de prensa, anonimizadas, y 180 min por chaqueta, la referencia de una fábrica premium (el suelo externo, mínimo industrial, es de 126 min).",
 };
 
 // ---------- /escenas (dos escenas para la demo; mismo cálculo que el panel) ----------
@@ -386,8 +386,9 @@ export const TEXTOS_ESCENAS = {
     titulo: "Caso Milán 2025 (datos públicos)",
     corto: "Caso Milán 2025",
     rotulo: "Reconstrucción anonimizada a partir de información pública de prensa",
-    resumen:
-      "Una marca de lujo encargaba chaquetas a un proveedor sin taller propio, que las pasaba a un subproveedor de 7 personas. La auditoría no comprobó la capacidad. Con las cifras públicas, el cálculo de Trama da rojo en los dos eslabones.",
+    /** Los estados salen del cálculo: «ámbar» con el mínimo industrial, «rojo» con minutos de fábrica premium. */
+    resumen: (estadoSuelo: string, estadoPremium: string) =>
+      `Una marca de lujo encargaba chaquetas a un proveedor sin taller propio, que las pasaba a un subproveedor de 7 personas. La auditoría no comprobó la capacidad. Con las cifras públicas, el proveedor sale rojo siempre; el subproveedor, ${estadoSuelo} con el mínimo industrial y ${estadoPremium} con minutos de fábrica premium.`,
     nodos: { marca: "Marca de lujo (anonimizada)", proveedor: "Proveedor A", subproveedor: "Subproveedor B" },
     pedidos: {
       titulo: "Lo que se encargaba",
@@ -396,24 +397,25 @@ export const TEXTOS_ESCENAS = {
       unidadesNota: "La cifra baja del rango publicado (6.000-7.000).",
       /** "× 180 min por chaqueta = 18.000 h necesarias" */
       horas: (minutos: string, horas: string) => `× ${minutos} min por chaqueta = ${horas} necesarias`,
-      minutosNota: (minutos: string) => `${minutos} min: suelo externo para premium y lujo (fábrica premium, hasta ${minutos} min de costura).`,
+      minutosNota: (minutos: string, suelo: string) =>
+        `${minutos} min: referencia de una fábrica premium (hasta ${minutos} min de costura). El suelo externo es el mínimo industrial: ${suelo} min.`,
     },
     proveedor: {
       titulo: "Sin taller propio",
       texto: (necesarias: string) => `${necesarias} ÷ 0 h de producción propia`,
-      conclusion: "Rojo desde el primer pedido.",
+      conclusion: "Rojo siempre, con cualquier minutaje: capacidad 0.",
     },
     subproveedor: {
       titulo: (personas: string) => `${personas} personas de alta`,
-      /** "18.000 h ÷ 12.250 h de alta (7 × ≈1.750 h al año)" */
-      texto: (necesarias: string, alta: string, personas: string, horasPersona: string) =>
-        `${necesarias} ÷ ${alta} de alta (${personas} × ≈${horasPersona} al año)`,
+      /** "Con 180 min (fábrica premium): 18.000 h ÷ 12.250 h de alta (7 × ≈1.750 h al año)" */
+      texto: (minutos: string, necesarias: string, alta: string, personas: string, horasPersona: string) =>
+        `Con ${minutos} min (fábrica premium): ${necesarias} ÷ ${alta} de alta (${personas} × ≈${horasPersona} al año)`,
       /** "Supera el límite rojo de 1,10×." */
       conclusion: (limite: string) => `Supera el límite rojo de ${limite}.`,
     },
-    /** "Suelo de minutos para una marca de lujo: 180 min. Si declara menos, Trama calcula con 180: 1,47×, rojo. Sin suelo, el rojo empezaría en ≈135 min." */
-    umbral: (suelo: string, ratio: string, minutosRojo: string) =>
-      `Suelo de minutos para una marca de lujo: ${suelo} min. Si declara menos, Trama calcula con ${suelo}: ${ratio}, rojo. Sin suelo, el rojo empezaría en ≈${minutosRojo} min.`,
+    /** "Con el suelo externo, el mínimo industrial (126 min): 1,03×, ámbar. El rojo empieza en ≈135 min." */
+    umbral: (suelo: string, ratio: string, estado: string, minutosRojo: string) =>
+      `Con el suelo externo, el mínimo industrial (${suelo} min): ${ratio}, ${estado}. El rojo empieza en ≈${minutosRojo} min.`,
     nota: "Anonimizado: sin nombres de empresas ni personas. Las fuentes de prensa están en la documentación del equipo, no en la app.",
   },
   documentos: {
