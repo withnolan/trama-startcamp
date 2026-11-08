@@ -28,7 +28,7 @@ Mentor 4 · 8-nov-2026. No es asesoramiento jurídico. Fuentes completas en `inv
 - **Minimización frente a lo que ya admite la AEPD.** La AEPD admite que una subcontrata pase nóminas y RNT a la principal cuando hay contrata de propia actividad ([FAQ-0305](https://www.aepd.es/preguntas-frecuentes/3-proteccion-de-datos-en-el-ambito-laboral/FAQ-0305-puede-cederse-los-datos-de-salarios-y-rnt-de-una-subcontrata-a-la-empresa-principal)). Trama pide mucho menos: un total.
 - **Competencia: el tercero también puede responder.** Las directrices horizontales tratan el intercambio indirecto a través de un tercero (*hub-and-spoke*) y piden agregación, acceso restringido y que cada participante solo vea lo suyo ([2023/C 259/01](https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:52023XC0721(01)), §§391 y 401-408). Con solo 2 marcas, la «revisión abierta» y los pedidos propios permitirían deducir los de la otra. De ahí el mínimo de 3.
 
-## Respuesta de 25 s (66 palabras)
+## Respuesta de 25 s (62 palabras)
 > «Trama nunca ve nombres. La Seguridad Social da la plantilla del taller en una cifra; el ITA y las nóminas no salen de la gestoría. En talleres de menos de cuatro personas, la marca solo ve el semáforo. Haremos una evaluación de impacto antes del piloto. Y entre marcas no circula nada: con tres o más, solo reciben "revisión abierta", sin cifras.»
 
 ## Qué cambia en la app o en el pitch

@@ -55,7 +55,7 @@ El semáforo divide dos cifras y cada una se puede falsear desde un lado distint
 **«¿Y si el gestor firma lo que le pide el taller?»** (69 palabras)
 > «No le pedimos a nadie que firme horas. El dato es un informe de la Tesorería de la Seguridad Social que el gestor descarga y nos envía sin tocar. Para inflarlo, el taller tendría que dar de alta a gente que no trabaja allí y pagar sus cotizaciones. Y tras una alerta, el revisor, pagado por la marca, coteja la lista nominal en la gestoría y visita sin avisar.»
 
-**«¿Y si la marca baja los minutos para no ver rojos?»** (69 palabras)
+**«¿Y si la marca baja los minutos para no ver rojos?»** (67 palabras)
 > «Los minutos no se teclean para Trama: son los del escandallo con el que la marca paga cada pieza, y cada cambio queda guardado con fecha y autor. Si bajan de la referencia pública de su categoría (una americana forrada, unos 126 minutos en producción masiva), Trama calcula con la referencia. Y en el caso Milán, el proveedor directo sale rojo con cualquier minutaje: no tenía taller.»
 
 ## Qué cambia en la app o en el pitch

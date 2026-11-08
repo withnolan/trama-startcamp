@@ -21,8 +21,8 @@ Mentor 4 · 8-nov-2026. Detalle y fuentes en `investigacion/fuentes_horas.md`. �
   - [Protocolo Asse.Co](https://ispettorato.gov.it/files/2023/02/Protocollo-CNO-IspettoratoNazionale-ASSECO.pdf): voluntaria, la paga el empleador; la Inspección prioriza a quien no la tiene.
 - **Por qué no cambiar el nombre esta noche.** «Horas de alta» ya está en decenas de textos de la app y en el v1 («su plantilla en la Seguridad Social por la jornada de convenio»), y se entiende. «Capacidad en alta» es algo más precisa, pero cambiarla ahora cuesta tiempo de Producto y abre incoherencias entre la app y el pitch. Lo que sí no aguanta una pregunta es hablar de un «informe de horas de alta», y eso se corrige.
 
-## Respuesta de 25 s (66 palabras)
-> «Tiene razón: en España se cotiza por base, no por horas. Por eso no pedimos horas a nadie. La Seguridad Social emite cada mes la plantilla media en alta del taller, que ya tiene en cuenta la jornada parcial. La multiplicamos por la jornada del convenio: es capacidad, no horas fichadas. La lista con nombres solo la mira el revisor, en la gestoría, tras una alerta.»
+## Respuesta de 25 s (68 palabras)
+> «Tiene razón: en España se cotiza por base, no por horas. Por eso no pedimos horas a nadie. El gestor descarga de la Seguridad Social la plantilla media en alta del taller, que ya tiene en cuenta la jornada parcial. La multiplicamos por la jornada del convenio: es capacidad, no horas fichadas. La lista con nombres solo la mira el revisor, en la gestoría, tras una alerta.»
 
 ## Qué cambia en la app o en el pitch
 - **Pitch.** Nada. El v1 ya lo dice bien en [0:47].

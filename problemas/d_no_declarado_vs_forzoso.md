@@ -42,7 +42,7 @@ Fuentes: [ET (BOE)](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430) · [L
 **«¿Por qué pagaría una marca española ya?»** (68 palabras)
 > «Porque el problema está aquí: en 2025 la Inspección afloró más de 120.000 empleos irregulares y, según la Policía, en Valencia un taller con 26 personas sin alta cosía para varias empresas del sector. Y si el encargo es de su propia actividad, la marca ya debe comprobar las altas de su contrata y responde de sus cuotas. Si eso cubre la confección, lo confirmaremos con un laboralista.»
 
-**«Trabajo no declarado no es trabajo forzoso.»** (52 palabras)
+**«Trabajo no declarado no es trabajo forzoso.»** (53 palabras)
 > «Tiene razón, y no decimos que lo detectemos. Medimos si los pedidos caben en la plantilla dada de alta. Para la OIT, las horas excesivas son un indicador que obliga a investigar, no una prueba. Eso hace Trama: abre una revisión. Lo que reprochó Milán no fue explotar: fue no comprobar la capacidad.»
 
 ## Qué cambia en la app o en el pitch

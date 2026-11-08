@@ -36,7 +36,7 @@ Mentor 4 · Impacto y regulación · 8-nov-2026. Cifras = seed de la demo (ficti
   - **Nuestras métricas no son los indicadores oficiales** (8.7.1 trabajo infantil; 8.8.1 lesiones laborales; 8.8.2 cumplimiento de derechos laborales; [lista de la ONU](https://unstats.un.org/sdgs/indicators/indicators-list/)). Son métricas de resultado propias.
 
 ## Respuesta de 25 s
-**«¿Y si cerráis el hueco quitando pedidos?»** (69 palabras)
+**«¿Y si cerráis el hueco quitando pedidos?»** (63 palabras)
 > «Lo mostramos por separado. En la demo, con datos ficticios, a la cadena le faltaban 2.720 horas; hoy, 800. De lo cerrado, 1.120 horas son altas nuevas y 800, pedidos retirados, dentro del límite del 20 %. Y no medimos «cero despidos»: de 18 personas contadas al abrir la alerta, 11 estaban de alta; hoy lo están 14. Quien no puede regularizarse sigue contando.»
 
 ## Qué cambia en la app (para Producto)
@@ -81,7 +81,8 @@ Sin tocar `lib/calculo` ni el seed: solo `src/content/textos.ts`, `src/data/vist
 
 **6. `legal.ts` · `proteccion`** (promesa que no aguanta una pregunta)
 - Hoy: «Italia · permiso por protección social (art. 18 TU Inmigración): puede seguir la vía social, a propuesta de los servicios sociales o de asociaciones inscritas, sin necesidad de denuncia».
-- Nuevo: «Italia · permiso por protección social (art. 18 TU Inmigración): exige violencia o explotación grave y un peligro concreto para la persona. Según la doctrina, puede tramitarse por la vía social, a propuesta de servicios sociales o asociaciones inscritas».
+- Nuevo: «Italia · permiso por protección social (art. 18 TU Inmigración): exige violencia o "grave sfruttamento" y un peligro concreto para la persona. Según la doctrina, puede tramitarse por la vía social, a propuesta de servicios sociales o asociaciones inscritas».
+- Se usa el término italiano porque «explotación» está vetada en `src/` (`trama-mvp/CONTRATO.md`).
 - Es la vía de las 4 regularizaciones del seed (`investigacion/hechos_legales.md` §5).
 
 **7. «Lista pactada con los sindicatos»: búsqueda en todo el repositorio** (sin `node_modules`; patrones «lista pactada», «pactad», «con los sindicatos», «acordada», «consensuad»)

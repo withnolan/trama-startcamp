@@ -21,7 +21,7 @@ Mentor 4 · 8-nov-2026. Base: `investigacion/evento.md` §4 (fuentes oficiales: 
 | **Fase nacional: salida al mercado** | Primer segmento: marcas medianas que fabrican en Ubrique, Elche e Igualada; canal: gestorías (`problemas/i_piloto.md`) | Ningún primer cliente |
 
 ## Respuesta de 25 s
-**«¿Qué ODS y cómo lo medís?»** (64 palabras)
+**«¿Qué ODS y cómo lo medís?»** (65 palabras)
 > «La meta 8.8: derechos laborales de los trabajadores migrantes y con empleo precario. No medimos alertas: medimos personas. Cuántas de las que había al abrir la alerta, con y sin alta, siguen de alta seis meses después, y si el hueco se cerró dando de alta a gente o quitando pedidos. Quien no puede regularizarse sigue contando. Las cifras de hoy son de la demo.»
 
 **Línea de posicionamiento para la UNEC, en inglés:**

@@ -13,8 +13,8 @@ Mentor 4 · 8-nov-2026. Fuentes completas en `investigacion/encaje_legal.md` §e
 - **Precedente social, no ambiental.** La autoridad italiana de la competencia multó con 3,5 M€ a Armani porque sus declaraciones éticas no se correspondían con lo que pasaba en sus proveedores. Que se hubiera levantado la administración judicial no cambiaba nada ([Il Post, 1-8-2025](https://www.ilpost.it/2025/08/01/antitrust-multa-armani/)). Armani anunció recurso, y no sabemos cómo terminó.
 - **Italia quitó el sello que funcionaba como escudo.** La certificación «filiera della moda certificata» salió de la ley PMI tras las críticas que la llamaban «escudo penal» ([Artribune](https://www.artribune.com/?p=1216669)).
 
-## Respuesta de 25 s (66 palabras)
-> «El verde no sale de la empresa: el contrato prohíbe usarlo en publicidad, etiquetas o sellos. Y la ley va en la misma línea: la Directiva europea de 2024 prohíbe los distintivos sociales sin certificación independiente. Verde solo significa que las horas cuadran con tus pedidos; no dice nada de salarios ni de coacción. Italia acaba de quitar de su ley un sello así.»
+## Respuesta de 25 s (65 palabras)
+> «El verde no sale de la empresa: el contrato prohíbe usarlo en publicidad, etiquetas o sellos. Y la ley va en la misma línea: la Directiva europea de 2024 prohíbe los distintivos sociales sin certificación independiente. Verde solo significa que las horas cuadran con tus pedidos; no dice nada de salarios ni de coacción. Italia quitó este año de su ley un sello así.»
 
 ## Qué cambia en la app o en el pitch
 - **Pitch.** Nada nuevo: el v1 dice «ni damos sellos». No decir nunca «taller verde» ni «taller limpio».
