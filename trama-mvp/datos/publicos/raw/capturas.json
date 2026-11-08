@@ -1,0 +1,30 @@
+{
+  "ine_dirce": {
+    "url": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/73019?nult=1",
+    "consultado": "2026-11-08",
+    "sha256": "92bb702caad08478b13e395aa2b6be906c94975c3092c5c4edcaa24bf9eec989",
+    "bytes": 6264083,
+    "archivo": "ine_73019_recorte.json"
+  },
+  "eurostat_horas": {
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsa_ewhun2?geo=ES&geo=IT&nace_r2=C&wstatus=SAL&worktime=FT&sex=T&age=Y15-64&unit=HR&format=JSON&lang=EN&lastTimePeriod=1",
+    "consultado": "2026-11-08",
+    "sha256": "2623ce06fe150f4a0dc7d18a88d4a65e523ddfabeff1a6eab28ae5b35aa6b17f",
+    "bytes": 3871,
+    "archivo": "eurostat_lfsa_ewhun2.json"
+  },
+  "boe_textil": {
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20177",
+    "consultado": "2026-11-08",
+    "sha256": "d12fc9975f42c8670b51c0cfed100a3a195faed92c52f0f91deaf6b209269fe1",
+    "bytes": 534334,
+    "archivo": "boe_BOE-A-2025-20177_recorte.txt"
+  },
+  "boe_marroquineria": {
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-6193",
+    "consultado": "2026-11-08",
+    "sha256": "cd365b207aa0f15235ff4c6885a9837996bec00b7a02bb1502cfb076b150f603",
+    "bytes": 220295,
+    "archivo": "boe_BOE-A-2024-6193_recorte.txt"
+  }
+}

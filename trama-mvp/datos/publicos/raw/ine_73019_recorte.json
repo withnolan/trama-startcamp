@@ -1,0 +1,162 @@
+[
+  {
+    "COD": "DIR184993",
+    "Nombre": "Nacional. De 1 a 2 asalariados. Total. 14 Confección de prendas de vestir.",
+    "FK_Unidad": 97,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1735686000000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2025,
+        "Valor": 2040,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "DIR184994",
+    "Nombre": "Nacional. De 3 a 5 asalariados. Total. 14 Confección de prendas de vestir.",
+    "FK_Unidad": 97,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1735686000000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2025,
+        "Valor": 832,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "DIR184995",
+    "Nombre": "Nacional. De 6 a 9 asalariados. Total. 14 Confección de prendas de vestir.",
+    "FK_Unidad": 97,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1735686000000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2025,
+        "Valor": 448,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "DIR184996",
+    "Nombre": "Nacional. De 10 a 19 asalariados. Total. 14 Confección de prendas de vestir.",
+    "FK_Unidad": 97,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1735686000000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2025,
+        "Valor": 370,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "DIR184997",
+    "Nombre": "Nacional. De 20 a 49 asalariados. Total. 14 Confección de prendas de vestir.",
+    "FK_Unidad": 97,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1735686000000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2025,
+        "Valor": 176,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "DIR185045",
+    "Nombre": "Nacional. De 1 a 2 asalariados. Total. 15 Industria del cuero y del calzado.",
+    "FK_Unidad": 97,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1735686000000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2025,
+        "Valor": 800,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "DIR185046",
+    "Nombre": "Nacional. De 3 a 5 asalariados. Total. 15 Industria del cuero y del calzado.",
+    "FK_Unidad": 97,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1735686000000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2025,
+        "Valor": 434,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "DIR185047",
+    "Nombre": "Nacional. De 6 a 9 asalariados. Total. 15 Industria del cuero y del calzado.",
+    "FK_Unidad": 97,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1735686000000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2025,
+        "Valor": 308,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "DIR185048",
+    "Nombre": "Nacional. De 10 a 19 asalariados. Total. 15 Industria del cuero y del calzado.",
+    "FK_Unidad": 97,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1735686000000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2025,
+        "Valor": 371,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "DIR185049",
+    "Nombre": "Nacional. De 20 a 49 asalariados. Total. 15 Industria del cuero y del calzado.",
+    "FK_Unidad": 97,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1735686000000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2025,
+        "Valor": 304,
+        "Secreto": false
+      }
+    ]
+  }
+]
