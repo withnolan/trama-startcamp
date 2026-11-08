@@ -73,3 +73,10 @@ Una línea por decisión: decisión — motivo.
 - Personas sin alta: las cuenta el revisor en visita sin aviso antes de avisar al proveedor, con censo confidencial (a Trama solo recuentos firmados); a 6 meses coteja con la lista de la gestoría y firma recuentos, «no localizadas» = no logrado; sin vía: no se promete empleo legal (LO 4/2000 art. 54.1.d), acompañamiento y cifra publicada — fallo nuevo de R2 (`problemas/metricas_impacto.md`).
 - Meta 2030 sobre los 600 talleres del año 3 de Negocio (v3_negocio.md aún no existía): ≈6.000 personas en talleres vigilados, ≈60 alertas/año, ≈90 altas/año de quien trabajaba sin alta, con supuestos S1-S4 marcados.
 - Cláusula 0 «desde la entrada»: 6 meses sin bajas ni recortes > 20 % por entrar en Trama, ámbar o sin datos (`problemas/f_rojo_abandono.md`).
+
+## Cierre (03:25)
+- Bucle parado tras 4 rondas (máximo del encargo); la 4.ª bajó (6,73 → 6,23).
+- Se presenta **v4** (`PITCH_FINAL.md`), no v3 (mejor nota, 6,73): v3 llamaba «suelo» a 180 min (es el techo de una fábrica premium) y su meta 2030 no cuadraba con el mercado — regla del encargo: una nota más baja y honesta vale más que una alta y falsa. v3 archivada en `pitches/v3_pitch_final.md`.
+- Meta 2030 unificada a ≈ 37 talleres por marca (40 marcas, ≈ 1.150 talleres, ≈ 11.500 personas, ≈ 1,08 M€/año) tras detectar la incoherencia en la ronda 4.
+- Licencias: directas permisivas; transitivas MPL-2.0 (lightningcss, axe-core: desarrollo) y LGPL-3.0 (sharp, opcional y sin usar) documentadas como excepción en `MVP_ESTADO.md` — quitarlas rompe Tailwind o el lint.
+- Conocido y no corregido: en el seed la visita del revisor llega 33 días después de la alerta (la regla dice: sin aviso, antes de comunicar la alerta y como máximo en 7 días); cambiar fechas rompe los tests calibrados — se dice en `PREGUNTAS.md`.

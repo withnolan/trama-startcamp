@@ -1,36 +1,47 @@
-# LÉEME PRIMERO — Trama · Start Camp UC3M (pitch hoy, domingo 8-nov, 17:45)
+# LÉEME PRIMERO — Trama · Start Camp UC3M (pitch hoy, domingo 8-nov, 17:45-20:00)
 
-> Estado a las **03:10** del domingo. Este archivo se actualiza durante la noche; si la sesión se corta, lo que pone aquí es lo último que está hecho.
+> Estado final a las **03:20** del domingo. Todo está en commits locales en la rama `main` (y `pulido`). **No está subido a GitHub** (ver §5).
 
-## 1. Qué leer y en qué orden
-1. **`PITCH_FINAL.md`** — ✅ el pitch con mejor nota del jurado simulado (**v3: 6,73/10**, global 7; v1 6,52; v2 6,43; pitch v5 4,83). Se está haciendo una v4 final con 3-4 retoques. Antes de las 17:30 decidid llamada, marcas y equipo (arriba del archivo). Evolución en `EVOLUCION.md`.
-2. **`PREGUNTAS.md`** — ✅ v1: J1-J5 + 10 preguntas duras + 4 de reserva, ≤ 25 s cada una. También `HOJA_DATOS.md` (1 página de cifras con fuente) y `DOCUMENTO_MAESTRO.md`.
-3. **`LLAMADAS.md`** — ✅ listo. 20 contactos públicos verificados (7 para hoy domingo), guion de 2 min y borradores de WhatsApp/correo **sin enviar**.
-4. **`MARCAS.md`** — ✅ 17 marcas con canal público comprobado; las 5 primeras: Aeffe, Adolfo Domínguez, Camper, Piquadro y Mascaró. Borradores de email/LinkedIn (también en italiano) **sin enviar**: enviadlos vosotros y apuntad cada respuesta, también los «no», en el registro del archivo.
-5. ✅ **`PROBLEMAS_CERRADOS.md`** — cada crítica (J1-J5 y del último jurado) con decisión, respuesta de 25 s y qué sigue abierto; detalle en `problemas/*.md` · `problemas/i_piloto.md` trae la **carta de intención** de 1 página para llevar impresa · ✅ **`PRESENTACION_LOVABLE.md`** (8 diapositivas + anexo, prompt listo para pegar en Lovable; usa las capturas 15, 16, 04 y 17) · `DOCUMENTO_MAESTRO.md`. *En preparación.*
+## 1. Qué leer, en este orden (5 minutos)
+1. **`PITCH_FINAL.md`** — el pitch que hay que presentar (**v4**, 553 palabras, 4:00, con reparto por oradores, demo de 50 s y huecos [RELLENAR]). **Arriba del archivo hay 3 decisiones que tomar antes de las 17:30**: llamada (versión A solo con una respuesta real; si no, versión B), marcas (si no escribisteis a ninguna, esa frase no se dice) y equipo (nombres y estudios reales).
+   - **Nota del jurado simulado:** v1 6,52 · v2 6,43 · **v3 6,73 (la mejor)** · v4 6,23 · pitch v5 del usuario 4,83. Recomiendo **v4** aunque puntuó menos: v3 tenía dos errores que el propio jurado encontró (llamaba «suelo» a 180 min y su meta 2030 no cuadraba). v3 está en `pitches/v3_pitch_final.md` si preferís la de mejor nota. Detalle en `EVOLUCION.md`.
+2. **`PREGUNTAS.md`** — las respuestas de 25 s (J1-J5 y las de todas las rondas del jurado). Repasad las 10 primeras en voz alta.
+3. **`HOJA_DATOS.md`** — todas las cifras con su fuente y lo que está «por validar». Si os preguntan una cifra, sale de aquí.
+4. **`PRESENTACION_LOVABLE.md`** — 8 diapositivas + prompt para pegar en Lovable (usa las capturas 15, 16, 04 y 17 de `demo-backup/1280x720/`). Revisad la checklist del final.
+5. Si hay tiempo: `PROBLEMAS_CERRADOS.md` (cada crítica y su respuesta) · `DOCUMENTO_MAESTRO.md` (mapa del jurado, agujeros, checklist del día) · `problemas/i_piloto.md` (**carta de intención** de 1 página: imprimidla).
 
-## 2. Cómo arrancar la demo (sin internet una vez instalada)
+## 2. Cómo arrancar la demo (funciona sin internet una vez instalada)
 ```bash
 cd trama-mvp
-npm install        # solo la primera vez, con internet
-npm run demo       # construye y arranca en http://localhost:3000
 ```
-- Demo guiada de 18 s: `http://localhost:3000/taller/T1?demo=1` (clic o Esc para saltar).
-- Si algo falla: **plan B** en `demo-backup/` (capturas PNG y vídeo `.webm`). ✅ Listo.
+```bash
+npm install
+```
+```bash
+npm run demo
+```
+- `npm install` solo la primera vez y con internet. `npm run demo` construye y arranca en `http://localhost:3000` (tarda ~1 min).
+- **Ruta del pitch (3 clics):** pestaña 1 `http://localhost:3000/escenas` · pestaña 2 `http://localhost:3000/taller/T1`. Clic «1 · Caso Milán 2025» → «2 · Taller con 4 marcas» → `Ctrl+Tab` a la alerta de T1. Guion exacto en `trama-mvp/README.md`.
+- Demo animada de 18 s (opcional): `http://localhost:3000/taller/T1?demo=1` (clic o Esc para saltar).
+- **Si falla: plan B** → capturas en `demo-backup/1280x720/` (15, 16 y 04 para la ruta del pitch) y vídeo `demo-backup/demo-T1-1280x720.webm`.
+- **Decid en voz alta lo que es simulado** (ya está en el pitch): marca, talleres y cifras de la app son inventados; el caso Milán usa datos de prensa anonimizados.
 
-## 3. A quién llamar primero (detalle en `LLAMADAS.md`)
-1. Gestoría de Igualada con WhatsApp de empresa (domingo desde las 10:00): ¿puede sacar cada mes el informe de plantilla media en alta y cuánto cobraría?
-2. Taller de marroquinería de Ubrique que fabrica para marcas (email + Instagram, esta noche).
-3. Fabricante de calzado de Elche que fabrica para marcas (email + Instagram, esta noche).
-Lo más probable es que hoy conteste poca gente: el pitch tiene **versión B** del bloque de la llamada. **Nunca contéis una respuesta que no haya llegado.**
+## 3. A quién escribir o llamar primero (nosotros no hemos enviado nada)
+- **`LLAMADAS.md`**: 20 contactos públicos verificados. Primero: la gestoría de Igualada con WhatsApp de empresa (domingo desde las 10:00), un taller de marroquinería de Ubrique y un fabricante de calzado de Elche (email/Instagram). Pregunta clave: ¿puede sacar cada mes el informe de plantilla media en alta, pondera la jornada parcial y cuánto cobraría?
+- **`MARCAS.md`**: 17 marcas con canal público; las 5 primeras: Aeffe, Adolfo Domínguez, Camper, Piquadro y Mascaró. Borradores listos.
+- **Regla:** en el pitch solo se cuenta una respuesta que haya llegado (también los «no», que suman). Si no hay ninguna, versión B.
 
-## 4. Qué falta (se irá tachando)
-- [x] MVP integrado y fusionado en `main` (lint 0 · tests 96/96 · build OK · e2e 22/22, también sin internet) y plan B en `demo-backup/` (28 capturas + vídeo de 21 s).
-- [ ] **Subir a GitHub (lo tenéis que hacer vosotros):** el repo PRIVADO `https://github.com/withnolan/trama-startcamp` está creado y vacío, pero el permiso de esta sesión **bloqueó el `git push`**. Todo está en commits locales. Para subirlo, desde la carpeta `STARTCAMP`:
-  ```bash
-  git remote add origin https://github.com/withnolan/trama-startcamp.git
-  git push -u origin main
-  ```
-- [x] Pitch, preguntas, hoja de datos, problemas cerrados, Lovable, llamadas y marcas.
-- [x] Bucle de mentores + jurado simulado: 3 rondas hechas (6,52 → 6,43 → 6,73), la 4.ª en curso → `EVOLUCION.md`.
-- Lo que solo podéis hacer vosotros: enviar los mensajes, hacer las llamadas, rellenar los [RELLENAR] del pitch con respuestas reales y poner nombres y roles del equipo.
+## 4. Qué falta (y solo podéis hacerlo vosotros)
+- Rellenar los [RELLENAR] del pitch con datos reales (llamada, marcas, nombres del equipo) o usar la versión B.
+- Validación con quien paga y con quien da el dato: el jurado lo pidió en las 4 rondas. Es el mayor agujero y se dice con honestidad.
+- Pegar el prompt en Lovable y revisar las cifras contra `HOJA_DATOS.md`.
+- Ensayar dos veces con cronómetro (máx. 4:00) y la demo en el portátil que se va a usar.
+
+## 5. Subir a GitHub (opcional, vosotros)
+El repo **privado** `https://github.com/withnolan/trama-startcamp` está creado y vacío; el permiso de esta sesión bloqueó el `git push`. Desde la carpeta `STARTCAMP`:
+```bash
+git remote add origin https://github.com/withnolan/trama-startcamp.git
+```
+```bash
+git push -u origin main pulido
+```

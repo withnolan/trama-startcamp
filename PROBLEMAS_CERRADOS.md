@@ -137,8 +137,8 @@
    - Fase 1, piel y calzado (Ubrique y Elche): **2.217 empresas → 1,6 M€/año**.
    - Italia, en la fase 2: 4.223 empresas de marroquinería → 3,0 M€/año.
 
-**Respuesta de 25 s.** **«¿Cuántas marcas os pueden comprar?»** (67 palabras)
-> «En España, 165 fabricantes de moda, piel y calzado con 50 o más asalariados, según el INE; en Italia, 175 grupos de moda de más de 100 millones. Con 30 a 40 talleres cada uno, son unos 8,6 millones al año. Empezamos por las marcas que fabrican en los dos países, y la meta para 2030 es de 40 marcas y 1.500 talleres. Todo, supuestos por validar.»
+**Respuesta de 25 s.** **«¿Cuántas marcas os pueden comprar?»** (68 palabras)
+> «En España, 165 fabricantes de moda, piel y calzado con 50 o más asalariados, según el INE; en Italia, 175 grupos de moda de más de 100 millones. Con 30 a 40 talleres cada uno, son unos 8,6 millones al año. Empezamos por las marcas que fabrican en los dos países, y la meta para 2030 es de 40 marcas y unos 1.150 talleres. Todo, supuestos por validar.»
 
 **Qué sigue abierto.** - **Talleres por marca:** no hay ningún dato para España (los 30 son un supuesto). Tampoco sabemos cuántas casas extranjeras fabrican en España ni cuántas marcas españolas sin fábrica subcontratan aquí.
 - Si las marcas que fabrican en Italia y en España comprarían: no hemos hablado con ninguna.

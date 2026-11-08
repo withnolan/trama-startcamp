@@ -106,11 +106,11 @@ Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite ho
 
 ### 16. El mercado en talleres es pequeño. ¿Cuántas marcas os pueden comprar?
 *Responde Orador 4.*
-> En España, 165 fabricantes de moda, piel y calzado con 50 o más asalariados, según el INE; en Italia, 175 grupos de moda de más de 100 millones. Con 30 a 40 talleres cada uno, son unos 8,6 millones al año. Empezamos por las marcas que fabrican en los dos países, y la meta para 2030 es de 40 marcas y 1.500 talleres. Todo, supuestos por validar.
+> En España, 165 fabricantes de moda, piel y calzado con 50 o más asalariados, según el INE; en Italia, 175 grupos de moda de más de 100 millones. Con 30 a 40 talleres cada uno, son unos 8,6 millones al año. Empezamos por las marcas que fabrican en los dos países, y la meta para 2030 es de 40 marcas y unos 1.150 talleres. Todo, supuestos por validar.
 
 ### 17. ¿Cuál es vuestra meta a 2030, en personas?
 *Responde Orador 3.*
-> Por validar: 40 marcas y unos 1.500 talleres vigilados, con unas 15.000 personas. Si el 10 % sale rojo cada año, son 150 alertas; con tres personas sin alta por alerta y la mitad de alta a los seis meses, unas 225 altas al año. Y por plan: el 80 % de la línea base de alta a los seis meses, cero bajas y la mitad del hueco cerrado con altas.
+> Por validar: 40 marcas, unos 1.150 talleres distintos y 11.500 personas. Si el 10 % sale rojo cada año, son unas 115 alertas; con tres personas sin alta por alerta y la mitad de alta a los seis meses, unas 170 altas al año. Y por plan: el 80 % de la línea base de alta a los seis meses, cero bajas y la mitad del hueco cerrado con altas.
 
 ### 18. ¿Y si exigir Trama sirve para descartar talleres antes de la primera alerta?
 *Responde Orador 3.*
@@ -131,6 +131,24 @@ Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite ho
 ### 21. Vuestro 180 es el techo de una fábrica premium, no un suelo. ¿Cómo fijaréis y defenderéis el suelo ante un proveedor que lo discuta?
 *Responde Orador 2.*
 > El suelo no es nuestro: 126 minutos es lo que tarda de verdad una línea industrial solo en coser una chaqueta forrada, según un estudio de tiempos publicado, y una chaqueta de lujo no baja de ahí. 180 no es suelo: es la referencia de una fábrica premium, y solo sirve para contrastar. Si alguien lo discute, el revisor cronometra una muestra y queda por escrito.
+
+---
+
+## Lo que preguntó el jurado de la ronda 4 (no cambia el pitch)
+
+### 22. ¿Por qué os pagaría 720 € por taller y año en vez de pedir ella misma el informe a la gestoría y hacer la división en una hoja de cálculo?
+*Responde Orador 4.*
+> Con un taller, podría hacerlo ella. Lo que su hoja de cálculo no da: sumar los pedidos de otras marcas en el mismo taller sin que ninguna vea los de las otras, porque eso solo lo puede hacer un tercero; el suelo de minutos; las subcontratas declaradas de toda la cadena; el revisor y el plan firmado; y un historial que documenta qué vio y qué hizo.
+
+### 23. ¿Qué responsable de cumplimiento firma no recortar más de un 20 % con un recuento firmado de gente sin alta en su cadena? ¿Con qué excepciones (trata, riesgo grave, requerimiento judicial), y qué le decís al fiscal si lo ve como seguir comprando a sabiendas?
+*Responde Orador 3.*
+> Las excepciones están escritas: negativa a cooperar, peligro grave e inminente, trabajo forzoso confirmado y lo que ordene una autoridad; la trata la añadimos. Al fiscal: seguir comprando con un plan supervisado que da de alta a la gente no es mirar a otro lado; Milán reprochó no verificar. Que se sostenga lo confirma un abogado antes del piloto, y quién lo firma aún no lo sabemos.
+
+### 24. En vuestra demo la visita sin aviso llega 33 días después de la alerta, y el censo del revisor no lo protege ningún secreto profesional si lo pide un juzgado.
+*Responde Orador 3.*
+> Tiene razón en las dos. La fecha de la demo es un ejemplo anterior a la regla: visita sin aviso antes de comunicar la alerta, en 7 días como máximo, al proveedor y a las subcontratas que tenga declaradas. El censo va seudonimizado, con una regla escrita para requerimientos de una autoridad. Pero si un juzgado lo pide, no podemos garantizar que no se entregue.
+
+Fuentes: `problemas/b_varias_marcas.md` (tercero con al menos tres marcas), `problemas/c_informe_complaciente.md` (suelo e historial), `problemas/f_rojo_abandono.md` y `investigacion/encaje_legal.md` §f (excepciones de la cláusula; OCDE §3.2.5 y directrices de la Comisión §6.4.3: salir como último recurso), `investigacion/hechos_legales.md` §1 (Milán reprochó no verificar la capacidad), `problemas/metricas_impacto.md` (censo con códigos).
 
 ---
 
@@ -171,6 +189,6 @@ Respuestas de **25 s como máximo (≤ 70 palabras)**: dato clave → límite ho
 
 ## Recuento por respuesta
 
-Todas ≤ 70 palabras (cuenta automática de las líneas «>»): J1 69 · J2 70 · J3 68 · J4 70 · J5 67 · 1: 63 · 2: 69 · 3: 61 · 4: 69 · 5: 69 · 6: 63 · 7: 68 · 8: 70 · 9: 64 · 10: 63 · 11: 58 · 12: 67 · 13: 63 · 14: 66 · 15: 64 · 16: 67 · 17: 69 · 18: 63 · 19: 70 · 20: 65 · 21: 66 · R1 52 · R2 63 · R3 61 · R4 68 · R5 58 · R6 57 · R7 52. Si el jurado corta, basta la primera frase: ya lleva el dato.
+Todas ≤ 70 palabras (cuenta automática de las líneas «>»): J1 69 · J2 70 · J3 68 · J4 70 · J5 67 · 1: 63 · 2: 69 · 3: 61 · 4: 69 · 5: 69 · 6: 63 · 7: 68 · 8: 70 · 9: 64 · 10: 63 · 11: 58 · 12: 67 · 13: 63 · 14: 66 · 15: 64 · 16: 68 · 17: 68 · 18: 63 · 19: 70 · 20: 65 · 21: 66 · 22: 67 · 23: 67 · 24: 68 · R1 52 · R2 63 · R3 61 · R4 68 · R5 58 · R6 57 · R7 52. Si el jurado corta, basta la primera frase: ya lleva el dato.
 
 Fuentes de las respuestas nuevas: suelo de minutos (`problemas/c_informe_complaciente.md`, ronda 3), personas sin alta y meta 2030 (`problemas/metricas_impacto.md`, ronda 3, recalculada con las cifras de Negocio), cláusula cero (`problemas/f_rojo_abandono.md`), mercado en marcas y primeras clientas (`problemas/h_precio_mercado.md` §6), Inspección y caso de Valencia (`problemas/d_no_declarado_vs_forzoso.md`). Ronda 4: suelo de minutos = mínimo industrial de 126 min y 180 como referencia premium (`problemas/c_informe_complaciente.md`, cifras 1,03× y 1,47×); Italia, LUL, DURC y Asse.Co (`investigacion/fuentes_horas.md` §7, `investigacion/hechos_legales.md` §5); «prueba en contra», reproche de Milán y salida de Loro Piana (`investigacion/hechos_legales.md` §1, `investigacion/encaje_legal.md` §d, fuente [18]).

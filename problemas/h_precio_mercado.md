@@ -16,7 +16,7 @@
    - Núcleo: **340 empresas**. En España, 165 fabricantes de confección, piel y calzado con 50 o más asalariados (INE). En Italia, 175 empresas de moda de más de 100 M€ (Mediobanca).
    - Con 30-40 talleres cada una (supuesto): **≈ 8,6 M€/año**.
    - **Primeras clientas: marcas que fabrican en Italia y en España**, con el piloto en sus talleres españoles.
-   - **Meta 2030: 40 marcas y ≈ 1.500 talleres** (supuesto).
+   - **Meta 2030: 40 marcas × ≈ 37 talleres ≈ 1.500 relaciones marca-taller (≈ 1,08 M€/año), ≈ 1.150 talleres distintos** (supuesto).
 7. **Quitado:**
    - «90 € por taller y mes» como cuota: con 40 talleres son 43.200 €/año, por encima de lo que pagan hoy las marcas a EcoVadis según fuentes de terceros.
    - «Menos que una auditoría al año» y «menos que una persona de cumplimiento»: no tienen fuente.
@@ -178,16 +178,16 @@ Cuadra con la cuenta en talleres (sección 4). En España, 165 × 30 = 4.950 par
 
 **Meta 2030 (negocio; supuesto):**
 - **40 marcas clientas** (25 en España, 15 en Italia).
-- **≈ 1.500 talleres únicos vigilados**: ≈ 2.000 pares, con ≈ 1,3 marcas por taller (supuesto).
-- **≈ 1,44 M€/año** de cuota.
-- **≈ 15.000 personas** en esas plantillas (supuesto: ≈10 por taller). Referencias: la marroquinería italiana tiene 11 de media, 46.803 / 4.223 ✅. En España, las empresas de 1 a 49 asalariados tienen ≈7, estimación propia con el punto medio de cada estrato del INE.
-- Camino: 2027, 3 marcas / 90 pares · 2028, 10 / 350 · 2029, 20 / 800 · 2030, 40 / 2.000.
+- **≈ 37 talleres por marca** (dentro del rango de 30-40 del mercado): ≈ 1.500 relaciones marca-taller. Con ≈ 1,3 marcas de Trama por taller (supuesto), **≈ 1.150 talleres distintos vigilados**.
+- **≈ 1,08 M€/año** de cuota (1.500 × 720 €).
+- **≈ 11.500 personas** en esas plantillas (supuesto: ≈10 por taller). Referencias: la marroquinería italiana tiene 11 de media, 46.803 / 4.223 ✅. En España, las empresas de 1 a 49 asalariados tienen ≈7, estimación propia con el punto medio de cada estrato del INE.
+- Camino: 2027, 3 marcas / 90 pares · 2028, 10 / 350 · 2029, 20 / 800 · 2030, 40 / ≈ 1.500.
 - Las altas y las personas protegidas las fija el mentor de Impacto.
 
 ## Respuesta de 25 s
 
-**«¿Cuántas marcas os pueden comprar?»** (67 palabras)
-> «En España, 165 fabricantes de moda, piel y calzado con 50 o más asalariados, según el INE; en Italia, 175 grupos de moda de más de 100 millones. Con 30 a 40 talleres cada uno, son unos 8,6 millones al año. Empezamos por las marcas que fabrican en los dos países, y la meta para 2030 es de 40 marcas y 1.500 talleres. Todo, supuestos por validar.»
+**«¿Cuántas marcas os pueden comprar?»** (68 palabras)
+> «En España, 165 fabricantes de moda, piel y calzado con 50 o más asalariados, según el INE; en Italia, 175 grupos de moda de más de 100 millones. Con 30 a 40 talleres cada uno, son unos 8,6 millones al año. Empezamos por las marcas que fabrican en los dos países, y la meta para 2030 es de 40 marcas y unos 1.150 talleres. Todo, supuestos por validar.»
 
 **«¿Por qué pagaría ya una marca en España?»** (68 palabras)
 > «Porque las casas de lujo que producen en Ubrique también producen en Italia, y allí la presión ya existe: la Fiscalía de Milán ha pedido documentos sobre su cadena a 22 marcas, sin investigarlas. Lo que allí les piden, aquí, que sepamos, nadie lo cruza, y en España el dato de horas es oficial. El artículo 42 todavía tiene que confirmarlo un laboralista.»

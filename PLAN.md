@@ -46,3 +46,6 @@ Siguiente al reanudar, en este orden:
 - En marcha: mentor B3 Negocio (revisa precio/mercado del pitch y escribe `problemas/` b, h, i, competencia) · jurado R1-F1.
 - Siguiente: jurados R1-F2 y R1-R1 cuando quede hueco → `jurado/r1/notas.json` → medias → mentores aplican mejoras (v2). Luego Impacto (a, c, d, e, f, g, métricas) → PROBLEMAS_CERRADOS → Lovable → cierre.
 - Git: árbol compartido en la rama `pulido`; `main` se actualiza con un merge sin checkout (script en el scratchpad: commit-tree + update-ref).
+
+## 03:25 — CIERRE
+Hecho todo el plan: Equipo A (MVP) → investigación → Equipo B / mentores → 4 rondas de jurado (6,52 → 6,43 → 6,73 → 6,23; bucle parado: 4 rondas, máximo) → verificación final (lint 0, tests 101/101, e2e 25/25 sin internet, 0 marcas reales y 0 palabras vetadas en src, licencias documentadas, sin remotos) → `LEEME_PRIMERO.md` e `INFORME_FINAL.md`. Pendiente solo lo humano (ver `LEEME_PRIMERO.md` §4) y el push a GitHub (bloqueado por permisos).

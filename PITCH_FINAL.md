@@ -67,7 +67,7 @@ Si preguntan de dónde salen los datos: botón «3 · Documentos» (plantilla me
 
 ### [2:49–3:21] Negocio · Orador 4
 
-> Paga la marca: 60 euros por taller y mes y el informe del gestor a coste; margen bruto del 80 %, por validar. Empezamos por marcas que fabrican en Italia y en España: allí, la Fiscalía de Milán pidió documentos a 22, ninguna investigada; aquí, el piloto mira sus talleres. Mercado: 165 fabricantes españoles medianos y grandes y 175 grupos italianos; con 30 a 40 talleres cada uno, 8,6 millones al año. Meta 2030: 40 marcas, 1.500 talleres y unas 15.000 personas.
+> Paga la marca: 60 euros por taller y mes y el informe del gestor a coste; margen bruto del 80 %, por validar. Empezamos por marcas que fabrican en Italia y en España: allí, la Fiscalía de Milán pidió documentos a 22, ninguna investigada; aquí, el piloto mira sus talleres. Mercado: 165 fabricantes españoles medianos y grandes y 175 grupos italianos; con 30 a 40 talleres cada uno, 8,6 millones al año. Meta 2030: 40 marcas, unos 1.150 talleres y 11.500 personas.
 
 ### [3:21–3:37] Lo que hemos validado, y lo que no · Orador 4
 
@@ -96,7 +96,7 @@ Si preguntan de dónde salen los datos: botón «3 · Documentos» (plantilla me
 ---
 
 ## Si vamos tarde (se corta en este orden)
-1. Negocio: «Meta 2030: 40 marcas, 1.500 talleres y unas 15.000 personas» (está en la hoja y en la pregunta 17).
+1. Negocio: «Meta 2030: 40 marcas, unos 1.150 talleres y 11.500 personas» (está en la hoja y en la pregunta 17).
 2. Por qué ya: «En España, la Inspección afloró en 2025 más de 120.000 empleos irregulares;» (preguntas 14 y R6).
 3. Solución: «En Italia, del registro de horas del gestor» (pregunta 19).
 
@@ -147,7 +147,7 @@ Método: cuenta automática de las líneas «>», con la versión B en llamada y
 | 60 € por taller y mes + informe a coste; margen bruto del 80 % | `problemas/h_precio_mercado.md`: coste de servir ≈ 12 €/taller/mes → 80 % de la cuota, a escala (≈ 400 talleres por analista) | ⚠ supuestos por validar |
 | La Fiscalía de Milán pidió documentos a 22 [marcas], ninguna investigada | 13 órdenes de entrega de documentos (3-12-2025) y 9 peticiones (jul-2026); ninguna marca investigada (`investigacion/hechos_legales.md` §1.d: [AGI](https://www.agi.it/cronaca/news/2025-12-04/sfruttamento-cinese-capolarato-brand-di-lusso-inchiesta-34483372/), [Milano Finanza](https://www.milanofinanza.it/fashion/pm-milano-acquisizioni-di-atti-presso-nove-case-di-moda-202607161854071180)) | ✅ |
 | Mercado: 165 fabricantes españoles medianos y grandes y 175 grupos italianos de moda; con 30 a 40 talleres cada uno, 8,6 M€ | España: 165 empresas de confección, piel y calzado con 50 o más asalariados ([INE, DIRCE a 1-1-2025, tabla 73019](https://www.ine.es/jaxiT3/Tabla.htm?t=73019)); Italia: 175 empresas de moda de más de 100 M€ ([Mediobanca](https://www.mediobanca.com/it/hp-media/eventi-iniziative/l-area-studi-mediobanca-pubblica-il-nuovo-report-sulla-moda.html)). 165 × 30 × 720 € + 175 × 40 × 720 € = 3,56 + 5,04 M€ | ✅ cifras / ⚠ talleres por cliente, supuesto |
-| Meta 2030: 40 marcas, 1.500 talleres y unas 15.000 personas | Supuestos de `problemas/h_precio_mercado.md` §6 (≈ 10 personas por taller); cuenta completa en `HOJA_DATOS.md` | ⚠ supuesto |
+| Meta 2030: 40 marcas, unos 1.150 talleres y 11.500 personas | 40 marcas × ≈ 37 talleres ≈ 1.500 relaciones marca-taller (× 720 € ≈ 1,08 M€/año); con ≈ 1,3 marcas de Trama por taller, ≈ 1.150 talleres distintos; × ≈ 10 personas por taller ≈ 11.500 (`problemas/h_precio_mercado.md` §6; cuenta completa en `HOJA_DATOS.md`) | ⚠ supuesto |
 | No hemos hablado con ninguna marca, gestoría, taller, sindicato ni ONG; veinte contactos comprobados | `LLAMADAS.md` §1 y `MARCAS.md` (comprobados el 7-nov en sus webs oficiales) | ✅ (igual que la hoja) |
 
 **Lo que ya no se dice en voz alta** (está en `PREGUNTAS.md` o en la hoja): el art. 42 ET (abierto), los competidores (pregunta 3), el mercado en talleres (6.083 empresas, 4,4 M€), «con 30 talleres, 21.600 €», las guías de la Comisión sobre pedidos y capacidad (R5), «Hicimos la cuenta», «nunca los pedidos de otra», «Subir el precio por pieza lo decide compras» (hoja y pregunta 12) y «suelo de lujo de 180» (180 es la referencia premium, no un suelo).
