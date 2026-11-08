@@ -329,9 +329,8 @@ export const TEXTOS_ESCENAS = {
     titulo: "Taller con 4 marcas",
     resumen: "Con cada marca por separado sale verde. Al sumar los pedidos de las cuatro, rojo.",
     datos: "Datos ficticios",
-    /** "Laboratorio Ligustro (ficticio) · 10 personas de alta · 4.800 h de alta en el trimestre" */
-    taller: (nombre: string, personas: string, horas: string) =>
-      `${nombre} · ${personas} personas de alta · ${horas} de alta en el trimestre`,
+    /** "Taller: Laboratorio Ligustro (ficticio) · 10 personas de alta" */
+    taller: (nombre: string, personas: string) => `Taller: ${nombre} · ${personas} personas de alta`,
     marca: {
       etiqueta: "Panel de Ordessa",
       titulo: "Lo que ve Ordessa",

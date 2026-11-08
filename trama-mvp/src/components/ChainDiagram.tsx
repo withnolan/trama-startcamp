@@ -1,4 +1,5 @@
 import { CircleCheck, MapPin, Users } from "lucide-react";
+import type { ReactNode } from "react";
 import { Semaforo } from "@/components/Semaforo";
 import { NIVEL_CADENA, PAIS_NOMBRE, TEXTOS_CADENA } from "@/content/textos";
 import type { NodoCadena } from "@/lib/calculo/tipos";
@@ -6,10 +7,12 @@ import { fmtFecha, fmtNumero } from "@/lib/formato";
 
 export interface ChainDiagramProps {
   nodos: NodoCadena[];
+  /** contenido extra al pie de cada nodo, por id (las cuentas de /escenas) */
+  detalle?: Partial<Record<string, ReactNode>>;
 }
 
 /** Marca → proveedor → subcontratas: horizontal desde 1024 px, vertical por debajo. */
-export function ChainDiagram({ nodos }: ChainDiagramProps) {
+export function ChainDiagram({ nodos, detalle = {} }: ChainDiagramProps) {
   const columnas = ([0, 1, 2, 3] as const).map((n) => nodos.filter((x) => x.nivel === n)).filter((c) => c.length > 0);
 
   return (
@@ -35,10 +38,10 @@ export function ChainDiagram({ nodos }: ChainDiagramProps) {
                         </p>
                         <p className="mt-2 font-serif text-xl font-semibold text-tinta-2">{TEXTOS_CADENA.fantasma}</p>
                       </div>
-                      <Nodo nodo={nodo} dataM="nodo-subcontrata" />
+                      <Nodo nodo={nodo} dataM="nodo-subcontrata" detalle={detalle[nodo.id]} />
                     </div>
                   ) : (
-                    <Nodo key={nodo.id} nodo={nodo} />
+                    <Nodo key={nodo.id} nodo={nodo} detalle={detalle[nodo.id]} />
                   ),
                 )}
               </div>
@@ -51,7 +54,7 @@ export function ChainDiagram({ nodos }: ChainDiagramProps) {
   );
 }
 
-function Nodo({ nodo, dataM }: { nodo: NodoCadena; dataM?: string }) {
+function Nodo({ nodo, dataM, detalle }: { nodo: NodoCadena; dataM?: string; detalle?: ReactNode }) {
   if (nodo.pendiente) {
     return (
       <div className="flex flex-1 flex-col justify-center gap-2 rounded-lg border-2 border-dashed border-borde-fuerte bg-papel p-5">
@@ -107,6 +110,7 @@ function Nodo({ nodo, dataM }: { nodo: NodoCadena; dataM?: string }) {
           {TEXTOS_CADENA.extension}
         </p>
       )}
+      {detalle}
     </article>
   );
 }

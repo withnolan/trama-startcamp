@@ -21,36 +21,36 @@ const TARJETA = "rounded-lg border border-borde bg-superficie p-6 shadow-card";
 const ETIQUETA = "text-sm font-medium uppercase tracking-[0.08em] text-tinta-2";
 const ENLACE =
   "text-marca underline underline-offset-4 hover:text-marca-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-marca";
-// Sin subnav en esta página: el ancla solo salva la cabecera pegajosa (nav + aviso).
-const SECCION = "flex scroll-mt-28 flex-col gap-6";
+const SECCION = "flex flex-col gap-6";
 
 export default function EscenasPage() {
   return (
-    <div className="flex flex-col gap-12">
-      {/* Cabecera en una sola fila: al entrar desde la nav, la escena de las 4 marcas se ve entera a 1280×720. */}
-      <header className="flex flex-wrap items-center justify-between gap-x-8 gap-y-4">
-        <h1 className="font-serif text-3xl font-semibold text-tinta">{T.titulo}</h1>
-        <nav aria-label={T.indiceAria}>
-          <ol className="flex flex-wrap gap-2">
+    <div className="flex flex-col gap-10">
+      {/* Pegajosa y de la misma altura que la subnav del taller: los botones de escena siguen a mano en la demo
+          y el scroll-margin-top global de las anclas ya la cuenta. */}
+      <header className="sticky top-[calc(var(--alto-nav)+var(--alto-aviso))] z-30 flex h-(--alto-subnav) items-center justify-between gap-6 border-b border-borde bg-papel">
+        <h1 className="shrink-0 font-serif text-3xl font-semibold text-tinta">{T.titulo}</h1>
+        <nav aria-label={T.indiceAria} className="min-w-0 overflow-x-auto">
+          <ol className="flex gap-2">
             {[
-              { href: "#cuatro-marcas", texto: T.cuatroMarcas.titulo },
               { href: "#caso-milan", texto: T.casoMilan.corto },
+              { href: "#cuatro-marcas", texto: T.cuatroMarcas.titulo },
               { href: "#documentos", texto: T.documentos.corto },
-            ].map((a, i) => (
+            ].map((a, n) => (
               <li key={a.href}>
                 <a
                   href={a.href}
-                  className="block rounded-md border border-borde-fuerte bg-superficie px-4 py-2 font-medium text-tinta hover:bg-superficie-2"
+                  className="block whitespace-nowrap rounded-md border border-borde-fuerte bg-superficie px-4 py-1.5 font-medium text-tinta hover:bg-superficie-2"
                 >
-                  {i + 1} · {a.texto}
+                  {n + 1} · {a.texto}
                 </a>
               </li>
             ))}
           </ol>
         </nav>
       </header>
-      <CuatroMarcas />
       <CasoMilan />
+      <CuatroMarcas />
       <Documentos />
     </div>
   );
@@ -85,7 +85,6 @@ function CuatroMarcas() {
           <Badge variante="neutro">{C.datos}</Badge>
         </div>
         <p className="text-lg text-tinta">{C.resumen}</p>
-        <p className="text-tinta-2 tabular-nums">{C.taller(e.taller, fmtNumero(e.personas), fmtHoras(e.ordessa.horasDeAlta))}</p>
       </header>
 
       <div className="grid gap-6 lg:grid-cols-12">
@@ -95,6 +94,7 @@ function CuatroMarcas() {
             <h3 id="titulo-ve-ordessa" className="text-xl font-semibold text-tinta">
               {C.marca.titulo}
             </h3>
+            <p className="text-sm text-tinta-2 tabular-nums">{C.taller(e.taller, fmtNumero(e.personas))}</p>
           </header>
           <div className="flex flex-wrap items-center gap-4">
             <Semaforo estado={e.ordessa.estado} tamano="lg" />
@@ -241,7 +241,40 @@ function CasoMilan() {
     { id: "B", nombre: M.nodos.subproveedor, tipo: "subcontrata", nivel: 2, padreId: "A", plantilla: e.personasB, estado: e.subproveedorB.estado },
   ];
   const necesarias = fmtHoras(e.necesarias);
-  const cifra = "text-kpi font-semibold leading-none tracking-tight tabular-nums";
+  const pie = "flex flex-col gap-1 border-t border-borde pt-3";
+  const cifra = "text-kpi font-semibold leading-none tracking-tight tabular-nums text-rojo-texto";
+  // Cada eslabón lleva su cuenta: se lee de izquierda a derecha, como la cadena.
+  const detalle = {
+    M: (
+      <div className={pie}>
+        <p className={ETIQUETA}>{M.pedidos.titulo}</p>
+        <p className="text-xl font-semibold text-tinta tabular-nums">{M.pedidos.unidades(fmtNumero(e.chaquetasAno))}</p>
+        <p className="text-tinta tabular-nums">{M.pedidos.horas(fmtNumero(e.minutos), necesarias)}</p>
+        <p className="text-sm text-tinta-2">
+          {M.pedidos.unidadesNota} {M.pedidos.minutosNota(fmtNumero(e.minutos))}
+        </p>
+      </div>
+    ),
+    A: (
+      <div className={pie}>
+        <p className={cifra}>{fmtRatio(e.proveedorA.ratio, 2)}</p>
+        <p className="text-tinta tabular-nums">
+          {M.proveedor.titulo}: {M.proveedor.texto(necesarias)}
+        </p>
+        <p className="font-medium text-rojo-texto">{M.proveedor.conclusion}</p>
+      </div>
+    ),
+    B: (
+      <div className={pie}>
+        <p className={cifra}>{fmtRatio(e.subproveedorB.ratio, 2)}</p>
+        <p className="text-tinta tabular-nums">
+          {M.subproveedor.texto(necesarias, fmtHoras(e.deAltaB), fmtNumero(e.personasB), fmtHoras(e.horasPersonaAno))}
+        </p>
+        <p className="font-medium text-rojo-texto">{M.subproveedor.conclusion(fmtRatio(P.umbralRojo, 2))}</p>
+        <p className="text-sm text-tinta-2 tabular-nums">{M.umbral(fmtNumero(e.minutosRojo), fmtNumero(e.chaquetasAno))}</p>
+      </div>
+    ),
+  };
   return (
     <section id="caso-milan" aria-labelledby="titulo-caso-milan" className={SECCION}>
       <header className="flex flex-col gap-2">
@@ -253,36 +286,7 @@ function CasoMilan() {
         </div>
         <p className="text-lg text-tinta">{M.resumen}</p>
       </header>
-
-      <ChainDiagram nodos={nodos} />
-
-      {/* Una columna bajo cada eslabón de la cadena (mismo reparto: 3 columnas y 4rem de hueco). */}
-      <div className="grid gap-6 lg:grid-cols-3 lg:gap-16">
-        <div className={`${TARJETA} flex flex-col gap-2`}>
-          <p className={ETIQUETA}>{M.pedidos.titulo}</p>
-          <p className="text-xl font-semibold text-tinta tabular-nums">{M.pedidos.unidades(fmtNumero(e.chaquetasAno))}</p>
-          <p className="text-lg text-tinta tabular-nums">{M.pedidos.horas(fmtNumero(e.minutos), necesarias)}</p>
-          <p className="text-sm text-tinta-2">
-            {M.pedidos.unidadesNota} {M.pedidos.minutosNota(fmtNumero(e.minutos))}
-          </p>
-        </div>
-        <div className={`${TARJETA} flex flex-col gap-2`}>
-          <p className={ETIQUETA}>{M.proveedor.titulo}</p>
-          <p className={`${cifra} text-rojo-texto`}>{fmtRatio(e.proveedorA.ratio, 2)}</p>
-          <p className="text-lg text-tinta tabular-nums">{M.proveedor.texto(necesarias)}</p>
-          <p className="font-medium text-rojo-texto">{M.proveedor.conclusion}</p>
-        </div>
-        <div className={`${TARJETA} flex flex-col gap-2`}>
-          <p className={ETIQUETA}>{M.subproveedor.titulo(fmtNumero(e.personasB))}</p>
-          <p className={`${cifra} text-rojo-texto`}>{fmtRatio(e.subproveedorB.ratio, 2)}</p>
-          <p className="text-lg text-tinta tabular-nums">
-            {M.subproveedor.texto(necesarias, fmtHoras(e.deAltaB), fmtNumero(e.personasB), fmtHoras(e.horasPersonaAno))}
-          </p>
-          <p className="font-medium text-rojo-texto">{M.subproveedor.conclusion(fmtRatio(P.umbralRojo, 2))}</p>
-          <p className="text-sm text-tinta-2 tabular-nums">{M.umbral(fmtNumero(e.minutosRojo), fmtNumero(e.chaquetasAno))}</p>
-        </div>
-      </div>
-
+      <ChainDiagram nodos={nodos} detalle={detalle} />
       <p className="border-l-4 border-borde-fuerte pl-4 text-sm text-tinta-2">{M.nota}</p>
     </section>
   );
