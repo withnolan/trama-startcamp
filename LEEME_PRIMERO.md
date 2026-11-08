@@ -6,7 +6,7 @@
 1. **`PITCH_FINAL.md`** — ✅ v1 (549 palabras, reparto por oradores, demo de 50 s con ruta A/B/C, huecos [RELLENAR] y versión B). Antes de las 17:30 decidid llamada, marcas y equipo (arriba del archivo). *El jurado simulado lo evaluará esta noche.*
 2. **`PREGUNTAS.md`** — ✅ v1: J1-J5 + 10 preguntas duras + 4 de reserva, ≤ 25 s cada una. También `HOJA_DATOS.md` (1 página de cifras con fuente) y `DOCUMENTO_MAESTRO.md`.
 3. **`LLAMADAS.md`** — ✅ listo. 20 contactos públicos verificados (7 para hoy domingo), guion de 2 min y borradores de WhatsApp/correo **sin enviar**.
-4. **`MARCAS.md`** — mensajes a marcas para enviar esta noche. *En preparación.*
+4. **`MARCAS.md`** — ✅ 17 marcas con canal público comprobado; las 5 primeras: Aeffe, Adolfo Domínguez, Camper, Piquadro y Mascaró. Borradores de email/LinkedIn (también en italiano) **sin enviar**: enviadlos vosotros y apuntad cada respuesta, también los «no», en el registro del archivo.
 5. `PROBLEMAS_CERRADOS.md` (críticas del jurado y cómo se cierran) · `PRESENTACION_LOVABLE.md` (diapositivas + prompt) · `DOCUMENTO_MAESTRO.md`. *En preparación.*
 
 ## 2. Cómo arrancar la demo (sin internet una vez instalada)
