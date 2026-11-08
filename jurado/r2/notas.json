@@ -1,0 +1,53 @@
+[
+ {
+  "perfil": "Profesora de emprendimiento social",
+  "fijo": true,
+  "notas": {
+   "problema_impacto": 7,
+   "solucion_innovacion": 7,
+   "negocio_viabilidad": 5,
+   "validacion_gtm": 4,
+   "equipo_ejecucion": 7,
+   "pitch_demo": 8
+  },
+  "global": 6,
+  "fuerte": "Tienen un rigor y una honestidad poco habituales: una métrica sencilla, difícil y cara de inflar (pedidos × minutos frente a horas cotizadas), reconstruida sobre un caso real con fuentes, con lo simulado y lo no validado bien marcado, y con métricas de impacto pensadas contra el efecto perverso de cortar al taller.",
+  "fallo": "No han contrastado ninguna pieza de la cadena con quien tiene que hacerla funcionar (ni una marca, ni una gestoría, ni un taller, ni un trabajador), y la alerta depende de los minutos que mete quien paga: su propio caso Milán solo da rojo por encima de unos 135 min por chaqueta, y en piel y calzado, que es su fase 1, a veces ni la marca tiene esos minutos.",
+  "pregunta": "Los minutos por prenda los pone la marca, que es quien os paga y a quien cada rojo le cuesta entre 1.000 y 3.000 € y le impide cortar de golpe. ¿Qué le impide bajarlos para salir en verde y usar Trama como coartada documental, y quién validaría ese dato si no es ella?",
+  "subiria": "Llegar a la final con cinco conversaciones documentadas: una gestoría que confirme que puede sacar el informe cada mes y si pondera la jornada parcial, y dos responsables de cumplimiento que digan si pagarían 60 € por taller. Y fijar un mínimo de minutos por tipo de prenda y segmento con referencias externas, más una meta cifrada de personas cubiertas en 2030."
+ },
+ {
+  "perfil": "Inversora early-stage",
+  "fijo": true,
+  "notas": {
+   "problema_impacto": 7,
+   "solucion_innovacion": 7,
+   "negocio_viabilidad": 5,
+   "validacion_gtm": 4,
+   "equipo_ejecucion": 7,
+   "pitch_demo": 8
+  },
+  "global": 6,
+  "fuerte": "La mecánica es simple, usa una fuente oficial y es difícil de maquillar, porque inflar las horas de alta obliga a cotizar; además, el diseño de impacto es poco habitual: mide si el hueco se cierra con altas y no retirando pedidos, frena el «cortar y huir» y separa con honestidad lo simulado de lo comprobado.",
+  "fallo": "Nadie del lado de quien paga ha validado nada (ni marca, ni gestoría, ni taller), y en España el motivo de compra es débil: el alcance del art. 42 ET está abierto y la presión de verdad, la de Milán, está en Italia, que dejáis para la fase 2. Además, el mercado está contado en talleres y no en las marcas que compran, y el techo español de 4,4 M€/año es pequeño para escalar.",
+  "pregunta": "Si cada rojo le cuesta a la marca entre 1.000 y 3.000 € de revisor y los minutos del escandallo los pone ella, ¿qué le impide bajarlos para salir en verde? ¿Y qué os compra entonces: control de su cadena o una coartada documentada?",
+  "subiria": "Traer una señal real de quien paga: un responsable de cumplimiento que diga por escrito qué pagaría y por qué, una gestoría que confirme que saca el informe cada mes, a qué coste y si pondera la jornada parcial, y un escandallo real con minutos por operación. Y rehacer el mercado en marcas que compran (cuántas y con cuántos talleres en España), empezando por las que ya sufrieron lo de Milán y producen aquí."
+ },
+ {
+  "perfil": "Experta en medición de impacto social",
+  "fijo": false,
+  "notas": {
+   "problema_impacto": 8,
+   "solucion_innovacion": 7,
+   "negocio_viabilidad": 6,
+   "validacion_gtm": 4,
+   "equipo_ejecucion": 8,
+   "pitch_demo": 8
+  },
+  "global": 7,
+  "fuerte": "Han diseñado contra el efecto perverso del propio caso Loro Piana: una cláusula firmada de antemano obliga a corregir antes de cortar, la corrección la paga la marca y la métrica solo cuenta como impacto el hueco cerrado con altas nuevas desde el día de la alerta, no el que se cierra quitando pedidos.",
+  "fallo": "No han validado nada con nadie, así que toda la cadena de impacto es un supuesto. Además, las personas más vulnerables, las que trabajan sin alta y sin vía de regularización, no aparecen en el dato que usan: ni la cláusula ni las métricas garantizan que no desaparezcan del taller en silencio o acaben en otro que nadie vigila.",
+  "pregunta": "De la gestoría solo os llega un total y quien trabaja sin alta no figura en él. ¿Quién cuenta a esas personas el día de la alerta? ¿Cómo comprobáis sin nombres que a los seis meses siguen siendo las mismas? ¿Y qué pasa con quien no tiene vía de regularización?",
+  "subiria": "Una conversación real que confirme el eslabón más débil (una gestoría que saque el informe mensual con la jornada parcial ponderada y diga lo que cuesta, o un sindicato u ONG que acepte ser revisor y llevar el censo confidencial de quien no tiene alta). También una meta agregada a 2030 (talleres, personas cubiertas, altas esperadas) y que la cláusula proteja ya desde la entrada, para que exigir Trama no sirva para descartar talleres antes de la primera alerta."
+ }
+]
