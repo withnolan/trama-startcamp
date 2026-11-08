@@ -1,0 +1,124 @@
+{
+  "version": "capturado-2026-11-08",
+  "empresasPorTramo": {
+    "cnae14": {
+      "valor": {
+        "1-2": 2040,
+        "3-5": 832,
+        "6-9": 448,
+        "10-19": 370,
+        "20-49": 176
+      },
+      "unidad": "empresas",
+      "fuente": {
+        "url": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/73019?nult=1",
+        "consultado": "2026-11-08",
+        "sha256": "92bb702caad08478b13e395aa2b6be906c94975c3092c5c4edcaa24bf9eec989"
+      },
+      "nota": "INE, DIRCE a 1-1-2025 (tabla 73019), CNAE 14 Confección de prendas de vestir, empresas por tramo de asalariados. Series DIR184993, DIR184994, DIR184995, DIR184996, DIR184997.",
+      "capturado": true
+    },
+    "cnae15": {
+      "valor": {
+        "1-2": 800,
+        "3-5": 434,
+        "6-9": 308,
+        "10-19": 371,
+        "20-49": 304
+      },
+      "unidad": "empresas",
+      "fuente": {
+        "url": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/73019?nult=1",
+        "consultado": "2026-11-08",
+        "sha256": "92bb702caad08478b13e395aa2b6be906c94975c3092c5c4edcaa24bf9eec989"
+      },
+      "nota": "INE, DIRCE a 1-1-2025 (tabla 73019), CNAE 15 Industria del cuero y del calzado, empresas por tramo de asalariados. Series DIR185045, DIR185046, DIR185047, DIR185048, DIR185049.",
+      "capturado": true
+    }
+  },
+  "jornadaAnualConvenio": {
+    "textil": {
+      "valor": 1789,
+      "unidad": "h/año",
+      "fuente": {
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20177",
+        "consultado": "2026-11-08",
+        "sha256": "d12fc9975f42c8670b51c0cfed100a3a195faed92c52f0f91deaf6b209269fe1"
+      },
+      "nota": "Convenio colectivo general de trabajo de la industria textil y de la confección, años 2024 a 2026 (BOE-A-2025-20177), Artículo 28. Jornada: «La jornada ordinaria de trabajo, en turno partido, será de cuarenta horas semanales de trabajo que, en ningún caso, superarán las mil setecientas ochenta y nueve horas anuales de trabajo.» Es el máximo anual de la jornada partida (40 h/semana), sin cambios por año; vigente hasta el 31-12-2026 (art. 4). En jornada continuada el art. 28.2 fija para 2026 1.798 h de presencia = 1.742 h de trabajo efectivo. Coincide con HOJA_DATOS.md (1.789 h).",
+      "capturado": true,
+      "verificado": true
+    },
+    "marroquineria": {
+      "valor": 1768,
+      "unidad": "h/año",
+      "fuente": {
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-6193",
+        "consultado": "2026-11-08",
+        "sha256": "cd365b207aa0f15235ff4c6885a9837996bec00b7a02bb1502cfb076b150f603"
+      },
+      "nota": "Convenio colectivo del grupo de marroquinería, cueros repujados y similares (Madrid, Castilla-La Mancha y otras) (BOE-A-2024-6193), Artículo 50. Jornada: «La jornada de trabajo será en cómputo anual de 1.768 horas de trabajo efectivo para los años de vigencia del presente convenio.» Vigencia hasta el 31-12-2025 (art. 12); en 2026 sigue aplicándose por prórroga o ultraactividad indefinida (art. 13) mientras no se publique uno nuevo. Coincide con HOJA_DATOS.md (1.768 h).",
+      "capturado": true,
+      "verificado": true
+    }
+  },
+  "horasSemanalesIndustria": {
+    "ES": {
+      "valor": 40,
+      "unidad": "h/semana",
+      "fuente": {
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsa_ewhun2?geo=ES&geo=IT&nace_r2=C&wstatus=SAL&worktime=FT&sex=T&age=Y15-64&unit=HR&format=JSON&lang=EN&lastTimePeriod=1",
+        "consultado": "2026-11-08",
+        "sha256": "2623ce06fe150f4a0dc7d18a88d4a65e523ddfabeff1a6eab28ae5b35aa6b17f"
+      },
+      "nota": "Eurostat lfsa_ewhun2 (EPA/LFS), 2025, España: horas habituales por semana en el empleo principal, asalariados a tiempo completo de 15 a 64 años, industria manufacturera (NACE C). Marca «d» de Eurostat («definition differs (see metadata)»): la definición nacional difiere; ver metadatos del dataset.",
+      "capturado": true
+    },
+    "IT": {
+      "valor": 40.3,
+      "unidad": "h/semana",
+      "fuente": {
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsa_ewhun2?geo=ES&geo=IT&nace_r2=C&wstatus=SAL&worktime=FT&sex=T&age=Y15-64&unit=HR&format=JSON&lang=EN&lastTimePeriod=1",
+        "consultado": "2026-11-08",
+        "sha256": "2623ce06fe150f4a0dc7d18a88d4a65e523ddfabeff1a6eab28ae5b35aa6b17f"
+      },
+      "nota": "Eurostat lfsa_ewhun2 (EPA/LFS), 2025, Italia: horas habituales por semana en el empleo principal, asalariados a tiempo completo de 15 a 64 años, industria manufacturera (NACE C).",
+      "capturado": true
+    }
+  },
+  "sueloMinutos": {
+    "americana_forrada": {
+      "valor": 126,
+      "unidad": "min/pieza",
+      "fuente": {
+        "url": "https://buft.edu.bd/upload/_page/P-7.pdf",
+        "consultado": "2026-11-08",
+        "sha256": null
+      },
+      "nota": "Mínimo industrial con la eficiencia real de una línea (problemas/c_informe_complaciente.md).",
+      "capturado": false
+    },
+    "marroquineria": {
+      "valor": null,
+      "unidad": "min/pieza",
+      "fuente": {
+        "url": "problemas/c_informe_complaciente.md",
+        "consultado": "2026-11-08",
+        "sha256": null
+      },
+      "nota": "Sin suelo publicado: minutos sin contrastar hasta que el piloto lo construya.",
+      "capturado": false
+    }
+  },
+  "referenciaPremiumMinutos": {
+    "valor": 180,
+    "unidad": "min/pieza",
+    "fuente": {
+      "url": "https://fashionunited.uk/press/fashion/creation-gross-fashion-made-in-germany/2021111559279",
+      "consultado": "2026-11-08",
+      "sha256": null
+    },
+    "nota": "Referencia de fábrica premium («hasta 180 min»): es el techo de su rango, no un suelo.",
+    "capturado": false
+  }
+}
