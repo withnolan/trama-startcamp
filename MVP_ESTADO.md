@@ -4,14 +4,20 @@
 - App Next.js 16 en `trama-mvp/`, sin backend: datos ficticios en `src/data/seed.json`, cálculo con tests en `src/lib/calculo`.
 - Rutas: `/` (entrada) · `/panel` (KPIs de impacto y tabla con filtros; el rojo sale primero) · `/taller/T1…T6` (semáforo y ratio,
   por qué salta y qué comprobar, horas, simulador, cadena, plan, protección, impacto, protocolo legal) · `/como-calculamos`
-  (con simulador) · `/legal`.
+  (con simulador) · `/legal` · `/escenas` (ronda de pulido, ver abajo).
 - Demo guiada: `/taller/T1?demo=1` (~18 s; `Esc` o clic → estado final; con movimiento reducido, todo al instante).
 - Simulador «Prueba el cálculo»: escenario de la demo y «Caso reconstruido con datos públicos» (anonimizado).
-- Plan B en `demo-backup/`: 28 PNG (14 pantallas a 1280×720 y 1920×1080) y `demo-T1-1280x720.webm` (demo completa).
+- `/escenas` (mismo cálculo que el panel, `src/lib/calculo`): **caso Milán 2025** (reconstrucción anonimizada con datos
+  públicos: proveedor sin taller → ∞; subproveedor de 7 personas con 6.000 chaquetas × 180 min → 1,47×, rojo desde ≈135 min),
+  **taller con 4 marcas** (ficticio: 0,40 · 0,35 · 0,30 · 0,25 verdes; suma 1,30 roja; Ordessa solo ve su verde y
+  «revisión abierta»; regla de 3 marcas) y **documentos de ejemplo SIMULADO** (plantilla media, escandallo, modelo 347).
+  Enlazada desde la navegación y el panel; botones de escena fijos para la demo del pitch.
+- Plan B en `demo-backup/`: 34 PNG (17 pantallas a 1280×720 y 1920×1080, con las escenas en 15-17) y
+  `demo-T1-1280x720.webm` (demo completa).
 
 ## Qué NO hay
-Backend, login, subida de informes, persistencia, datos reales, varias marcas, despliegue (GitHub/Vercel) ni diseño
-afinado para móvil (funciona, pero está pensado para proyector).
+Backend, login, subida de informes, persistencia, datos reales, varias marcas en el panel (solo en la escena y en el
+simulador), despliegue (GitHub/Vercel) ni diseño afinado para móvil (funciona, pero está pensado para proyector).
 
 ## Cómo arrancarlo (Windows, Git Bash)
 ```bash
@@ -24,7 +30,9 @@ Puerto 3000 ocupado: `npx next start -p 3001` (tras `npm run demo` o `npm run bu
 `demo-backup/` (PNG por pantalla o el vídeo).
 
 ## Verificación (con el build de producción)
-- `npm run lint`: 0 problemas · `npm test`: 96/96 (5 archivos) · `npm run build`: OK (14 páginas prerenderizadas).
+- Ronda de pulido (8-nov, 01:10, rama `pulido`): `npm run lint` 0 problemas · `npm test` 101/101 (6 archivos) ·
+  `npm run build` OK (15 páginas) · `npm run e2e` 25/25 (añade `/escenas` y una prueba de las escenas) · `npm run capturas` 35/35.
+- Base del Equipo A: `npm run lint`: 0 problemas · `npm test`: 96/96 (5 archivos) · `npm run build`: OK (14 páginas prerenderizadas).
 - `npm run e2e` (Playwright contra `next start`): 22/22. Las 7 rutas a 1280×720 y 1920×1080 sin `console.error`/`pageerror`,
   sin scroll horizontal y **sin internet** (se bloquea todo lo que no es localhost; las fuentes autoalojadas cargan); el
   rojo sale primero; 404; simulador (700 chaquetas → verde; caso reconstruido → rojo → ámbar → verde); `?demo=1` completo
