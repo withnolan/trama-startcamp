@@ -1,0 +1,4 @@
+taller_id;mes;ore_registrate_totali;num_lavoratori;durc_regolare;durc_scadenza;asseco_vigente;consulente;fecha_emision
+TI-01;2026-08;1600;10;true;2027-01-31;true;Studio Gelso (ficticio);2026-09-10
+TI-01;2026-09;1580;10;true;2027-01-31;true;Studio Gelso (ficticio);2026-10-10
+TI-01;2026-10;1620;10;true;2027-01-31;true;Studio Gelso (ficticio);2026-11-10

@@ -1,0 +1,5 @@
+taller_id;marca_id;periodo;cuota_pct;fuente
+TS-01;MARCA-A;2026-T3;35;303
+TI-01;MARCA-A;2025;60;347
+TS-02;MARCA-A;2026-10;80;declarada
+TS-01;MARCA-B;2026-T3;40;303
