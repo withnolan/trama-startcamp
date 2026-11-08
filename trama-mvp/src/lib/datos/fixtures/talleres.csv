@@ -1,0 +1,4 @@
+taller_id;nombre;pais;ciudad;provincia;nivel;padre_id;especialidad;convenio
+TS-01;Taller Mirlo S.L. (ficticio);ES;Ubrique;Cádiz;1;;Bolsos;marroquineria
+TS-02;Taller Jara S.L. (ficticio);ES;Ubrique;Cádiz;2;TS-01;Bolsos;marroquineria
+TI-01;Laboratorio Gelso S.r.l. (ficticio);IT;Prato;Prato;1;;Americane;textil

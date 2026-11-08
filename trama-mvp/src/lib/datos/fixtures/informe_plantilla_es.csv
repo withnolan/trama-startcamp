@@ -1,0 +1,7 @@
+taller_id;ccc_ficticio;mes;plantilla_media_ponderada;num_trabajadores;num_titulares;horas_titulares;firmante_tipo;despacho;fecha_emision
+TS-01;DEMO-ES-1001;2026-08;7.5;8;0;0;gestor_laboral;Gestoría Brezo (ficticia);2026-09-05
+TS-01;DEMO-ES-1001;2026-09;7.5;8;0;0;gestor_laboral;Gestoría Brezo (ficticia);2026-10-05
+TS-01;DEMO-ES-1001;2026-10;7.5;8;0;0;gestor_laboral;Gestoría Brezo (ficticia);2026-11-05
+TS-02;DEMO-ES-1002;2026-08;2;2;1;160;gestor_laboral;Gestoría Brezo (ficticia);2026-09-06
+TS-02;DEMO-ES-1002;2026-09;2;2;1;160;gestor_laboral;Gestoría Brezo (ficticia);2026-10-06
+TS-02;DEMO-ES-1002;2026-10;2;2;1;160;gestor_laboral;Gestoría Brezo (ficticia);2026-11-06

@@ -1,0 +1,9 @@
+pedido_id;marca_id;taller_id;referencia;tipo_pieza_id;unidades;inicio;fin;origen;pedido_origen_id
+P-001;MARCA-A;TS-01;Bolso · 2026-08;TP-BOLSO;100;2026-08-01;2026-08-31;marca;
+P-002;MARCA-A;TS-01;Bolso · 2026-09;TP-BOLSO;100;2026-09-01;2026-09-30;marca;
+P-003;MARCA-A;TS-01;Bolso · 2026-10;TP-BOLSO;120;2026-10-01;2026-10-31;marca;
+P-004;MARCA-A;TS-02;Bolso · 2026-10 (sub);TP-BOLSO;40;2026-10-01;2026-10-31;subencargo;P-003
+P-005;MARCA-A;TI-01;Americana · 2026-08;TP-AMER;300;2026-08-01;2026-08-31;marca;
+P-006;MARCA-A;TI-01;Americana · 2026-09;TP-AMER;300;2026-09-01;2026-09-30;marca;
+P-007;MARCA-A;TI-01;Americana · 2026-10;TP-AMER;300;2026-10-01;2026-10-31;marca;
+P-900;MARCA-B;TS-01;Pedido ajeno;TP-BOLSO;50;2026-10-01;2026-10-31;marca;

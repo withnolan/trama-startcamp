@@ -1,0 +1,5 @@
+tipo_pieza_id;version;minutos;vigente_desde;autor;categoria
+TP-BOLSO;1;360;2026-05-01;Compras (ficticio);marroquineria
+TP-BOLSO;2;300;2026-10-01;Compras (ficticio);marroquineria
+TP-AMER;1;150;2026-05-01;Producto (ficticio);americana_forrada
+TP-AMER;2;130;2026-09-15;Producto (ficticio);americana_forrada
